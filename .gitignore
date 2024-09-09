@@ -1,0 +1,94 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Logs
+*.log
+logs/
+*.log.*
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Runtime data
+*.swo
+*.swp
+*.swpx
+*.DS_Store
+*.env
+.env.*
+.vscode/
+.idea/
+.vscode/*
+tmp/
+temp/
+*.tmp
+*.temp
+.cache/
+coverage/
+*.cover
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+node_repl_history
+
+# Optional npm cache directory
+.npm
+
+# Jest and testing-related
+coverage/
+.nyc_output/
+
+# Build output
+dist/
+build/
+out/
+
+# TypeScript
+*.tsbuildinfo
+*.d.ts
+
+# Optional project-local environment configuration
+.env
+.env.local
+.env.*.local
+
+# Expo or React Native
+.expo/
+.expo-shared/
+
+# Mac system files
+*.DS_Store
+
+# Temporary files
+*.bak
+*.swp
+*.tmp
+
+# Lock files
+package-lock.json
+yarn.lock
+
+# Ignore public static assets that may be locally generated
+public/build/
+public/static/
+
+# VSCode
+.vscode/
+
+# Ignore any files specific to your editor (VSCode, JetBrains, etc.)
+.idea/
+
+# Ignore debug logs
+debug.log
