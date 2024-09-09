@@ -1,0 +1,31 @@
+{
+  "name": "softconic-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.6.0",
+    "@fortawesome/fontawesome-svg-core": "^6.6.0",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.3.3",
+    "classnames": "^2.5.1",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.8",
+    "gsap": "^3.12.5",
+    "next": "^14.2.8",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-fast-marquee": "^1.6.5",
+    "react-modal-video": "^2.0.2",
+    "swiper": "^11.1.12",
+    "use-count-up": "^3.0.1",
+    "wowjs": "^1.1.3"
+  }
+}
