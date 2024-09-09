@@ -46,6 +46,8 @@ node_repl_history
 # Optional npm cache directory
 .npm
 
+.next/
+
 # Jest and testing-related
 coverage/
 .nyc_output/
