@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import useMagneticHover from "@/hooks/useMagneticHover";
+import useMagneticHover from "../hooks/useMagneticHover";
 import Script from "next/script";
 
 import "../../public/assets/css/bootstrap-icons.css";
@@ -18,7 +18,7 @@ export default function App({ Component, pageProps }) {
     setLoading(false);
     setTimeout(() => {
       setLoading(true);
-    }, 3000);
+    }, 1000);
   }, []);
   useMagneticHover();
   useEffect(() => {

@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": true,
+    "incremental": true,
+    "module": "esnext",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve"
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+, "src/components/bannner/Banner3.jsx", "src/components/common/test.js", "src/components/expertes/Experts4.jsx", "src/components/solutions/Solution3.jsx"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

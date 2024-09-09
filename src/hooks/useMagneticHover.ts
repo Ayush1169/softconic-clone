@@ -2,10 +2,10 @@ import { useEffect } from 'react';
 
 const useMagneticHover = () => {
   useEffect(() => {
-    const handleMouseMove = (event) => {
+    const handleMouseMove = (event:any) => {
       const magneticItems = document.querySelectorAll('.magnetic-item');
 
-      magneticItems.forEach((item) => {
+      magneticItems.forEach((item:any) => {
         const rect = item.getBoundingClientRect();
         const x = rect.left + rect.width / 2;
         const y = rect.top + rect.height / 2;
@@ -22,8 +22,8 @@ const useMagneticHover = () => {
       });
     };
 
-    const handleMouseEnter = (event) => {
-      const item = document.querySelector('.magnetic-item');
+    const handleMouseEnter = (event:any) => {
+      const item:any = document.querySelector('.magnetic-item');
 
       if (item) {
         item.style.transition = 'transform 0.3s ease';
@@ -31,7 +31,7 @@ const useMagneticHover = () => {
     };
 
     const handleMouseLeave = (event) => {
-      const item = document.querySelector('.magnetic-item');
+      const item:any = document.querySelector('.magnetic-item');
 
       if (item) {
         item.style.transform = 'translate3d(0, 0, 0)';
