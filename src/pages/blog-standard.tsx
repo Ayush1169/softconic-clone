@@ -432,7 +432,6 @@ function BlogStandardPage() {
                         placeholder="Search Here"
                       />
                       <button
-                        type=""
                         className="wp-block-search__button primary-btn3"
                       >
                         Search

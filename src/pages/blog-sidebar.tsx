@@ -586,7 +586,6 @@ function BlogSidebarPage() {
                         placeholder="Search Here"
                       />
                       <button
-                        type=""
                         className="wp-block-search__button primary-btn3"
                       >
                         Search

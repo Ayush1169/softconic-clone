@@ -21,7 +21,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "src/components/bannner/Banner3.jsx", "src/components/common/test.js", "src/components/expertes/Experts4.jsx", "src/components/solutions/Solution3.jsx"  ],
+, "src/components/bannner/Banner3.jsx", "src/components/common/test.js", "src/components/expertes/Experts4.jsx", "src/components/solutions/Solution3.jsx", "src/components/common/Preloader.js"  ],
   "exclude": [
     "node_modules"
   ]

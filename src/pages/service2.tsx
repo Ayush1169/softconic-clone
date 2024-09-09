@@ -1,5 +1,5 @@
-import Breadcrumb from "@/components/common/Breadcrumb";
-import Layout from "@/components/layout/Layout";
+import Breadcrumb from "../components/common/Breadcrumb";
+import Layout from "../components/layout/Layout";
 import Link from "next/link";
 import React from "react";
 
