@@ -235,6 +235,7 @@ function BlogDetailsPage() {
                         id="wp-block-search__input-1"
                         className="wp-block-search__input"
                         name="s"
+                        defaultValue
                         placeholder="Search Here"
                         required
                       />

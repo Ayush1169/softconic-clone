@@ -4,13 +4,13 @@ import Layout from "../components/layout/Layout";
 import Link from "next/link";
 import React from "react";
 
-function BlogSidebarPage() {
+function BlogStandardPage() {
   return (
     <Layout>
       <Breadcrumb
-        pageList="BLOG SIDEBAR"
+        pageList="Blog Standard"
         title="Exploring The Softconic Blog"
-        pageName="Blog Sidebar"
+        pageName="BLOG STANDARD"
       />
       <BlogBanner />
       <div className="home3-blog-area sec-mar">
@@ -19,7 +19,7 @@ function BlogSidebarPage() {
             <div className="col-lg-8">
               <div className="row g-lg-4 gy-5">
                 <div
-                  className="col-md-6 wow animate fadeInLeft"
+                  className="col-md-12 wow animate fadeInLeft"
                   data-wow-delay="300ms"
                   data-wow-duration="1500ms"
                 >
@@ -27,11 +27,11 @@ function BlogSidebarPage() {
                     <div className="blog-img">
                       <img
                         className="img-fluid"
-                        src="assets/img/home-3/home3-blog-01.png"
+                        src="assets/img/inner-pages/blog-standard-01.png"
                         alt=""
                       />
                       <div className="blog-tag">
-                        <Link legacyBehavior href="/blog">
+                        <Link legacyBehavior href="/blog-standard">
                           <a>Web development</a>
                         </Link>
                       </div>
@@ -39,21 +39,26 @@ function BlogSidebarPage() {
                     <div className="blog-content">
                       <ul className="blog-meta">
                         <li>
-                          <Link legacyBehavior href="/blog">
+                          <Link legacyBehavior href="/blog-standard">
                             <a>May 20, 2023</a>
                           </Link>
                         </li>
                         <li>
-                          <Link legacyBehavior href="/blog">
+                          <Link legacyBehavior href="/blog-standard">
                             <a>Comment (3)</a>
                           </Link>
                         </li>
                       </ul>
                       <h4>
                         <Link legacyBehavior href="/blog-details">
-                          <a>Donec finibus laoreet exte eu pellentesque. </a>
+                          <a>Donec finibus laoreet exte eu pellentesque.</a>
                         </Link>
                       </h4>
+                      <p>
+                        Interdum et malesuada fames ac ante ipsum primis in
+                        faucibus. Etiam eu nibh elementum, accumsan ona neque
+                        ac, aliquet nunc. In eu ipsum fringilla.
+                      </p>
                       <div className="blog-footer">
                         <div className="read-btn">
                           <Link legacyBehavior href="/blog-details">
@@ -106,7 +111,7 @@ function BlogSidebarPage() {
                   </div>
                 </div>
                 <div
-                  className="col-md-6 wow animate fadeInUp"
+                  className="col-md-12 wow animate fadeInUp"
                   data-wow-delay="200ms"
                   data-wow-duration="1500ms"
                 >
@@ -114,11 +119,11 @@ function BlogSidebarPage() {
                     <div className="blog-img">
                       <img
                         className="img-fluid"
-                        src="assets/img/home-3/home3-blog-02.png"
+                        src="assets/img/inner-pages/blog-standard-02.png"
                         alt=""
                       />
                       <div className="blog-tag">
-                        <Link legacyBehavior href="/blog">
+                        <Link legacyBehavior href="/blog-standard">
                           <a>Cloud solutions</a>
                         </Link>
                       </div>
@@ -126,12 +131,12 @@ function BlogSidebarPage() {
                     <div className="blog-content">
                       <ul className="blog-meta">
                         <li>
-                          <Link legacyBehavior href="/blog">
+                          <Link legacyBehavior href="/blog-standard">
                             <a>May 20, 2023</a>
                           </Link>
                         </li>
                         <li>
-                          <Link legacyBehavior href="/blog">
+                          <Link legacyBehavior href="/blog-standard">
                             <a>Comment (3)</a>
                           </Link>
                         </li>
@@ -141,6 +146,11 @@ function BlogSidebarPage() {
                           <a>feugiat varius mattis mass enim est egestas.</a>
                         </Link>
                       </h4>
+                      <p>
+                        Interdum et malesuada fames ac ante ipsum primis in
+                        faucibus. Etiam eu nibh elementum, accumsan ona neque
+                        ac, aliquet nunc. In eu ipsum fringilla.
+                      </p>
                       <div className="blog-footer">
                         <div className="read-btn">
                           <Link legacyBehavior href="/blog-details">
@@ -193,7 +203,7 @@ function BlogSidebarPage() {
                   </div>
                 </div>
                 <div
-                  className="col-md-6 wow animate fadeInRight"
+                  className="col-md-12 wow animate fadeInRight"
                   data-wow-delay="300ms"
                   data-wow-duration="1500ms"
                 >
@@ -201,11 +211,11 @@ function BlogSidebarPage() {
                     <div className="blog-img">
                       <img
                         className="img-fluid"
-                        src="assets/img/home-3/home3-blog-03.png"
+                        src="assets/img/inner-pages/blog-standard-03.png"
                         alt=""
                       />
                       <div className="blog-tag">
-                        <Link legacyBehavior href="/blog">
+                        <Link legacyBehavior href="/blog-standard">
                           <a>Web development</a>
                         </Link>
                       </div>
@@ -213,12 +223,12 @@ function BlogSidebarPage() {
                     <div className="blog-content">
                       <ul className="blog-meta">
                         <li>
-                          <Link legacyBehavior href="/blog">
+                          <Link legacyBehavior href="/blog-standard">
                             <a>May 20, 2023</a>
                           </Link>
                         </li>
                         <li>
-                          <Link legacyBehavior href="/blog">
+                          <Link legacyBehavior href="/blog-standard">
                             <a>Comment (3)</a>
                           </Link>
                         </li>
@@ -228,6 +238,11 @@ function BlogSidebarPage() {
                           <a>Navigating the Journey off Cloud Solution.</a>
                         </Link>
                       </h4>
+                      <p>
+                        Interdum et malesuada fames ac ante ipsum primis in
+                        faucibus. Etiam eu nibh elementum, accumsan ona neque
+                        ac, aliquet nunc. In eu ipsum fringilla.
+                      </p>
                       <div className="blog-footer">
                         <div className="read-btn">
                           <Link legacyBehavior href="/blog-details">
@@ -280,7 +295,7 @@ function BlogSidebarPage() {
                   </div>
                 </div>
                 <div
-                  className="col-md-6 wow animate fadeInLeft"
+                  className="col-md-12 wow animate fadeInLeft"
                   data-wow-delay="300ms"
                   data-wow-duration="1500ms"
                 >
@@ -288,11 +303,11 @@ function BlogSidebarPage() {
                     <div className="blog-img">
                       <img
                         className="img-fluid"
-                        src="assets/img/home-3/home3-blog-01.png"
+                        src="assets/img/inner-pages/blog-standard-04.png"
                         alt=""
                       />
                       <div className="blog-tag">
-                        <Link legacyBehavior href="/blog">
+                        <Link legacyBehavior href="/blog-standard">
                           <a>Web development</a>
                         </Link>
                       </div>
@@ -300,12 +315,12 @@ function BlogSidebarPage() {
                     <div className="blog-content">
                       <ul className="blog-meta">
                         <li>
-                          <Link legacyBehavior href="/blog">
+                          <Link legacyBehavior href="/blog-standard">
                             <a>May 20, 2023</a>
                           </Link>
                         </li>
                         <li>
-                          <Link legacyBehavior href="/blog">
+                          <Link legacyBehavior href="/blog-standard">
                             <a>Comment (3)</a>
                           </Link>
                         </li>
@@ -315,180 +330,11 @@ function BlogSidebarPage() {
                           <a>Donec finibus laoreet exte eu pellentesque. </a>
                         </Link>
                       </h4>
-                      <div className="blog-footer">
-                        <div className="read-btn">
-                          <Link legacyBehavior href="/blog-details">
-                            <a>
-                              Read More
-                              <svg
-                                width={12}
-                                height={12}
-                                viewBox="0 0 13 13"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path d="M0 1H12M12 1V13M12 1L0.5 12" />
-                              </svg>
-                            </a>
-                          </Link>
-                        </div>
-                        <div className="social-area">
-                          <ul>
-                            <li>
-                              <a href="https://www.facebook.com/">
-                                <i className="bx bxl-facebook" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="https://twitter.com/">
-                                <i className="bx bxl-twitter" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="https://www.pinterest.com/">
-                                <i className="bx bxl-pinterest-alt" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="https://www.instagram.com/">
-                                <i className="bx bxl-instagram" />
-                              </a>
-                            </li>
-                          </ul>
-                          <span>
-                            <img
-                              src="assets/img/home-3/plain-icon.svg"
-                              alt=""
-                            />
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="col-md-6 wow animate fadeInUp"
-                  data-wow-delay="200ms"
-                  data-wow-duration="1500ms"
-                >
-                  <div className="single-blog magnetic-item">
-                    <div className="blog-img">
-                      <img
-                        className="img-fluid"
-                        src="assets/img/home-3/home3-blog-02.png"
-                        alt=""
-                      />
-                      <div className="blog-tag">
-                        <Link legacyBehavior href="/blog">
-                          <a>Cloud solutions</a>
-                        </Link>
-                      </div>
-                    </div>
-                    <div className="blog-content">
-                      <ul className="blog-meta">
-                        <li>
-                          <Link legacyBehavior href="/blog">
-                            <a>May 20, 2023</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link legacyBehavior href="/blog">
-                            <a>Comment (3)</a>
-                          </Link>
-                        </li>
-                      </ul>
-                      <h4>
-                        <Link legacyBehavior href="/blog-details">
-                          <a>feugiat varius mattis mass enim est egestas.</a>
-                        </Link>
-                      </h4>
-                      <div className="blog-footer">
-                        <div className="read-btn">
-                          <Link legacyBehavior href="/blog-details">
-                            <a>
-                              Read More
-                              <svg
-                                width={12}
-                                height={12}
-                                viewBox="0 0 13 13"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path d="M0 1H12M12 1V13M12 1L0.5 12" />
-                              </svg>
-                            </a>
-                          </Link>
-                        </div>
-                        <div className="social-area">
-                          <ul>
-                            <li>
-                              <a href="https://www.facebook.com/">
-                                <i className="bx bxl-facebook" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="https://twitter.com/">
-                                <i className="bx bxl-twitter" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="https://www.pinterest.com/">
-                                <i className="bx bxl-pinterest-alt" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="https://www.instagram.com/">
-                                <i className="bx bxl-instagram" />
-                              </a>
-                            </li>
-                          </ul>
-                          <span>
-                            <img
-                              src="assets/img/home-3/plain-icon.svg"
-                              alt=""
-                            />
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="col-md-6 wow animate fadeInRight"
-                  data-wow-delay="300ms"
-                  data-wow-duration="1500ms"
-                >
-                  <div className="single-blog magnetic-item">
-                    <div className="blog-img">
-                      <img
-                        className="img-fluid"
-                        src="assets/img/home-3/home3-blog-03.png"
-                        alt=""
-                      />
-                      <div className="blog-tag">
-                        <Link legacyBehavior href="/blog">
-                          <a>Web development</a>
-                        </Link>
-                      </div>
-                    </div>
-                    <div className="blog-content">
-                      <ul className="blog-meta">
-                        <li>
-                          <Link legacyBehavior href="/blog">
-                            <a>May 20, 2023</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link legacyBehavior href="/blog">
-                            <a>Comment (3)</a>
-                          </Link>
-                        </li>
-                      </ul>
-                      <h4>
-                        <Link legacyBehavior href="/blog-details">
-                          <a>Navigating the Journey off Cloud Solution.</a>
-                        </Link>
-                      </h4>
+                      <p>
+                        Interdum et malesuada fames ac ante ipsum primis in
+                        faucibus. Etiam eu nibh elementum, accumsan ona neque
+                        ac, aliquet nunc. In eu ipsum fringilla.
+                      </p>
                       <div className="blog-footer">
                         <div className="read-btn">
                           <Link legacyBehavior href="/blog-details">
@@ -586,6 +432,7 @@ function BlogSidebarPage() {
                         placeholder="Search Here"
                       />
                       <button
+                        type=""
                         className="wp-block-search__button primary-btn3"
                       >
                         Search
@@ -756,4 +603,4 @@ function BlogSidebarPage() {
   );
 }
 
-export default BlogSidebarPage;
+export default BlogStandardPage;

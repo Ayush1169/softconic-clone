@@ -1,8 +1,5 @@
 import React, { useMemo } from "react";
-import SwiperCore from "swiper";
-import  EffectFade from "swiper";
-import  Autoplay  from "swiper";
-import  Pagination  from "swiper";
+import SwiperCore, { Autoplay, EffectFade, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Link from "next/link";
 import Marquee from "react-fast-marquee";
