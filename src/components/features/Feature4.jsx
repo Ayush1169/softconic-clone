@@ -4,7 +4,7 @@ function Feature4() {
   return (
     <div className="home4-feature-area">
     <div className="container-fluid">
-      <div className="row g-xl-4 gy-5">
+      <div className="row g-xl-4 gy-0">
         <div className="col-xl-3 wow animate fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
           <div className="section-title-4">
             <h2>Our States</h2>

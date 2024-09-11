@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import HomePage from "../../data/content";
 
 function Choose6() {
   return (
@@ -14,8 +15,8 @@ function Choose6() {
                 data-wow-duration="1500ms"
               >
                 <div className="choose-title">
-                  <span>Why Choose Us</span>
-                  <h2>Unlock the potential of your business.</h2>
+                  <span>{HomePage.whyChooseUs.title}</span>
+                  <h2>{HomePage.whyChooseUs.subTitle}</h2>
                 </div>
               </div>
               <div className="col-lg-6">
@@ -53,9 +54,7 @@ function Choose6() {
                     <span>Since 2005.</span>
                   </h4>
                   <p>
-                    Morbi interdum pellentesque nunc, luctus pretium nullagoneq
-                    luctus at. Aliquam cursus nunc arcu, condimentum
-                    efficiturunt tellus iaculis faucibus Quisque gravida.
+                    {HomePage.whyChooseUs.description}
                   </p>
                   <div className="sl">
                     <h2>#1</h2>
@@ -85,14 +84,13 @@ function Choose6() {
                       <div className="single-feature">
                         <div className="progress">
                           <h3>
-                            <span className="counter">70</span>%
+                            <span className="counter">{HomePage.stats[0].percentage}</span>%
                           </h3>
                         </div>
                         <div className="content">
-                          <h4>Strategy</h4>
+                          <h4>{HomePage.stats[0].label}</h4>
                           <p>
-                            Morbi interdum pellentesque nunc, luctuso pretium
-                            nullagoneq luctus at. Aliquam one cursus nunc arcu
+                          {HomePage.stats[0].description}
                           </p>
                         </div>
                       </div>
@@ -101,14 +99,13 @@ function Choose6() {
                       <div className="single-feature">
                         <div className="progress">
                           <h3>
-                            <span className="counter">98</span>%
+                            <span className="counter">{HomePage.stats[1].percentage}</span>%
                           </h3>
                         </div>
                         <div className="content">
-                          <h4>Audience</h4>
+                          <h4>{HomePage.stats[1].label}</h4>
                           <p>
-                            Morbi interdum pellentesque nunc, luctuso pretium
-                            nullagoneq luctus at. Aliquam one cursus nunc arcu
+                          {HomePage.stats[1].description}
                           </p>
                         </div>
                       </div>
@@ -117,14 +114,13 @@ function Choose6() {
                       <div className="single-feature">
                         <div className="progress">
                           <h3>
-                            <span className="counter">85</span>%
+                            <span className="counter">{HomePage.stats[2].percentage}</span>%
                           </h3>
                         </div>
                         <div className="content">
-                          <h4>Keyword</h4>
+                          <h4>{HomePage.stats[2].label}</h4>
                           <p>
-                            Morbi interdum pellentesque nunc, luctuso pretium
-                            nullagoneq luctus at. Aliquam one cursus nunc arcu
+                          {HomePage.stats[2].description}
                           </p>
                         </div>
                       </div>

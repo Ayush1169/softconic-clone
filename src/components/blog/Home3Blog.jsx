@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
+import HomePage from "../../data/content";
 
 function Home3Blog() {
   return (
@@ -8,8 +9,8 @@ function Home3Blog() {
     <div className="row mb-55  wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
       <div className="col-lg-12 d-flex justify-content-center">
         <div className="section-title-3 text-center">
-          <h2>The Latest Article</h2>
-          <p>Services are professional offerings provided by businesses to meet specific needs or solve problems for their customers. Services can range from your budject.</p>
+          <h2>{HomePage.blogs.title}</h2>
+          <p>{HomePage.blogs.description}</p>
         </div>
       </div>
     </div> 

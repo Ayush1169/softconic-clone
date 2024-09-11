@@ -3,6 +3,7 @@ import SwiperCore, { Autoplay, EffectFade, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Link from "next/link";
 import ModalVideo from 'react-modal-video'
+import HomePage from "../../data/content";
 
 SwiperCore.use([Pagination, Autoplay, EffectFade]);
 
@@ -56,8 +57,8 @@ function Banner3() {
             <SwiperSlide className="swiper-slide">
                 <div className="banner-wrapper">
                 <div className="banner-content">
-                    <h1>Grow Your Business With Innovative Ideas.</h1>
-                    <p>Duis a orci nunc. Suspendisse ac convallis sapien, quis commodo libero. Donec nec duomoi luctus, pellentesque lacus sed, mollis going leo.</p>
+                    <h1>{HomePage.heroSection.title}</h1>
+                    <p>{HomePage.heroSection.description}</p>
                     <div className="banner-btn-group">
                     <Link legacyBehavior href="/contact"><a className="primary-btn3">Free Consultancy</a></Link>
                     <Link legacyBehavior href="/about">
@@ -90,8 +91,8 @@ function Banner3() {
             <SwiperSlide className="swiper-slide">
                 <div className="banner-wrapper">
                 <div className="banner-content">
-                    <h1>Grow Your Business With Innovative Ideas.</h1>
-                    <p>Duis a orci nunc. Suspendisse ac convallis sapien, quis commodo libero. Donec nec duomoi luctus, pellentesque lacus sed, mollis going leo.</p>
+                    <h1>{HomePage.heroSection.title}</h1>
+                    <p>{HomePage.heroSection.description}</p>
                     <div className="banner-btn-group">
                     <Link legacyBehavior href="/contact"><a className="primary-btn3">Free Consultancy</a></Link>
                     <Link legacyBehavior href="/about">
@@ -124,8 +125,8 @@ function Banner3() {
             <SwiperSlide className="swiper-slide">
                 <div className="banner-wrapper">
                 <div className="banner-content">
-                    <h1>Grow Your Business With Innovative Ideas.</h1>
-                    <p>Duis a orci nunc. Suspendisse ac convallis sapien, quis commodo libero. Donec nec duomoi luctus, pellentesque lacus sed, mollis going leo.</p>
+                    <h1>{HomePage.heroSection.title}</h1>
+                    <p>{HomePage.heroSection.description}</p>
                     <div className="banner-btn-group">
                     <Link legacyBehavior href="/contact"><a className="primary-btn3">Free Consultancy</a></Link>
                     <Link legacyBehavior href="/about">

@@ -2,11 +2,14 @@ import Home3Team from "../components/Team/Home3Team";
 import About3 from "../components/about/About3";
 import Banner3 from "../components/bannner/Banner3";
 import Home3Blog from "../components/blog/Home3Blog";
+import Choose6 from "../components/choose/Choose6";
 import Home3Contact from "../components/contact/Home3Contact";
+import Feature4 from "../components/features/Feature4";
 import Footer3 from "../components/footer/Footer3";
 import Header3 from "../components/header/Header3";
 import Partner3 from "../components/partner/Partner3";
 import PricingPlan3 from "../components/pricingplan/PricingPlan3";
+import Service5 from "../components/services/Service5";
 import Solution3 from "../components/solutions/Solution3";
 import SuccessStory3 from "../components/successStorys/SuccessStory3";
 import Testimonial3 from "../components/testimonial/Testimonial3";
@@ -30,14 +33,17 @@ export default function Home() {
       <Header3 />
       <Banner3 />
       <Partner3 />
-      <Solution3 />
-      <About3 />
-      <SuccessStory3 />
+      {/* <Solution3 /> */}
+      <Service5 />
+      <Feature4 />
+      <Choose6 />
       <Testimonial3 />
-      <PricingPlan3 />
+      <SuccessStory3 />
+      <Home3Blog />
+      {/* <PricingPlan3 /> */}
       <Home3Contact />
       <Home3Team />
-      <Home3Blog />
+      {/* <Solution3 /> */}
       <Footer3 />
     </>
   );

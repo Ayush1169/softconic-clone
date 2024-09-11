@@ -3,6 +3,7 @@ import SwiperCore, { Autoplay, EffectFade, Navigation, Pagination } from "swiper
 import { Swiper, SwiperSlide } from "swiper/react";
 import Link from "next/link";
 SwiperCore.use([Pagination, Autoplay, EffectFade, Navigation]);
+import HomePage from "../../data/content";
 
 function Testimonial3() {
     const slider = useMemo(()=>{
@@ -50,8 +51,8 @@ function Testimonial3() {
       <div className="row mb-55 wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
         <div className="col-lg-12 d-flex align-items-center justify-content-between gap-4 flex-wrap">
           <div className="section-title-3">
-            <h2>Happy Customers</h2>
-            <p>Services are professional offerings provided by businesses to meet specific needs or solve problems for their customers. Services can range from your budject.</p>
+            <h2>{HomePage.happyClients.title}</h2>
+            <p>{HomePage.happyClients.description}</p>
           </div>
           <div className="swiper-btn-group">
             <div className="swiper-btn prevbtn2">
