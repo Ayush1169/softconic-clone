@@ -109,6 +109,51 @@ const HomePage = {
         { name: "Aamcho Bastar", imageUrl: "assets/img/home-3/home3-suc-sto-05.png" },
         { name: "The Custom Bakers", imageUrl: "assets/img/home-3/home3-suc-sto-05.png" },
       ],
+
+      testimonials : [
+        {
+          content:
+            "Evd Technology provide us complete LMS and ERP Solution. All software and website designed and maintained by Evd Technology. The best part they always care about client requirement. I am totally satisfied by their team.",
+          author: "Prakash Gupta",
+          position: "Center Head at Major kalshi Pvt. ltd.",
+          img: "assets/img/home-3/h3-testi-01.png",
+        },
+        {
+          content:
+            "I hired EVD Technology team to help understand my project requirements and project scope and development. Work was done on agreed time and done well. Thanks very much.",
+          author: "Anwar Hashmi",
+          position: "Switzerland",
+          img: "assets/img/home-3/h3-testi-02.png",
+        },
+        {
+          content:
+            "Anshu and his whole team greatly amplifies the customer success. Their understanding of building ERPs and the CRMs is unparalleled. Their understanding of the general business processes and the edge cases is simply great.",
+          author: "Arya Aditya",
+          position: "Products @DP World",
+          img: "assets/img/home-3/h3-testi-03.png",
+        },
+        {
+          content:
+            "It's a pleasure working with EVD team, they have the right attitude and technical capabilities to execute any challenge you throw at them.",
+          author: "Aayush Goyal",
+          position: "CEO - ExpertRight",
+          img: "assets/img/home-3/h3-testi-02.png",
+        },
+        {
+          content:
+            "Very nice and flexible team. They clearly understand the requirements and help complete the tasks within estimated efforts. Easy to communicate, flexible, and skilled; overall a great development team.",
+          author: "Syed Nafeez",
+          position: "United Kingdom",
+          img: "assets/img/home-3/h3-testi-01.png",
+        },
+        {
+          content:
+            "I am thrilled to offer my recommendation for Anshu, the CEO of EVD Technologies. Their visionary approach to software development resulted in an innovative and effective e-learning platform.",
+          author: "Balaji Harsh",
+          position: "Crafting products for BHARAT at SATYA",
+          img: "assets/img/home-3/h3-testi-03.png",
+        },
+      ],
   };
   
   export default HomePage;

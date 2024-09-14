@@ -47,7 +47,7 @@ function Choose6() {
                     />
                   </div>
                   <div className="icon">
-                    <img src="assets/img/logo.svg" alt="" />
+                    <img src="assets/img/EVDT-LOGO.png" alt="" />
                   </div>
                   <h4>
                     Best Creative IT Agency And Solutions <br />

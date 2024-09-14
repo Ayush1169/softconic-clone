@@ -2,7 +2,13 @@ import React from 'react'
 import { CountUp } from 'use-count-up'
 function Feature4() {
   return (
-    <div className="home4-feature-area">
+    <div className="home4-feature-area"
+    style={{ 
+      backgroundImage: "url('/assets/img/Ellipse.png')",
+      backgroundSize: "cover", 
+      backgroundPosition: "center",
+      backgroundRepeat: "no-repeat"
+    }}>
     <div className="container-fluid">
       <div className="row g-xl-4 gy-0">
         <div className="col-xl-3 wow animate fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
@@ -35,7 +41,7 @@ function Feature4() {
                   </div>
                   <div className="content">
                     <div className="number">
-                      <h3 className="counter">5</h3>
+                      <h3 className="counter">10+</h3>
                       <span>Years</span>
                     </div>
                     <p>Working With Passion</p>
@@ -63,8 +69,8 @@ function Feature4() {
                   </div>
                   <div className="content">
                     <div className="number">
-                      <h3 className="counter">1.5</h3>
-                      <h3 className="ml-5">k</h3>
+                      <h3 className="counter">500</h3>
+                      <h3 className="ml-5">+</h3>
                       <span>Customer</span>
                     </div>
                     <p>Satisfied Customer</p>
@@ -92,7 +98,8 @@ function Feature4() {
                   </div>
                   <div className="content">
                     <div className="number">
-                      <h3 className="counter"><CountUp isCounting end={800} duration={3} /></h3>
+                    <h3 className="counter">500</h3>
+                    <h3 className="ml-5">+</h3>
                       <span>Project</span>
                     </div>
                     <p>We Have Completed</p>

@@ -174,7 +174,7 @@ function Header3() {
               <img
                 alt="image"
                 className="img-fluid"
-                src="assets/img/logo.svg"
+                src="assets/img/EVDT-LOGO.png"
               />
             </a>
           </Link>

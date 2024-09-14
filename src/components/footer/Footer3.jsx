@@ -10,7 +10,7 @@ function Footer3() {
         <div className="col-lg-12">
           <div className="footer-top-content">
             <div className="footer-logo">
-              <Link legacyBehavior href="/"><a><img className="img-fluid" src="assets/img/logo.svg" alt="" /></a></Link>
+              <Link legacyBehavior href="/"><a><img className="img-fluid" src="assets/img/EVDT-LOGO.png" alt="" /></a></Link>
             </div>
             <div className="footer-contect">
               <div className="icon">
@@ -43,7 +43,8 @@ function Footer3() {
               </svg>
               Address
             </h4>
-            <a href="#">House 168/170, Avenue 01, Mirpur DOHS, Dhaka Bangladesh</a>
+            <a href="#">Infront of Fitness Mantra Gym, Plot No: 667/7, Second Floor, Ward 02, DDM Rd, Korba, Chhattisgarh, 495677</a>
+            
           </div>
           <div className="footer-contact mb-40">
             <h4>
@@ -52,8 +53,8 @@ function Footer3() {
               </svg>
               Say Hello
             </h4>
-            <a href="mailto:ifo@example.com">ifo@example.com</a><br />
-            <a href="mailto:info@support.com">info@support.com</a>
+            <a href="mailto:ifo@example.com">sales@evdtechnology.com</a><br />
+            <a href="mailto:info@support.com">anshu@evdtechnology.com</a>
           </div>
           <div className="footer-contact">
             <h6>See Our New updates</h6>
