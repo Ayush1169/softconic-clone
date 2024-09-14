@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Breadcrumb from "../components/common/Breadcrumb";
 import Layout from "../components/layout/Layout";
 import Link from "next/link";
@@ -5,6 +6,13 @@ import React from "react";
 
 function ProjectPage() {
   return (
+   <>
+   <Head>
+    <title>
+      EVD Technology
+    </title>
+    <link rel="icon" href="/assets/img/fevicon.png" />
+  </Head>
     <Layout>
       <Breadcrumb
         pageList="Projects"
@@ -276,7 +284,7 @@ function ProjectPage() {
           </div>
         </div>
       </div>
-    </Layout>
+    </Layout></>
   );
 }
 

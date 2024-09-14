@@ -8,24 +8,35 @@ import Feature4 from "../components/features/Feature4";
 import Layout from "../components/layout/Layout";
 import Partnar4 from "../components/partner/Partnar4";
 import Testimonial3 from "../components/testimonial/Testimonial3";
+import Head from "next/head";
 
 function AboutPage() {
   return (
+   <>
+    <Head>
+        <title>
+          EVD Technology
+        </title>
+        <link rel="icon" href="/assets/img/fevicon.png" />
+      </Head>
     <Layout>
       <Breadcrumb
         pageList="About"
-        title="Get To Know About Softconic"
+        title="About us"
         pageName="ABOUT"
       />
+       <Feature4 />
+       <Choose6 />
       <About3 />
-      <Choose6 />
-      <Feature4 />
+      
+     
       <Partnar4 />
       <Testimonial3 />
       <Home3Team />
       <Home3Contact />
       <Home3Blog />
     </Layout>
+    </>
   );
 }
 
