@@ -1,7 +1,10 @@
 import Home3Team from "../components/Team/Home3Team";
 import About3 from "../components/about/About3";
+import About5 from "../components/about/About5";
+import Award5 from "../components/award/Award5";
 import Home3Blog from "../components/blog/Home3Blog";
 import Choose6 from "../components/choose/Choose6";
+import WhatWeDo5 from "../components/choose/WhatWeDo5";
 import Breadcrumb from "../components/common/Breadcrumb";
 import Home3Contact from "../components/contact/Home3Contact";
 import Feature4 from "../components/features/Feature4";
@@ -25,12 +28,15 @@ function AboutPage() {
         title="About us"
         pageName="ABOUT"
       />
-       <Feature4 />
+        <About5 />
        <Choose6 />
-      <About3 />
-      
+      {/* <About3 /> */}
      
-      <Partnar4 />
+      <Feature4 />
+       <Partnar4 />
+      <WhatWeDo5 />
+     <Award5 />
+      
       <Testimonial3 />
       <Home3Contact />
       <Home3Team />
