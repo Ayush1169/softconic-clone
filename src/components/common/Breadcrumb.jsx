@@ -6,10 +6,10 @@ function Breadcrumb({ title, pageName, pageList }) {
     <section className="breadcrumbs">
       <div className="breadcrumb-sm-images">
         <div className="inner-banner-1 magnetic-item">
-          <img src="assets/img/inner-pages/inner-banner-1.png" alt="" />
+          <img src="/assets/img/inner-pages/inner-banner-1.png" alt="" /> 
         </div>
         <div className="inner-banner-2 magnetic-item">
-          <img src="assets/img/inner-pages/inner-banner-2.png" alt="" />
+          <img src="/assets/img/inner-pages/inner-banner-2.png" alt="" /> 
         </div>
       </div>
       <div className="container">
@@ -20,10 +20,12 @@ function Breadcrumb({ title, pageName, pageList }) {
                 <span>{pageName}</span>
                 <h1>"{title}"</h1>
                 <div className="breadcrumb-list">
-                  <Link legacyBehavior href="/"><a>Home</a></Link>
+                  <Link legacyBehavior href="/">
+                    <a>Home</a>
+                  </Link>
                   <img
-                    src="assets/img/inner-pages/breadcrumb-arrow.svg"
-                    alt=""
+                    src="/assets/img/inner-pages/breadcrumb-arrow.svg"
+                    alt="" 
                   />
                   {pageList}
                 </div>

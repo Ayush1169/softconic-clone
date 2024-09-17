@@ -256,7 +256,7 @@ function Header3() {
                 }`}
                 onClick={() => toggleMenu("service")}
               />
-              <ul
+              {/* <ul
                 className={`sub-menu ${
                   state.activeMenu === "service" ? "d-block" : ""
                 }`}
@@ -286,7 +286,47 @@ function Header3() {
                     <a>Service Details</a>
                   </Link>
                 </li>
-              </ul>
+              </ul> */}
+              <ul
+  className={`sub-menu ${state.activeMenu === "service" ? "d-block" : ""}`}
+>
+  <li>
+    <Link legacyBehavior href="/service/software-development">
+      <a className={currentRoute === "/service/software-development" ? "active" : ""}>
+        Software Development
+      </a>
+    </Link>
+  </li>
+  <li>
+    <Link legacyBehavior href="/service/app-development">
+      <a className={currentRoute === "/service/app-development" ? "active" : ""}>
+        App Development
+      </a>
+    </Link>
+  </li>
+  <li>
+    <Link legacyBehavior href="/service/web-design">
+      <a className={currentRoute === "/service/web-design" ? "active" : ""}>
+        Web Design
+      </a>
+    </Link>
+  </li>
+  <li>
+    <Link legacyBehavior href="/service/seo-services">
+      <a className={currentRoute === "/service/seo-services" ? "active" : ""}>
+        SEO Services
+      </a>
+    </Link>
+  </li>
+  {/* <li>
+    <Link legacyBehavior href="/service-details">
+      <a className={currentRoute === "/service-details" ? "active" : ""}>
+        Service Details
+      </a>
+    </Link>
+  </li> */}
+</ul>
+
             </li>
             <li className="menu-item-has-children">
               <a href="#" className="drop-down">

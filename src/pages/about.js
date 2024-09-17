@@ -32,9 +32,10 @@ function AboutPage() {
      
       <Partnar4 />
       <Testimonial3 />
-      <Home3Team />
       <Home3Contact />
-      <Home3Blog />
+      <Home3Team />
+      
+      {/* <Home3Blog /> */}
     </Layout>
     </>
   );

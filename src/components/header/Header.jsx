@@ -82,7 +82,7 @@ function Header() {
           <div className="sidebar-log">
             <Link legacyBehavior href="/">
               <a>
-                <img src="assets/img/logo.svg" alt="" />
+                <img src="/assets/img/logo.svg" alt="" />
               </a>
             </Link>
           </div>
@@ -172,7 +172,7 @@ function Header() {
               <img
                 alt="image"
                 className="img-fluid"
-                src="assets/img/EVDT-LOGO.png"
+                src="/assets/img/EVDT-LOGO.png"
               />
             </a>
           </Link>
@@ -189,29 +189,25 @@ function Header() {
           </div>
           <ul className="menu-list">
             <li
-              className={`menu-item-has-children ${
-                currentRoute === "/" ? "active" : ""
-              }`}
+              className={`menu-item-has-children ${currentRoute === "/" ? "active" : ""
+                }`}
             >
               <a
                 href="#"
-                className={`drop-down ${
-                  state.activeMenu === "home-one" ? "active" : ""
-                }`}
+                className={`drop-down ${state.activeMenu === "home-one" ? "active" : ""
+                  }`}
                 onClick={() => toggleMenu("home-one")}
               >
                 Home
               </a>
               <i
-                className={`bi bi-plus dropdown-icon ${
-                  state.activeMenu === "home-one" ? "active" : ""
-                }`}
+                className={`bi bi-plus dropdown-icon ${state.activeMenu === "home-one" ? "active" : ""
+                  }`}
                 onClick={() => toggleMenu("home-one")}
               />
               <ul
-                className={`sub-menu ${
-                  state.activeMenu === "home-one" ? "d-block" : ""
-                }`}
+                className={`sub-menu ${state.activeMenu === "home-one" ? "d-block" : ""
+                  }`}
               >
                 <li>
                   <Link legacyBehavior href="/">
@@ -241,8 +237,7 @@ function Header() {
               </Link>
             </li>
             <li
-              className={`menu-item-has-children ${
-                [
+              className={`menu-item-has-children ${[
                   "/service",
                   "/service2",
                   "/service3",
@@ -251,24 +246,22 @@ function Header() {
                 ].includes(currentRoute)
                   ? "active"
                   : ""
-              }`}
+                }`}
             >
               <a
                 href="#"
-                className={`drop-down ${
-                  state.activeMenu === "service" ? "active" : ""
-                }`}
+                className={`drop-down ${state.activeMenu === "service" ? "active" : ""
+                  }`}
                 onClick={() => toggleMenu("service")}
               >
                 Service
               </a>{" "}
               <i
-                className={`bi bi-plus dropdown-icon ${
-                  state.activeMenu === "service" ? "active" : ""
-                }`}
+                className={`bi bi-plus dropdown-icon ${state.activeMenu === "service" ? "active" : ""
+                  }`}
                 onClick={() => toggleMenu("service")}
               />
-              <ul
+              {/* <ul
                 className={`sub-menu ${
                   state.activeMenu === "service" ? "d-block" : ""
                 }`}
@@ -312,30 +305,68 @@ function Header() {
                     </a>
                   </Link>
                 </li>
+              </ul> */}
+              <ul
+                className={`sub-menu ${state.activeMenu === "service" ? "d-block" : ""}`}
+              >
+                <li>
+                  <Link legacyBehavior href="/service/software-development">
+                    <a className={currentRoute === "/service/software-development" ? "active" : ""}>
+                      Software Development
+                    </a>
+                  </Link>
+                </li>
+                <li>
+                  <Link legacyBehavior href="/service/app-development">
+                    <a className={currentRoute === "/service/app-development" ? "active" : ""}>
+                      App Development
+                    </a>
+                  </Link>
+                </li>
+                <li>
+                  <Link legacyBehavior href="/service/web-design">
+                    <a className={currentRoute === "/service/web-design" ? "active" : ""}>
+                      Web Design
+                    </a>
+                  </Link>
+                </li>
+                <li>
+                  <Link legacyBehavior href="/service/seo-services">
+                    <a className={currentRoute === "/service/seo-services" ? "active" : ""}>
+                      SEO Services
+                    </a>
+                  </Link>
+                </li>
+                {/* <li>
+                  <Link legacyBehavior href="/service-details">
+                    <a className={currentRoute === "/service-details" ? "active" : ""}>
+                      Service Details
+                    </a>
+                  </Link>
+                </li> */}
               </ul>
+
+
             </li>
             <li
-              className={`menu-item-has-children ${
-                ["/project", "/project-masonary", "/project-details"].includes(
-                  currentRoute
-                )
+              className={`menu-item-has-children ${["/project", "/project-masonary", "/project-details"].includes(
+                currentRoute
+              )
                   ? "active"
                   : ""
-              }`}
+                }`}
             >
               <a href="#" className="drop-down">
                 Project
               </a>
               <i
-                className={`bi bi-plus dropdown-icon ${
-                  state.activeMenu === "project" ? "active" : ""
-                }`}
+                className={`bi bi-plus dropdown-icon ${state.activeMenu === "project" ? "active" : ""
+                  }`}
                 onClick={() => toggleMenu("project")}
               />
               <ul
-                className={`sub-menu ${
-                  state.activeMenu === "project" ? "d-block" : ""
-                }`}
+                className={`sub-menu ${state.activeMenu === "project" ? "d-block" : ""
+                  }`}
               >
                 <li>
                   <Link legacyBehavior href="/project">
@@ -369,8 +400,7 @@ function Header() {
               </ul>
             </li>
             <li
-              className={`menu-item-has-children ${
-                [
+              className={`menu-item-has-children ${[
                   "/team1",
                   "/team2",
                   "/team3",
@@ -382,21 +412,19 @@ function Header() {
                 ].includes(currentRoute)
                   ? "active"
                   : ""
-              }`}
+                }`}
             >
               <a href="#" className="drop-down">
                 Pages
               </a>
               <i
-                className={`bi bi-plus dropdown-icon ${
-                  state.activeMenu === "pages" ? "active" : ""
-                }`}
+                className={`bi bi-plus dropdown-icon ${state.activeMenu === "pages" ? "active" : ""
+                  }`}
                 onClick={() => toggleMenu("pages")}
               />
               <ul
-                className={`sub-menu ${
-                  state.activeMenu === "pages" ? "d-block" : ""
-                }`}
+                className={`sub-menu ${state.activeMenu === "pages" ? "d-block" : ""
+                  }`}
               >
                 <li>
                   <Link legacyBehavior href="/team1">
@@ -404,15 +432,13 @@ function Header() {
                   </Link>
 
                   <i
-                    className={`bi bi-plus dropdown-icon ${
-                      state.activeSubMenu === "team" ? "active" : ""
-                    }`}
+                    className={`bi bi-plus dropdown-icon ${state.activeSubMenu === "team" ? "active" : ""
+                      }`}
                     onClick={() => toggleSubMenu("team")}
                   />
                   <ul
-                    className={`sub-menu ${
-                      state.activeSubMenu === "team" ? "d-block" : ""
-                    }`}
+                    className={`sub-menu ${state.activeSubMenu === "team" ? "d-block" : ""
+                      }`}
                   >
                     <li>
                       <Link legacyBehavior href="/team1">
@@ -448,15 +474,13 @@ function Header() {
                     <a>Pricing</a>
                   </Link>
                   <i
-                    className={`bi bi-plus dropdown-icon ${
-                      state.activeSubMenu === "price" ? "active" : ""
-                    }`}
+                    className={`bi bi-plus dropdown-icon ${state.activeSubMenu === "price" ? "active" : ""
+                      }`}
                     onClick={() => toggleSubMenu("price")}
                   />
                   <ul
-                    className={`sub-menu ${
-                      state.activeSubMenu === "price" ? "d-block" : ""
-                    }`}
+                    className={`sub-menu ${state.activeSubMenu === "price" ? "d-block" : ""
+                      }`}
                   >
                     <li>
                       <Link legacyBehavior href="/pricing">
@@ -506,8 +530,7 @@ function Header() {
               </ul>
             </li>
             <li
-              className={`menu-item-has-children ${
-                [
+              className={`menu-item-has-children ${[
                   "/case-study",
                   "/case-study2",
                   "/case-standard",
@@ -515,26 +538,23 @@ function Header() {
                 ].includes(currentRoute)
                   ? "active"
                   : ""
-              }`}
+                }`}
             >
               <a
                 href="#"
-                className={`drop-down ${
-                  state.activeMenu === "case" ? "active" : ""
-                }`}
+                className={`drop-down ${state.activeMenu === "case" ? "active" : ""
+                  }`}
               >
                 Case Study
               </a>
               <i
-                className={`bi bi-plus dropdown-icon ${
-                  state.activeMenu === "case" ? "active" : ""
-                }`}
+                className={`bi bi-plus dropdown-icon ${state.activeMenu === "case" ? "active" : ""
+                  }`}
                 onClick={() => toggleMenu("case")}
               />
               <ul
-                className={`sub-menu ${
-                  state.activeMenu === "case" ? "d-block" : ""
-                }`}
+                className={`sub-menu ${state.activeMenu === "case" ? "d-block" : ""
+                  }`}
               >
                 <li>
                   <Link legacyBehavior href="/case-study">
@@ -581,8 +601,7 @@ function Header() {
               </ul>
             </li>
             <li
-              className={`menu-item-has-children ${
-                [
+              className={`menu-item-has-children ${[
                   "/blog",
                   "/blog-standard",
                   "/blog-sidebar",
@@ -591,27 +610,24 @@ function Header() {
                 ].includes(currentRoute)
                   ? "active"
                   : ""
-              }`}
+                }`}
             >
               <a
                 href="#"
-                className={`drop-down ${
-                  state.activeMenu === "blog" ? "active" : ""
-                }`}
+                className={`drop-down ${state.activeMenu === "blog" ? "active" : ""
+                  }`}
                 onClick={() => toggleMenu("blog")}
               >
                 Blog
               </a>
               <i
-                className={`bi bi-plus dropdown-icon ${
-                  state.activeMenu === "blog" ? "active" : ""
-                }`}
+                className={`bi bi-plus dropdown-icon ${state.activeMenu === "blog" ? "active" : ""
+                  }`}
                 onClick={() => toggleMenu("blog")}
               />
               <ul
-                className={`sub-menu ${
-                  state.activeMenu === "blog" ? "d-block" : ""
-                }`}
+                className={`sub-menu ${state.activeMenu === "blog" ? "d-block" : ""
+                  }`}
               >
                 <li>
                   <Link legacyBehavior href="/blog">
@@ -719,7 +735,7 @@ function Header() {
         </div>
         <div className="nav-right d-flex jsutify-content-end align-items-center">
           <div className="sidebar-btn2" onClick={toggleLeftSidebar}>
-            <img src="assets/img/home-3/sidebar-btn.svg" alt="" />
+            <img src="/assets/img/home-3/sidebar-btn.svg" alt="" />
           </div>
           <div className="header-btn d-xl-flex d-none">
             <Link legacyBehavior href="/contact">
@@ -727,9 +743,8 @@ function Header() {
             </Link>
           </div>
           <div
-            className={`sidebar-button mobile-menu-btn ${
-              state.isSidebarOpen ? "active" : ""
-            }`}
+            className={`sidebar-button mobile-menu-btn ${state.isSidebarOpen ? "active" : ""
+              }`}
             onClick={toggleSidebar}
           >
             <span />

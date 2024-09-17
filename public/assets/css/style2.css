@@ -488,7 +488,7 @@ video {
 
 @media (max-width: 1500px) {
   .header-area2 {
-    padding: 0px 3%;
+    padding: 0px 2%;
   }
 }
 
@@ -1576,6 +1576,7 @@ video {
 
 .banner-area3 {
   position: relative;
+  margin-bottom: 50px;
 }
 
 .swiper-pagination-banner3 {
@@ -7328,6 +7329,7 @@ video {
   border-radius: 5px;
   padding: 30px 30px;
   transition: 0.5s;
+  height: 400px;
 }
 
 @media (max-width: 576px) {
