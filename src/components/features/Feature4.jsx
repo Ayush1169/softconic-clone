@@ -1,5 +1,6 @@
 import React from 'react'
 import { CountUp } from 'use-count-up'
+import { AboutUs } from '../../data/content'
 function Feature4() {
   return (
     <div className="home4-feature-area"
@@ -14,7 +15,7 @@ function Feature4() {
         <div className="col-xl-3 wow animate fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
           <div className="section-title-4">
             <h2>Our States</h2>
-            <p>Maecenas euismod viverra purus, volutpat posuere mauris tristique quisokaft.</p>
+           
           </div>
         </div>
         <div className="col-xl-9 d-flex justify-content-end">
@@ -41,10 +42,10 @@ function Feature4() {
                   </div>
                   <div className="content">
                     <div className="number">
-                      <h3 className="counter">10+</h3>
+                      <h3 className="counter">{AboutUs.overview.experience.value}</h3>
                       <span>Years</span>
                     </div>
-                    <p>Working With Passion</p>
+                    <p>{AboutUs.overview.experience.description}</p>
                   </div>
                 </div>
               </div>
@@ -69,11 +70,11 @@ function Feature4() {
                   </div>
                   <div className="content">
                     <div className="number">
-                      <h3 className="counter">500</h3>
+                      <h3 className="counter">{AboutUs.overview.clients.value}</h3>
                       <h3 className="ml-5">+</h3>
-                      <span>Customer</span>
+                      <span>Clients</span>
                     </div>
-                    <p>Satisfied Customer</p>
+                    <p>{AboutUs.overview.clients.description}</p>
                   </div>
                 </div>
               </div>
@@ -98,11 +99,11 @@ function Feature4() {
                   </div>
                   <div className="content">
                     <div className="number">
-                    <h3 className="counter">500</h3>
+                    <h3 className="counter">{AboutUs.overview.projectsCompleted.value}</h3>
                     <h3 className="ml-5">+</h3>
                       <span>Project</span>
                     </div>
-                    <p>We Have Completed</p>
+                    <p>{AboutUs.overview.projectsCompleted.description}</p>
                   </div>     
                 </div>
               </div>
@@ -124,10 +125,10 @@ function Feature4() {
                   </div>
                   <div className="content">
                     <div className="number">
-                      <h3 className="counter">15</h3>
-                      <span>Awards</span>
+                      <h3 className="counter">{AboutUs.overview.members.value}</h3>
+                      <span>Members</span>
                     </div>
-                    <p>Achievement For Service</p>
+                    <p>{AboutUs.overview.members.description}</p>
                   </div>     
                 </div>
               </div>

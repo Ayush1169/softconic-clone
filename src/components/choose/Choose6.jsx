@@ -50,8 +50,8 @@ function Choose6() {
                     <img src="assets/img/EVDT-LOGO.png" alt="" />
                   </div>
                   <h4>
-                    Best Creative IT Agency And Solutions <br />
-                    <span>Since 2005.</span>
+                  Leading Creative IT Agency and Solutions Provider <br />
+                    <span>Since 2015.</span>
                   </h4>
                   <p>
                     {HomePage.whyChooseUs.description}

@@ -42,7 +42,7 @@ export default function Home() {
       <Home3Blog />
       {/* <PricingPlan3 /> */}
       <Home3Contact />
-      <Home3Team />
+      <Home3Team showAll={false} />
       {/* <Solution3 /> */}
       <Footer3 />
     </>

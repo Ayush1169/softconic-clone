@@ -39,7 +39,8 @@ function AboutPage() {
       
       <Testimonial3 />
       <Home3Contact />
-      <Home3Team />
+      <Home3Team showAll={true} />
+
       
       {/* <Home3Blog /> */}
     </Layout>
