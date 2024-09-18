@@ -5,6 +5,7 @@ import Choose6 from "../components/choose/Choose6";
 import Home3Contact from "../components/contact/Home3Contact";
 import Feature4 from "../components/features/Feature4";
 import Footer3 from "../components/footer/Footer3";
+import Header from "../components/header/Header";
 import Header3 from "../components/header/Header3";
 import Partner3 from "../components/partner/Partner3";
 import Service5 from "../components/services/Service5";
@@ -29,7 +30,8 @@ export default function Home() {
       </Head>
 
       <div className="p-96">
-      <Header3 />
+      <Header/>
+      {/* <Header3 /> */}
       <Banner3 />
       </div>
       <Partner3 />

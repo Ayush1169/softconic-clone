@@ -24,7 +24,8 @@ function Footer3() {
               </div>
               <div className="content">
                 <span>Call Any Time</span>
-                <h6><a href="tel: 29658718617">2-965-871-8617</a></h6>
+                <h6><a href="tel: +91-7829401605">+91-7829401605</a></h6>
+                <h6><a href="tel: +91-6261743903">+91-6261743903</a></h6>
               </div>
             </div>
           </div>
@@ -134,10 +135,10 @@ function Footer3() {
             </div>
             <div className="footer-social">
               <ul>
-                <li><a href="https://www.facebook.com/"><i className="bx bxl-facebook" /></a></li>
-                <li><a href="https://twitter.com/"><i className="bx bxl-twitter" /></a></li>
-                <li><a href="https://www.linkedin.com/"><i className="bx bxl-pinterest-alt" /></a></li>
-                <li><a href="https://www.instagram.com/"><i className="bx bxl-instagram" /></a></li>
+                <li><a target="_blank" href="https://www.facebook.com/evdtechnologyofficial/"><i className="bx bxl-facebook" /></a></li>
+                <li><a target="_blank" href="https://www.youtube.com/@evdtechnology6379"><i className="bx bxl-youtube" /></a></li>
+                <li><a target="_blank" href="https://www.linkedin.com/company/evdtechnologyllp"><i className="bx bxl-linkedin" /></a></li>
+                <li><a target="_blank" href="https://www.instagram.com/evdtechnologyllp/"><i className="bx bxl-instagram" /></a></li>
               </ul>
             </div>
           </div>

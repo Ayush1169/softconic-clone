@@ -14,7 +14,7 @@ function Feature4() {
       <div className="row g-xl-4 gy-0">
         <div className="col-xl-3 wow animate fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
           <div className="section-title-4">
-            <h2>Our States</h2>
+            <h2>Our Stats</h2>
            
           </div>
         </div>

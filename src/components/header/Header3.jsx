@@ -192,30 +192,27 @@ function Header3() {
             </div>
           </div>
           <ul className="menu-list">
-            <li className={`menu-item-has-children ${currentRoute === "/"?"active":""}`}>
+            <li className={`menu-item-has-children ${currentRoute === "/" ? "active" : ""}`}>
               <a
-                href="#"
-                className={`drop-down ${
-                  state.activeMenu === "home-one" ? "active" : ""
-                }`}
+                href="/"
+                className={`drop-down ${state.activeMenu === "home-one" ? "active" : ""
+                  }`}
                 onClick={() => toggleMenu("home-one")}
               >
                 Home
               </a>
               <i
-                className={`bi bi-plus dropdown-icon ${
-                  state.activeMenu === "home-one" ? "active" : ""
-                }`}
+                className={`bi bi-plus dropdown-icon ${state.activeMenu === "home-one" ? "active" : ""
+                  }`}
                 onClick={() => toggleMenu("home-one")}
               />
-              <ul
-                className={`sub-menu ${
-                  state.activeMenu === "home-one" ? "d-block" : ""
-                }`}
+              {/* <ul
+                className={`sub-menu ${state.activeMenu === "home-one" ? "d-block" : ""
+                  }`}
               >
                 <li>
                   <Link legacyBehavior href="/">
-                    <a className={`menu-item-has-children ${currentRoute === "/"?"active":""}`}>Home 01</a>
+                    <a className={`menu-item-has-children ${currentRoute === "/" ? "active" : ""}`}>Home 01</a>
                   </Link>
                 </li>
                 <li>
@@ -233,99 +230,163 @@ function Header3() {
                     <a>Home 04</a>
                   </Link>
                 </li>
-              </ul>
+              </ul> */}
             </li>
             <li>
               <Link legacyBehavior href="/about">
                 <a>About</a>
               </Link>
             </li>
-            <li className="menu-item-has-children">
+            <li className="menu-item-has-children services-menu">
               <a
                 href="#"
-                className={`drop-down ${
-                  state.activeMenu === "service" ? "active" : ""
-                }`}
+                className={`drop-down ${state.activeMenu === "service" ? "active" : ""
+                  }`}
                 onClick={() => toggleMenu("service")}
               >
                 Service
               </a>{" "}
               <i
-                className={`bi bi-plus dropdown-icon ${
-                  state.activeMenu === "service" ? "active" : ""
-                }`}
+                className={`bi bi-plus dropdown-icon ${state.activeMenu === "service" ? "active" : ""
+                  }`}
                 onClick={() => toggleMenu("service")}
               />
-              {/* <ul
-                className={`sub-menu ${
-                  state.activeMenu === "service" ? "d-block" : ""
-                }`}
-              >
-                <li>
-                  <Link legacyBehavior href="/service">
-                    <a>Service 01</a>
-                  </Link>
-                </li>
-                <li>
-                  <Link legacyBehavior href="/service2">
-                    <a>Service 02</a>
-                  </Link>
-                </li>
-                <li>
-                  <Link legacyBehavior href="/service3">
-                    <a>Service 03</a>
-                  </Link>
-                </li>
-                <li>
-                  <Link legacyBehavior href="/service4">
-                    <a>Service 04</a>
-                  </Link>
-                </li>
-                <li>
-                  <Link legacyBehavior href="/service-details">
-                    <a>Service Details</a>
-                  </Link>
-                </li>
-              </ul> */}
               <ul
-  className={`sub-menu ${state.activeMenu === "service" ? "d-block" : ""}`}
->
-  <li>
-    <Link legacyBehavior href="/service/software-development">
-      <a className={currentRoute === "/service/software-development" ? "active" : ""}>
-        Software Development
-      </a>
-    </Link>
-  </li>
-  <li>
-    <Link legacyBehavior href="/service/app-development">
-      <a className={currentRoute === "/service/app-development" ? "active" : ""}>
-        App Development
-      </a>
-    </Link>
-  </li>
-  <li>
-    <Link legacyBehavior href="/service/web-design">
-      <a className={currentRoute === "/service/web-design" ? "active" : ""}>
-        Web Design
-      </a>
-    </Link>
-  </li>
-  <li>
-    <Link legacyBehavior href="/service/seo-services">
-      <a className={currentRoute === "/service/seo-services" ? "active" : ""}>
-        SEO Services
-      </a>
-    </Link>
-  </li>
-  {/* <li>
-    <Link legacyBehavior href="/service-details">
-      <a className={currentRoute === "/service-details" ? "active" : ""}>
-        Service Details
-      </a>
-    </Link>
-  </li> */}
-</ul>
+                className={`sub-menu ${state.activeMenu === "service" ? "d-block" : ""}`}
+              >
+                <li><strong>Web Development</strong>
+                  <ul>
+                    <Link legacyBehavior href="/service/website-development">
+                      <a className={currentRoute === "/service/website-development" ? "active" : ""}>
+                        Website Development
+                      </a>
+                    </Link>
+                    <Link legacyBehavior href="/service/web-app-development">
+                      <a className={currentRoute === "/service/web-app-development" ? "active" : ""}>
+                        Web App Development
+                      </a>
+                    </Link>
+                    <Link legacyBehavior href="/service/custom-web-development">
+                      <a className={currentRoute === "/service/custom-web-development" ? "active" : ""}>
+                        Custom Web Development
+                      </a>
+                    </Link>
+                    <Link legacyBehavior href="/service/e-commerce-development">
+                      <a className={currentRoute === "/service/e-commerce-development" ? "active" : ""}>
+                        E-commerce Development
+                      </a>
+                    </Link>
+                  </ul>
+                </li>
+                <li><strong>Mobile App Development</strong>
+                  <ul>
+                    <Link legacyBehavior href="/service/android-app-development">
+                      <a className={currentRoute === "/service/android-app-development" ? "active" : ""}>
+                        Android App Development
+                      </a>
+                    </Link>
+                    <Link legacyBehavior href="/service/ios-app-development">
+                      <a className={currentRoute === "/service/ios-app-development" ? "active" : ""}>
+                        IOS App Development
+                      </a>
+                    </Link>
+                    <Link legacyBehavior href="/service/hybrid-app-development">
+                      <a className={currentRoute === "/service/hybrid-app-development" ? "active" : ""}>
+                        Hybrid App Development
+                      </a>
+                    </Link>
+                    <Link legacyBehavior href="/service/progressive-web-app-development">
+                      <a className={currentRoute === "/service/progressive-web-app-development" ? "active" : ""}>
+                        Progressive Web App Development
+                      </a>
+                    </Link>
+                  </ul>
+                </li>
+                <li><strong>Software Development</strong>
+                  <ul>
+                    <Link legacyBehavior href="/service/product-ideation-and-conceptual">
+                      <a className={currentRoute === "/service/product-ideation-and-conceptual" ? "active" : ""}>
+                        Product Ideation & Conceptualization
+                      </a>
+                    </Link>
+                    <Link legacyBehavior href="/service/product-launch-and-support">
+                      <a className={currentRoute === "/service/product-launch-and-support" ? "active" : ""}>
+                        Product launch & Support
+                      </a>
+                    </Link>
+                    <Link legacyBehavior href="/service/quality-assurance-and-testing">
+                      <a className={currentRoute === "/service/quality-assurance-and-testing" ? "active" : ""}>
+                        Quality Assurance & testing
+                      </a>
+                    </Link>
+                    <Link legacyBehavior href="/service/software-integration">
+                      <a className={currentRoute === "/service/software-integration" ? "active" : ""}>
+                        Software Integration
+                      </a>
+                    </Link>
+                  </ul>
+                </li>
+                <li><strong>Digital Marketing</strong>
+                  <ul>
+                    <Link legacyBehavior href="/service/social-media-marketing">
+                      <a className={currentRoute === "/service/social-media-marketing" ? "active" : ""}>
+                        Social Media Marketing
+                      </a>
+                    </Link>
+                    <Link legacyBehavior href="/service/seo">
+                      <a className={currentRoute === "/service/seo" ? "active" : ""}>
+                        SEO
+                      </a>
+                    </Link>
+                    <Link legacyBehavior href="/service/social-media-video-marketing">
+                      <a className={currentRoute === "/service/social-media-video-marketing" ? "active" : ""}>
+                        Social Media Video Marketing
+                      </a>
+                    </Link>
+                    <Link legacyBehavior href="/service/bulk-sms-and-email-marketing">
+                      <a className={currentRoute === "/service/bulk-sms-and-email-marketing" ? "active" : ""}>
+                        Bulk SMS & Email Marketing
+                      </a>
+                    </Link>
+                  </ul>
+                </li>
+                <li><strong>Other Services</strong>
+                  <ul>
+                    <Link legacyBehavior href="/service/ai-ml">
+                      <a className={currentRoute === "/service/ai-ml" ? "active" : ""}>
+                        AI/Ml
+                      </a>
+                    </Link>
+                    <Link legacyBehavior href="/service/ui-ux-designing">
+                      <a className={currentRoute === "/service/ui-ux-designing" ? "active" : ""}>
+                        UI/UX Designing
+                      </a>
+                    </Link>
+                    <Link legacyBehavior href="/service/erp-crm">
+                      <a className={currentRoute === "/service/erp-crm" ? "active" : ""}>
+                        ERP/CRM
+                      </a>
+                    </Link>
+                    <Link legacyBehavior href="/service/saas-development">
+                      <a className={currentRoute === "/service/saas-development" ? "active" : ""}>
+                        SaaS Development
+                      </a>
+                    </Link>
+                    <Link legacyBehavior href="/service/staff-augmentation">
+                      <a className={currentRoute === "/service/staff-augmentation" ? "active" : ""}>
+                        Staff Augmentation
+                      </a>
+                    </Link>
+                  </ul>
+                </li>
+                {/* <li>
+                  <Link legacyBehavior href="/service-details">
+                    <a className={currentRoute === "/service-details" ? "active" : ""}>
+                      Service Details
+                    </a>
+                  </Link>
+                </li> */}
+              </ul>
 
             </li>
             <li className="menu-item-has-children">
@@ -333,15 +394,13 @@ function Header3() {
                 Project
               </a>
               <i
-                className={`bi bi-plus dropdown-icon ${
-                  state.activeMenu === "project" ? "active" : ""
-                }`}
+                className={`bi bi-plus dropdown-icon ${state.activeMenu === "project" ? "active" : ""
+                  }`}
                 onClick={() => toggleMenu("project")}
               />
               <ul
-                className={`sub-menu ${
-                  state.activeMenu === "project" ? "d-block" : ""
-                }`}
+                className={`sub-menu ${state.activeMenu === "project" ? "d-block" : ""
+                  }`}
               >
                 <li>
                   <Link legacyBehavior href="/project">
@@ -365,31 +424,27 @@ function Header3() {
                 Pages
               </a>
               <i
-                className={`bi bi-plus dropdown-icon ${
-                  state.activeMenu === "pages" ? "active" : ""
-                }`}
+                className={`bi bi-plus dropdown-icon ${state.activeMenu === "pages" ? "active" : ""
+                  }`}
                 onClick={() => toggleMenu("pages")}
               />
               <ul
-                className={`sub-menu ${
-                  state.activeMenu === "pages" ? "d-block" : ""
-                }`}
+                className={`sub-menu ${state.activeMenu === "pages" ? "d-block" : ""
+                  }`}
               >
                 <li>
                   <Link legacyBehavior href="/team1">
                     <a>Team</a>
                   </Link>
-                 
+
                   <i
-                    className={`bi bi-plus dropdown-icon ${
-                      state.activeSubMenu === "team" ? "active" : ""
-                    }`}
+                    className={`bi bi-plus dropdown-icon ${state.activeSubMenu === "team" ? "active" : ""
+                      }`}
                     onClick={() => toggleSubMenu("team")}
                   />
                   <ul
-                    className={`sub-menu ${
-                      state.activeSubMenu === "team" ? "d-block" : ""
-                    }`}
+                    className={`sub-menu ${state.activeSubMenu === "team" ? "d-block" : ""
+                      }`}
                   >
                     <li>
                       <Link legacyBehavior href="/team1">
@@ -413,15 +468,13 @@ function Header3() {
                     <a>Pricing</a>
                   </Link>
                   <i
-                    className={`bi bi-plus dropdown-icon ${
-                      state.activeSubMenu === "price" ? "active" : ""
-                    }`}
+                    className={`bi bi-plus dropdown-icon ${state.activeSubMenu === "price" ? "active" : ""
+                      }`}
                     onClick={() => toggleSubMenu("price")}
                   />
                   <ul
-                    className={`sub-menu ${
-                      state.activeSubMenu === "price" ? "d-block" : ""
-                    }`}
+                    className={`sub-menu ${state.activeSubMenu === "price" ? "d-block" : ""
+                      }`}
                   >
                     <li>
                       <Link legacyBehavior href="/pricing">
@@ -455,22 +508,19 @@ function Header3() {
             <li className="menu-item-has-children">
               <a
                 href="#"
-                className={`drop-down ${
-                  state.activeMenu === "case" ? "active" : ""
-                }`}
+                className={`drop-down ${state.activeMenu === "case" ? "active" : ""
+                  }`}
               >
                 Case Study
               </a>
               <i
-                className={`bi bi-plus dropdown-icon ${
-                  state.activeMenu === "case" ? "active" : ""
-                }`}
+                className={`bi bi-plus dropdown-icon ${state.activeMenu === "case" ? "active" : ""
+                  }`}
                 onClick={() => toggleMenu("case")}
               />
               <ul
-                className={`sub-menu ${
-                  state.activeMenu === "case" ? "d-block" : ""
-                }`}
+                className={`sub-menu ${state.activeMenu === "case" ? "d-block" : ""
+                  }`}
               >
                 <li>
                   <Link legacyBehavior href="/case-study">
@@ -497,23 +547,20 @@ function Header3() {
             <li className="menu-item-has-children">
               <a
                 href="#"
-                className={`drop-down ${
-                  state.activeMenu === "blog" ? "active" : ""
-                }`}
+                className={`drop-down ${state.activeMenu === "blog" ? "active" : ""
+                  }`}
                 onClick={() => toggleMenu("blog")}
               >
                 Blog
               </a>
               <i
-                className={`bi bi-plus dropdown-icon ${
-                  state.activeMenu === "blog" ? "active" : ""
-                }`}
+                className={`bi bi-plus dropdown-icon ${state.activeMenu === "blog" ? "active" : ""
+                  }`}
                 onClick={() => toggleMenu("blog")}
               />
               <ul
-                className={`sub-menu ${
-                  state.activeMenu === "blog" ? "d-block" : ""
-                }`}
+                className={`sub-menu ${state.activeMenu === "blog" ? "d-block" : ""
+                  }`}
               >
                 <li>
                   <Link legacyBehavior href="/blog">
@@ -598,9 +645,8 @@ function Header3() {
             <img src="assets/img/home-3/sidebar-btn.svg" alt="" />
           </div>
           <div
-            className={`sidebar-button mobile-menu-btn ${
-              state.isSidebarOpenMenu ? "active" : ""
-            }`}
+            className={`sidebar-button mobile-menu-btn ${state.isSidebarOpenMenu ? "active" : ""
+              }`}
             onClick={toggleSidebarMenu}
           >
             <span />

@@ -257,8 +257,8 @@ export const howWeWork = [
 ];
 
 export const servicesData = {
-  "software-development": {
-    title: "Software Development",
+  "website-development": {
+    title: "Website Development",
     description: `Interdum et malesuada fames ac ante ipsum primis in faucibus. 
     Etiam eu nibh neque ac, aliquet nunc. In eu ipsum fringilla, accumsan purus vel, pellentesque purus at eros interdum, 
     in dignissim nulla vestibulum.`,
@@ -266,7 +266,7 @@ export const servicesData = {
       {
         title: "General Questions",
         layout: true,
-        image: "/assets/img/inner-pages/software-dev-general.png",  // Image for General Questions
+        image: "/assets/img/inner-pages/about-service-img.png",
         questions: [
           {
             question: "What programming languages do you use for software development?",
@@ -281,7 +281,7 @@ export const servicesData = {
       {
         title: "Project Management",
         layout: false,
-        image: "/assets/img/inner-pages/software-dev-project-management.png",  // Image for Project Management
+        image: "/assets/img/inner-pages/about-service-img.png",
         questions: [
           {
             question: "What project management methodologies do you use?",
@@ -295,8 +295,72 @@ export const servicesData = {
       },
     ],
   },
+  "technologies": {
+    title: "Comparative Analysis of Web Development Technologies",
+    description: `Explore the key differences and features of popular web development technologies, including front-end frameworks, back-end technologies, and content management systems.`,
+    comparisonSections: [
+      {
+        title: "Front-End Frameworks",
+        layout: true,
+        image: "/assets/img/inner-pages/front-end-frameworks.png",
+        questions: [
+          {
+            question: "React",
+            answer: "A JavaScript library for building user interfaces, known for its flexibility and performance."
+          },
+          {
+            question: "Angular",
+            answer: "A comprehensive framework for building dynamic web applications, offering a rich set of features and tools."
+          },
+          {
+            question: "Vue.js",
+            answer: "A progressive JavaScript framework that is easy to integrate and use, popular for its simplicity and versatility."
+          }
+        ]
+      },
+      {
+        title: "Back-End Technologies",
+        layout: true,
+        image: "/assets/img/inner-pages/back-end-technologies.png",
+        questions: [
+          {
+            question: "Node.js",
+            answer: "A JavaScript runtime built on Chrome’s V8 JavaScript engine, ideal for building scalable and fast network applications."
+          },
+          {
+            question: "Django",
+            answer: "A high-level Python web framework that encourages rapid development and clean, pragmatic design."
+          },
+          {
+            question: "Ruby on Rails",
+            answer: "A server-side web application framework written in Ruby, known for its simplicity and ease of use."
+          }
+        ]
+      },
+      {
+        title: "Content Management Systems",
+        layout: true,
+        image: "/assets/img/inner-pages/content-management-systems.png",
+        questions: [
+          {
+            question: "WordPress",
+            answer: "The most popular CMS, known for its ease of use, flexibility, and extensive plugin ecosystem."
+          },
+          {
+            question: "Joomla",
+            answer: "A versatile CMS suitable for building complex websites and applications, offering robust features and extensions."
+          },
+          {
+            question: "Drupal",
+            answer: "A powerful CMS for building large-scale and complex websites, offering flexibility and scalability."
+          }
+        ]
+      }
+    ]
+  },
   // ... other services follow the same pattern
 };
+
 
 
 export const faqData = [

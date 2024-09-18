@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import useMagneticHover from "../hooks/useMagneticHover";
 import Script from "next/script";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 import "../../public/assets/css/bootstrap-icons.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
@@ -29,6 +31,7 @@ export default function App({ Component, pageProps }) {
       {loading ? (
         <>
           <Component {...pageProps} />
+          <ToastContainer />
           <Script id="wow" src="/js/wow.min.js"></Script>
           <Script
             id="initWow"
