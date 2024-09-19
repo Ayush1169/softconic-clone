@@ -7460,12 +7460,13 @@ video {
 }
 
 .home5-services-section {
-  background-image: url(../img/home-5/home5-services-bg.png), linear-gradient(#171717, #171717);
+  /* background-image: url(../img/home-5/home5-services-bg.png), linear-gradient(#171717, #171717); */
   background-size: cover;
   background-repeat: no-repeat;
   padding: 100px 0px;
   margin: 20px 50px;
   margin-top: 100px;
+  background-color: #0e0e0e;
 }
 
 @media (min-width: 1400px) and (max-width: 1599px) {
@@ -7487,7 +7488,8 @@ video {
 }
 
 .home5-services-section .solution-card {
-  background: #171717;
+  /* background: #171717; */
+  background: #000000;
   border: 1px solid rgba(255, 255, 255, 0.07);
   border-radius: 5px;
   padding: 30px 30px;
@@ -7506,7 +7508,7 @@ video {
 }
 
 .home5-services-section .solution-card .icon {
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   position: relative;
 }
 
@@ -7551,7 +7553,7 @@ video {
   line-height: 30px;
   letter-spacing: 0.03em;
   color: #B5B5B5;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 .home5-services-section .solution-card:hover {
@@ -11568,7 +11570,6 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
     font-size: 30px;
   }
 }
-
 .service-details .service-faq-area .accordion .accordion-item {
   background-color: transparent;
   border: none;
@@ -11583,7 +11584,8 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   font-size: 17px;
   text-transform: capitalize;
   color: #B5B5B5;
-  padding: 25px 0px 20px;
+  padding: 25px 180px 20px 0; /* Added right padding */
+  position: relative; /* For absolute positioning of the icon */
 }
 
 .service-details .service-faq-area .accordion .accordion-item .accordion-button:not(.collapsed) {
@@ -11602,6 +11604,8 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   font-family: bootstrap-icons !important;
   content: "\f2ea";
   color: var(--title-color);
+  position: absolute;
+  right: 0;
 }
 
 .service-details .service-faq-area .accordion .accordion-item .accordion-button:focus {
@@ -11613,7 +11617,6 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   flex-shrink: 0;
   width: unset;
   height: unset;
-  margin-left: auto;
   content: "\f4fe";
   font-weight: 600;
   font-family: bootstrap-icons !important;
@@ -11621,6 +11624,8 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   background-image: none;
   background-size: contain;
   transition: transform 0.2s ease-in-out;
+  position: absolute;
+  right: 0;
 }
 
 .service-details .service-faq-area .accordion .accordion-item .accordion-body {
@@ -11632,6 +11637,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   color: #B5B5B5;
   padding: 20px 20px 30px;
 }
+
 
 .case-study-details .case-study-title {
   max-width: 960px;
@@ -13128,7 +13134,6 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   margin: 0 auto;
   font-family: Arial, sans-serif;
   text-align: center;
-  background-color: #0a0a0a;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
@@ -13172,7 +13177,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   transform: translateX(-50%);
   width: 50px;
   height: 3px;
-  background-color: #5F9EA0;
+  background-color: var(--theme-color);
 }
 
 .technologies p {
@@ -13201,7 +13206,6 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   margin-bottom: 20px;
   color: #e0e0e0;
   padding: 20px;
-  background-color: #5F9EA0;
 }
 
 .technologies .section ul {
@@ -13240,7 +13244,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
 }
 
 .technologies .section li:hover p {
-  color: #5F9EA0;
+  color: var(--theme-color);
 }
 
 .technologies .layout-true {
@@ -13277,7 +13281,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   transform: translateX(-50%);
   width: 50px;
   height: 3px;
-  background-color: #5F9EA0;
+  background-color: var(--theme-color);
 }
 
 .user-guide-set p {
@@ -13313,7 +13317,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   color: #e0e0e0;
   margin-bottom: 15px;
   font-size: 1.4rem;
-  border-bottom: 2px solid #5F9EA0;
+  border-bottom: 2px solid var(--theme-color);
   padding-bottom: 10px;
 }
 
@@ -13336,7 +13340,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   content: "•";
   position: absolute;
   left: 0;
-  color: #5F9EA0;
+  color: var(--theme-color);
   font-size: 1.2em;
   top: -2px;
 }
@@ -13357,14 +13361,15 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   animation: fadeIn 1s ease-out;
 }
 
-
+.video-container{
+  margin-bottom: 0px;
+}
 
 
 .conclusion-section {
   background-color: #000000;
   color: #e0e0e0;
   padding: 40px 0;
-  margin-top: 40px;
 }
 
 .conclusion-section .container {

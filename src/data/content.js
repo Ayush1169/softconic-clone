@@ -46,59 +46,60 @@ const HomePage = {
   solutions: [
     {
       title: "Web Development",
-      description: "Web development is the process of creating websites and web applications for the internet or intranet.",
+      description: "Building high-performance, responsive websites and web applications to deliver seamless user experiences.",
       link: "/service-details",
       delay: "200ms",
     },
     {
       title: "Mobile App Development",
-      description: "Building mobile apps for iOS and Android platforms to enhance user experience and engagement.",
+      description: "Developing feature-rich mobile apps for iOS and Android platforms, tailored to your business needs.",
       link: "/service-details",
       delay: "300ms",
     },
     {
-      title: "UI/UX Design",
-      description: "Crafting visually appealing and user-friendly interfaces to improve digital experiences.",
+      title: "Software Development",
+      description: "Creating custom software solutions designed to optimize business operations and improve efficiency.",
       link: "/service-details",
       delay: "400ms",
     },
     {
       title: "Digital Marketing",
-      description: "Promoting brands online using digital channels to reach potential customers.",
+      description: "Leveraging digital marketing strategies to drive brand awareness, traffic, and conversions across digital channels.",
       link: "/service-details",
       delay: "500ms",
     },
     {
-      title: "SEO Optimization",
-      description: "Improving website visibility on search engines to attract more traffic.",
-      link: "/service-details",
-      delay: "600ms",
-    },
-    {
-      title: "Cloud Solutions",
-      description: "Delivering scalable cloud-based solutions for businesses of all sizes.",
+      title: "UI/UX Designing",
+      description: "Designing intuitive and engaging user interfaces to enhance user experience and interaction with digital products.",
       link: "/service-details",
       delay: "700ms",
     },
     {
-      title: "E-Commerce Solutions",
-      description: "Developing e-commerce platforms to sell products and services online.",
+      title: "ERP/CRM",
+      description: "Providing customized ERP and CRM solutions to streamline processes and improve customer relationship management.",
       link: "/service-details",
       delay: "800ms",
     },
     {
-      title: "Software Development",
-      description: "Creating custom software solutions tailored to business needs.",
+      title: "SaaS Development",
+      description: "Developing scalable SaaS platforms with robust features to meet the evolving needs of modern businesses.",
       link: "/service-details",
       delay: "900ms",
     },
     {
-      title: "Data Analytics",
-      description: "Providing data-driven insights to help businesses make informed decisions.",
+      title: "Staff Augmentation",
+      description: "Supplying top-tier talent to enhance your team’s capabilities and meet project goals efficiently.",
       link: "/service-details",
       delay: "1000ms",
     },
-  ],
+    {
+      title: "AI/ML",
+      description: "Harnessing the power of AI and machine learning to drive innovation and improve decision-making processes.",
+      link: "/service-details",
+      delay: "600ms",
+    },
+  ]
+  ,
   companies: [
     { name: "Major Kalshi Classes", imageUrl: "assets/img/home-3/home3-suc-sto-01.png" },
     { name: "Veda Academy", imageUrl: "assets/img/home-3/home3-suc-sto-02.png" },
@@ -4230,6 +4231,85 @@ export const servicesData = {
   },
 
 };
+
+
+export const caseStudies = [
+  {
+    id: 1,
+    title: "Unlocking Scalability and Efficiency",
+    mainTitle: "Unlocking Scalability, Reliability and Efficiency",
+    mainImage: "/assets/img/inner-pages/case-study-img-01.png",
+    description: "This case study explores how our client improved their operational efficiency by implementing scalable solutions tailored to their needs.",
+    overview: "Our client faced significant challenges in managing increasing workloads without compromising performance. By adopting a cloud-based infrastructure, they were able to scale their operations seamlessly.",
+    overviewImage: "/assets/img/inner-pages/case-study-img-02.png",
+    solution: "We provided a comprehensive solution that included migrating to a cloud platform, optimizing their data management processes, and introducing automation in key areas.",
+    solutionImage: "/assets/img/inner-pages/case-study-img-03.png",
+    processDescription: "The process involved several stages: requirement analysis, infrastructure setup, data migration, and final optimization. Each step was carefully executed to ensure minimal disruption to ongoing operations.",
+    processSteps: [
+      { stepNumber: "Step 01", title: "Research", description: "Conducted thorough research to understand the client's current infrastructure and future needs.", icon: "path/to/icon.svg" },
+      { stepNumber: "Step 02", title: "Planning", description: "Developed a strategic plan outlining the migration process and key milestones.", icon: "path/to/icon.svg" },
+      { stepNumber: "Step 03", title: "Implementation", description: "Executed the migration to the cloud, ensuring data integrity and security throughout the process.", icon: "path/to/icon.svg" },
+      { stepNumber: "Step 04", title: "Optimization", description: "Optimized the new infrastructure for performance and cost-effectiveness, implementing best practices.", icon: "path/to/icon.svg" },
+    ],
+    additionalImages: [
+      "/assets/img/inner-pages/case-study-img-04.png",
+      "/assets/img/inner-pages/case-study-img-05.png"
+    ],
+    slug: "unlocking-scalability-and-efficiency",
+    category: "Scalability"
+  },
+  {
+    id: 2,
+    title: "Enhancing User Experience through Design",
+    mainTitle: "Designing for User Satisfaction",
+    mainImage: "/assets/img/inner-pages/case-study-img-01.png",
+    description: "This case study outlines how redesigning a web platform improved user engagement and satisfaction significantly.",
+    overview: "Our client had an outdated website that wasn't user-friendly. We focused on enhancing the user experience through a modern design and better navigation.",
+    overviewImage: "/assets/img/inner-pages/case-study-img-02.png",
+    solution: "We implemented a user-centered design approach, conducting user testing and feedback sessions to ensure the new design met user expectations.",
+    solutionImage: "/assets/img/inner-pages/case-study-img-03.png",
+    processDescription: "The project followed an agile methodology, allowing for continuous feedback and iterative improvements throughout the design process.",
+    processSteps: [
+      { stepNumber: "Step 01", title: "User Research", description: "Conducted surveys and interviews to gather insights from users about their pain points.", icon: "path/to/icon.svg" },
+      { stepNumber: "Step 02", title: "Wireframing", description: "Created wireframes to visualize the new layout and flow of the website.", icon: "path/to/icon.svg" },
+      { stepNumber: "Step 03", title: "Prototyping", description: "Developed interactive prototypes to test with real users before full-scale development.", icon: "path/to/icon.svg" },
+      { stepNumber: "Step 04", title: "Launch and Iterate", description: "Launched the new design and monitored user interactions to make necessary adjustments.", icon: "path/to/icon.svg" },
+    ],
+    additionalImages: [
+      "/assets/img/inner-pages/case-study-img-04.png",
+      "/assets/img/inner-pages/case-study-img-05.png"
+    ],
+    slug: "enhancing-user-experience",
+    category: "Design"
+  },
+  {
+    id: 3,
+    title: "Automating Processes for Increased Efficiency",
+    mainTitle: "Streamlining Operations through Automation",
+    mainImage: "/assets/img/inner-pages/case-study-img-01.png",
+    description: "This case study discusses how automating routine processes helped a client save time and reduce errors.",
+    overview: "The client was struggling with manual processes that were slow and prone to error. Automation provided a solution to streamline these operations.",
+    overviewImage: "/assets/img/inner-pages/case-study-img-02.png",
+    solution: "We implemented a series of automation tools tailored to the client's workflow, significantly enhancing productivity and accuracy.",
+    solutionImage: "/assets/img/inner-pages/case-study-img-03.png",
+    processDescription: "Our approach included assessing existing processes, identifying automation opportunities, and implementing the right tools.",
+    processSteps: [
+      { stepNumber: "Step 01", title: "Assessment", description: "Analyzed current workflows to identify inefficiencies and bottlenecks.", icon: "path/to/icon.svg" },
+      { stepNumber: "Step 02", title: "Tool Selection", description: "Selected automation tools that aligned with the client's needs.", icon: "path/to/icon.svg" },
+      { stepNumber: "Step 03", title: "Integration", description: "Integrated the automation tools into existing systems with minimal disruption.", icon: "path/to/icon.svg" },
+      { stepNumber: "Step 04", title: "Training", description: "Provided training for staff to ensure smooth adoption of new processes.", icon: "path/to/icon.svg" },
+    ],
+    additionalImages: [
+      "/assets/img/inner-pages/case-study-img-04.png",
+      "/assets/img/inner-pages/case-study-img-05.png"
+    ],
+    slug: "automating-processes",
+    category: "Automation"
+  },
+];
+
+
+
 
 
 

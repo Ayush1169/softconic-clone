@@ -33,7 +33,16 @@ function Home3Blog() {
             <div key={index} className="col-lg-4 col-md-6 wow animate fadeInUp" data-wow-delay={`${200 + (index * 100)}ms`} data-wow-duration="1500ms">
               <div className="single-blog magnetic-item">
                 <div className="blog-img">
-                  <img className="img-fluid" src={blog._embedded['wp:featuredmedia'][0].source_url} alt={blog.title.rendered} />
+                <img
+  src={blog._embedded['wp:featuredmedia'][0].media_details.sizes.medium.source_url}
+  alt={blog.title.rendered}
+  style={{
+    width: '100%', // This ensures the image takes up the full width of its container
+    height: '200px', // Set a fixed height (adjust as needed)
+    objectFit: 'cover' // Ensures the image maintains aspect ratio and fills the area
+  }}
+/>
+
                   {/* <div className="blog-tag">
                     <Link legacyBehavior href="/blog">
                       <a>{blog.categories[0] === 1 ? 'Web Development' : 'Cloud Solutions'}</a>

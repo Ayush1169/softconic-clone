@@ -198,7 +198,7 @@ function Header() {
                 <a>About</a>
               </Link>
             </li>
-            <li
+            {/* <li
               className={`menu-item-has-children services-menu ${[
                 "/service",
                 "/service2",
@@ -378,67 +378,564 @@ function Header() {
                     </Link>
                   </ul>
                 </li>
-                {/* <li>
-                  <Link legacyBehavior href="/service-details">
-                    <a className={currentRoute === "/service-details" ? "active" : ""}>
-                      Service Details
-                    </a>
-                  </Link>
-                </li> */}
               </ul>
 
 
+            </li> */}
+            <li
+              className={`menu-item-has-children ${state.activeMenu.includes(currentRoute)
+                ? "active"
+                : ""
+                }`}
+            >
+              <a href="#" className="drop-down">
+                Services
+              </a>
+              <i
+                className={`bi bi-plus dropdown-icon ${state.activeMenu === "pages" ? "active" : ""
+                  }`}
+                onClick={() => toggleMenu("pages")}
+              />
+              <ul
+                className={`sub-menu ${state.activeMenu === "pages" ? "d-block" : ""
+                  }`}
+              >
+                <li>
+                  <Link legacyBehavior href="#">
+                    <a>Web Development</a>
+                  </Link>
+
+                  <i
+                    className={`bi bi-plus dropdown-icon ${state.activeSubMenu === "team" ? "active" : ""
+                      }`}
+                    onClick={() => toggleSubMenu("team")}
+                  />
+                  <ul
+                    className={`sub-menu ${state.activeSubMenu === "team" ? "d-block" : ""
+                      }`}
+                  >
+                    <li>
+                      <Link legacyBehavior href="/service/website-development">
+                        <a
+                          className={currentRoute === "/service/website-development" ? "active" : ""}
+                        >
+                          Website Development
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link legacyBehavior href="/service/web-app-development">
+                        <a
+                          className={currentRoute === "/service/web-app-development" ? "active" : ""}
+                        >
+                          Web App Development
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link legacyBehavior href="/service/custom-web-development">
+                        <a
+                          className={currentRoute === "/service/custom-web-development" ? "active" : ""}
+                        >
+                          Custom Web Development
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link legacyBehavior href="/service/e-commerce-development">
+                        <a
+                          className={currentRoute === "/service/e-commerce-development" ? "active" : ""}
+                        >
+                          E-Commerce Development
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link legacyBehavior href="/service/full-stack-development">
+                        <a
+                          className={currentRoute === "/service/full-stack-development" ? "active" : ""}
+                        >
+                          Full Stack Development
+                        </a>
+                      </Link>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <Link legacyBehavior href="#">
+                    <a>Mobile App Development</a>
+                  </Link>
+                  <i
+                    className={`bi bi-plus dropdown-icon ${state.activeSubMenu === "price" ? "active" : ""
+                      }`}
+                    onClick={() => toggleSubMenu("price")}
+                  />
+                  <ul
+                    className={`sub-menu ${state.activeSubMenu === "price" ? "d-block" : ""
+                      }`}
+                  >
+                    <li>
+                      <Link legacyBehavior href="/service/android-app-development">
+                        <a
+                          className={
+                            currentRoute === "/service/android-app-development" ? "active" : ""
+                          }
+                        >
+                          Android App Development
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link legacyBehavior href="/service/ios-app-development">
+                        <a
+                          className={
+                            currentRoute === "/service/ios-app-development" ? "active" : ""
+                          }
+                        >
+                          IOS App Development
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link legacyBehavior href="/service/hybrid-app-development">
+                        <a
+                          className={
+                            currentRoute === "/service/hybrid-app-development" ? "active" : ""
+                          }
+                        >
+                          Hybrid App Development
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link legacyBehavior href="/service/progressive-web-app-development">
+                        <a
+                          className={
+                            currentRoute === "/service/progressive-web-app-development" ? "active" : ""
+                          }
+                        >
+                          Progressive Web App Development
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link legacyBehavior href="/service/product-development">
+                        <a
+                          className={
+                            currentRoute === "/service/product-development" ? "active" : ""
+                          }
+                        >
+                          Product Development
+                        </a>
+                      </Link>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <Link legacyBehavior href="#">
+                    <a>Software Development</a>
+                  </Link>
+                  <i
+                    className={`bi bi-plus dropdown-icon ${state.activeSubMenu === "price" ? "active" : ""
+                      }`}
+                    onClick={() => toggleSubMenu("price")}
+                  />
+                  <ul
+                    className={`sub-menu ${state.activeSubMenu === "price" ? "d-block" : ""
+                      }`}
+                  >
+                    <li>
+                      <Link legacyBehavior href="/service/product-ideation-and-conceptual">
+                        <a
+                          className={
+                            currentRoute === "/service/product-ideation-and-conceptual" ? "active" : ""
+                          }
+                        >
+                          Product Ideation & Conceptualization
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link legacyBehavior href="/service/product-launch-and-support">
+                        <a
+                          className={
+                            currentRoute === "/service/product-launch-and-support" ? "active" : ""
+                          }
+                        >
+                          Product Launch & Support
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link legacyBehavior href="/service/quality-assurance-and-testing">
+                        <a
+                          className={
+                            currentRoute === "/service/quality-assurance-and-testing" ? "active" : ""
+                          }
+                        >
+                          Quality Assurance & Testing
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link legacyBehavior href="/service/software-integration">
+                        <a
+                          className={
+                            currentRoute === "/service/software-integration" ? "active" : ""
+                          }
+                        >
+                          Software Integration
+                        </a>
+                      </Link>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <Link legacyBehavior href="#">
+                    <a>Digital Marketing</a>
+                  </Link>
+                  <i
+                    className={`bi bi-plus dropdown-icon ${state.activeSubMenu === "price" ? "active" : ""
+                      }`}
+                    onClick={() => toggleSubMenu("price")}
+                  />
+                  <ul
+                    className={`sub-menu ${state.activeSubMenu === "price" ? "d-block" : ""
+                      }`}
+                  >
+                    <li>
+                      <Link legacyBehavior href="/service/social-media-marketing">
+                        <a
+                          className={
+                            currentRoute === "/service/social-media-marketing" ? "active" : ""
+                          }
+                        >
+                          Social Media Marketing 
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link legacyBehavior href="/service/seo">
+                        <a
+                          className={
+                            currentRoute === "/service/seo" ? "active" : ""
+                          }
+                        >
+                          SEO
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link legacyBehavior href="/service/content-marketing">
+                        <a
+                          className={
+                            currentRoute === "/service/content-marketing" ? "active" : ""
+                          }
+                        >
+                          Content Marketing
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link legacyBehavior href="/service/social-media-video-marketing">
+                        <a
+                          className={
+                            currentRoute === "/service/social-media-video-marketing" ? "active" : ""
+                          }
+                        >
+                          Social Media Video Marketing
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link legacyBehavior href="/service/graphic-designing">
+                        <a
+                          className={
+                            currentRoute === "/service/graphic-designing" ? "active" : ""
+                          }
+                        >
+                          Graphic Designing
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link legacyBehavior href="/service/website-audit">
+                        <a
+                          className={
+                            currentRoute === "/service/website-audit" ? "active" : ""
+                          }
+                        >
+                          Website Audit
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link legacyBehavior href="/service/bulk-sms-and-email-marketing">
+                        <a
+                          className={
+                            currentRoute === "/service/bulk-sms-and-email-marketing" ? "active" : ""
+                          }
+                        >
+                          Bulk SMS & Email Marketing
+                        </a>
+                      </Link>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <Link legacyBehavior href="#">
+                    <a>UI/UX Designing</a>
+                  </Link>
+                  <i
+                    className={`bi bi-plus dropdown-icon ${state.activeSubMenu === "price" ? "active" : ""
+                      }`}
+                    onClick={() => toggleSubMenu("price")}
+                  />
+                  <ul
+                    className={`sub-menu ${state.activeSubMenu === "price" ? "d-block" : ""
+                      }`}
+                  >
+                    <li>
+                      <Link legacyBehavior href="/service/web-and-mobile-app-design">
+                        <a
+                          className={
+                            currentRoute === "/service/web-and-mobile-app-design" ? "active" : ""
+                          }
+                        >
+                         Web & Mobile App Designing
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link legacyBehavior href="/service/logo-designing">
+                        <a
+                          className={
+                            currentRoute === "/service/logo-designing" ? "active" : ""
+                          }
+                        >
+                          Logo Designing
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link legacyBehavior href="/service/redesign-and-modernizing-services">
+                        <a
+                          className={
+                            currentRoute === "/service/redesign-and-modernizing-services" ? "active" : ""
+                          }
+                        >
+                          Redesign & Modernizing Services
+                        </a>
+                      </Link>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <Link legacyBehavior href="#">
+                    <a>ERP/CRM</a>
+                  </Link>
+                  <i
+                    className={`bi bi-plus dropdown-icon ${state.activeSubMenu === "price" ? "active" : ""
+                      }`}
+                    onClick={() => toggleSubMenu("price")}
+                  />
+                  <ul
+                    className={`sub-menu ${state.activeSubMenu === "price" ? "d-block" : ""
+                      }`}
+                  >
+                    <li>
+                      <Link legacyBehavior href="/service/erp-crm">
+                        <a
+                          className={
+                            currentRoute === "/service/erp-crm" ? "active" : ""
+                          }
+                        >
+                          ERP
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link legacyBehavior href="/service/crm">
+                        <a
+                          className={
+                            currentRoute === "/service/crm" ? "active" : ""
+                          }
+                        >
+                          CRM
+                        </a>
+                      </Link>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <Link legacyBehavior href="#">
+                    <a>Saas Development</a>
+                  </Link>
+                  <i
+                    className={`bi bi-plus dropdown-icon ${state.activeSubMenu === "price" ? "active" : ""
+                      }`}
+                    onClick={() => toggleSubMenu("price")}
+                  />
+                  <ul
+                    className={`sub-menu ${state.activeSubMenu === "price" ? "d-block" : ""
+                      }`}
+                  >
+                    <li>
+                      <Link legacyBehavior href="/service/optimizing-saas-application">
+                        <a
+                          className={
+                            currentRoute === "/service/optimizing-saas-application" ? "active" : ""
+                          }
+                        >
+                          Optimizing Saas Application
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link legacyBehavior href="/service/integration-with-third-party-api">
+                        <a
+                          className={
+                            currentRoute === "/service/integration-with-third-party-api" ? "active" : ""
+                          }
+                        >
+                          Integration With third Party APIs
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link legacyBehavior href="/service/testing">
+                        <a
+                          className={
+                            currentRoute === "/service/testing" ? "active" : ""
+                          }
+                        >
+                          Testing 
+                        </a>
+                      </Link>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <Link legacyBehavior href="#">
+                    <a>Staff Augmentation</a>
+                  </Link>
+                  <i
+                    className={`bi bi-plus dropdown-icon ${state.activeSubMenu === "price" ? "active" : ""
+                      }`}
+                    onClick={() => toggleSubMenu("price")}
+                  />
+                  <ul
+                    className={`sub-menu ${state.activeSubMenu === "price" ? "d-block" : ""
+                      }`}
+                  >
+                    <li>
+                      <Link legacyBehavior href="/service/remote-staffing">
+                        <a
+                          className={
+                            currentRoute === "/service/remote-staffing" ? "active" : ""
+                          }
+                        >
+                          Remote Staffing
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link legacyBehavior href="/service/outsourcing">
+                        <a
+                          className={
+                            currentRoute === "/service/outsourcing" ? "active" : ""
+                          }
+                        >
+                          Outsourcing
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link legacyBehavior href="/service/contract-staffing">
+                        <a
+                          className={
+                            currentRoute === "/service/contract-staffing" ? "active" : ""
+                          }
+                        >
+                          Contract Staffing
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link legacyBehavior href="/service/project-based-staffing">
+                        <a
+                          className={
+                            currentRoute === "/service/project-based-staffing" ? "active" : ""
+                          }
+                        >
+                          Project Based Staffing 
+                        </a>
+                      </Link>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <Link legacyBehavior href="#">
+                    <a>AI/ML</a>
+                  </Link>
+                  <i
+                    className={`bi bi-plus dropdown-icon ${state.activeSubMenu === "price" ? "active" : ""
+                      }`}
+                    onClick={() => toggleSubMenu("price")}
+                  />
+                  <ul
+                    className={`sub-menu ${state.activeSubMenu === "price" ? "d-block" : ""
+                      }`}
+                  >
+                    <li>
+                      <Link legacyBehavior href="/service/artificial-intelligence">
+                        <a
+                          className={
+                            currentRoute === "/service/artificial-intelligence" ? "active" : ""
+                          }
+                        >
+                          Artificial Intelligence
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link legacyBehavior href="/service/machine-learning">
+                        <a
+                          className={
+                            currentRoute === "/service/machine-learning" ? "active" : ""
+                          }
+                        >
+                          Machine Learning
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link legacyBehavior href="/service/data-science">
+                        <a
+                          className={
+                            currentRoute === "/service/data-science" ? "active" : ""
+                          }
+                        >
+                          Data Science
+                        </a>
+                      </Link>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
             </li>
             <li
-              className={`menu-item-has-children ${["/project", "/project-masonary", "/project-details"].includes(
+              className={` ${["/project", "/project-masonary", "/project-details"].includes(
                 currentRoute
               )
                 ? "active"
                 : ""
                 }`}
             >
-              <a href="#" className="drop-down">
+              <a href="/project-masonary" className="d">
                 Project
               </a>
-              <i
-                className={`bi bi-plus dropdown-icon ${state.activeMenu === "project" ? "active" : ""
-                  }`}
-                onClick={() => toggleMenu("project")}
-              />
-              <ul
-                className={`sub-menu ${state.activeMenu === "project" ? "d-block" : ""
-                  }`}
-              >
-                <li>
-                  <Link legacyBehavior href="/project">
-                    <a className={currentRoute === "/project" ? "active" : ""}>
-                      Project
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link legacyBehavior href="/project-masonary">
-                    <a
-                      className={
-                        currentRoute === "/project-masonary" ? "active" : ""
-                      }
-                    >
-                      Project Masonry
-                    </a>
-                  </Link>
-                </li>
-                <li>
-                  <Link legacyBehavior href="/project-details">
-                    <a
-                      className={
-                        currentRoute === "/project-details" ? "active" : ""
-                      }
-                    >
-                      Project Details
-                    </a>
-                  </Link>
-                </li>
-              </ul>
+             
             </li>
             <li
               className={`menu-item-has-children ${[
@@ -456,7 +953,7 @@ function Header() {
                 }`}
             >
               <a href="#" className="drop-down">
-                Pages
+                Products
               </a>
               <i
                 className={`bi bi-plus dropdown-icon ${state.activeMenu === "pages" ? "active" : ""
@@ -467,7 +964,7 @@ function Header() {
                 className={`sub-menu ${state.activeMenu === "pages" ? "d-block" : ""
                   }`}
               >
-                <li>
+                {/* <li>
                   <Link legacyBehavior href="/team1">
                     <a>Team</a>
                   </Link>
@@ -553,42 +1050,46 @@ function Header() {
                       Contact
                     </a>
                   </Link>
-                </li>
+                </li> */}
                 <li>
-                  <Link legacyBehavior href="/faq">
-                    <a className={currentRoute === "/faq" ? "active" : ""}>
-                      FAQs
+                  <Link legacyBehavior href="/evd-academy">
+                    <a className={currentRoute === "/evd-academy" ? "active" : ""}>
+                      EVD Academy 
                     </a>
                   </Link>
                 </li>
                 <li>
-                  <Link legacyBehavior href="/error">
-                    <a className={currentRoute === "/error" ? "active" : ""}>
-                      Error 404
+                  <Link legacyBehavior href="/evd-erp">
+                    <a className={currentRoute === "/evd-erp" ? "active" : ""}>
+                      EVD ERP
+                    </a>
+                  </Link>
+                </li>
+                <li>
+                  <Link legacyBehavior href="/evd-smartbook">
+                    <a className={currentRoute === "/evd-smartbook" ? "active" : ""}>
+                     EVD Smartbook
                     </a>
                   </Link>
                 </li>
               </ul>
             </li>
             <li
-              className={`menu-item-has-children ${[
-                "/case-study",
-                "/case-study2",
-                "/case-standard",
-                "/case-details",
+              className={` ${[
+                "/case-study"
               ].includes(currentRoute)
                 ? "active"
                 : ""
                 }`}
             >
               <a
-                href="#"
+                href="/case-study"
                 className={`drop-down ${state.activeMenu === "case" ? "active" : ""
                   }`}
               >
                 Case Study
               </a>
-              <i
+              {/* <i
                 className={`bi bi-plus dropdown-icon ${state.activeMenu === "case" ? "active" : ""
                   }`}
                 onClick={() => toggleMenu("case")}
@@ -639,7 +1140,7 @@ function Header() {
                     </a>
                   </Link>
                 </li>
-              </ul>
+              </ul> */}
             </li>
             <li
               className={`menu-item-has-children ${[

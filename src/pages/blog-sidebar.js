@@ -2,9 +2,78 @@ import BlogBanner from "../components/blog/BlogBanner";
 import Breadcrumb from "../components/common/Breadcrumb";
 import Layout from "../components/layout/Layout";
 import Link from "next/link";
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 function BlogSidebarPage() {
+  const [posts, setPosts] = useState([]);
+  const [page, setPage] = useState(1);
+  const [totalPages, setTotalPages] = useState(0);
+  const [searchQuery, setSearchQuery] = useState("");
+  const [categories, setCategories] = useState([]);
+  const [newestPosts, setNewestPosts] = useState([]);
+
+  // Fetch blog posts with pagination and search
+  useEffect(() => {
+    const fetchPosts = async () => {
+      try {
+        let url = `https://blog.evdtechnology.com/wp-json/wp/v2/posts?_embed&per_page=6&page=${page}`;
+
+        if (searchQuery) {
+          url += `&search=${searchQuery}`;
+        }
+
+        const response = await fetch(url);
+        const data = await response.json();
+
+        setPosts(data);
+
+        // WordPress provides total pages in headers for pagination
+        const totalPosts = response.headers.get("X-WP-Total");
+        setTotalPages(Math.ceil(totalPosts / 6));
+      } catch (error) {
+        console.error("Error fetching posts:", error);
+      }
+    };
+
+    // Fetch blog categories
+    const fetchCategories = async () => {
+      try {
+        const response = await fetch("https://blog.evdtechnology.com/wp-json/wp/v2/categories");
+        const data = await response.json();
+        setCategories(data);
+      } catch (error) {
+        console.error("Error fetching categories:", error);
+      }
+    };
+
+    // Fetch the top 3 newest posts
+    const fetchNewestPosts = async () => {
+      try {
+        const response = await fetch("https://blog.evdtechnology.com/wp-json/wp/v2/posts?_embed&per_page=3");
+        const data = await response.json();
+        setNewestPosts(data);
+      } catch (error) {
+        console.error("Error fetching newest posts:", error);
+      }
+    };
+
+    fetchPosts();
+    fetchCategories();
+    fetchNewestPosts();
+  }, [page, searchQuery]);
+
+  const handlePageChange = (newPage) => {
+    if (newPage >= 1 && newPage <= totalPages) {
+      setPage(newPage);
+    }
+  };
+
+  const handleSearch = (e) => {
+    e.preventDefault();
+    setSearchQuery(e.target.value);
+    setPage(1);
+  };
+
   return (
     <Layout>
       <Breadcrumb
@@ -12,560 +81,105 @@ function BlogSidebarPage() {
         title="Exploring The Softconic Blog"
         pageName="Blog Sidebar"
       />
-      <BlogBanner />
       <div className="home3-blog-area sec-mar">
         <div className="container">
           <div className="row g-lg-4 gy-5">
             <div className="col-lg-8">
               <div className="row g-lg-4 gy-5">
-                <div
-                  className="col-md-6 wow animate fadeInLeft"
-                  data-wow-delay="300ms"
-                  data-wow-duration="1500ms"
-                >
-                  <div className="single-blog magnetic-item">
-                    <div className="blog-img">
+                {posts.map((post) => (
+                  <div
+                    className="col-md-6 wow animate fadeInLeft"
+                    data-wow-delay="300ms"
+                    data-wow-duration="1500ms"
+                    key={post.id}
+                  >
+                    <div className="single-blog magnetic-item">
+                      <div className="blog-img">
                       <img
-                        className="img-fluid"
-                        src="assets/img/home-3/home3-blog-01.png"
-                        alt=""
-                      />
-                      <div className="blog-tag">
-                        <Link legacyBehavior href="/blog">
-                          <a>Web development</a>
-                        </Link>
-                      </div>
-                    </div>
-                    <div className="blog-content">
-                      <ul className="blog-meta">
-                        <li>
+  src={post._embedded['wp:featuredmedia'][0].media_details.sizes.medium.source_url}
+  alt={post.title.rendered}
+  style={{
+    width: '100%', // This ensures the image takes up the full width of its container
+    height: '200px', // Set a fixed height (adjust as needed)
+    objectFit: 'cover' // Ensures the image maintains aspect ratio and fills the area
+  }}
+/>
+
+                        <div className="blog-tag">
                           <Link legacyBehavior href="/blog">
-                            <a>May 20, 2023</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link legacyBehavior href="/blog">
-                            <a>Comment (3)</a>
-                          </Link>
-                        </li>
-                      </ul>
-                      <h4>
-                        <Link legacyBehavior href="/blog-details">
-                          <a>Donec finibus laoreet exte eu pellentesque. </a>
-                        </Link>
-                      </h4>
-                      <div className="blog-footer">
-                        <div className="read-btn">
-                          <Link legacyBehavior href="/blog-details">
-                            <a>
-                              Read More
-                              <svg
-                                width={12}
-                                height={12}
-                                viewBox="0 0 13 13"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path d="M0 1H12M12 1V13M12 1L0.5 12" />
-                              </svg>
-                            </a>
+                            <a>{post.categories[0]?.name}</a>
                           </Link>
                         </div>
-                        <div className="social-area">
-                          <ul>
-                            <li>
-                              <a href="https://www.facebook.com/">
-                                <i className="bx bxl-facebook" />
+                      </div>
+                      <div className="blog-content">
+                        <ul className="blog-meta">
+                          <li>
+                            <Link legacyBehavior href="/blog">
+                              <a>{new Date(post.date).toLocaleDateString()}</a>
+                            </Link>
+                          </li>
+                          <li>
+                            <Link legacyBehavior href="/blog">
+                              <a>Comment (3)</a>
+                            </Link>
+                          </li>
+                        </ul>
+                        <h4 style={{
+  display: '-webkit-box',
+  WebkitLineClamp: 2,
+  WebkitBoxOrient: 'vertical',
+  overflow: 'hidden',
+  textOverflow: 'ellipsis',
+}}>
+  <Link legacyBehavior href={`/blog-details/${post.id}`}>
+    <a>{post.title.rendered}</a>
+  </Link>
+</h4>
+
+                        <div className="blog-footer">
+                          <div className="read-btn">
+                            <Link legacyBehavior href={`/blog-details/${post.id}`}>
+                              <a>
+                                Read More
+                                <svg
+                                  width={12}
+                                  height={12}
+                                  viewBox="0 0 13 13"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path d="M0 1H12M12 1V13M12 1L0.5 12" />
+                                </svg>
                               </a>
-                            </li>
-                            <li>
-                              <a href="https://twitter.com/">
-                                <i className="bx bxl-twitter" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="https://www.pinterest.com/">
-                                <i className="bx bxl-pinterest-alt" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="https://www.instagram.com/">
-                                <i className="bx bxl-instagram" />
-                              </a>
-                            </li>
-                          </ul>
-                          <span>
-                            <img
-                              src="assets/img/home-3/plain-icon.svg"
-                              alt=""
-                            />
-                          </span>
+                            </Link>
+                          </div>
+                          <div className="social-area">
+                            {/* Social sharing icons */}
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
-                <div
-                  className="col-md-6 wow animate fadeInUp"
-                  data-wow-delay="200ms"
-                  data-wow-duration="1500ms"
-                >
-                  <div className="single-blog magnetic-item">
-                    <div className="blog-img">
-                      <img
-                        className="img-fluid"
-                        src="assets/img/home-3/home3-blog-02.png"
-                        alt=""
-                      />
-                      <div className="blog-tag">
-                        <Link legacyBehavior href="/blog">
-                          <a>Cloud solutions</a>
-                        </Link>
-                      </div>
-                    </div>
-                    <div className="blog-content">
-                      <ul className="blog-meta">
-                        <li>
-                          <Link legacyBehavior href="/blog">
-                            <a>May 20, 2023</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link legacyBehavior href="/blog">
-                            <a>Comment (3)</a>
-                          </Link>
-                        </li>
-                      </ul>
-                      <h4>
-                        <Link legacyBehavior href="/blog-details">
-                          <a>feugiat varius mattis mass enim est egestas.</a>
-                        </Link>
-                      </h4>
-                      <div className="blog-footer">
-                        <div className="read-btn">
-                          <Link legacyBehavior href="/blog-details">
-                            <a>
-                              Read More
-                              <svg
-                                width={12}
-                                height={12}
-                                viewBox="0 0 13 13"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path d="M0 1H12M12 1V13M12 1L0.5 12" />
-                              </svg>
-                            </a>
-                          </Link>
-                        </div>
-                        <div className="social-area">
-                          <ul>
-                            <li>
-                              <a href="https://www.facebook.com/">
-                                <i className="bx bxl-facebook" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="https://twitter.com/">
-                                <i className="bx bxl-twitter" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="https://www.pinterest.com/">
-                                <i className="bx bxl-pinterest-alt" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="https://www.instagram.com/">
-                                <i className="bx bxl-instagram" />
-                              </a>
-                            </li>
-                          </ul>
-                          <span>
-                            <img
-                              src="assets/img/home-3/plain-icon.svg"
-                              alt=""
-                            />
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="col-md-6 wow animate fadeInRight"
-                  data-wow-delay="300ms"
-                  data-wow-duration="1500ms"
-                >
-                  <div className="single-blog magnetic-item">
-                    <div className="blog-img">
-                      <img
-                        className="img-fluid"
-                        src="assets/img/home-3/home3-blog-03.png"
-                        alt=""
-                      />
-                      <div className="blog-tag">
-                        <Link legacyBehavior href="/blog">
-                          <a>Web development</a>
-                        </Link>
-                      </div>
-                    </div>
-                    <div className="blog-content">
-                      <ul className="blog-meta">
-                        <li>
-                          <Link legacyBehavior href="/blog">
-                            <a>May 20, 2023</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link legacyBehavior href="/blog">
-                            <a>Comment (3)</a>
-                          </Link>
-                        </li>
-                      </ul>
-                      <h4>
-                        <Link legacyBehavior href="/blog-details">
-                          <a>Navigating the Journey off Cloud Solution.</a>
-                        </Link>
-                      </h4>
-                      <div className="blog-footer">
-                        <div className="read-btn">
-                          <Link legacyBehavior href="/blog-details">
-                            <a>
-                              Read More
-                              <svg
-                                width={12}
-                                height={12}
-                                viewBox="0 0 13 13"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path d="M0 1H12M12 1V13M12 1L0.5 12" />
-                              </svg>
-                            </a>
-                          </Link>
-                        </div>
-                        <div className="social-area">
-                          <ul>
-                            <li>
-                              <a href="https://www.facebook.com/">
-                                <i className="bx bxl-facebook" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="https://twitter.com/">
-                                <i className="bx bxl-twitter" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="https://www.pinterest.com/">
-                                <i className="bx bxl-pinterest-alt" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="https://www.instagram.com/">
-                                <i className="bx bxl-instagram" />
-                              </a>
-                            </li>
-                          </ul>
-                          <span>
-                            <img
-                              src="assets/img/home-3/plain-icon.svg"
-                              alt=""
-                            />
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="col-md-6 wow animate fadeInLeft"
-                  data-wow-delay="300ms"
-                  data-wow-duration="1500ms"
-                >
-                  <div className="single-blog magnetic-item">
-                    <div className="blog-img">
-                      <img
-                        className="img-fluid"
-                        src="assets/img/home-3/home3-blog-01.png"
-                        alt=""
-                      />
-                      <div className="blog-tag">
-                        <Link legacyBehavior href="/blog">
-                          <a>Web development</a>
-                        </Link>
-                      </div>
-                    </div>
-                    <div className="blog-content">
-                      <ul className="blog-meta">
-                        <li>
-                          <Link legacyBehavior href="/blog">
-                            <a>May 20, 2023</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link legacyBehavior href="/blog">
-                            <a>Comment (3)</a>
-                          </Link>
-                        </li>
-                      </ul>
-                      <h4>
-                        <Link legacyBehavior href="/blog-details">
-                          <a>Donec finibus laoreet exte eu pellentesque. </a>
-                        </Link>
-                      </h4>
-                      <div className="blog-footer">
-                        <div className="read-btn">
-                          <Link legacyBehavior href="/blog-details">
-                            <a>
-                              Read More
-                              <svg
-                                width={12}
-                                height={12}
-                                viewBox="0 0 13 13"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path d="M0 1H12M12 1V13M12 1L0.5 12" />
-                              </svg>
-                            </a>
-                          </Link>
-                        </div>
-                        <div className="social-area">
-                          <ul>
-                            <li>
-                              <a href="https://www.facebook.com/">
-                                <i className="bx bxl-facebook" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="https://twitter.com/">
-                                <i className="bx bxl-twitter" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="https://www.pinterest.com/">
-                                <i className="bx bxl-pinterest-alt" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="https://www.instagram.com/">
-                                <i className="bx bxl-instagram" />
-                              </a>
-                            </li>
-                          </ul>
-                          <span>
-                            <img
-                              src="assets/img/home-3/plain-icon.svg"
-                              alt=""
-                            />
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="col-md-6 wow animate fadeInUp"
-                  data-wow-delay="200ms"
-                  data-wow-duration="1500ms"
-                >
-                  <div className="single-blog magnetic-item">
-                    <div className="blog-img">
-                      <img
-                        className="img-fluid"
-                        src="assets/img/home-3/home3-blog-02.png"
-                        alt=""
-                      />
-                      <div className="blog-tag">
-                        <Link legacyBehavior href="/blog">
-                          <a>Cloud solutions</a>
-                        </Link>
-                      </div>
-                    </div>
-                    <div className="blog-content">
-                      <ul className="blog-meta">
-                        <li>
-                          <Link legacyBehavior href="/blog">
-                            <a>May 20, 2023</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link legacyBehavior href="/blog">
-                            <a>Comment (3)</a>
-                          </Link>
-                        </li>
-                      </ul>
-                      <h4>
-                        <Link legacyBehavior href="/blog-details">
-                          <a>feugiat varius mattis mass enim est egestas.</a>
-                        </Link>
-                      </h4>
-                      <div className="blog-footer">
-                        <div className="read-btn">
-                          <Link legacyBehavior href="/blog-details">
-                            <a>
-                              Read More
-                              <svg
-                                width={12}
-                                height={12}
-                                viewBox="0 0 13 13"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path d="M0 1H12M12 1V13M12 1L0.5 12" />
-                              </svg>
-                            </a>
-                          </Link>
-                        </div>
-                        <div className="social-area">
-                          <ul>
-                            <li>
-                              <a href="https://www.facebook.com/">
-                                <i className="bx bxl-facebook" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="https://twitter.com/">
-                                <i className="bx bxl-twitter" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="https://www.pinterest.com/">
-                                <i className="bx bxl-pinterest-alt" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="https://www.instagram.com/">
-                                <i className="bx bxl-instagram" />
-                              </a>
-                            </li>
-                          </ul>
-                          <span>
-                            <img
-                              src="assets/img/home-3/plain-icon.svg"
-                              alt=""
-                            />
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="col-md-6 wow animate fadeInRight"
-                  data-wow-delay="300ms"
-                  data-wow-duration="1500ms"
-                >
-                  <div className="single-blog magnetic-item">
-                    <div className="blog-img">
-                      <img
-                        className="img-fluid"
-                        src="assets/img/home-3/home3-blog-03.png"
-                        alt=""
-                      />
-                      <div className="blog-tag">
-                        <Link legacyBehavior href="/blog">
-                          <a>Web development</a>
-                        </Link>
-                      </div>
-                    </div>
-                    <div className="blog-content">
-                      <ul className="blog-meta">
-                        <li>
-                          <Link legacyBehavior href="/blog">
-                            <a>May 20, 2023</a>
-                          </Link>
-                        </li>
-                        <li>
-                          <Link legacyBehavior href="/blog">
-                            <a>Comment (3)</a>
-                          </Link>
-                        </li>
-                      </ul>
-                      <h4>
-                        <Link legacyBehavior href="/blog-details">
-                          <a>Navigating the Journey off Cloud Solution.</a>
-                        </Link>
-                      </h4>
-                      <div className="blog-footer">
-                        <div className="read-btn">
-                          <Link legacyBehavior href="/blog-details">
-                            <a>
-                              Read More
-                              <svg
-                                width={12}
-                                height={12}
-                                viewBox="0 0 13 13"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path d="M0 1H12M12 1V13M12 1L0.5 12" />
-                              </svg>
-                            </a>
-                          </Link>
-                        </div>
-                        <div className="social-area">
-                          <ul>
-                            <li>
-                              <a href="https://www.facebook.com/">
-                                <i className="bx bxl-facebook" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="https://twitter.com/">
-                                <i className="bx bxl-twitter" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="https://www.pinterest.com/">
-                                <i className="bx bxl-pinterest-alt" />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="https://www.instagram.com/">
-                                <i className="bx bxl-instagram" />
-                              </a>
-                            </li>
-                          </ul>
-                          <span>
-                            <img
-                              src="assets/img/home-3/plain-icon.svg"
-                              alt=""
-                            />
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                ))}
               </div>
+              {/* Pagination */}
               <div className="row">
                 <nav aria-label="Page navigation example">
                   <ul className="pagination justify-content-center">
-                    <li className="page-item disabled">
-                      <a className="page-link">
+                    <li className={`page-item ${page === 1 ? "disabled" : ""}`}>
+                      <a className="page-link" onClick={() => handlePageChange(page - 1)}>
                         <i className="bi bi-arrow-left" />
                       </a>
                     </li>
-                    <li className="page-item">
-                      <a className="page-link active" href="#">
-                        1
-                      </a>
-                    </li>
-                    <li className="page-item">
-                      <a className="page-link" href="#">
-                        2
-                      </a>
-                    </li>
-                    <li className="page-item">
-                      <a className="page-link" href="#">
-                        3
-                      </a>
-                    </li>
-                    <li className="page-item">
-                      <a className="page-link" href="#">
+                    {Array.from({ length: totalPages }, (_, index) => index + 1).map((pageNum) => (
+                      <li className={`page-item ${pageNum === page ? "active" : ""}`} key={pageNum}>
+                        <a className="page-link" onClick={() => handlePageChange(pageNum)}>
+                          {pageNum}
+                        </a>
+                      </li>
+                    ))}
+                    <li className={`page-item ${page === totalPages ? "disabled" : ""}`}>
+                      <a className="page-link" onClick={() => handlePageChange(page + 1)}>
                         <i className="bi bi-arrow-right" />
                       </a>
                     </li>
@@ -576,19 +190,17 @@ function BlogSidebarPage() {
             <div className="col-lg-4">
               <div className="widget-area">
                 <div className="single-widgets widget_search">
-                  <form>
-                    <div className="wp-block-search__inside-wrapper ">
+                  <form onSubmit={handleSearch}>
+                    <div className="wp-block-search__inside-wrapper">
                       <input
                         type="search"
-                        id="wp-block-search__input-1"
                         className="wp-block-search__input"
                         name="s"
                         placeholder="Search Here"
+                        value={searchQuery}
+                        onChange={handleSearch}
                       />
-                      <button
-                        type=""
-                        className="wp-block-search__button primary-btn3"
-                      >
+                      <button type="submit" className="wp-block-search__button primary-btn3">
                         Search
                       </button>
                     </div>
@@ -599,46 +211,15 @@ function BlogSidebarPage() {
                     <h4>Category</h4>
                   </div>
                   <ul className="wp-block-categoris-cloud">
-                    <li>
-                      <Link legacyBehavior href="/blog">
-                        <a>
-                          <span>Web Design</span>{" "}
-                          <span className="number-of-categoris">(30)</span>
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link legacyBehavior href="/blog">
-                        <a>
-                          <span>Apps Development</span>{" "}
-                          <span className="number-of-categoris">(18)</span>
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link legacyBehavior href="/blog">
-                        <a>
-                          <span>Software Development</span>{" "}
-                          <span className="number-of-categoris">(21)</span>
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link legacyBehavior href="/blog">
-                        <a>
-                          <span>Motion Graphics</span>{" "}
-                          <span className="number-of-categoris">(25)</span>
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link legacyBehavior href="/blog">
-                        <a>
-                          <span>UI/UX Design</span>{" "}
-                          <span className="number-of-categoris">(29)</span>
-                        </a>
-                      </Link>
-                    </li>
+                    {categories.map((category) => (
+                      <li key={category.id}>
+                        <Link legacyBehavior href={`/blog?category=${category.slug}`}>
+                          <a>
+                            <span>{category.name}</span> <span className="number-of-categoris">({category.count})</span>
+                          </a>
+                        </Link>
+                      </li>
+                    ))}
                   </ul>
                 </div>
                 <div className="single-widgets widget_egns_recent_post">
@@ -646,72 +227,33 @@ function BlogSidebarPage() {
                     <h4>Newest Posts</h4>
                   </div>
                   <div className="recent-post-wraper">
-                    <div className="widget-cnt">
+                    {newestPosts.map((post) => (
+                      <div className="widget-cnt">
                       <div className="wi">
                         <Link legacyBehavior href="/blog-details">
                           <a>
                             <img
-                              src="assets/img/inner-pages/blog-sidebar-1.png"
+                              src={post._embedded['wp:featuredmedia'][0].media_details.sizes.medium_large.source_url}
                               alt="image"
                             />
                           </a>
                         </Link>
                       </div>
                       <div className="wc">
-                        <h6>
+                        <h6
+                        >
                           <Link legacyBehavior href="/blog-details">
-                            <a>Grant Distributions Conti nu to Incr Ease.</a>
+                            <a>{post.title.rendered}</a>
                           </Link>
                         </h6>
                         <Link legacyBehavior href="/blog">
-                          <a>May 18, 2023</a>
+                          <a>{ new Date(post.date).toLocaleDateString()}</a>
                         </Link>
                       </div>
                     </div>
-                    <div className="widget-cnt">
-                      <div className="wi">
-                        <Link legacyBehavior href="/blog-details">
-                          <a>
-                            <img
-                              src="assets/img/inner-pages/blog-sidebar-2.png"
-                              alt="image"
-                            />
-                          </a>
-                        </Link>
-                      </div>
-                      <div className="wc">
-                        <h6>
-                          <Link legacyBehavior href="/blog-details">
-                            <a>Distributions Conti nu to grant Incr Ease.</a>
-                          </Link>
-                        </h6>
-                        <Link legacyBehavior href="/blog">
-                          <a>May 15, 2023</a>
-                        </Link>
-                      </div>
-                    </div>
-                    <div className="widget-cnt">
-                      <div className="wi">
-                        <Link legacyBehavior href="/blog-details">
-                          <a>
-                            <img
-                              src="assets/img/inner-pages/blog-sidebar-3.png"
-                              alt="image"
-                            />
-                          </a>
-                        </Link>
-                      </div>
-                      <div className="wc">
-                        <h6>
-                          <Link legacyBehavior href="/blog-details">
-                            <a>Conti nu to Incr Ease malesuada sapien sed.</a>
-                          </Link>
-                        </h6>
-                        <Link legacyBehavior href="/blog">
-                          <a>May 14, 2023</a>
-                        </Link>
-                      </div>
-                    </div>
+                    ))}
+                    
+                    
                   </div>
                 </div>
                 <div className="single-widgets widget_egns_tag">

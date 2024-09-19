@@ -73,8 +73,8 @@ function ProjectMasonaryPage() {
                     </div>
                     <div className="work-content">
                       <h3>
-                        <Link legacyBehavior href="/project-details">
-                          <a>{item.title}</a>
+                        <Link href={`/project/${item.slug}`}>
+                          {item.title}
                         </Link>
                       </h3>
                       <span>{item.category}</span>
