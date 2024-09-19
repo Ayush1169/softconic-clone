@@ -38,8 +38,9 @@ function AboutPage() {
      <Award5 />
       
       <Testimonial3 />
-      <Home3Contact />
       <Home3Team showAll={true} />
+      <Home3Contact />
+      
 
       
       {/* <Home3Blog /> */}
