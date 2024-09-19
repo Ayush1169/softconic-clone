@@ -13,6 +13,7 @@ import SuccessStory3 from "../components/successStorys/SuccessStory3";
 import Testimonial3 from "../components/testimonial/Testimonial3";
 import useBodyClass from "../hooks/useBodyClass";
 import Head from "next/head";
+import Technology from "../components/partner/Technology"
 
 export default function Home() {
   useBodyClass("home-dark2");
@@ -38,6 +39,7 @@ export default function Home() {
       {/* <Solution3 /> */}
       <Service5 />
       <Feature4 />
+      <Technology/>
       <Choose6 />
       <Testimonial3 />
       <SuccessStory3 />

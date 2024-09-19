@@ -72,7 +72,7 @@ function Feature4() {
                     <div className="number">
                       <h3 className="counter">{AboutUs.overview.clients.value}</h3>
                       <h3 className="ml-5">+</h3>
-                      <span>Clients</span>
+                      {/* <span>Clients</span> */}
                     </div>
                     <p>{AboutUs.overview.clients.description}</p>
                   </div>
@@ -101,7 +101,7 @@ function Feature4() {
                     <div className="number">
                     <h3 className="counter">{AboutUs.overview.projectsCompleted.value}</h3>
                     <h3 className="ml-5">+</h3>
-                      <span>Project</span>
+                      {/* <span>Project</span> */}
                     </div>
                     <p>{AboutUs.overview.projectsCompleted.description}</p>
                   </div>     
@@ -126,7 +126,7 @@ function Feature4() {
                   <div className="content">
                     <div className="number">
                       <h3 className="counter">{AboutUs.overview.members.value}</h3>
-                      <span>Members</span>
+                      {/* <span>Members</span> */}
                     </div>
                     <p>{AboutUs.overview.members.description}</p>
                   </div>     
