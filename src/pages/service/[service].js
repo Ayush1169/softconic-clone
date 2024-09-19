@@ -109,14 +109,15 @@ function HowWeWorkSection() {
 }
 
 function ServiceFAQArea({ faqSections }) {
+  if (!faqSections || faqSections.length === 0) return null;
   
   return (
     <div className="service-faq-area sec-mar">
       <div className="container">
         {faqSections.map((faqSection, sectionIndex) => (
-          <div key={sectionIndex} className="row gy-5">
+          <div key={sectionIndex} className="row gy-5 faq-section">
             <div className="col-lg-12">
-              <h2>{faqSection.title}</h2>
+              <h2 className="faq-title">{faqSection.title}</h2>
             </div>
             <FAQContent questions={faqSection.questions} sectionIndex={sectionIndex} layout={faqSection.layout} image={faqSection.image} />
           </div>
@@ -127,6 +128,8 @@ function ServiceFAQArea({ faqSections }) {
 }
 
 function FAQContent({ questions, sectionIndex, layout, image }) {
+  if (!questions || questions.length === 0) return null;
+
   const FAQItems = (
     <div className="faq-content-area">
       <div className="accordion" id={`accordionExample${sectionIndex}`}>
@@ -160,7 +163,7 @@ function FAQContent({ questions, sectionIndex, layout, image }) {
     </div>
   );
 
-  const ImageSection = (
+  const ImageSection = image && (
     <div className={`col-lg-6 wow animate ${layout ? 'fadeInRight' : 'fadeInLeft'}`} data-wow-delay="300ms" data-wow-duration="1500ms">
       <div className="faq-img magnetic-item">
         <img className="img-fluid" src={image} alt="" />
@@ -170,7 +173,7 @@ function FAQContent({ questions, sectionIndex, layout, image }) {
 
   return (
     <>
-      {layout && questions.length>0 ? (
+      {layout ? (
         <>
           <div className="col-lg-6 d-flex align-items-center wow animate fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
             {FAQItems}
