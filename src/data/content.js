@@ -220,7 +220,7 @@ export const AboutUs = {
   },
   whoWeAreData: {
     title: "Who We Are",
-    description: "EVD Technology is a leading digital solutions provider specializing in Shopify development, AI/ML services, SaaS development, and staff augmentation. We empower businesses with innovative and cost-effective technology solutions to drive growth and success.",
+    description: "EVD Technology is a leading digital solutions provider offering a comprehensive range of services, including mobile app development, website development, digital marketing, Shopify development, AI/ML solutions, SaaS development, staff augmentation, product development, and business automation. We empower businesses with innovative, scalable, and cost-effective technology solutions to drive growth, enhance efficiency, and achieve long-term success.",
     services: [
       "Innovative Solutions",
       "Custom Development",

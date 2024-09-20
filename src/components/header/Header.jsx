@@ -92,9 +92,7 @@ function Header() {
         </div>
         <div className="sidebar-content">
           <p>
-            Duis a orci nunc. Suspendisse ac convallis sapien, quis commodo
-            libero. Donec nec duomoi luctus, pellentesque lacus sed, mollis
-            going leo.
+          EVD Technology is a dynamic company committed to delivering innovative digital solutions that drive business growth. With a focus on client success, it helps businesses thrive in the ever-evolving tech landscape.
           </p>
         </div>
         <div className="address-card">
