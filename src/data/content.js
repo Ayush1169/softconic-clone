@@ -33,16 +33,17 @@ const HomePage = {
   teamMembers: {
     title: "Our team is made up of skilled professionals with diverse expertise in IT, digital solutions, and creative problem-solving. Together, we collaborate to deliver innovative, high-quality solutions that meet our clients' unique needs and drive their success.",
     members: [
-      { name: "Anshu Agrawal", role: "Founder & CEO" },
-      { name: "Neha Agrawal", role: "Co-founder & HR" },
-      { name: "Gulab Rabbani", role: "Senior Growth Consultant" },
-      { name: "Chinmayee Dash", role: "Chief Technical Officer" },
-      { name: "Shubham Kedia", role: "Digital Marketing Expert" },
-      { name: "Rajesh Rahangdale", role: "Technical Lead" },
-      { name: "Md Aish", role: "Technical Lead" },
-      { name: "Deepanshu Patel", role: "UI/UX Designer" }
+      { name: "Anshu Agrawal", role: "Founder & CEO", linkedin: "https://www.linkedin.com/in/anshu099/" },
+      { name: "Neha Agrawal", role: "Co-founder & HR", linkedin: "https://www.linkedin.com/in/neha-agrawal/" },
+      { name: "Gulab Rabbani", role: "Senior Growth Consultant", linkedin: "https://www.linkedin.com/in/gulab-rabbani/" },
+      { name: "Chinmayee Dash", role: "Chief Technical Officer", linkedin: "https://www.linkedin.com/in/chinmayee-d-171156141/" },
+      { name: "Shubham Kedia", role: "Digital Marketing Expert", linkedin: "https://www.linkedin.com/in/shubham-kedia/" },
+      { name: "Rajesh Rahangdale", role: "Technical Lead", linkedin: "https://www.linkedin.com/in/rajesh-rahangdale/" },
+      { name: "Md Aish", role: "Technical Lead", linkedin: "https://www.linkedin.com/in/md-aish/" },
+      { name: "Deepanshu Patel", role: "UI/UX Designer", linkedin: "https://www.linkedin.com/in/deepanshu-patel/" }
     ]
   },
+  
   solutions: [
     {
       title: "Web Development",
