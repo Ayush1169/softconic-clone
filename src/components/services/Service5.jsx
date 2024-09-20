@@ -1,8 +1,21 @@
 import Link from 'next/link'
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import HomePage from "../../data/content";
 
 function Service5() {
+
+  const videoRefs = useRef([]);
+
+  useEffect(() => {
+    videoRefs.current.forEach(video => {
+      if (video) {
+        video.play().catch(error => {
+          console.log("Autoplay was prevented. User interaction may be needed to play the video.");
+        });
+      }
+    });
+  }, []);
+
   return (
     <div className="home5-services-section"
     style={{ 
@@ -24,7 +37,12 @@ function Service5() {
           <div className="col-xl-4 col-md-6 col-sm-10  wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
             <div className="solution-card magnetic-item">
               <div className="video-container icon">
-                <video width="40%" height="auto" autoPlay loop muted>
+                <video width="40%" height="auto" 
+                ref={el => videoRefs.current[0] = el}
+                autoPlay 
+                loop 
+                muted 
+                playsInline>
                   <source src="/assets/videos/WEBDEV.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
@@ -48,7 +66,12 @@ function Service5() {
           <div className="col-xl-4 col-md-6 col-sm-10  wow animate fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
             <div className="solution-card magnetic-item">
             <div className="video-container icon">
-                <video width="40%" height="auto" autoPlay loop muted>
+            <video width="40%" height="auto" 
+                ref={el => videoRefs.current[1] = el}
+                autoPlay 
+                loop 
+                muted 
+                playsInline>
                   <source src="/assets/videos/MOBILEAPP.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
@@ -72,7 +95,12 @@ function Service5() {
           <div className="col-xl-4 col-md-6 col-sm-10  wow animate fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
             <div className="solution-card magnetic-item">
             <div className="video-container icon">
-                <video width="40%" height="auto" autoPlay loop muted>
+            <video width="40%" height="auto" 
+                ref={el => videoRefs.current[2] = el}
+                autoPlay 
+                loop 
+                muted 
+                playsInline>
                   <source src="/assets/videos/SOFTWARE_DEV.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
@@ -96,7 +124,12 @@ function Service5() {
           <div className="col-xl-4 col-md-6 col-sm-10  wow animate fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
             <div className="solution-card magnetic-item">
             <div className="video-container icon">
-                <video width="40%" height="auto" autoPlay loop muted>
+            <video width="40%" height="auto" 
+                ref={el => videoRefs.current[3] = el}
+                autoPlay 
+                loop 
+                muted 
+                playsInline>
                   <source src="/assets/videos/DM.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
@@ -120,7 +153,12 @@ function Service5() {
           <div className="col-xl-4 col-md-6 col-sm-10  wow animate fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
             <div className="solution-card magnetic-item">
             <div className="video-container icon">
-                <video width="40%" height="auto" autoPlay loop muted>
+            <video width="40%" height="auto" 
+                ref={el => videoRefs.current[4] = el}
+                autoPlay 
+                loop 
+                muted 
+                playsInline>
                   <source src="/assets/videos/UIUX.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
@@ -144,7 +182,12 @@ function Service5() {
           <div className="col-xl-4 col-md-6 col-sm-10  wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
             <div className="solution-card magnetic-item">
             <div className="video-container icon">
-                <video width="40%" height="auto" autoPlay loop muted>
+            <video width="40%" height="auto" 
+                ref={el => videoRefs.current[5] = el}
+                autoPlay 
+                loop 
+                muted 
+                playsInline>
                   <source src="/assets/videos/ERPCRM.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
@@ -168,7 +211,12 @@ function Service5() {
           <div className="col-xl-4 col-md-6 col-sm-10  wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
             <div className="solution-card magnetic-item">
             <div className="video-container icon">
-                <video width="40%" height="auto" autoPlay loop muted>
+            <video width="40%" height="auto" 
+                ref={el => videoRefs.current[6] = el}
+                autoPlay 
+                loop 
+                muted 
+                playsInline>
                   <source src="/assets/videos/SAAS.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
@@ -192,7 +240,12 @@ function Service5() {
           <div className="col-xl-4 col-md-6 col-sm-10  wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
             <div className="solution-card magnetic-item">
             <div className="video-container icon">
-                <video width="40%" height="auto" autoPlay loop muted>
+            <video width="40%" height="auto" 
+                ref={el => videoRefs.current[7] = el}
+                autoPlay 
+                loop 
+                muted 
+                playsInline>
                   <source src="/assets/videos/STAFFAUG.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
@@ -216,7 +269,12 @@ function Service5() {
           <div className="col-xl-4 col-md-6 col-sm-10  wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
             <div className="solution-card magnetic-item">
             <div className="video-container icon">
-                <video width="40%" height="auto" autoPlay loop muted>
+            <video width="40%" height="auto" 
+                ref={el => videoRefs.current[8] = el}
+                autoPlay 
+                loop 
+                muted 
+                playsInline>
                   <source src="/assets/videos/AIMI.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>

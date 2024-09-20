@@ -105,9 +105,14 @@ function Service4Page() {
         backgroundRepeat: "no-repeat"
       }}>
         <div className="container">
-          <div className="row g-4">
+          <div className="row g-4" 
+          
+          >
             {solutions.map((solution, index) => (
-              <div className="col-lg-4 col-md-6 col-sm-10" key={index}>
+              <div className="col-lg-4 col-md-6 col-sm-10" key={index}
+              style={{ 
+                height: "450px"
+               }}>
                 <div className="single-solution" style={{animationDelay: solution.delay}}>
                   <div className="background-img">
                     <img src={solution.image} alt={solution.title} />
