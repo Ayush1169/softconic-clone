@@ -97,7 +97,13 @@ function Service4Page() {
         title="Our Providing Services"
         pageName="SERVICES"
       />
-      <div className="home6-solution-section">
+      <div className="home6-solution-section"
+       style={{ 
+        backgroundImage: "url('/assets/img/Ellipse.png')",
+        backgroundSize: "cover", 
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat"
+      }}>
         <div className="container">
           <div className="row g-4">
             {solutions.map((solution, index) => (
