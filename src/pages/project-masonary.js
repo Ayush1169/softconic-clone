@@ -3,98 +3,87 @@ import Layout from "../components/layout/Layout";
 import Link from "next/link";
 import React, { useState } from "react";
 import data from "../data/mesonaryData";
+
 function ProjectMasonaryPage() {
   const [selectedCategory, setSelectedCategory] = useState("All");
 
   const handleCategoryFilter = (category) => {
     setSelectedCategory(category === "All" ? "All" : category);
   };
+
   const filteredData =
     selectedCategory === "All"
       ? data
       : data.filter((project) => project.category === selectedCategory);
+
+  const getColumnClass = (index) => {
+    switch(index) {
+      case 0: return "col-lg-4 col-sm-6"; // First row, small image
+      case 1: return "col-lg-6 col-sm-6"; // First row, bigger image
+      case 2:
+      case 3: return "col-lg-4 col-sm-6"; // Second row, both small
+      default: return "col-lg-4 col-sm-6"; // Third row and beyond, three per row
+    }
+  };
+
   return (
     <Layout>
       <Breadcrumb
         pageList="Projects Masonary"
-        title="Our Complited Projects"
+        title="Our Completed Projects"
         pageName="PROJECTS MASONARY"
       />
-      <div className="portfolio-masonary-page sec"
-       style={{ 
-        backgroundImage: "url('/assets/img/Ellipse.png')",
-        backgroundSize: "cover", 
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat"
-      }}>
-        <div className="container">
-          <div className="row">
+      <div className="portfolio-masonary-page sec-mar"
+        style={{ 
+          backgroundImage: "url('/assets/img/Ellipse.png')",
+          backgroundSize: "cover", 
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat"
+        }}>
+        <div className="container" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+          <div className="row" style={{ width: '100%' }}>
             <div className="col-12">
               <ul className="isotope-menu">
-                <li
-                  className={selectedCategory === "All" ? "active" : ""}
-                  onClick={() => handleCategoryFilter("All")}
-                >
-                  All
-                </li>
-                <li
-                  className={selectedCategory === "UI/UX" ? "active" : ""}
-                  onClick={() => handleCategoryFilter("UI/UX")}
-                >
-                  UI/UX
-                </li>
-                <li
-                  className={selectedCategory === "Web Design" ? "active" : ""}
-                  onClick={() => handleCategoryFilter("Web Design")}
-                >
-                  Web Design
-                </li>
-                <li
-                  className={selectedCategory === "Developing" ? "active" : ""}
-                  onClick={() => handleCategoryFilter("Developing")}
-                >
-                  Developing
-                </li>
-                <li
-                  className={
-                    selectedCategory === "Graphic Design" ? "active" : ""
-                  }
-                  onClick={() => handleCategoryFilter("Graphic Design")}
-                >
-                  Graphic Design
-                </li>
+                {["All", "UI/UX", "Web Design", "Developing", "Graphic Design"].map((category) => (
+                  <li
+                    key={category}
+                    className={selectedCategory === category ? "active" : ""}
+                    onClick={() => handleCategoryFilter(category)}
+                  >
+                    {category}
+                  </li>
+                ))}
               </ul>
             </div>
           </div>
-          <div className="row g-4 project-items mb-55">
-            {filteredData.map((item) => {
-              return (
-                <div
-                  key={item.id}
-                  className={`col-lg-${item.class} col-sm-6 single-item ${item.category}`}
-                >
-                  <div className="single-work magnetic-item">
-                    <div className="work-img">
-                      <img className="img-fluid" src={item.image} alt="" />
-                    </div>
-                    <div className="work-content">
-                      <h3>
-                        <Link href={`/project/${item.slug}`}>
-                          {item.title}
-                        </Link>
-                      </h3>
-                      <span>{item.category}</span>
-                    </div>
+          <div className="row g-4 project-items mb-55" style={{ width: '100%', justifyContent: 'center' }}>
+            {filteredData.map((item, index) => (
+              <div
+                key={item.id}
+                className={`${getColumnClass(index)} single-item ${item.category}`}
+                style={{ display: 'flex', justifyContent: 'center' }}
+              >
+                <div className="single-work magnetic-item" style={{ width: '100%' }}>
+                  <div className="work-img">
+                    <img className="img-fluid" src={item.image} alt={item.title} style={{ width: '100%', height: 'auto' }} />
+                  </div>
+                  <div className="work-content">
+                    <h3>
+                      <Link href={`/project/${item.slug}`}>
+                        {item.title}
+                      </Link>
+                    </h3>
+                    <span>{item.category}</span>
                   </div>
                 </div>
-              );
-            })}
+              </div>
+            ))}
           </div>
-          <div className="row">
+          <div className="row" style={{ width: '100%' }}>
             <div className="col-lg-12 d-flex justify-content-center">
               <div className="load-more-btn">
-                <Link legacyBehavior href="/project-masonary">
-                  <a className="primary-btn3">Load More</a>
+                <Link href="/project-masonary" className="primary-btn3">
+                  Load More
                 </Link>
               </div>
             </div>
