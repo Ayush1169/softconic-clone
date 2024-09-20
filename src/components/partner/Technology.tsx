@@ -1,109 +1,24 @@
-import React from 'react'
+import React from 'react';
 import Marquee from "react-fast-marquee";
+import { FrontEndData } from "../../data/techImg";
+
 function Technology() {
   return (
     <div className="home4-trusted-client-area sec-mar">
-    <p>Technologies We Use</p>
-    <div className="marque-wrap">
-      <div className="marquee_text">
-        <Marquee>
-
-        
-        <div className="single-client">
-          <img className="img-fluid" src="assets/img/home-4/client-01.svg" alt="" />
+      <p>Technologies We Use</p>
+      <div className="marque-wrap">
+        <div className="marquee_text">
+          <Marquee>
+            {FrontEndData.map((value) => (
+              <div key={value.id} className="single-client"  style={{ margin: '0 20px' }}>
+                <img className="img-fluid" src={value.imgSrc} alt={value.altName} />
+              </div>
+            ))}
+          </Marquee>
         </div>
-        <div className="single-client">
-          <img className="img-fluid" src="assets/img/home-4/client-02.svg" alt="" />
-        </div>
-        <div className="single-client">
-          <img className="img-fluid" src="assets/img/home-4/client-03.svg" alt="" />
-        </div>
-        <div className="single-client">
-          <img className="img-fluid" src="assets/img/home-4/client-04.svg" alt="" />
-        </div>
-        <div className="single-client">
-          <img className="img-fluid" src="assets/img/home-4/client-05.svg" alt="" />
-        </div>
-        <div className="single-client">
-          <img className="img-fluid" src="assets/img/home-4/client-01.svg" alt="" />
-        </div>
-        <div className="single-client">
-          <img className="img-fluid" src="assets/img/home-4/client-02.svg" alt="" />
-        </div>
-        <div className="single-client">
-          <img className="img-fluid" src="assets/img/home-4/client-03.svg" alt="" />
-        </div>
-        <div className="single-client">
-          <img className="img-fluid" src="assets/img/home-4/client-04.svg" alt="" />
-        </div>
-        <div className="single-client">
-          <img className="img-fluid" src="assets/img/home-4/client-05.svg" alt="" />
-        </div>
-        <div className="single-client">
-          <img className="img-fluid" src="assets/img/home-4/client-01.svg" alt="" />
-        </div>
-        <div className="single-client">
-          <img className="img-fluid" src="assets/img/home-4/client-02.svg" alt="" />
-        </div>
-        <div className="single-client">
-          <img className="img-fluid" src="assets/img/home-4/client-03.svg" alt="" />
-        </div>
-        <div className="single-client">
-          <img className="img-fluid" src="assets/img/home-4/client-04.svg" alt="" />
-        </div>
-        <div className="single-client">
-          <img className="img-fluid" src="assets/img/home-4/client-05.svg" alt="" />
-        </div>
-        <div className="single-client">
-          <img className="img-fluid" src="assets/img/home-4/client-01.svg" alt="" />
-        </div>
-        <div className="single-client">
-          <img className="img-fluid" src="assets/img/home-4/client-02.svg" alt="" />
-        </div>
-        <div className="single-client">
-          <img className="img-fluid" src="assets/img/home-4/client-03.svg" alt="" />
-        </div>
-        <div className="single-client">
-          <img className="img-fluid" src="assets/img/home-4/client-04.svg" alt="" />
-        </div>
-        <div className="single-client">
-          <img className="img-fluid" src="assets/img/home-4/client-05.svg" alt="" />
-        </div>
-        <div className="single-client">
-          <img className="img-fluid" src="assets/img/home-4/client-01.svg" alt="" />
-        </div>
-        <div className="single-client">
-          <img className="img-fluid" src="assets/img/home-4/client-02.svg" alt="" />
-        </div>
-        <div className="single-client">
-          <img className="img-fluid" src="assets/img/home-4/client-03.svg" alt="" />
-        </div>
-        <div className="single-client">
-          <img className="img-fluid" src="assets/img/home-4/client-04.svg" alt="" />
-        </div>
-        <div className="single-client">
-          <img className="img-fluid" src="assets/img/home-4/client-05.svg" alt="" />
-        </div>
-        <div className="single-client">
-          <img className="img-fluid" src="assets/img/home-4/client-01.svg" alt="" />
-        </div>
-        <div className="single-client">
-          <img className="img-fluid" src="assets/img/home-4/client-02.svg" alt="" />
-        </div>
-        <div className="single-client">
-          <img className="img-fluid" src="assets/img/home-4/client-03.svg" alt="" />
-        </div>
-        <div className="single-client">
-          <img className="img-fluid" src="assets/img/home-4/client-04.svg" alt="" />
-        </div>
-        <div className="single-client">
-          <img className="img-fluid" src="assets/img/home-4/client-05.svg" alt="" />
-        </div>
-        </Marquee>
       </div>
     </div>
-  </div>
-  )
+  );
 }
 
-export default Technology
+export default Technology;

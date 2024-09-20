@@ -1,0 +1,141 @@
+export const FrontEndData = [
+    {
+      id: 1,
+      imgSrc: "/assets/img/technologies/angular.svg",
+      title: "Angular",
+      altName: "Digital application​",
+    },
+    {
+      id: 2,
+      imgSrc: "/assets/img/technologies/react.svg",
+      title: "React",
+      altName: "Website solution​",
+    },
+    {
+      id: 3,
+      imgSrc: "/assets/img/technologies/javascript.svg",
+      title: "JavaScript",
+      altName: "Mobile application solution​",
+    },
+    {
+      id: 4,
+      imgSrc: "/assets/img/technologies/html.svg",
+      title: "HTML",
+      altName: "Local businesses​​",
+    },
+    {
+      id: 5,
+      imgSrc: "/assets/img/technologies/css.svg",
+      title: "CSS",
+      altName: "International businesses​​",
+    },
+    {
+      id: 6,
+      imgSrc: "/assets/img/technologies/nextJs.svg",
+      title: "Next.js",
+      altName: "Design collaboration​​​",
+    },
+    {
+      id: 7,
+      imgSrc: "/assets/img/technologies/vue.svg",
+      title: "Vue",
+      altName: "Development services​​​​",
+    },
+    {
+      id: 8,
+      imgSrc: "/assets/img/technologies/php.svg",
+      title: "PHP",
+      altName: "Deployment support​​",
+    },
+    {
+      id: 9,
+      imgSrc: "/assets/img/technologies/node.svg",
+      title: "Node",
+      altName: "24*7 support​​​​",
+    },
+    {
+      id: 10,
+      imgSrc: "/assets/img/technologies/net.svg",
+      title: ".Net",
+      altName: "Customized web development​​",
+    },
+    {
+      id: 11,
+      imgSrc: "/assets/img/technologies/django.svg",
+      title: "Django",
+      altName: "Android app development​​​​",
+    },
+    {
+      id: 12,
+      imgSrc: "/assets/img/technologies/java.svg",
+      title: "Java",
+      altName: "iOS app development​​​​",
+    },
+    {
+      id: 13,
+      imgSrc: "/assets/img/technologies/android.svg",
+      title: "Android",
+      altName: "Digital marketing services​",
+    },
+    {
+      id: 14,
+      imgSrc: "/assets/img/technologies/ios.svg",
+      title: "iOS",
+      altName: "New technologies adoption​​​",
+    },
+    {
+      id: 15,
+      imgSrc: "/assets/img/technologies/flutter.svg",
+      title: "Flutter",
+      altName: "Customized web development​",
+    },
+    {
+      id: 16,
+      imgSrc: "/assets/img/technologies/reactNative.svg",
+      title: "React Native",
+      altName: "Deployment support​​​​",
+    },
+    {
+      id: 17,
+      imgSrc: "/assets/img/technologies/aws.svg",
+      title: "AWS",
+      altName: "Website solution​",
+    },
+    {
+      id: 18,
+      imgSrc: "/assets/img/technologies/postgreSQL.svg",
+      title: "PostgreSQL",
+      altName: "Mobile application solution​",
+    },
+    {
+      id: 19,
+      imgSrc: "/assets/img/technologies/mongoDB.svg",
+      title: "MongoDB",
+      altName: "Development services​",
+    },
+    {
+      id: 20,
+      imgSrc: "/assets/img/technologies/mySQL.svg",
+      title: "MySQL",
+      altName: "International businesses​​",
+    },
+    {
+      id: 21,
+      imgSrc: "/assets/img/technologies/ai.svg",
+      title: "AI",
+      altName: "AI technologies",
+    },
+    {
+      id: 22,
+      imgSrc: "/assets/img/technologies/mi.svg",
+      title: "ML",
+      altName: "Machine Learning solutions",
+    },
+    {
+      id: 23,
+      imgSrc: "/assets/img/technologies/dataAnalytics.svg",
+      title: "Data Analytics",
+      altName: "Data-driven solutions",
+    }
+  ];
+  

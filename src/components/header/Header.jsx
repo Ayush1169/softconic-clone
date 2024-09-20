@@ -80,9 +80,9 @@ function Header() {
       >
         <div className="siderbar-top">
           <div className="sidebar-log">
-            <Link legacyBehavior href="/">
-              <a>
-                <img src="/assets/img/logo.svg" alt="" />
+            <Link legacyBehavior href="/" >
+              <a >
+                <img src="/assets/img/EVDT-LOGO.png" alt=""  style={{width:"50%"}}/>
               </a>
             </Link>
           </div>
@@ -106,8 +106,7 @@ function Header() {
                 </div>
                 <div className="info">
                   <p>
-                    168/170, Avenue 01, Old York Drive Rich Mirpur DOHS,
-                    Bangladesh
+                  Infront of Fitness Mantra Gym, Plot No: 667/7, Second Floor, Ward 02, DDM Rd, Korba, Chhattisgarh, 495677
                   </p>
                 </div>
               </div>
@@ -116,8 +115,8 @@ function Header() {
                   <i className="fas fa-phone-alt" />
                 </div>
                 <div className="info">
-                  <a href="tel:05661111985">+880 566 1111 985</a>
-                  <a href="tel:06571111576">+880 657 1111 576</a>
+                  <a href="tel:+91-7829401605">+91-7829401605</a>
+                  <a href="tel:+91-6261743903">+91-6261743903</a>
                 </div>
               </div>
               <div className="single-info">
@@ -125,8 +124,8 @@ function Header() {
                   <i className="far fa-envelope" />
                 </div>
                 <div className="info">
-                  <a href="mailto: info@example.com">info@example.com</a>
-                  <a href="mailto: info@support.com">info@support.com</a>
+                  <a href="mailto: sales@evdtechnology.com">sales@evdtechnology.com</a>
+                  <a href="mailto: anshu@evdtechnology.com">anshu@evdtechnology.com</a>
                 </div>
               </div>
             </div>
@@ -138,26 +137,13 @@ function Header() {
           <p className="para">Follow us on Social Network</p>
           <div className="blog-widget-body">
             <ul className="follow-list d-flex flex-row align-items-start gap-4">
-              <li>
-                <a href="https://www.facebook.com/">
-                  <i className="bx bxl-facebook" />
-                </a>
-              </li>
-              <li>
-                <a href="https://www.twitter.com/">
-                  <i className="bx bxl-twitter" />
-                </a>
-              </li>
-              <li>
-                <a href="https://www.instagram.com/">
-                  <i className="bx bxl-instagram" />
-                </a>
-              </li>
-              <li>
-                <a href="https://www.pinterest.com/">
-                  <i className="bx bxl-pinterest" />
-                </a>
-              </li>
+
+      
+                <li><a target="_blank" href="https://www.facebook.com/evdtechnologyofficial/"><i className="bx bxl-facebook" /></a></li>
+                <li><a target="_blank" href="https://www.youtube.com/@evdtechnology6379"><i className="bx bxl-youtube" /></a></li>
+                <li><a target="_blank" href="https://www.linkedin.com/company/evdtechnologyllp"><i className="bx bxl-linkedin" /></a></li>
+                <li><a target="_blank" href="https://www.instagram.com/evdtechnologyllp/"><i className="bx bxl-instagram" /></a></li>
+         
             </ul>
           </div>
         </div>
@@ -1143,19 +1129,16 @@ function Header() {
               </ul> */}
             </li>
             <li
-              className={`menu-item-has-children ${[
-                "/blog",
-                "/blog-standard",
+              className={` ${[
+          
                 "/blog-sidebar",
-                "/blog-masonary",
-                "/blog-details",
               ].includes(currentRoute)
                 ? "active"
                 : ""
                 }`}
             >
               <a
-                href="#"
+                href="/blog-sidebar"
                 className={`drop-down ${state.activeMenu === "blog" ? "active" : ""
                   }`}
                 onClick={() => toggleMenu("blog")}
@@ -1167,7 +1150,7 @@ function Header() {
                   }`}
                 onClick={() => toggleMenu("blog")}
               />
-              <ul
+              {/* <ul
                 className={`sub-menu ${state.activeMenu === "blog" ? "d-block" : ""
                   }`}
               >
@@ -1222,7 +1205,7 @@ function Header() {
                     </a>
                   </Link>
                 </li>
-              </ul>
+              </ul> */}
             </li>
           </ul>
           <div className="d-lg-none d-block">
