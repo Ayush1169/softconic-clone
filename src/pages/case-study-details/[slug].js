@@ -1,26 +1,24 @@
 import Breadcrumb from "../../components/common/Breadcrumb";
 import Layout from "../../components/layout/Layout";
 import React from "react";
-import { caseStudies } from "../../data/content"; // Make sure this imports the array
-
+import { caseStudies } from "../../data/content";
 import { useRouter } from "next/router";
 
 const CaseStudyDetailsPage = () => {
   const router = useRouter();
-  const { slug } = router.query; // Get the slug from the URL
+  const { slug } = router.query;
 
-  // Find the case study based on the slug
   const caseStudy = caseStudies.find((study) => study.slug === slug);
 
   if (!caseStudy) {
-    return <p>Loading...</p>; // You can also show a not found message here
+    return <p>Loading...</p>;
   }
 
   return (
     <Layout>
       <Breadcrumb
         pageList="Case Study Details"
-        title={caseStudy.title}
+        title={caseStudy.mainTitle}
         pageName="CASE STUDY DETAILS"
       />
       <div className="case-study-details sec-mar">
@@ -28,7 +26,7 @@ const CaseStudyDetailsPage = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="case-study-title">
-                <h2>{caseStudy.mainTitle}</h2>
+                <h1>{caseStudy.mainTitle}</h1>
               </div>
               <div className="case-big-img magnetic-item">
                 <img
@@ -40,6 +38,22 @@ const CaseStudyDetailsPage = () => {
               <div className="case-content mb-60">
                 <p>{caseStudy.description}</p>
               </div>
+              
+              {/* Project Challenges Section */}
+              <div className="row mb-120">
+  <div className="col-lg-12">
+    <div className="case-content">
+      <h2>Project Challenges</h2>
+      <ul>
+        {caseStudy.projectChallenges.map((challenge, index) => (
+          <li key={index} style={{ color: '#fefefe' }}>{challenge}</li>
+        ))}
+      </ul>
+    </div>
+  </div>
+</div>
+
+
               <div className="row g-lg-4 gy-5 mb-120">
                 <div className="col-lg-6 d-flex align-items-center">
                   <div className="case-content">
@@ -52,7 +66,7 @@ const CaseStudyDetailsPage = () => {
                     <img
                       className="img-fluid"
                       src={caseStudy.overviewImage}
-                      alt=""
+                      alt="Overview Image"
                     />
                   </div>
                 </div>
@@ -63,7 +77,7 @@ const CaseStudyDetailsPage = () => {
                     <img
                       className="img-fluid"
                       src={caseStudy.solutionImage}
-                      alt=""
+                      alt="Solution Image"
                     />
                   </div>
                 </div>
@@ -85,7 +99,7 @@ const CaseStudyDetailsPage = () => {
                       <div className="col-xl-3 col-sm-6" key={index}>
                         <div className="single-process magnetic-item">
                           <div className="icon">
-                            <img src={step.icon} alt="" />
+                            <img src={step.icon} alt={`${step.title} Icon`} />
                           </div>
                           <span>{step.stepNumber}</span>
                           <h3>{step.title}</h3>
@@ -93,6 +107,22 @@ const CaseStudyDetailsPage = () => {
                         </div>
                       </div>
                     ))}
+                  </div>
+                </div>
+              </div>
+              <div className="row mb-120">
+                <div className="col-lg-12">
+                  <div className="case-content">
+                    <h2>Outcomes</h2>
+                    <p>{caseStudy.outcomes}</p>
+                  </div>
+                </div>
+              </div>
+              <div className="row mb-120">
+                <div className="col-lg-12">
+                  <div className="case-content">
+                    <h2>Conclusion</h2>
+                    <p>{caseStudy.conclusion}</p>
                   </div>
                 </div>
               </div>
@@ -108,9 +138,24 @@ const CaseStudyDetailsPage = () => {
                           <img
                             className="img-fluid"
                             src={image}
-                            alt=""
+                            alt={`Additional Image ${index + 1}`}
                           />
                         </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+              <div className="row mb-120">
+                <div className="col-lg-12">
+                  <div className="case-content">
+                    <h2>Testimonials</h2>
+                    {caseStudy.testimonials.map((testimonial, index) => (
+                      <div key={index} className="mb-4">
+                        <blockquote>
+                          <p>"{testimonial.quote}"</p>
+                        </blockquote>
+                        <p className="text-right">- {testimonial.author}</p>
                       </div>
                     ))}
                   </div>

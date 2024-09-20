@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
 import HomePage from "../../data/content";
-import Home from '../../pages';
 
 function Service5() {
   return (
