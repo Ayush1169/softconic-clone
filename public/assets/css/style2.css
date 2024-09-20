@@ -648,6 +648,13 @@ video {
     width: 20%;
   }
 }
+@media (max-width: 767px) {
+  .header-area2 .header-logo {
+    padding: 10px 0;
+    width: 40%; 
+  }
+}
+
 
 .header-area2 .menu-close-btn i {
   color: var(--white);

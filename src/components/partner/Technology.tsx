@@ -3,7 +3,7 @@ import Marquee from "react-fast-marquee";
 function Technology() {
   return (
     <div className="home4-trusted-client-area sec-mar">
-    <p>We take care of more than 1.5k Trusted Allies</p>
+    <p>Technologies We Use</p>
     <div className="marque-wrap">
       <div className="marquee_text">
         <Marquee>
