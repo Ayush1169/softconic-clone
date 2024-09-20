@@ -75,13 +75,19 @@ function BlogSidebarPage() {
   };
 
   return (
-    <Layout>
+    <Layout >
       <Breadcrumb
         pageList="BLOG SIDEBAR"
         title="Exploring The Softconic Blog"
         pageName="Blog Sidebar"
       />
-      <div className="home3-blog-area sec-mar">
+      <div className="home3-blog-area sec-mar"
+       style={{ 
+        backgroundImage: "url('/assets/img/Ellipse.png')",
+        backgroundSize: "cover", 
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat"
+      }}>
         <div className="container">
           <div className="row g-lg-4 gy-5">
             <div className="col-lg-8">
@@ -95,15 +101,15 @@ function BlogSidebarPage() {
                   >
                     <div className="single-blog magnetic-item">
                       <div className="blog-img">
-                      <img
-  src={post._embedded['wp:featuredmedia'][0].media_details.sizes.medium.source_url}
-  alt={post.title.rendered}
-  style={{
-    width: '100%', // This ensures the image takes up the full width of its container
-    height: '200px', // Set a fixed height (adjust as needed)
-    objectFit: 'cover' // Ensures the image maintains aspect ratio and fills the area
-  }}
-/>
+                        <img
+                          src={post._embedded['wp:featuredmedia'][0].media_details.sizes.medium.source_url}
+                          alt={post.title.rendered}
+                          style={{
+                            width: '100%', // This ensures the image takes up the full width of its container
+                            height: '200px', // Set a fixed height (adjust as needed)
+                            objectFit: 'cover' // Ensures the image maintains aspect ratio and fills the area
+                          }}
+                        />
 
                         <div className="blog-tag">
                           <Link legacyBehavior href="/blog">
@@ -125,16 +131,16 @@ function BlogSidebarPage() {
                           </li>
                         </ul>
                         <h4 style={{
-  display: '-webkit-box',
-  WebkitLineClamp: 2,
-  WebkitBoxOrient: 'vertical',
-  overflow: 'hidden',
-  textOverflow: 'ellipsis',
-}}>
-  <Link legacyBehavior href={`/blog-details/${post.id}`}>
-    <a>{post.title.rendered}</a>
-  </Link>
-</h4>
+                          display: '-webkit-box',
+                          WebkitLineClamp: 2,
+                          WebkitBoxOrient: 'vertical',
+                          overflow: 'hidden',
+                          textOverflow: 'ellipsis',
+                        }}>
+                          <Link legacyBehavior href={`/blog-details/${post.id}`}>
+                            <a>{post.title.rendered}</a>
+                          </Link>
+                        </h4>
 
                         <div className="blog-footer">
                           <div className="read-btn">
@@ -229,31 +235,31 @@ function BlogSidebarPage() {
                   <div className="recent-post-wraper">
                     {newestPosts.map((post) => (
                       <div className="widget-cnt">
-                      <div className="wi">
-                        <Link legacyBehavior href="/blog-details">
-                          <a>
-                            <img
-                              src={post._embedded['wp:featuredmedia'][0].media_details.sizes.medium_large.source_url}
-                              alt="image"
-                            />
-                          </a>
-                        </Link>
-                      </div>
-                      <div className="wc">
-                        <h6
-                        >
+                        <div className="wi">
                           <Link legacyBehavior href="/blog-details">
-                            <a>{post.title.rendered}</a>
+                            <a>
+                              <img
+                                src={post._embedded['wp:featuredmedia'][0].media_details.sizes.medium_large.source_url}
+                                alt="image"
+                              />
+                            </a>
                           </Link>
-                        </h6>
-                        <Link legacyBehavior href="/blog">
-                          <a>{ new Date(post.date).toLocaleDateString()}</a>
-                        </Link>
+                        </div>
+                        <div className="wc">
+                          <h6
+                          >
+                            <Link legacyBehavior href="/blog-details">
+                              <a>{post.title.rendered}</a>
+                            </Link>
+                          </h6>
+                          <Link legacyBehavior href="/blog">
+                            <a>{new Date(post.date).toLocaleDateString()}</a>
+                          </Link>
+                        </div>
                       </div>
-                    </div>
                     ))}
-                    
-                    
+
+
                   </div>
                 </div>
                 <div className="single-widgets widget_egns_tag">

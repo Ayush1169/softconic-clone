@@ -3,7 +3,14 @@ import Marquee from "react-fast-marquee";
 import { AboutUs } from '../../data/content';
 function WhatWeDo5() {
   return (
-    <div className="home5-process-area mb-130">
+    
+    <div className="home5-process-area mb-130"
+    style={{ 
+      backgroundImage: "url('/assets/img/Ellipse.png')",
+      backgroundSize: "cover", 
+      backgroundPosition: "center",
+      backgroundRepeat: "no-repeat"
+    }}>
     <div className="container">
       <div className="row mb-55 wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
         <div className="col-lg-12 d-flex align-items-center justify-content-between flex-wrap gap-2">

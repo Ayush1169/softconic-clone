@@ -5,7 +5,13 @@ import Home from '../../pages';
 
 function Service5() {
   return (
-    <div className="home5-services-section">
+    <div className="home5-services-section"
+    style={{ 
+      backgroundImage: "url('/assets/img/Ellipse.png')",
+      backgroundSize: "cover", 
+      backgroundPosition: "center",
+      backgroundRepeat: "no-repeat"
+    }}>
       <div className="container">
         <div className="row mb-55 wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
           <div className="col-lg-12">

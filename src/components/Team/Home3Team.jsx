@@ -5,8 +5,15 @@ function Home3Team({ showAll }) {
   const membersToDisplay = showAll ? HomePage.teamMembers.members : HomePage.teamMembers.members.slice(0, 4);
 
   return (
-    <div className="home3-team-area sec-mar">
-      <div className="container">
+    <div className="home3-team-area sec-mar"
+   >
+      <div className="container"
+       style={{ 
+        backgroundImage: "url('/assets/img/Ellipse.png')",
+        backgroundSize: "cover", 
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat"
+      }}>
         <div className="row mb-55 wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
           <div className="col-lg-12 d-flex justify-content-center">
             <div className="section-title-3 text-center">
@@ -14,8 +21,9 @@ function Home3Team({ showAll }) {
               <p>{HomePage.teamMembers.title}</p>
             </div>
           </div>
-        </div> 
-        <div className="row">
+        </div>
+        <div className="row"
+        >
           {membersToDisplay.map((member, index) => (
             <div
               key={index}

@@ -20,7 +20,13 @@ function ProjectMasonaryPage() {
         title="Our Complited Projects"
         pageName="PROJECTS MASONARY"
       />
-      <div className="portfolio-masonary-page sec-mar">
+      <div className="portfolio-masonary-page sec"
+       style={{ 
+        backgroundImage: "url('/assets/img/Ellipse.png')",
+        backgroundSize: "cover", 
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat"
+      }}>
         <div className="container">
           <div className="row">
             <div className="col-12">

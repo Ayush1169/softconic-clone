@@ -5,7 +5,13 @@ function About5() {
   const [isOpen, setOpen] = useState(false)
   return (
     <div className="home5-about-area pt-130 mb-130" id="home5-about-area">
-    <div className="container">
+    <div className="container"
+    style={{ 
+      backgroundImage: "url('/assets/img/Ellipse.png')",
+      backgroundSize: "cover", 
+      backgroundPosition: "center",
+      backgroundRepeat: "no-repeat"
+    }}>
       <div className="row g-4 gy-5">
         <div className="col-lg-6 wow animate fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
           <div className="about-content">

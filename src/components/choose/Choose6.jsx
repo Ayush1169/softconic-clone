@@ -4,11 +4,23 @@ import HomePage from "../../data/content";
 
 function Choose6() {
   return (
-    <div className="home6-choose-section sec-mar">
+    <div className="home6-choose-section sec-mar"
+    style={{ 
+      backgroundImage: "url('/assets/img/Ellipse.png')",
+      backgroundSize: "cover", 
+      backgroundPosition: "center",
+      backgroundRepeat: "no-repeat"
+    }}>
       <div className="container">
         <div className="row">
           <div className="choose-top">
-            <div className="row">
+            <div className="row"
+            style={{ 
+              backgroundImage: "url('/assets/img/Ellipse.png')",
+              backgroundSize: "cover", 
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat"
+            }}>
               <div
                 className="col-lg-6 wow animate fadeInUp"
                 data-wow-delay="200ms"

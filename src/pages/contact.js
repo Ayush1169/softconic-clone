@@ -90,7 +90,13 @@ function Contactpage() {
   return (
     <Layout>
       <Breadcrumb pageList="Contact" title="For Any Query" pageName="CONTACT" />
-      <div className="contact-page-wrap sec-mar">
+      <div className="contact-page-wrap sec-mar"
+       style={{ 
+        backgroundImage: "url('/assets/img/Ellipse.png')",
+        backgroundSize: "cover", 
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat"
+      }}>
         <div className="container">
           <div className="row g-lg-4 gy-5">
             <div className="col-lg-6">
@@ -292,7 +298,7 @@ function Contactpage() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-5 col-md-6 col-sm-10">
+              <div className="col-lg-5 col-md-6 col-sm-10 ">
                 <div className="office-location-signle">
                   <a
                     className="map-button"

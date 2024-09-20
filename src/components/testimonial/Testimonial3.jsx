@@ -11,7 +11,13 @@ import 'swiper/css/effect-fade';
 
 function Testimonial3() {
   return (
-    <div className="home3-testimonil-area sec-mar">
+    <div className="home3-testimonil-area sec-mar"
+    style={{ 
+      backgroundImage: "url('/assets/img/Ellipse.png')",
+      backgroundSize: "cover", 
+      backgroundPosition: "center",
+      backgroundRepeat: "no-repeat"
+    }}>
       <div className="container">
         <div className="row mb-55 wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
           <div className="col-lg-12 d-flex align-items-center justify-content-between gap-4 flex-wrap">
