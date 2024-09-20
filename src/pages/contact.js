@@ -4,6 +4,8 @@ import { ToastContainer, toast } from "react-toastify";
 import Breadcrumb from "../components/common/Breadcrumb";
 import Layout from "../components/layout/Layout";
 import 'react-toastify/dist/ReactToastify.css';
+import Aero from "../../public/assets/img/aero.svg"
+import Image from "next/image";
 
 function Contactpage() {
   const [formValues, setFormValues] = useState({
@@ -255,6 +257,66 @@ function Contactpage() {
                       </div>
                     </div>
                   </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="location-section pb-120">
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-lg-5 col-md-6 col-sm-10">
+                <div className="office-location-signle">
+                  <a
+                    className="map-button"
+                    href="https://www.google.com/maps/place/EVD+Technology+LLP/@22.3530279,82.7020842,17z/data=!3m2!4b1!5s0x3a278f2e1ea838eb:0xd1a92c85d2f85e57!4m6!3m5!1s0x3a2788cb666b7427:0xff101e61b70ad2!8m2!3d22.3530279!4d82.7020842!16s%2Fg%2F11bvtg_v2v?entry=ttu"
+                    target="_blank"
+                    role="button"
+                  >
+                    <i className="bi bi-geo-alt" />
+                    <h5>View Map</h5>
+                    <Image src={Aero} alt="Arrow Icon" />
+                  </a>
+                  <div className="content">
+                    <h3>Head Office</h3>
+                    <a
+                      href="https://www.google.com/maps/place/EVD+Technology+LLP/@22.3530279,82.7020842,17z/data=!3m2!4b1!5s0x3a278f2e1ea838eb:0xd1a92c85d2f85e57!4m6!3m5!1s0x3a2788cb666b7427:0xff101e61b70ad2!8m2!3d22.3530279!4d82.7020842!16s%2Fg%2F11bvtg_v2v?entry=ttu"
+                      target="_blank"
+                      style={{ color: "black !important" }}
+                    >
+                      <p style={{ color: "black !important" }}>
+                        Infront of Fitness Mantra Gym, Plot No: 667/7, Second
+                        Floor, Ward 02, DDM Rd, Korba, Chhattisgarh, 495677
+                      </p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-5 col-md-6 col-sm-10">
+                <div className="office-location-signle">
+                  <a
+                    className="map-button"
+                    href="https://www.google.com/maps/place/Progressive+Point/@21.2129458,81.6633226,17z/data=!3m1!4b1!4m6!3m5!1s0x3a28dd2051f9c227:0x3b746deed9b1a21d!8m2!3d21.2129458!4d81.6633226!16s%2Fg%2F11gy1lxvf4?entry=ttu"
+                    target="_blank"
+                    role="button"
+                  >
+                    <i className="bi bi-geo-alt" />
+                    <h5>View Map</h5>
+                    <Image src={Aero} alt="Arrow Icon" />
+                  </a>
+                  <div className="content">
+                    <h3>Branch Office</h3>
+                    <a
+                      href="https://www.google.com/maps/place/Progressive+Point/@21.2129458,81.6633226,17z/data=!3m1!4b1!4m6!3m5!1s0x3a28dd2051f9c227:0x3b746deed9b1a21d!8m2!3d21.2129458!4d81.6633226!16s%2Fg%2F11gy1lxvf4?entry=ttu"
+                      target="_blank"
+                      style={{ color: "black !important" }}
+                    >
+                      <p style={{ color: "black !important" }}>
+                        Office no 152, 1st Floor, Progressive Point, Near Fruit
+                        Market, Lalpur, Raipur, Chhattisgarh, 492001
+                      </p>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>

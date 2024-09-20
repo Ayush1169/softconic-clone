@@ -6692,7 +6692,7 @@ video {
 }
 
 .home3-contact-area {
-  background-image: url(../img/home-3/home3-contact-bg.png);
+  background-image: url(../img/Contact.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -13404,6 +13404,113 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
     font-size: 0.9rem;
   }
 }
+
+
+.office-location-signle {
+  border: 1px solid #444444;
+  padding: 10px 10px;
+  text-align: center;
+  background-color: #1c1c1c;
+  color: #ffffff; 
+  margin-top: 40px;
+  height: 500px;
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .office-location-signle {
+    padding: 10px 10px;
+  }
+}
+
+.office-location-signle .map-button {
+  position: relative;
+  cursor: pointer;
+  width: 235px;
+  height: 235px;
+  border-radius: 50%;
+  background-color: #2a2a2a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  margin-top: 7px;
+  transition: 0.5s ease;
+}
+
+@media (max-width: 991px) {
+  .office-location-signle .map-button {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.office-location-signle .map-button:hover {
+  background-color: #333333;
+}
+
+.office-location-signle .map-button:hover i {
+  transform: scale(1.8);
+}
+
+.office-location-signle .map-button::before {
+  content: "";
+  position: absolute;
+  left: -7px;
+  top: -7px;
+  width: 250px;
+  height: 250px;
+  border: 1px dashed #ffffff; 
+  border-radius: 50%;
+}
+
+@media (max-width: 991px) {
+  .office-location-signle .map-button::before {
+    left: -5px;
+    top: -5px;
+    width: 210px;
+    height: 210px;
+  }
+}
+
+.office-location-signle .map-button i {
+  background: #00aaff; 
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 15px;
+  transition: 0.5s ease;
+}
+
+.office-location-signle .map-button h5 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 35px;
+  color: #ffffff; 
+}
+
+.office-location-signle .content h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .office-location-signle .content h3 {
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+}
+
+.office-location-signle .content p {
+  margin-bottom: 0px;
+  color: #cccccc; 
+}
+
 
 
 
