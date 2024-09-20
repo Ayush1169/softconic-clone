@@ -11,7 +11,7 @@ import {
   RiDatabase2Line, 
   RiCloudLine, 
   RiTeamLine, 
-  RiRobot2Line // Changed from RiAiLine as it doesn't exist
+  RiRobot2Line 
 } from "react-icons/ri";
 
 function Service4Page() {
@@ -19,65 +19,74 @@ function Service4Page() {
     {
       title: "Web Development",
       description: "Building high-performance, responsive websites and web applications to deliver seamless user experiences.",
-      link: "/service-details",
+      link: "/service/web-development",
       delay: "200ms",
-      icon: RiComputerLine
+      icon: RiComputerLine,
+      image: "assets/img/home-6/home6-solution-bg2.png"
     },
     {
       title: "Mobile App Development",
       description: "Developing feature-rich mobile apps for iOS and Android platforms, tailored to your business needs.",
-      link: "/service-details",
+      link: "/service/mobile-app-development",
       delay: "300ms",
-      icon: RiSmartphoneLine
+      icon: RiSmartphoneLine,
+      image: "assets/img/home-6/home6-solution-bg2.png"
     },
     {
       title: "Software Development",
       description: "Creating custom software solutions designed to optimize business operations and improve efficiency.",
-      link: "/service-details",
+      link: "/service/software-development",
       delay: "400ms",
-      icon: RiCodeSSlashLine
+      icon: RiCodeSSlashLine,
+      image: "assets/img/home-6/home6-solution-bg2.png"
     },
     {
       title: "Digital Marketing",
       description: "Leveraging digital marketing strategies to drive brand awareness, traffic, and conversions across digital channels.",
-      link: "/service-details",
+      link: "/service/digital-marketing",
       delay: "500ms",
-      icon: RiBarChartBoxLine
+      icon: RiBarChartBoxLine,
+      image: "assets/img/home-6/home6-solution-bg2.png"
     },
     {
       title: "UI/UX Designing",
       description: "Designing intuitive and engaging user interfaces to enhance user experience and interaction with digital products.",
-      link: "/service-details",
+      link: "/service/ui-ux-designing",
       delay: "700ms",
-      icon: RiPaletteLine
+      icon: RiPaletteLine,
+      image: "assets/img/home-6/home6-solution-bg2.png"
     },
     {
       title: "ERP/CRM",
       description: "Providing customized ERP and CRM solutions to streamline processes and improve customer relationship management.",
-      link: "/service-details",
+      link: "/service/erp-crm",
       delay: "800ms",
-      icon: RiDatabase2Line
+      icon: RiDatabase2Line,
+      image: "assets/img/home-6/home6-solution-bg2.png"
     },
     {
       title: "SaaS Development",
       description: "Developing scalable SaaS platforms with robust features to meet the evolving needs of modern businesses.",
-      link: "/service-details",
+      link: "/service/saas-development",
       delay: "900ms",
-      icon: RiCloudLine
+      icon: RiCloudLine,
+      image: "assets/img/home-6/home6-solution-bg2.png"
     },
     {
       title: "Staff Augmentation",
       description: "Supplying top-tier talent to enhance your team's capabilities and meet project goals efficiently.",
-      link: "/service-details",
+      link: "/service/staff-augmentation",
       delay: "1000ms",
-      icon: RiTeamLine
+      icon: RiTeamLine,
+      image: "assets/img/home-6/home6-solution-bg2.png"
     },
     {
       title: "AI/ML",
       description: "Harnessing the power of AI and machine learning to drive innovation and improve decision-making processes.",
-      link: "/service-details",
+      link: "/service/ai-ml",
       delay: "600ms",
-      icon: RiRobot2Line
+      icon: RiRobot2Line,
+      image: "assets/img/home-6/home6-solution-bg2.png"
     },
   ];
 
@@ -95,7 +104,7 @@ function Service4Page() {
               <div className="col-lg-4 col-md-6 col-sm-10" key={index}>
                 <div className="single-solution" style={{animationDelay: solution.delay}}>
                   <div className="background-img">
-                    <img src="assets/img/home-6/home6-solution-bg2.png" alt="" />
+                    <img src={solution.image} alt={solution.title} />
                   </div>
                   <div className="sl">
                     <h2>{String(index + 1).padStart(2, '0')}</h2>
@@ -140,3 +149,7 @@ function Service4Page() {
 }
 
 export default Service4Page;
+
+
+
+
