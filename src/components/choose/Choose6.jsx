@@ -35,7 +35,7 @@ function Choose6() {
                 <div className="choose-right-img magnetic-item">
                   <img
                     className="img-fluid"
-                    src="assets/img/home-6/choose-img-1.png"
+                    src="assets/img/homePage/whychooseus.png"
                     alt=""
                   />
                 </div>

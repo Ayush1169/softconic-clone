@@ -5642,7 +5642,7 @@ video {
 }
 
 .home3-partner-area .partner-wrapper img {
-  opacity: 0.3;
+  opacity: 1;
   transition: opacity 0.5s, filter 0.5s;
   filter: brightness(0.5);
 }

@@ -66,7 +66,7 @@ function Testimonial3() {
                 <SwiperSlide key={i}>
                   <div className="testimonial-card3">
                     <div className="quate-icon">
-                      <img src={item.img} alt="" />
+                      <img src="" alt="" />
                     </div>
                     <div className="testimonial-top">
                       <div className="review-left">
@@ -93,7 +93,7 @@ function Testimonial3() {
                     </div>
                   </div>
                   <div className="author-img">
-                    <img src="assets/img/home-3/h3-testi-01.png" alt="" />
+                    <img src={item.img2} alt="" style={{objectFit:"contain"}} />
                   </div>
                 </SwiperSlide>
               ))}

@@ -21,6 +21,7 @@ const HomePage = {
   happyClients: {
     title: "Happy Clients",
     description: "Our happy customers show how much we care about delivering great service. We work closely with them to provide IT solutions that meet their needs and help their businesses grow. Their satisfaction is our biggest success."
+
   },
   completedProjects: {
     title: "Completed Projects",
@@ -102,9 +103,9 @@ const HomePage = {
   ]
   ,
   companies: [
-    { name: "Major Kalshi Classes", imageUrl: "assets/img/home-3/home3-suc-sto-01.png" },
-    { name: "Veda Academy", imageUrl: "assets/img/home-3/home3-suc-sto-02.png" },
-    { name: "Deliver My Tune", imageUrl: "assets/img/home-3/home3-suc-sto-03.png" },
+    { name: "Major Kalshi Classes", imageUrl: "assets/img/homePage/project1.png" },
+    { name: "Veda Academy", imageUrl: "assets/img/homePage/project2.png" },
+    { name: "Deliver My Tune", imageUrl: "assets/img/homePage/project3.png" },
     { name: "inPotrace", imageUrl: "assets/img/home-3/home3-suc-sto-04.png" },
     { name: "Khushi media solution", imageUrl: "assets/img/home-3/home3-suc-sto-05.png" },
     { name: "Chhattisgarh Herbal", imageUrl: "assets/img/home-3/home3-suc-sto-05.png" },
@@ -132,35 +133,40 @@ const HomePage = {
         "I hired EVD Technology team to help understand my project requirements and project scope and development. Work was done on agreed time and done well. Thanks very much.",
       author: "Anwar Hashmi",
       position: "Switzerland",
-      img: "assets/img/home-3/h3-testi-02.png",
+      img: "assets/img/homePage/anwarLogo.png",
+      img2:"assets/img/homePage/anwarCompany.png",
     },
     {
       content:
         "Anshu and his whole team greatly amplifies the customer success. Their understanding of building ERPs and the CRMs is unparalleled. Their understanding of the general business processes and the edge cases is simply great.",
       author: "Arya Aditya",
       position: "Products @DP World",
-      img: "assets/img/home-3/h3-testi-03.png",
+      img: "assets/img/homePage/aryaLogo.png",
+      img2:"assets/img/homePage/aryaCompany.png",
     },
     {
       content:
         "It's a pleasure working with EVD team, they have the right attitude and technical capabilities to execute any challenge you throw at them.",
       author: "Aayush Goyal",
       position: "CEO - ExpertRight",
-      img: "assets/img/home-3/h3-testi-02.png",
+      img: "assets/img/homePage/ayushLogo.png",
+      img2:"assets/img/homePage/ayushCompany.png",
     },
     {
       content:
         "Very nice and flexible team. They clearly understand the requirements and help complete the tasks within estimated efforts. Easy to communicate, flexible, and skilled; overall a great development team.",
       author: "Syed Nafeez",
       position: "United Kingdom",
-      img: "assets/img/home-3/h3-testi-01.png",
+      img: "assets/img/homePage/syedLogo.png",
+      img2:"assets/img/homePage/syedCompany.png",
     },
     {
       content:
         "I am thrilled to offer my recommendation for Anshu, the CEO of EVD Technologies. Their visionary approach to software development resulted in an innovative and effective e-learning platform.",
       author: "Balaji Harsh",
       position: "Crafting products for BHARAT at SATYA",
-      img: "assets/img/home-3/h3-testi-03.png",
+      img: "assets/img/homePage/balajiLogo.png",
+      img2:"assets/img/homePage/balajiCompany.png",
     },
   ],
 };
