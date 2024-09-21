@@ -14475,3 +14475,264 @@ color: #cccccc;
 }
 
  
+
+
+
+
+/* EVD ERP Landing Page Styles */
+
+.evd-erp-landing {
+  --bg-primary: #0d0d12; /* Darker background */
+  --bg-secondary: #1a1a24; /* Dark secondary background */
+  --text-primary: #ffffff; /* White text */
+  --text-secondary: #d9d9d9; /* Light gray text */
+  --accent: #5a8fe1; /* Lighter accent color */
+  --accent-hover: #4a7fd1; /* Darker hover accent color */
+  --card-bg: rgba(255, 255, 255, 0.1); /* Slightly more opaque card background */
+
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  padding: 2rem;
+}
+
+.evd-erp-landing header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.evd-erp-landing h1 {
+  font-size: 3.5rem;
+  margin-bottom: 0.5rem;
+  animation: fadeInDown 1s ease-out;
+}
+
+.evd-erp-landing h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--accent);
+}
+
+.evd-erp-landing h3 {
+  font-size: 1.8rem;
+  color: var(--accent);
+}
+
+.evd-erp-landing p {
+  margin-bottom: 1rem;
+  color: var(--text-secondary); /* Light gray for paragraph text */
+}
+
+.evd-erp-landing .tagline {
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+}
+
+.evd-erp-landing section {
+  margin-bottom: 4rem;
+  animation: fadeIn 1s ease-out;
+}
+
+.evd-erp-landing .intro,
+.evd-erp-landing .conclusion {
+  text-align: center;
+  background-color: var(--bg-primary);
+}
+
+.evd-erp-landing .conclusion p {
+  color: var(--text-secondary);
+}
+
+.evd-erp-landing .cta-button {
+  background-color: var(--accent);
+  color: var(--text-primary);
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.evd-erp-landing .cta-button:hover {
+  background-color: var(--accent-hover);
+  transform: translateY(-2px);
+}
+
+.evd-erp-landing .highlights ul,
+.evd-erp-landing .focus-areas ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.evd-erp-landing .highlights li,
+.evd-erp-landing .focus-areas li {
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  position: relative;
+  color: var(--text-secondary);
+}
+
+.evd-erp-landing .highlights li::before,
+.evd-erp-landing .focus-areas li::before {
+  content: '✓';
+  color: var(--accent);
+  position: absolute;
+  left: 0;
+}
+
+.evd-erp-landing .vision-goal {
+  display: flex;
+  gap: 2rem;
+}
+
+.evd-erp-landing .vision-goal p {
+  color: var(--text-secondary);
+}
+
+.evd-erp-landing .vision,
+.evd-erp-landing .goal {
+  flex: 1;
+  background-color: var(--card-bg);
+  padding: 1.5rem;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.evd-erp-landing .vision:hover,
+.evd-erp-landing .goal:hover {
+  transform: translateY(-5px);
+}
+
+.evd-erp-landing .objective-grid,
+.evd-erp-landing .feature-grid,
+.evd-erp-landing .benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.evd-erp-landing .objective-card,
+.evd-erp-landing .feature-card {
+  background-color: var(--card-bg);
+  padding: 1.5rem;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.evd-erp-landing .objective-card p {
+  color: var(--text-secondary);
+}
+
+.evd-erp-landing .objective-card:hover,
+.evd-erp-landing .feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.evd-erp-landing .feature-card {
+  text-align: center;
+}
+
+.evd-erp-landing .feature-card p {
+  color: #e3e3e3;
+}
+
+.industries p {
+  color: var(--text-secondary);
+}
+
+.evd-erp-landing .feature-card svg {
+  color: var(--accent);
+  margin-bottom: 1rem;
+}
+
+.evd-erp-landing .tech-stack ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 0;
+}
+
+.evd-erp-landing .benefits-grid {
+  background-color: var(--bg-secondary);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.evd-erp-landing .benefit-column ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.evd-erp-landing .benefit-column li {
+  margin-bottom: 0.5rem;
+}
+
+.evd-erp-landing .industry-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.evd-erp-landing .industry-card {
+  background-color: var(--card-bg);
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.evd-erp-landing .industry-card:hover {
+  background-color: var(--accent);
+}
+
+.evd-erp-landing footer {
+  text-align: center;
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--card-bg);
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .evd-erp-landing {
+    padding: 1rem;
+  }
+
+  .evd-erp-landing h1 {
+    font-size: 2.5rem;
+  }
+
+  .evd-erp-landing h2 {
+    font-size: 2rem;
+  }
+
+  .evd-erp-landing .vision-goal {
+    flex-direction: column;
+  }
+}
