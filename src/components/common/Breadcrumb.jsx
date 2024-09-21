@@ -1,15 +1,15 @@
 import Link from "next/link";
 import React from "react";
 
-function Breadcrumb({ title, pageName, pageList }) {
+function Breadcrumb({ title, pageName, pageList, image1, image2 }) {
   return (
     <section className="breadcrumbs">
       <div className="breadcrumb-sm-images">
         <div className="inner-banner-1 magnetic-item">
-          <img src="/assets/img/inner-pages/inner-banner-1.png" alt="" /> 
+          <img src={image1} alt="" /> 
         </div>
         <div className="inner-banner-2 magnetic-item">
-          <img src="/assets/img/inner-pages/inner-banner-2.png" alt="" /> 
+          <img src={image2} alt="" /> 
         </div>
       </div>
       <div className="container">
@@ -25,7 +25,7 @@ function Breadcrumb({ title, pageName, pageList }) {
                   </Link>
                   <img
                     src="/assets/img/inner-pages/breadcrumb-arrow.svg"
-                    alt="" 
+                    alt=""
                   />
                   {pageList}
                 </div>

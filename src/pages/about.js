@@ -27,6 +27,8 @@ function AboutPage() {
         pageList="About"
         title="About us"
         pageName="ABOUT"
+         image1="/assets/img/about/hero1.png"
+        image2="/assets/img/about/hero2.png"
       />
         <About5 />
        <Choose6 />

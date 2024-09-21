@@ -17,9 +17,9 @@ function Award5() {
               <span>Award-Winning</span>
               <h2>Our Achievements</h2>
             </div>
-            <div className="section-content">
+            {/* <div className="section-content">
               <p>Morbi interdum pellentesque nunc, luctusongi pretium nulla luctus at Aliquam. </p>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="row">

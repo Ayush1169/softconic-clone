@@ -18,20 +18,22 @@ function ProjectMasonaryPage() {
 
   const getColumnClass = (index) => {
     switch(index) {
-      case 0: return "col-lg-4 col-sm-6"; // First row, small image
-      case 1: return "col-lg-6 col-sm-6"; // First row, bigger image
+      case 0: return "col-lg-4 col-sm-6"; 
+      case 1: return "col-lg-6 col-sm-6"; 
       case 2:
-      case 3: return "col-lg-4 col-sm-6"; // Second row, both small
-      default: return "col-lg-4 col-sm-6"; // Third row and beyond, three per row
+      case 3: return "col-lg-4 col-sm-6"; 
+      default: return "col-lg-4 col-sm-6";
     }
   };
 
   return (
     <Layout>
       <Breadcrumb
-        pageList="Projects Masonary"
+        pageList="Projects"
         title="Our Completed Projects"
-        pageName="PROJECTS MASONARY"
+        pageName="PROJECTS"
+        image1="/assets/img/projects/hero1.png"
+        image2="/assets/img/projects/hero2.png"
       />
       <div className="portfolio-masonary-page sec-mar"
         style={{ 

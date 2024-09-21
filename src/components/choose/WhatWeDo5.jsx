@@ -65,7 +65,7 @@ function WhatWeDo5() {
           </div>
           <div className="col-xl-5 col-lg-6 wow animate fadeInRight" data-wow-delay="300ms" data-wow-duration="1500ms">
             <div className="achievement-img magnetic-item">
-              <img className="img-fluid" src="assets/img/home-5/achievement-img.png" alt="" />
+              <img className="img-fluid" src="assets/img/about/about.png" alt="" />
             </div>
           </div>
         </div>

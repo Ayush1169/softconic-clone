@@ -916,7 +916,7 @@ function Header() {
                 : ""
                 }`}
             >
-              <a href="/project-masonary" className="d">
+              <a href="/projects" className="d">
                 Project
               </a>
              
@@ -1129,14 +1129,14 @@ function Header() {
             <li
               className={` ${[
           
-                "/blog-sidebar",
+                "/blogs",
               ].includes(currentRoute)
                 ? "active"
                 : ""
                 }`}
             >
               <a
-                href="/blog-sidebar"
+                href="/blogs"
                 className={`drop-down ${state.activeMenu === "blog" ? "active" : ""
                   }`}
                 onClick={() => toggleMenu("blog")}

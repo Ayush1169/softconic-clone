@@ -2,16 +2,16 @@ import Breadcrumb from "../components/common/Breadcrumb";
 import Layout from "../components/layout/Layout";
 import Link from "next/link";
 import React from "react";
-import { 
-  RiComputerLine, 
-  RiSmartphoneLine, 
-  RiCodeSSlashLine, 
-  RiBarChartBoxLine, 
-  RiPaletteLine, 
-  RiDatabase2Line, 
-  RiCloudLine, 
-  RiTeamLine, 
-  RiRobot2Line 
+import {
+  RiComputerLine,
+  RiSmartphoneLine,
+  RiCodeSSlashLine,
+  RiBarChartBoxLine,
+  RiPaletteLine,
+  RiDatabase2Line,
+  RiCloudLine,
+  RiTeamLine,
+  RiRobot2Line
 } from "react-icons/ri";
 
 function Service4Page() {
@@ -22,7 +22,7 @@ function Service4Page() {
       link: "/service/web-development",
       delay: "200ms",
       icon: RiComputerLine,
-      image: "assets/img/home-6/home6-solution-bg2.png"
+      image: "assets/img/service/service1.png"
     },
     {
       title: "Mobile App Development",
@@ -30,7 +30,7 @@ function Service4Page() {
       link: "/service/mobile-app-development",
       delay: "300ms",
       icon: RiSmartphoneLine,
-      image: "assets/img/home-6/home6-solution-bg2.png"
+      image: "assets/img/service/service2.png"
     },
     {
       title: "Software Development",
@@ -38,7 +38,7 @@ function Service4Page() {
       link: "/service/software-development",
       delay: "400ms",
       icon: RiCodeSSlashLine,
-      image: "assets/img/home-6/home6-solution-bg2.png"
+      image: "assets/img/service/service3.png"
     },
     {
       title: "Digital Marketing",
@@ -46,7 +46,7 @@ function Service4Page() {
       link: "/service/digital-marketing",
       delay: "500ms",
       icon: RiBarChartBoxLine,
-      image: "assets/img/home-6/home6-solution-bg2.png"
+      image: "assets/img/service/service4.png"
     },
     {
       title: "UI/UX Designing",
@@ -54,7 +54,7 @@ function Service4Page() {
       link: "/service/ui-ux-designing",
       delay: "700ms",
       icon: RiPaletteLine,
-      image: "assets/img/home-6/home6-solution-bg2.png"
+      image: "assets/img/service/service5.png"
     },
     {
       title: "ERP/CRM",
@@ -62,7 +62,7 @@ function Service4Page() {
       link: "/service/erp-crm",
       delay: "800ms",
       icon: RiDatabase2Line,
-      image: "assets/img/home-6/home6-solution-bg2.png"
+      image: "assets/img/service/service6.png"
     },
     {
       title: "SaaS Development",
@@ -70,7 +70,7 @@ function Service4Page() {
       link: "/service/saas-development",
       delay: "900ms",
       icon: RiCloudLine,
-      image: "assets/img/home-6/home6-solution-bg2.png"
+      image: "assets/img/service/service7.png"
     },
     {
       title: "Staff Augmentation",
@@ -78,7 +78,7 @@ function Service4Page() {
       link: "/service/staff-augmentation",
       delay: "1000ms",
       icon: RiTeamLine,
-      image: "assets/img/home-6/home6-solution-bg2.png"
+      image: "assets/img/service/service8.png"
     },
     {
       title: "AI/ML",
@@ -86,7 +86,7 @@ function Service4Page() {
       link: "/service/ai-ml",
       delay: "600ms",
       icon: RiRobot2Line,
-      image: "assets/img/home-6/home6-solution-bg2.png"
+      image: "assets/img/service/service9.png"
     },
   ];
 
@@ -96,24 +96,26 @@ function Service4Page() {
         pageList="Services"
         title="Our Providing Services"
         pageName="SERVICES"
+        image1="/assets/img/service/hero1.png"
+        image2="/assets/img/service/hero2.png"
       />
       <div className="home6-solution-section"
-       style={{ 
-        backgroundImage: "url('/assets/img/Ellipse.png')",
-        backgroundSize: "cover", 
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat"
-      }}>
+        style={{
+          backgroundImage: "url('/assets/img/Ellipse.png')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat"
+        }}>
         <div className="container">
-          <div className="row g-4" 
-          
+          <div className="row g-4"
+
           >
             {solutions.map((solution, index) => (
               <div className="col-lg-4 col-md-6 col-sm-10" key={index}
-              style={{ 
-                height: "450px"
-               }}>
-                <div className="single-solution" style={{animationDelay: solution.delay}}>
+                style={{
+                  height: "450px"
+                }}>
+                <div className="single-solution" style={{ animationDelay: solution.delay }}>
                   <div className="background-img">
                     <img src={solution.image} alt={solution.title} />
                   </div>

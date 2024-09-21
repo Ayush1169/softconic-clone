@@ -38,10 +38,10 @@ function About5() {
         <div className="col-lg-6 wow animate fadeInRight" data-wow-delay="300ms" data-wow-duration="1500ms">
           <div className="about-img-wrap">
             <div className="about-img magnetic-item">
-              <img className="img-fluid" src="assets/img/home-5/about-img-1.png" alt="" />
+              <img className="img-fluid" src="assets/img/about/whowe.png" alt="" />
             </div>
             <div className="about-video-area magnetic-item">
-              <img className="img-fluid" src="assets/img/home-5/about-img-2.png" alt="" />
+              <img className="img-fluid" src="assets/img/about/whowe2.png" alt="" />
               <div onClick={()=> setOpen(true)} style={{cursor:"pointer"}} data-fancybox="gallery" className="about-video-btn video-popup">
                 <i className="bi bi-play" />
               </div>
@@ -50,9 +50,6 @@ function About5() {
         </div>
       </div>
     </div>
-    <React.Fragment>
-			<ModalVideo  style={{ overlay: { zIndex: 9999 } }} channel='youtube' autoplay isOpen={isOpen} videoId="JSIwZ_tEP9o" onClose={() => setOpen(false)} />
-		</React.Fragment>
   </div>
   )
 }

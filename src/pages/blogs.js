@@ -77,9 +77,11 @@ function BlogSidebarPage() {
   return (
     <Layout >
       <Breadcrumb
-        pageList="BLOG SIDEBAR"
-        title="Exploring The Softconic Blog"
-        pageName="Blog Sidebar"
+        pageList="BLOGS"
+        title="Exploring The EVDT Blog"
+        pageName="Blog"
+        image1="/assets/img/blog/hero1.png"
+        image2="/assets/img/blog/hero2.png"
       />
       <div className="home3-blog-area sec-mar"
        style={{ 

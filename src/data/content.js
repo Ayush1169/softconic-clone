@@ -193,17 +193,20 @@ export const AboutUs = {
     {
       title: "MSME Certification for contributions to the industry",
       description: "Business and industry classification",
-      year: 2021
+      year: 2021,
+      imgSrc:"/assets/img/about/ac1.png"
     },
     {
       title: "ISO Certification for commitment to quality standards",
       description: "Quality management and standards",
-      year: 2021
+      year: 2021,
+      imgSrc:"/assets/img/about/ac2.png"
     },
     {
       title: "Startup India Certification for innovation and potential",
       description: "Innovation and entrepreneurship",
-      year: 2021
+      year: 2021,
+      imgSrc:"/assets/img/about/ac3.png"
     }
   ],
   overview: {
