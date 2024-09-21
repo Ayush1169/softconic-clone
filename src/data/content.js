@@ -191,19 +191,19 @@ export const AboutUs = {
   },
   achievements: [
     {
-      title: "MSME Certification for contributions to the industry",
+      title: "MSME Certification",
       description: "Business and industry classification",
       year: 2021,
       imgSrc:"/assets/img/about/ac1.png"
     },
     {
-      title: "ISO Certification for commitment to quality standards",
+      title: "ISO Certification",
       description: "Quality management and standards",
       year: 2021,
       imgSrc:"/assets/img/about/ac2.png"
     },
     {
-      title: "Startup India Certification for innovation and potential",
+      title: "Startup India Certification",
       description: "Innovation and entrepreneurship",
       year: 2021,
       imgSrc:"/assets/img/about/ac3.png"

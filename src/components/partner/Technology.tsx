@@ -31,7 +31,6 @@ function Technology() {
                     opacity: hovered === value.id ? 1 : 0.5 
                   }}
                 />
-                <img src="assets/img/home-3/star.svg" alt="" />
               </div>
             ))}
           </Marquee>

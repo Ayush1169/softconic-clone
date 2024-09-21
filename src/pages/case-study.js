@@ -13,12 +13,12 @@ function CaseStudyPage() {
         pageName="Case Study"
       />
       <div className="home6-case-study-section sec-mar"
-       style={{ 
-        backgroundImage: "url('/assets/img/Ellipse.png')",
-        backgroundSize: "cover", 
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat"
-      }}>
+        style={{
+          backgroundImage: "url('/assets/img/Ellipse.png')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat"
+        }}>
         <div className="container">
           <div className="row g-lg-4 gy-5 border-rights">
             {caseStudies && caseStudies.length > 0 ? (
@@ -36,7 +36,18 @@ function CaseStudyPage() {
                             <a>{caseStudy.mainTitle}</a>
                           </Link>
                         </h3>
-                        <p>{caseStudy.description}</p>
+                        <p
+                          style={{
+                            display: '-webkit-box',
+                            WebkitBoxOrient: 'vertical',
+                            overflow: 'hidden',
+                            WebkitLineClamp: 2,
+                            margin: 0,
+                          }}
+                        >
+                          {caseStudy.description}
+                        </p>
+
                         <div className="learn-btn">
                           <Link legacyBehavior href={`/case-study-details/${caseStudy.slug}`}>
                             <a className="primary-btn9">

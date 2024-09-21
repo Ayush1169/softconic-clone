@@ -193,38 +193,50 @@ function FAQContent({ questions, sectionIndex, layout, image }) {
 }
 
 function TechnologiesSection({ technologies }) {
-  // Check for the required data upfront and return null if missing
   if (!technologies || !technologies.comparisonSections || !technologies.title || !technologies.description) {
-    return null; // Do not render anything if essential data is missing
+    return null;
   }
 
   const { title, description, comparisonSections } = technologies;
 
+  // Add some placeholder images (replace these with actual image URLs)
+  const techImages = [
+    "/assets/img/inner-pages/about-service-img.png",
+    "/assets/img/inner-pages/about-service-img.png",
+    "/assets/img/inner-pages/about-service-img.png",
+    "//assets/img/inner-pages/about-service-img.png"
+  ];
+
   return (
     <div className="technologies">
-      <h1>{title}</h1>
-      <p>{description}</p>
-
       <div className="container">
-        {comparisonSections.map((section, index) => (
-          <div key={index} className={`section ${section.layout ? 'layout-true' : 'layout-false'}`}>
-            <h2>{section.title}</h2>
-            <ul>
-              {section.questions.map((q, idx) => (
-                <li key={idx}>
-                  <strong>{q.question}</strong>
-                  <p>{q.answer}</p>
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
+        <h1>{title}</h1>
+        <p>{description}</p>
+
+        <div className="comparison-sections">
+          {comparisonSections.map((section, index) => (
+            <div key={index} className="comparison-section">
+              <img 
+                src={`/assets/img/inner-pages/about-service-img.png`} 
+                alt={section.title} 
+                className="section-image" 
+              />
+              <h2>{section.title}</h2>
+              <div className="comparison-content">
+                {section.questions.map((q, idx) => (
+                  <div key={idx} className="comparison-item">
+                    <strong>{q.question}</strong>
+                    <p>{q.answer}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
 }
-
-
 
 function UserGuidesSection({ dataSets }) {
   if (!dataSets || dataSets.length === 0) return null;
@@ -239,6 +251,11 @@ function UserGuidesSection({ dataSets }) {
             <div className="user-guides-container">
               {guideSet.guides.map((guide, guideIndex) => (
                 <div key={guideIndex} className="user-guide">
+                  <img 
+                    src={`/assets/img/inner-pages/about-service-img.png`} 
+                    alt={guide.title} 
+                    className="section-image" 
+                  />
                   <h3>{guide.title}</h3>
                   <ul>
                     {guide.steps.map((step, stepIndex) => (

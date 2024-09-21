@@ -9,15 +9,15 @@ const Commonfeature = () => {
           <div className="col-lg-10">
             <div className="section-common-feature text-center">
               <h4>Common Features</h4>
-              <h1>
+              <h6>
                 Demonstrating the Impact of <br /> EVD in Educational
                 Institutions
-              </h1>
+              </h6>
             </div>
           </div>
         </div>
 
-        <div className="row      justify-content-center gy-2">
+        <div className="row justify-content-center gy-2">
           <div className="col-xxl-5 col-xl-5    col-lg-5 col-md-6">
             <div className="common-feature-one">
               <div className="common-feature-info">

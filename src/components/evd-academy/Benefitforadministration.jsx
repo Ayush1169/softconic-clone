@@ -31,8 +31,8 @@ const Benefitforadministration = () => {
         </div>
 
 
-        <div className="row      justify-content-center gy-2">
-         <div className="col-xxl-3 col-xl-3    col-lg-3 col-md-6" >
+        <div className="row justify-content-center gy-2">
+         <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-6 fix" >
             <div className="Benefitadmin-one">
              
               <div className="Benefitadmin-one-icon">
