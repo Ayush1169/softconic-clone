@@ -9,7 +9,6 @@ function Team1() {
       <Breadcrumb pageList="Team" title="Meet Our Expertise" pageName="TEAM" />
       <div className="home3-team-area sec-mar">
         <div className="container">
-        <h2 style={{ marginTop: "-100px" }}>{HomePage.teamMembers.title}</h2>
 
           <div className="row">
             {HomePage.teamMembers.members.map((member, index) => (

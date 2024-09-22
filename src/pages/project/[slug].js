@@ -109,7 +109,7 @@ function ProjectDetailsPage({ project , prevProject, nextProject }) {
                   </li>
                   <li>
                     <span>Company:</span>
-                    <h5>{project.company}</h5>
+                    <h5>EVD Technology</h5>
                   </li>
                   <li>
                     <span>Location:</span>

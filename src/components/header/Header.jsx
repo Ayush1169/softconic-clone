@@ -385,7 +385,7 @@ function Header() {
                   }`}
               >
                 <li>
-                  <Link legacyBehavior href="#">
+                  <Link legacyBehavior href="/service/web-development">
                     <a>Web Development</a>
                   </Link>
 
@@ -446,7 +446,7 @@ function Header() {
                   </ul>
                 </li>
                 <li>
-                  <Link legacyBehavior href="#">
+                  <Link legacyBehavior href="/service/mobile-app-development">
                     <a>Mobile App Development</a>
                   </Link>
                   <i
@@ -516,7 +516,7 @@ function Header() {
                   </ul>
                 </li>
                 <li>
-                  <Link legacyBehavior href="#">
+                  <Link legacyBehavior href="/service/software-development">
                     <a>Software Development</a>
                   </Link>
                   <i
@@ -575,7 +575,7 @@ function Header() {
                   </ul>
                 </li>
                 <li>
-                  <Link legacyBehavior href="#">
+                  <Link legacyBehavior href="/service/digital-marketing">
                     <a>Digital Marketing</a>
                   </Link>
                   <i
@@ -667,7 +667,7 @@ function Header() {
                   </ul>
                 </li>
                 <li>
-                  <Link legacyBehavior href="#">
+                  <Link legacyBehavior href="/service/ui-ux-designing">
                     <a>UI/UX Designing</a>
                   </Link>
                   <i

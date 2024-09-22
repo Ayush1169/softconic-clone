@@ -1,7 +1,20 @@
 import React from 'react';
 import { ArrowRight, BarChart2, Users, Package, FileText, Shield, Zap, Briefcase, Layers, PieChart } from 'lucide-react';
 import Layout from '../components/layout/Layout';
+import { ShoppingBag, Factory, School, Heart, Truck, Building, Home, Server, Car, Coffee } from 'lucide-react';
 
+const industryIcons = {
+  Retail: <ShoppingBag />,
+  Manufacturing: <Factory />,
+  Education: <School />,
+  Healthcare: <Heart />,
+  Logistics: <Truck />,
+  Construction: <Building />,
+  'Real Estate': <Home />,
+  'IT Services': <Server />,
+  Automotive: <Car />,
+  Hospitality: <Coffee />
+};
 const EVDERPLandingPage = () => {
   return (
    <>
@@ -160,14 +173,17 @@ const EVDERPLandingPage = () => {
       </section>
 
       <section className="industries">
-        <h2>Applicability Across Multiple Industries</h2>
-        <p>EVD ERP is a versatile solution suitable for businesses in various sectors, including:</p>
-        <div className="industry-grid">
-          {['Retail', 'Manufacturing', 'Education', 'Healthcare', 'Logistics', 'Construction', 'Real Estate', 'IT Services', 'Automotive', 'Hospitality'].map((industry, index) => (
-            <div key={index} className="industry-card">{industry}</div>
-          ))}
-        </div>
-      </section>
+      <h2>Applicability Across Multiple Industries</h2>
+      <p>EVD ERP is a versatile solution suitable for businesses in various sectors, including:</p>
+      <div className="industry-grid">
+        {['Retail', 'Manufacturing', 'Education', 'Healthcare', 'Logistics', 'Construction', 'Real Estate', 'IT Services', 'Automotive', 'Hospitality'].map((industry, index) => (
+          <div key={index} className="industry-card">
+            {industryIcons[industry]}
+            <span>{industry}</span>
+          </div>
+        ))}
+      </div>
+    </section>
 
       <section className="common-features">
         <h2>Common Features Demonstrating Impact</h2>

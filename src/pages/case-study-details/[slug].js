@@ -38,20 +38,20 @@ const CaseStudyDetailsPage = () => {
               <div className="case-content mb-60">
                 <p>{caseStudy.description}</p>
               </div>
-              
+
               {/* Project Challenges Section */}
               <div className="row mb-120">
-  <div className="col-lg-12">
-    <div className="case-content">
-      <h2>Project Challenges</h2>
-      <ul>
-        {caseStudy.projectChallenges.map((challenge, index) => (
-          <li key={index} style={{ color: '#fefefe' }}>{challenge}</li>
-        ))}
-      </ul>
-    </div>
-  </div>
-</div>
+                <div className="col-lg-12">
+                  <div className="case-content">
+                    <h2>Project Challenges</h2>
+                    <ul>
+                      {caseStudy.projectChallenges.map((challenge, index) => (
+                        <li key={index} style={{ color: '#fefefe' }}>{challenge}</li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+              </div>
 
 
               <div className="row g-lg-4 gy-5 mb-120">
@@ -96,7 +96,7 @@ const CaseStudyDetailsPage = () => {
                   </div>
                   <div className="row g-4 justify-content-center">
                     {caseStudy.processSteps.map((step, index) => (
-                      <div className="col-xl-3 col-sm-6" key={index}>
+                      <div className="col-lg-4 col-md-6" key={index}>
                         <div className="single-process magnetic-item">
                           <div className="icon">
                             <img src={step.icon} alt={`${step.title} Icon`} />
@@ -108,6 +108,7 @@ const CaseStudyDetailsPage = () => {
                       </div>
                     ))}
                   </div>
+
                 </div>
               </div>
               <div className="row mb-120">
