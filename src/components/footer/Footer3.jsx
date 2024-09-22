@@ -6,24 +6,24 @@ function Footer3() {
     try {
       // Replace this URL with the actual path or URL to your PDF file
       const pdfUrl = '/assets/example (10).pdf';
-      
+
       // Fetch the PDF file
       const response = await fetch(pdfUrl);
       const pdfBlob = await response.blob();
-      
+
       // Create a URL for the Blob
       const blobUrl = window.URL.createObjectURL(pdfBlob);
-      
+
       // Create a temporary anchor element
       const link = document.createElement('a');
       link.href = blobUrl;
       link.download = 'EVD_Technologies_Company_Profile.pdf';
-      
+
       // Append to the document, trigger the download, and remove the element
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
-      
+
       // Clean up the Blob URL
       window.URL.revokeObjectURL(blobUrl);
     } catch (error) {
@@ -87,21 +87,10 @@ function Footer3() {
                 <a href="mailto:info@support.com">anshu@evdtechnology.com</a>
               </div>
               <div className="footer-contact">
-                {/* <h6>See Our New updates</h6>
-            <form>
-              <div className="form-inner">
-                <input type="text" placeholder="Email here..." />
-                <button type="submit">
-                  <svg width={17} height={17} viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0 1H12M12 1V13M12 1L0.5 12" />
-                  </svg>
-                </button>
-              </div>
-            </form> */}
 
                 <button class="download-button">
-               
-                 <div class="docs">
+
+                  <div class="docs">
                     <svg
                       viewBox="0 0 24 24"
                       width="20"
@@ -123,7 +112,7 @@ function Footer3() {
                     </svg>
                     Company Profile
                   </div>
-               
+
                   <div class="download" onClick={handleDownload}>
                     <svg
                       viewBox="0 0 24 24"
@@ -141,7 +130,7 @@ function Footer3() {
                       <line x1="12" y1="15" x2="12" y2="3"></line>
                     </svg>
                   </div>
-                
+
                 </button>
 
               </div>
@@ -150,54 +139,57 @@ function Footer3() {
           <div className="col-lg-3 col-sm-6 d-flex justify-content-lg-start justify-content-sm-end">
             <div className="footer-widget">
               <div className="widget-title">
-                <h4>Our Solutions</h4>
+                <h4>Our Services</h4>
               </div>
               <div className="menu-container">
                 <ul>
-                  <li><Link legacyBehavior href="/service"><a>Web Development</a></Link></li>
-                  <li><Link legacyBehavior href="/service"><a>Mobile Development</a></Link></li>
-                  <li><Link legacyBehavior href="/service"><a>Cloud Services</a></Link></li>
-                  <li><Link legacyBehavior href="/service"><a>Network Connectivity</a></Link></li>
-                  <li><Link legacyBehavior href="/service"><a>Data analytics</a></Link></li>
-                  <li><Link legacyBehavior href="/service"><a>Software Development</a></Link></li>
+                  <li><Link legacyBehavior href="/service/web-development"><a>Web Development</a></Link></li>
+                  <li><Link legacyBehavior href="/service/mobile-app-development"><a>Mobile App Development</a></Link></li>
+                  <li><Link legacyBehavior href="/service/software-development"><a>Software Development</a></Link></li>
+                  <li><Link legacyBehavior href="/service/digital-marketing"><a>Digital Marketing </a></Link></li>
+                  <li><Link legacyBehavior href="/services"><a>Other Services</a></Link></li>
+                  <li><Link legacyBehavior href="/service"><a></a></Link></li>
                 </ul>
               </div>
             </div>
           </div>
-          <div className="col-lg-2 col-sm-6 d-flex justify-content-lg-center">
+          <div className="col-lg-3 col-sm-6 d-flex justify-content-lg-start justify-content-sm-end">
             <div className="footer-widget">
               <div className="widget-title">
                 <h4>Company</h4>
               </div>
               <div className="menu-container">
                 <ul>
+                  <li><Link legacyBehavior href="/"><a>Home</a></Link></li>
                   <li><Link legacyBehavior href="/about"><a>About Us</a></Link></li>
                   <li><Link legacyBehavior href="/case-study"><a>Case Study</a></Link></li>
-                  <li><Link legacyBehavior href="/blog"><a>News &amp  Article;</a></Link></li>
-                  <li><Link legacyBehavior href="/team1"><a>Our Team</a></Link></li>
-                  <li><Link legacyBehavior href="/project"><a>All Portfolio</a></Link></li>
-                  <li><Link legacyBehavior href="/pricing"><a>Pricing Plan</a></Link></li>
+                  <li><Link legacyBehavior href="/blogs"><a>Blog</a></Link></li>
+                  <li><Link legacyBehavior href="/team"><a>Our Team</a></Link></li>
+                  <li><Link legacyBehavior href="/projects"><a>Projects</a></Link></li>
+                  <li><Link legacyBehavior href="/contact"><a>Contact</a></Link></li>
                 </ul>
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-sm-6 d-flex justify-content-sm-end">
+
+          <div className="col-lg-2 col-sm-6 d-flex justify-content-lg-center">
             <div className="footer-widget">
               <div className="widget-title">
-                <h4>Resources</h4>
+                <h4>More Info</h4>
               </div>
               <div className="menu-container">
                 <ul>
-                  <li><a href="#">Support Area</a></li>
-                  <li><a href="#">Support Policy</a></li>
-                  <li><a href="#">Terms &amp; Conditions</a></li>
-                  <li><a href="#">Privacy Policy</a></li>
-                  <li><a href="#">Career</a></li>
-                  <li><Link legacyBehavior href="/pricing"><a>Pricing Plan</a></Link></li>
+                  <li><Link legacyBehavior href="/contact"><a>Support</a></Link></li>
+                  <li><Link legacyBehavior href="/support-policy"><a>Support Policy</a></Link></li>
+                  <li><Link legacyBehavior href="/terms-condition"><a>Terms &amp; Conditions</a></Link></li>
+                  <li><Link legacyBehavior href="/privacy-policy"><a>Privacy Policy</a></Link></li>
+                  <li><Link legacyBehavior href="/career"><a>Career</a></Link></li>
+                  <li><Link legacyBehavior href="/sitemap"><a>Sitemap</a></Link></li>
                 </ul>
               </div>
             </div>
           </div>
+
         </div>
       </div>
       <div className="footer-btm">

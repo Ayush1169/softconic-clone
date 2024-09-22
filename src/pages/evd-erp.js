@@ -1,9 +1,12 @@
 import React from 'react';
 import { ArrowRight, BarChart2, Users, Package, FileText, Shield, Zap, Briefcase, Layers, PieChart } from 'lucide-react';
+import Layout from '../components/layout/Layout';
 
 const EVDERPLandingPage = () => {
   return (
-    <div className="evd-erp-landing">
+   <>
+   <Layout>
+   <div className="evd-erp-landing">
       <header>
         <h1>EVD ERP</h1>
         <p className="tagline">Transform Your Business: Simplify, Automate and Succeed</p>
@@ -198,6 +201,8 @@ const EVDERPLandingPage = () => {
         <button className="cta-button">Get Started with EVD ERP <ArrowRight size={20} /></button>
       </section>
     </div>
+   </Layout>
+   </>
   );
 };
 

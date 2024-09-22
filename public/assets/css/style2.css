@@ -14482,17 +14482,17 @@ color: #cccccc;
 /* EVD ERP Landing Page Styles */
 
 .evd-erp-landing {
-  --bg-primary: #0d0d12; /* Darker background */
-  --bg-secondary: #1a1a24; /* Dark secondary background */
-  --text-primary: #ffffff; /* White text */
-  --text-secondary: #d9d9d9; /* Light gray text */
-  --accent: #5a8fe1; /* Lighter accent color */
-  --accent-hover: #4a7fd1; /* Darker hover accent color */
-  --card-bg: rgba(255, 255, 255, 0.1); /* Slightly more opaque card background */
-
+  --bg-primary: var(--black-color2); /* Dark background */
+  --bg-secondary: #333; /* Dark gray secondary background */
+  --text-primary: var(--white-color); /* White text */
+  --text-secondary: var(--black-soft-color); /* Softer gray text */
+  --accent: var(--theme-color); /* Green accent */
+  --accent-hover: #04b572; /* Darker hover green */
+  --card-bg: rgba(255, 255, 255, 0.08); /* Transparent card background */
+  
   background-color: var(--bg-primary);
   color: var(--text-primary);
-  font-family: 'Arial', sans-serif;
+  font-family: var(--font-saira), sans-serif;
   line-height: 1.6;
   padding: 2rem;
 }
@@ -14500,18 +14500,21 @@ color: #cccccc;
 .evd-erp-landing header {
   text-align: center;
   margin-bottom: 3rem;
+  animation: fadeInDown 1s ease-out;
+  margin-top: 74px;
 }
 
 .evd-erp-landing h1 {
   font-size: 3.5rem;
   margin-bottom: 0.5rem;
-  animation: fadeInDown 1s ease-out;
+  animation: slideInLeft 0.8s ease-out;
 }
 
 .evd-erp-landing h2 {
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
   color: var(--accent);
+  animation: slideInRight 0.8s ease-out;
 }
 
 .evd-erp-landing h3 {
@@ -14521,7 +14524,7 @@ color: #cccccc;
 
 .evd-erp-landing p {
   margin-bottom: 1rem;
-  color: var(--text-secondary); /* Light gray for paragraph text */
+  color: var(--text-secondary); /* Softer gray for paragraph text */
 }
 
 .evd-erp-landing .tagline {
@@ -14531,19 +14534,10 @@ color: #cccccc;
 
 .evd-erp-landing section {
   margin-bottom: 4rem;
-  animation: fadeIn 1s ease-out;
+  animation: fadeInUp 1s ease-out;
 }
 
-.evd-erp-landing .intro,
-.evd-erp-landing .conclusion {
-  text-align: center;
-  background-color: var(--bg-primary);
-}
-
-.evd-erp-landing .conclusion p {
-  color: var(--text-secondary);
-}
-
+/* Call to action button */
 .evd-erp-landing .cta-button {
   background-color: var(--accent);
   color: var(--text-primary);
@@ -14556,42 +14550,19 @@ color: #cccccc;
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 .evd-erp-landing .cta-button:hover {
   background-color: var(--accent-hover);
-  transform: translateY(-2px);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
 }
 
-.evd-erp-landing .highlights ul,
-.evd-erp-landing .focus-areas ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-.evd-erp-landing .highlights li,
-.evd-erp-landing .focus-areas li {
-  margin-bottom: 0.5rem;
-  padding-left: 1.5rem;
-  position: relative;
-  color: var(--text-secondary);
-}
-
-.evd-erp-landing .highlights li::before,
-.evd-erp-landing .focus-areas li::before {
-  content: '✓';
-  color: var(--accent);
-  position: absolute;
-  left: 0;
-}
-
+/* Vision and goal */
 .evd-erp-landing .vision-goal {
   display: flex;
   gap: 2rem;
-}
-
-.evd-erp-landing .vision-goal p {
-  color: var(--text-secondary);
 }
 
 .evd-erp-landing .vision,
@@ -14600,14 +14571,16 @@ color: #cccccc;
   background-color: var(--card-bg);
   padding: 1.5rem;
   border-radius: 8px;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .evd-erp-landing .vision:hover,
 .evd-erp-landing .goal:hover {
   transform: translateY(-5px);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
 }
 
+/* Grid layout */
 .evd-erp-landing .objective-grid,
 .evd-erp-landing .feature-grid,
 .evd-erp-landing .benefits-grid {
@@ -14624,10 +14597,6 @@ color: #cccccc;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.evd-erp-landing .objective-card p {
-  color: var(--text-secondary);
-}
-
 .evd-erp-landing .objective-card:hover,
 .evd-erp-landing .feature-card:hover {
   transform: translateY(-5px);
@@ -14639,10 +14608,6 @@ color: #cccccc;
 }
 
 .evd-erp-landing .feature-card p {
-  color: #e3e3e3;
-}
-
-.industries p {
   color: var(--text-secondary);
 }
 
@@ -14651,46 +14616,52 @@ color: #cccccc;
   margin-bottom: 1rem;
 }
 
-.evd-erp-landing .tech-stack ul {
-  display: flex;
-  justify-content: space-around;
-  list-style-type: none;
-  padding: 0;
+/* Industry section boxes */
+.evd-erp-landing .industry-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive grid */
+  gap: 1.5rem; /* Increased spacing between industry cards */
 }
 
+.evd-erp-landing .industry-card {
+  background-color: var(--card-bg);
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Added shadow to make the boxes prominent */
+}
+
+.evd-erp-landing .industry-card:hover {
+  background-color: var(--accent);
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+.evd-erp-landing .industry-card p {
+  color: var(--text-primary); /* White text in industry cards */
+}
+
+/* Benefits grid */
 .evd-erp-landing .benefits-grid {
   background-color: var(--bg-secondary);
   padding: 2rem;
   border-radius: 10px;
 }
 
-.evd-erp-landing .benefit-column ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-.evd-erp-landing .benefit-column li {
-  margin-bottom: 0.5rem;
-}
-
-.evd-erp-landing .industry-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 1rem;
-}
-
-.evd-erp-landing .industry-card {
-  background-color: var(--card-bg);
-  padding: 1rem;
-  border-radius: 8px;
+/* Conclusion section */
+.evd-erp-landing .conclusion {
+  background-color: var(--bg-secondary); /* Black background for conclusion */
   text-align: center;
-  transition: background-color 0.3s ease;
+  padding: 2rem;
+  border-radius: 10px;
 }
 
-.evd-erp-landing .industry-card:hover {
-  background-color: var(--accent);
+.evd-erp-landing .conclusion p {
+  color: var(--text-primary); /* White text in conclusion */
 }
 
+/* Footer */
 .evd-erp-landing footer {
   text-align: center;
   margin-top: 4rem;
@@ -14698,6 +14669,7 @@ color: #cccccc;
   border-top: 1px solid var(--card-bg);
 }
 
+/* Animations */
 @keyframes fadeInDown {
   from {
     opacity: 0;
@@ -14709,12 +14681,36 @@ color: #cccccc;
   }
 }
 
-@keyframes fadeIn {
+@keyframes fadeInUp {
   from {
     opacity: 0;
+    transform: translateY(20px);
   }
   to {
     opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
   }
 }
 
@@ -14736,3 +14732,242 @@ color: #cccccc;
     flex-direction: column;
   }
 }
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@400;600;700&display=swap');
+
+.evd-smartbook {
+  --white-color: #fff;
+  --black-color: #000;
+  --black-color2: #1D1D1D;
+  --dark-bg-color: #121212; /* New dark background color */
+  --gray-color: #2e2e2e; /* Darker gray for background elements */
+  --paragraph-color: #e0e0e0; /* Lighter text for better contrast */
+  --theme-color: #06D889;
+  --body-color: #1b1b1b; /* Dark background for the body */
+  --border-color: #333; /* Softer border color for the dark theme */
+  --black-soft-color: #7e7e7e;
+
+  font-family: 'Saira', sans-serif;
+  background-color: var(--dark-bg-color); /* Apply dark background */
+  color: var(--paragraph-color); /* Light text color */
+  line-height: 1.6;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.evd-smartbook.visible {
+  opacity: 1;
+  margin-top: 85px;
+}
+
+.evd-smartbook .container {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+.evd-smartbook .header {
+  background-color: var(--black-color2); /* Dark header */
+  color: var(--white-color); /* White text */
+  padding: 40px 0;
+  text-align: center;
+}
+
+.evd-smartbook .header h1 {
+  font-size: 2.5em;
+  color: var(--theme-color); /* Theme color for headers */
+  margin-bottom: 10px;
+}
+
+.evd-smartbook h2 {
+  font-size: 2em;
+  color: var(--theme-color);
+  margin-bottom: 20px;
+}
+
+.evd-smartbook h3 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  color: var(--white-color); /* Make headers more visible */
+}
+
+.evd-smartbook p {
+  margin-bottom: 15px;
+  color: var(--paragraph-color); /* Ensure text is light enough */
+}
+
+.evd-smartbook .section {
+  padding: 60px 20px;
+  background-color: var(--gray-color); /* Darker section background */
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4); /* Darker shadow */
+  transition: transform 0.3s ease;
+  
+}
+
+.evd-smartbook .section:hover {
+  transform: translateY(-5px);
+}
+
+.evd-smartbook .features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.evd-smartbook .feature {
+  background-color: var(--gray-color); /* Dark background for features */
+  padding: 20px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.evd-smartbook .feature:hover {
+  background-color: var(--theme-color);
+  color: var(--white-color);
+}
+
+.evd-smartbook ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.evd-smartbook .list-item {
+  margin-bottom: 10px;
+  position: relative;
+  color: var(--white-color); /* Ensure text in list items is visible */
+}
+
+.evd-smartbook .list-item::before {
+  content: '•';
+  color: var(--theme-color);
+  position: absolute;
+  left: -20px;
+}
+
+.evd-smartbook .industries-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.evd-smartbook .text-center {
+  text-align: center;
+}
+
+.evd-smartbook .cta-button {
+  display: inline-block;
+  background-color: var(--theme-color);
+  color: var(--white-color);
+  font-weight: bold;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.evd-smartbook .cta-button:hover {
+  background-color: var(--black-color2);
+}
+
+@media (max-width: 768px) {
+  .evd-smartbook .features-grid,
+  .evd-smartbook .industries-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+.privacy-policy {
+  background-color: var(--black-color2);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 10px var(--black-soft-color);
+  margin: 125px 20px;
+}
+
+.privacy-policy h1,
+.privacy-policy h2 {
+  color: var(--white-color);
+  margin-bottom: 10px;
+}
+
+.privacy-policy p,
+.privacy-policy ul {
+  color: var(--white-color);
+  line-height: 1.6;
+  margin-bottom: 1.5em;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 0.5s forwards;
+}
+
+.privacy-policy ul {
+  margin-left: 20px;
+}
+
+.box {
+  background-color: #4f4e4e;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+  transition: transform 0.2s;
+}
+
+.box:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 15px var(--black-soft-color);
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.terms-container {
+  background-color: #1e1e1e; /* Slightly lighter dark background for the container */
+  color: #ffffff; /* White text */
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+  margin: 125px 10px;
+}
+
+.terms-container h1 {
+  font-size: 2em;
+  color: #ffffff; /* Adjust heading size */
+}
+
+.terms-container h2 {
+  margin-top: 1.5em;
+  color: #ffffff; /* Add spacing above section headings */
+}
+
+.terms-container p {
+  line-height: 1.6;
+  color: #c9c5c5; /* Improve readability */
+}
+
+.terms-container ul {
+  margin-left: 20px;
+  color: #ffffff; /* Indent unordered lists */
+}
+
+.terms-container a {
+  color: #bb86fc; /* Link color */
+  text-decoration: underline;
+}
+
+.terms-container a:hover {
+  color: #3700b3; /* Link hover color */
+}
+
