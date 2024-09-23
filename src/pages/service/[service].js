@@ -37,12 +37,13 @@ function ServiceDetailsPage() {
       <div className="service-details sec-mar">
         {title && description && <AboutServices title={title} description={description} />}
         {howWeWork && howWeWork.length > 0 && <HowWeWorkSection />}
-        {serviceContent.faqSections && serviceContent.faqSections.length > 0 && (
-          <ServiceFAQArea faqSections={serviceContent.faqSections} />
-        )}
+       
         {technologies && technologies.comparisonSections && <TechnologiesSection technologies={technologies} />}
         {technologies && technologies.dataSets && <UserGuidesSection dataSets={technologies.dataSets} />}
         {technologies && technologies.conclusion && <ConclusionSection conclusion={technologies.conclusion} />}
+        {serviceContent.faqSections && serviceContent.faqSections.length > 0 && (
+          <ServiceFAQArea faqSections={serviceContent.faqSections} />
+        )}
         <ContactSection />
       </div>
     </Layout>
