@@ -1,5 +1,6 @@
 
 import { title } from "process";
+import { FaClipboardList, FaCog, FaCode, FaCheckCircle, FaRocket, FaSearch, FaPaintBrush, FaAd, FaChartLine, FaPalette, FaFacebook, FaClipboardCheck  } from 'react-icons/fa';
 
 const HomePage = {
   heroSection: {
@@ -10,7 +11,7 @@ const HomePage = {
   whyChooseUs: {
     title: "Why Choose Us",
     subTitle: "Unlock The Potential Of Your Business.",
-    description: "EVD Technology is your go-to choice for digital solutions in Raipur. We offer web development, app development, and digital marketing, all customized for your business. Our flexible SaaS solutions and engaging UI/UX design lead the way in digital quality. Improve your business with our ERP/CRM systems and highlight your brand’s uniqueness. Let’s work together to create a bright future for digital excellence."
+    description: "EVD Technology is your go-to choice for Digital Solutions in Raipur. We offer Web Development, App Development, and Digital Marketing, all customized for your business. Our flexible SaaS Solutions and engaging UI/UX Sesign lead the way in digital quality. Improve your business with our ERP/CRM Systems and highlight your brand’s uniqueness. Let’s work together to create a bright future for digital excellence."
   },
   stats: [
     { label: "Strategy", percentage: "100", description: "Our strategy focuses on delivering innovative, tailor-made IT solutions that align with our clients' goals." },
@@ -126,47 +127,48 @@ const HomePage = {
         "Evd Technology provide us complete LMS and ERP Solution. All software and website designed and maintained by Evd Technology. The best part they always care about client requirement. I am totally satisfied by their team.",
       author: "Prakash Gupta",
       position: "Center Head at Major kalshi Pvt. ltd.",
-      img: "assets/img/home-3/h3-testi-01.png",
+      img: "",
+      img2:""
     },
     {
       content:
         "I hired EVD Technology team to help understand my project requirements and project scope and development. Work was done on agreed time and done well. Thanks very much.",
       author: "Anwar Hashmi",
       position: "Switzerland",
-      img: "assets/img/homePage/anwarLogo.png",
-      img2:"assets/img/homePage/anwarCompany.png",
+      img: "",
+      img2:"",
     },
     {
       content:
         "Anshu and his whole team greatly amplifies the customer success. Their understanding of building ERPs and the CRMs is unparalleled. Their understanding of the general business processes and the edge cases is simply great.",
       author: "Arya Aditya",
       position: "Products @DP World",
-      img: "assets/img/homePage/aryaLogo.png",
-      img2:"assets/img/homePage/aryaCompany.png",
+      img: "",
+      img2:"",
     },
     {
       content:
         "It's a pleasure working with EVD team, they have the right attitude and technical capabilities to execute any challenge you throw at them.",
       author: "Aayush Goyal",
       position: "CEO - ExpertRight",
-      img: "assets/img/homePage/ayushLogo.png",
-      img2:"assets/img/homePage/ayushCompany.png",
+      img: "",
+      img2:"",
     },
     {
       content:
         "Very nice and flexible team. They clearly understand the requirements and help complete the tasks within estimated efforts. Easy to communicate, flexible, and skilled; overall a great development team.",
       author: "Syed Nafeez",
       position: "United Kingdom",
-      img: "assets/img/homePage/syedLogo.png",
-      img2:"assets/img/homePage/syedCompany.png",
+      img: "",
+      img2:"",
     },
     {
       content:
         "I am thrilled to offer my recommendation for Anshu, the CEO of EVD Technologies. Their visionary approach to software development resulted in an innovative and effective e-learning platform.",
       author: "Balaji Harsh",
       position: "Crafting products for BHARAT at SATYA",
-      img: "assets/img/homePage/balajiLogo.png",
-      img2:"assets/img/homePage/balajiCompany.png",
+      img: "",
+      img2:"",
     },
   ],
 };
@@ -229,7 +231,7 @@ export const AboutUs = {
   },
   whoWeAreData: {
     title: "Who We Are",
-    description: "EVD Technology is a leading digital solutions provider offering a comprehensive range of services, including mobile app development, website development, digital marketing, Shopify development, AI/ML solutions, SaaS development, staff augmentation, product development, and business automation. We empower businesses with innovative, scalable, and cost-effective technology solutions to drive growth, enhance efficiency, and achieve long-term success.",
+    description: "EVD Technology is a leading digital solutions provider offering a comprehensive range of services, including Mobile App Development, Website Development, Digital Marketing, Shopify Development, AI/ML Solutions, SaaS Development, Staff Augmentation, Product Development, and Business Automation. We empower businesses with innovative, scalable, and cost-effective technology solutions to drive growth, enhance efficiency, and achieve long-term success.",
     services: [
       "Innovative Solutions",
       "Custom Development",
@@ -260,16 +262,36 @@ export const caseStudies = [
     "solutionImage": "/assets/img/inner-pages/case-study-img-03.png",
     "processDescription": "The development process involved careful planning and execution to deliver a robust, integrated platform that met MKC's diverse needs while maintaining cost-effectiveness. We focused on creating a system that could be easily deployed across multiple branches with minimal customization.",
     "processSteps": [
-      { "stepNumber": "Step 01", "title": "Requirement Analysis", "description": "Conducted thorough analysis of MKC's needs across learning, hostel, inventory, and CRM systems.", "icon": "path/to/icon.svg" },
-      { "stepNumber": "Step 02", "title": "System Design", "description": "Designed a scalable architecture integrating LMS, hostel management, inventory control, and CRM.", "icon": "path/to/icon.svg" },
-      { "stepNumber": "Step 03", "title": "Development", "description": "Developed web and mobile platforms with role-based access for students, parents, and administrators.", "icon": "path/to/icon.svg" },
-      { "stepNumber": "Step 04", "title": "Integration & Testing", "description": "Integrated all modules and conducted rigorous testing to ensure seamless operation, security, and performance under high concurrent usage.", "icon": "path/to/icon.svg" }
+      {
+        stepNumber: "Step 01",
+        title: "Requirement Analysis",
+        description: "Conducted thorough analysis of MKC's needs across learning, hostel, inventory, and CRM systems.",
+        icon: <FaClipboardList color="#6cd358"/> 
+      },
+      {
+        stepNumber: "Step 02",
+        title: "System Design",
+        description: "Designed a scalable architecture integrating LMS, hostel management, inventory control, and CRM.",
+        icon: <FaCog  color="#6cd358"/>
+      },
+      {
+        stepNumber: "Step 03",
+        title: "Development",
+        description: "Developed web and mobile platforms with role-based access for students, parents, and administrators.",
+        icon: <FaCode  color="#6cd358"/> 
+      },
+      {
+        stepNumber: "Step 04",
+        title: "Integration & Testing",
+        description: "Integrated all modules and conducted rigorous testing to ensure seamless operation, security, and performance under high concurrent usage.",
+        icon: <FaCheckCircle  color="#6cd358"/> 
+      }
     ],
     "additionalImages": [
       "/assets/img/inner-pages/case-study-img-04.png",
       "/assets/img/inner-pages/case-study-img-05.png"
     ],
-    "slug": "mkc-integrated-lms-solution",
+    "slug": "mkc",
     "category": "Education Technology",
     "outcomes": "The project resulted in a centralized learning platform where students can access study material, take tests, and monitor progress. It streamlined operations by integrating hostel and inventory management, reducing manual errors and improving productivity. The parent panel enhanced parental involvement in their children's academic progress. The white-label approach with minimal customization allowed MKC to roll out the system across multiple branches cost-effectively. CRM integration improved communication between students, parents, and administrative staff, enhancing overall satisfaction.",
     "conclusion": "The Learning Management System developed for Major Kalshi Classes stands as a complete solution that seamlessly integrates learning, hostel management, inventory control, and customer relationship management. By keeping customizations minimal yet delivering essential features, MKC has successfully enhanced its operational efficiency and improved the overall learning experience for students and parents alike. This case study highlights the importance of balancing flexibility with cost-effective solutions, delivering a robust platform that meets both educational and administrative needs.",
@@ -295,20 +317,40 @@ export const caseStudies = [
   "description": "Astera, a leading provider of wireless LED lighting solutions for film and events, needed a robust software solution to streamline its operations. The company required a custom-built ERP (Enterprise Resource Planning) and CRM (Customer Relationship Management) system, along with 12 essential modules to manage various aspects of their business, such as HRMS (Human Resource Management System), Inventory, and Production. The goal was to integrate all operations under one platform to improve efficiency, manage workflows, and enhance customer relationships.",
   "overview": "Astera faced significant challenges in managing its growing operations, which included multiple departments working in silos. The need for an integrated solution became evident to centralize data, improve communication, automate manual processes, track production workflows, and manage inventory effectively.",
   "overviewImage": "/assets/img/inner-pages/case-study-img-02.png",
-  "solution": "We developed a comprehensive ERP and CRM system that included: 1) HRMS for managing employee data, recruitment, attendance, payroll, and performance. 2) Inventory Management for monitoring stock levels and automating reordering. 3) Production Management to oversee the production process and track progress. 4) Sales and CRM for managing customer relationships and automating the sales pipeline. 5) Purchase Management for streamlining procurement. 6) Finance and Accounting for managing invoices and tracking expenses. 7) Quality Control for ensuring product standards. 8) Project Management for handling lighting projects and timelines. 9) Supplier Management for maintaining supplier relationships. 10) Logistics for managing transportation. 11) Client Portal for real-time order access. 12) Support Ticketing System for customer service requests.",
+  "solution": "We developed a comprehensive ERP and CRM system that included: 1) HRMS for managing employee data, recruitment, attendance, payroll, and performance. 2) Inventory Management for monitoring stock levels and automating reordering. 3) Production Management to oversee the production process and track progress. 4) Sales and CRM for managing customer relationships and automating the sales pipeline. 5) Purchase Management for streamlining procurement. 6) Finance and Accounting for managing invoices and tracking expenses. 7) Quality Control for ensuring product standards. 8) Project Management for handling lighting projects and timelines. 9) Supplier Management for maintaining supplier relationships.",
   "solutionImage": "/assets/img/inner-pages/case-study-img-02.png",
   "processDescription": "The development process involved designing an intuitive, scalable, and secure cloud-based system that integrates various business functions under one platform, facilitating remote access and collaboration.",
   "processSteps": [
-    { "stepNumber": "Step 01", "title": "Requirement Analysis", "description": "Conducted a thorough analysis of Astera's operational needs across departments.", "icon": "path/to/icon.svg" },
-    { "stepNumber": "Step 02", "title": "System Design", "description": "Designed a scalable architecture to integrate ERP and CRM functionalities.", "icon": "path/to/icon.svg" },
-    { "stepNumber": "Step 03", "title": "Development", "description": "Developed modules for HR, inventory, production, sales, finance, and more.", "icon": "path/to/icon.svg" },
-    { "stepNumber": "Step 04", "title": "Integration & Testing", "description": "Integrated all modules and conducted testing to ensure seamless operation and performance.", "icon": "path/to/icon.svg" }
+    {
+      stepNumber: "Step 01",
+      title: "Requirement Analysis",
+      description: "Conducted a thorough analysis of Astera's operational needs across departments.",
+      icon: <FaClipboardList style={{ color: '#6cd358' }} />
+    },
+    {
+      stepNumber: "Step 02",
+      title: "System Design",
+      description: "Designed a scalable architecture to integrate ERP and CRM functionalities.",
+      icon: <FaCog style={{ color: '#6cd358' }} />
+    },
+    {
+      stepNumber: "Step 03",
+      title: "Development",
+      description: "Developed modules for HR, inventory, production, sales, finance, and more.",
+      icon: <FaCode style={{ color: '#6cd358' }} />
+    },
+    {
+      stepNumber: "Step 04",
+      title: "Integration & Testing",
+      description: "Integrated all modules and conducted testing to ensure seamless operation and performance.",
+      icon: <FaCheckCircle style={{ color: '#6cd358' }} />
+    }
   ],
   "additionalImages": [
     "/assets/img/inner-pages/case-study-img-02.png",
     "/assets/img/inner-pages/case-study-img-02.png"
   ],
-  "slug": "astera-custom-erp-crm-solution",
+  "slug": "astera",
   "category": "Software Development",
   "outcomes": "The project resulted in improved efficiency by automating processes and providing a centralized platform for all departments. Customer experience was enhanced through effective communication, leading to faster resolution of inquiries. Inventory management optimized stock levels, reducing waste and improving supply chain efficiency. Collaboration across departments improved as all data became accessible, allowing for better decision-making based on comprehensive reporting.",
   "conclusion": "The development of the ERP and CRM system with specialized modules enabled Astera to integrate various business processes, leading to increased efficiency, enhanced customer satisfaction, and a competitive edge in the film and event lighting industry.",
@@ -328,7 +370,7 @@ export const caseStudies = [
 }
 ,
 {
-  "id": 2,
+  "id": 3,
   "title": "Software Development for Deliver My Tune",
   "mainTitle": "Deliver My Tune: Empowering Artists with a Digital Distribution Platform",
   "mainImage": "/assets/img/inner-pages/case-study-img-02.png",
@@ -338,17 +380,37 @@ export const caseStudies = [
   "solution": "We developed a two-component platform consisting of: 1) Artist Panel with a dashboard for artists to create profiles, upload content, and track performance, integrating a reward system based on views and streams. 2) Admin Panel for managing uploaded content, monitoring artist activities, and ensuring efficient reward distribution, with tools for analytics and platform performance tracking.",
   "solutionImage": "/assets/img/inner-pages/case-study-img-02.png",
   "processDescription": "The development process involved creating intuitive interfaces for both artists and admins, ensuring a user-friendly experience. We focused on robust backend architecture to manage high volumes of content while providing real-time analytics and automated rewards.",
-  "processSteps": [
-    { "stepNumber": "Step 01", "title": "Requirement Analysis", "description": "Conducted a detailed analysis of Deliver My Tune's needs for artist empowerment and content management.", "icon": "path/to/icon.svg" },
-    { "stepNumber": "Step 02", "title": "System Design", "description": "Designed a scalable architecture integrating the Artist and Admin panels for seamless operations.", "icon": "path/to/icon.svg" },
-    { "stepNumber": "Step 03", "title": "Development", "description": "Developed user-friendly interfaces and robust backend functionalities for both panels.", "icon": "path/to/icon.svg" },
-    { "stepNumber": "Step 04", "title": "Testing & Deployment", "description": "Conducted rigorous testing to ensure smooth operation and deployed the solution for real-time usage.", "icon": "path/to/icon.svg" }
+  "processSteps":[
+    {
+      stepNumber: "Step 01",
+      title: "Requirement Analysis",
+      description: "Conducted a detailed analysis of Deliver My Tune's needs for artist empowerment and content management.",
+      icon: <FaClipboardList style={{ color: '#6cd358' }} />
+    },
+    {
+      stepNumber: "Step 02",
+      title: "System Design",
+      description: "Designed a scalable architecture integrating the Artist and Admin panels for seamless operations.",
+      icon: <FaCog style={{ color: '#6cd358' }} />
+    },
+    {
+      stepNumber: "Step 03",
+      title: "Development",
+      description: "Developed user-friendly interfaces and robust backend functionalities for both panels.",
+      icon: <FaCode style={{ color: '#6cd358' }} />
+    },
+    {
+      stepNumber: "Step 04",
+      title: "Testing & Deployment",
+      description: "Conducted rigorous testing to ensure smooth operation and deployed the solution for real-time usage.",
+      icon: <FaRocket style={{ color: '#6cd358' }} />
+    }
   ],
   "additionalImages": [
     "/assets/img/inner-pages/case-study-img-02.png",
     "/assets/img/inner-pages/case-study-img-02.png"
   ],
-  "slug": "deliver-my-tune-digital-distribution",
+  "slug": "deliver-my-tune-digital",
   "category": "Digital Music Distribution",
   "outcomes": "The software solution resulted in increased artist engagement, efficient content management, a transparent reward system, and scalability for future growth. Artists found the platform easy to use, leading to higher content submission rates, while the admin team benefited from streamlined operations.",
   "conclusion": "The development of the Artist and Admin panels for Deliver My Tune has transformed the way artists distribute their music and manage their careers. By balancing user-friendly design with robust management tools, Deliver My Tune is positioned to empower more artists across India and enhance their digital presence.",
@@ -370,7 +432,7 @@ export const caseStudies = [
   ]
 },
 {
-  "id": 3,
+  "id": 4,
   "title": "Digital Marketing for VHAI",
   "mainTitle": "VHAI Digital Marketing: Raising Awareness for Public Health Initiatives",
   "mainImage": "/assets/img/inner-pages/case-study-img-01.png",
@@ -381,16 +443,36 @@ export const caseStudies = [
   "solutionImage": "/assets/img/inner-pages/case-study-img-01.png",
   "processDescription": "The campaign included highly targeted ads using advanced audience targeting tools. Key features included carousel ads, video ads, stories ads, A/B testing, ad retargeting, and conversion tracking with Facebook Pixel and Instagram Insights.",
   "processSteps": [
-    { "stepNumber": "Step 01", "title": "Market Research and Target Audience Analysis", "description": "Studied the demographics, behavior, and interests of VHAI’s potential audience.", "icon": "path/to/icon.svg" },
-    { "stepNumber": "Step 02", "title": "Campaign Design", "description": "Developed multiple ad creatives tailored to various audience segments.", "icon": "path/to/icon.svg" },
-    { "stepNumber": "Step 03", "title": "Ad Setup on Facebook and Instagram", "description": "Launched and managed ad campaigns, optimizing for ROI.", "icon": "path/to/icon.svg" },
-    { "stepNumber": "Step 04", "title": "Performance Tracking and Reporting", "description": "Monitored campaign progress and provided regular reports to showcase effectiveness.", "icon": "path/to/icon.svg" }
+    {
+      stepNumber: "Step 01",
+      title: "Market Research and Target Audience Analysis",
+      description: "Studied the demographics, behavior, and interests of VHAI’s potential audience.",
+      icon: <FaSearch style={{ color: '#6cd358' }} />
+    },
+    {
+      stepNumber: "Step 02",
+      title: "Campaign Design",
+      description: "Developed multiple ad creatives tailored to various audience segments.",
+      icon: <FaPaintBrush style={{ color: '#6cd358' }} />
+    },
+    {
+      stepNumber: "Step 03",
+      title: "Ad Setup on Facebook and Instagram",
+      description: "Launched and managed ad campaigns, optimizing for ROI.",
+      icon: <FaAd style={{ color: '#6cd358' }} />
+    },
+    {
+      stepNumber: "Step 04",
+      title: "Performance Tracking and Reporting",
+      description: "Monitored campaign progress and provided regular reports to showcase effectiveness.",
+      icon: <FaClipboardList style={{ color: '#6cd358' }} />
+    }
   ],
   "additionalImages": [
     "/assets/img/inner-pages/case-study-img-01.png",
     "/assets/img/inner-pages/case-study-img-01.png"
   ],
-  "slug": "vhai-digital-marketing",
+  "slug": "vhai",
   "category": "Digital Marketing",
   "outcomes": "The digital marketing campaign successfully achieved VHAI’s goals, reaching over 500,000 people, increasing social media engagement by 75%, boosting website traffic by 60%, and leading to a 40% increase in donations.",
   "conclusion": "This case study showcases how a well-executed digital marketing campaign on Facebook and Instagram can help non-profits like VHAI increase their reach, engagement, and support for important health initiatives.",
@@ -408,7 +490,7 @@ export const caseStudies = [
   ]
 },
 {
-  "id": 4,
+  "id": 5,
   "title": "ERP/CRM Development for PCMW",
   "mainTitle": "PCMW: Streamlining Pest Control Operations with Custom ERP/CRM",
   "mainImage": "/assets/img/inner-pages/case-study-img-03.png",
@@ -419,18 +501,36 @@ export const caseStudies = [
   "solutionImage": "/assets/img/inner-pages/case-study-img-03.png",
   "processDescription": "The scope of work included requirements gathering, designing the system, development of features, testing and deployment, training, and post-launch support.",
   "processSteps": [
-    { "stepNumber": "Step 01", "title": "Requirements Gathering", "description": "Conducted workshops with the client to understand their current processes and pain points.", "icon": "path/to/icon.svg" },
-    { "stepNumber": "Step 02", "title": "System Design", "description": "Created a seamless and user-friendly platform that integrates all essential business operations.", "icon": "path/to/icon.svg" },
-    { "stepNumber": "Step 03", "title": "Development", "description": "Built features for customer management, job scheduling, technician tracking, inventory management, invoicing, and reporting.", "icon": "path/to/icon.svg" },
-    { "stepNumber": "Step 04", "title": "Testing and Deployment", "description": "Ensured the system was bug-free and met all client requirements before going live.", "icon": "path/to/icon.svg" },
-    { "stepNumber": "Step 05", "title": "Training", "description": "Provided training sessions to their team on using the new ERP/CRM system effectively.", "icon": "path/to/icon.svg" },
-    { "stepNumber": "Step 06", "title": "Post-launch Support", "description": "Offered ongoing support and maintenance to ensure smooth operations.", "icon": "path/to/icon.svg" }
+    {
+      stepNumber: "Step 01",
+      title: "Market Research and Target Audience Analysis",
+      description: "Studied the demographics, behavior, and interests of VHAI’s potential audience.",
+      icon: <FaChartLine style={{ color: '#6cd358' }} />
+    },
+    {
+      stepNumber: "Step 02",
+      title: "Campaign Design",
+      description: "Developed multiple ad creatives tailored to various audience segments.",
+      icon: <FaPalette style={{ color: '#6cd358' }} />
+    },
+    {
+      stepNumber: "Step 03",
+      title: "Ad Setup on Facebook and Instagram",
+      description: "Launched and managed ad campaigns, optimizing for ROI.",
+      icon: <FaFacebook style={{ color: '#6cd358' }} />
+    },
+    {
+      stepNumber: "Step 04",
+      title: "Performance Tracking and Reporting",
+      description: "Monitored campaign progress and provided regular reports to showcase effectiveness.",
+      icon: <FaClipboardCheck style={{ color: '#6cd358' }} />
+    }
   ],
   "additionalImages": [
     "/assets/img/inner-pages/case-study-img-03.png",
     "/assets/img/inner-pages/case-study-img-03.png"
   ],
-  "slug": "pcmw-erp-crm-solution",
+  "slug": "pcmw",
   "category": "ERP/CRM Development",
   "outcomes": "The ERP/CRM system significantly improved PCMW's operations, enhancing efficiency by 40%, enabling real-time tracking, better inventory management, and an overall increase in revenue by 15%.",
   "conclusion": "By implementing a custom ERP/CRM system, PCMW-M. Walshe Pest Control optimized their business operations, resulting in better service delivery, improved efficiency, and enhanced customer satisfaction. This project showcases how tailored software solutions can drive success for service-based businesses.",

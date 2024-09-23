@@ -6,15 +6,20 @@ import data from "../data/mesonaryData";
 
 function ProjectMasonaryPage() {
   const [selectedCategory, setSelectedCategory] = useState("All");
+  const [page, setPage] = useState(1);
+  const itemsPerPage = 6; 
 
   const handleCategoryFilter = (category) => {
     setSelectedCategory(category === "All" ? "All" : category);
+    setPage(1);
   };
 
   const filteredData =
     selectedCategory === "All"
       ? data
       : data.filter((project) => project.category === selectedCategory);
+
+  const displayedData = filteredData.slice(0, page * itemsPerPage); 
 
   const getColumnClass = (index) => {
     switch(index) {
@@ -59,7 +64,7 @@ function ProjectMasonaryPage() {
             </div>
           </div>
           <div className="row g-4 project-items mb-55" style={{ width: '100%', justifyContent: 'center' }}>
-            {filteredData.map((item, index) => (
+            {displayedData.map((item, index) => (
               <div
                 key={item.id}
                 className={`${getColumnClass(index)} single-item ${item.category}`}
@@ -71,7 +76,7 @@ function ProjectMasonaryPage() {
                   </div>
                   <div className="work-content">
                     <h3>
-                      <Link href={`/project/${item.slug}`}>
+                      <Link href={`/projects/${item.slug}`}>
                         {item.title}
                       </Link>
                     </h3>
@@ -83,11 +88,16 @@ function ProjectMasonaryPage() {
           </div>
           <div className="row" style={{ width: '100%' }}>
             <div className="col-lg-12 d-flex justify-content-center">
-              <div className="load-more-btn">
-                <Link href="/project-masonary" className="primary-btn3">
-                  Load More
-                </Link>
-              </div>
+              {displayedData.length < filteredData.length && (
+                <div className="load-more-btn">
+                  <button
+                    className="primary-btn3"
+                    onClick={() => setPage((prevPage) => prevPage + 1)}
+                  >
+                    Load More
+                  </button>
+                </div>
+              )}
             </div>
           </div>
         </div>

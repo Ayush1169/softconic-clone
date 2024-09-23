@@ -16,7 +16,13 @@ import icon8 from "../../../public/assets/img/Benefitadministration/icon8.svg"
 
 const Benefitforadministration = () => {
   return (
-    <div className="Benefitadmin-section">
+    <div className="Benefitadmin-section" 
+    style={{
+      backgroundImage: "url('/assets/img/Ellipse.png')",
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      backgroundRepeat: "no-repeat"
+    }}>
     <div className='container '>
         <div className="row justify-content-center mb-50"> 
         <div className="col-lg-10">

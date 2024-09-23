@@ -28,7 +28,9 @@ function Technology() {
                   alt={value.altName}
                   style={{
                     ...imageStyle,
-                    opacity: hovered === value.id ? 1 : 0.5 
+                    opacity: hovered === value.id ? 1 : 0.5, 
+                    width:80,
+                    height:70
                   }}
                 />
               </div>

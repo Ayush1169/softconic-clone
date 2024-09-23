@@ -2,10 +2,7 @@
 import React from "react";
 import Image from "next/image";
 
-import Digitization from "../../../public/assets/img/Objective/digitization.svg";
-import Adaptive from "../../../public/assets/img/Objective/Adaptive.svg";
-import Encouraging from "../../../public/assets/img/Objective/Encouraging.svg";
-import Gamification from "../../../public/assets/img/Objective/Gamefication.svg";
+import { Archive, Shield, ThumbsUp, Gamepad } from 'lucide-react';
 
 
 const Objectives = () => {
@@ -31,7 +28,7 @@ const Objectives = () => {
             <div className="objective-section-one">
 
               <div className="objective-section-one-icon">
-                <Image src={Digitization} alt="objective-section-one-Digitization"/>
+              <Archive color="green" />
               </div>
               <div className="objective-section-one-info">
                 <h4>Digitization of Every Stream</h4>
@@ -49,7 +46,7 @@ const Objectives = () => {
             <div className="objective-section-one">
 
               <div className="objective-section-one-icon">
-                <Image src={Adaptive} alt="objective-section-one-Adaptive"/>
+              <Shield color="green" />
               </div>
               <div className="objective-section-one-info">
                 <h4>Encouraging Integration of Technology in Education</h4>
@@ -66,7 +63,7 @@ const Objectives = () => {
             <div className="objective-section-one">
 
               <div className="objective-section-one-icon">
-                <Image src={Encouraging} alt="objective-section-one-Encouraging"/>
+              <ThumbsUp color="green" />
               </div>
               <div className="objective-section-one-info">
                 <h4>Adaptive Learning Platforms and AI</h4>
@@ -83,7 +80,7 @@ const Objectives = () => {
             <div className="objective-section-one">
 
               <div className="objective-section-one-icon">
-                <Image src={Gamification} alt="objective-section-one-Gamification"/>
+              <Gamepad color="green" />
               </div>
               <div className="objective-section-one-info">
                 <h4>Gamification and Learning Apps</h4>

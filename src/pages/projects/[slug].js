@@ -60,8 +60,13 @@ function ProjectDetailsPage({ project , prevProject, nextProject }) {
                   <h3>Our Process</h3>
                   <div className="row g-4 justify-content-center">
                     {project.process.map((step, index) => (
-                      <div className="col-xl-4 col-sm-6" key={index}>
-                        <div className="single-process magnetic-item">
+                      <div className="col-xl-4 col-sm-6" key={index} 
+                      >
+                        <div className="single-process magnetic-item"
+                        style={{
+                          minHeight: "400px",
+                          height:"650px"
+                        }}>
                           <div className="icon">
                             <img
                               src={step.icon}

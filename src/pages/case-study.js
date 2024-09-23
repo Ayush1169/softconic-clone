@@ -32,7 +32,7 @@ function CaseStudyPage() {
                       <div className="case-content pb-50">
                         <span>{caseStudy.category}</span>
                         <h3>
-                          <Link legacyBehavior href={`/case-study-details/${caseStudy.slug}`}>
+                          <Link legacyBehavior href={`/case-study/${caseStudy.slug}`}>
                             <a>{caseStudy.mainTitle}</a>
                           </Link>
                         </h3>

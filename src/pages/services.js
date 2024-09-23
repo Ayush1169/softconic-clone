@@ -107,14 +107,9 @@ function Service4Page() {
           backgroundRepeat: "no-repeat"
         }}>
         <div className="container">
-          <div className="row g-4"
-
-          >
+          <div className="row g-4">
             {solutions.map((solution, index) => (
-              <div className="col-lg-4 col-md-6 col-sm-10" key={index}
-                style={{
-                  height: "450px"
-                }}>
+              <div className="col-lg-4 col-md-6 col-sm-10" key={index}>
                 <div className="single-solution" style={{ animationDelay: solution.delay }}>
                   <div className="background-img">
                     <img src={solution.image} alt={solution.title} />
@@ -148,7 +143,65 @@ function Service4Page() {
                       </Link>
                     </div>
                     <div className="icon">
-                      {React.createElement(solution.icon, { size: 40 })}
+                      <svg
+                        className="blure"
+                        width={46}
+                        height={46}
+                        viewBox="0 0 122 122"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g opacity="0.7" filter="url(#filter0_f_1886_2043)">
+                          <circle
+                            cx={61}
+                            cy={61}
+                            r={23}
+                            fill="url(#paint0_linear_1886_2043)"
+                          />
+                        </g>
+                        <defs>
+                          <filter
+                            id="filter0_f_1886_2043"
+                            x={0}
+                            y={0}
+                            width={122}
+                            height={122}
+                            filterUnits="userSpaceOnUse"
+                            colorInterpolationFilters="sRGB"
+                          >
+                            <feFlood
+                              floodOpacity={0}
+                              result="BackgroundImageFix"
+                            />
+                            <feBlend
+                              mode="normal"
+                              in="SourceGraphic"
+                              in2="BackgroundImageFix"
+                              result="shape"
+                            />
+                            <feGaussianBlur
+                              stdDeviation={19}
+                              result="effect1_foregroundBlur_1886_204"
+                            />
+                          </filter>
+                          <linearGradient
+                            id="paint0_linear_1886_2043"
+                            x1={61}
+                            y1={38}
+                            x2={61}
+                            y2={84}
+                            gradientUnits="userSpaceOnUse"
+                          >
+                            <stop
+                              offset={0}
+                              stopColor="#06D889"
+                              stopOpacity={0}
+                            />
+                            <stop offset={1} stopColor="#06D889" />
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                      {React.createElement(solution.icon, { size: 60 })}
                     </div>
                   </div>
                 </div>
@@ -162,7 +215,3 @@ function Service4Page() {
 }
 
 export default Service4Page;
-
-
-
-

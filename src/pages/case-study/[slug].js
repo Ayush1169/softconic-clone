@@ -39,7 +39,7 @@ const CaseStudyDetailsPage = () => {
                 <p>{caseStudy.description}</p>
               </div>
 
-              {/* Project Challenges Section */}
+              {/* Challenges Section */}
               <div className="row mb-120">
                 <div className="col-lg-12">
                   <div className="case-content">
@@ -58,7 +58,9 @@ const CaseStudyDetailsPage = () => {
                 <div className="col-lg-6 d-flex align-items-center">
                   <div className="case-content">
                     <h2>Overview</h2>
-                    <p>{caseStudy.overview}</p>
+                    {caseStudy.overview.split(/(?=\d+\))/).map((point, index) => (
+                      <p key={index}>{point.trim()}</p>
+                    ))}
                   </div>
                 </div>
                 <div className="col-lg-6">
@@ -84,7 +86,9 @@ const CaseStudyDetailsPage = () => {
                 <div className="col-lg-6 d-flex align-items-center">
                   <div className="case-content">
                     <h2>Solution</h2>
-                    <p>{caseStudy.solution}</p>
+                    {caseStudy.solution.split(/(?=\d+\))/).map((point, index) => (
+                      <p key={index}>{point.trim()}</p>
+                    ))}
                   </div>
                 </div>
               </div>
@@ -94,20 +98,19 @@ const CaseStudyDetailsPage = () => {
                     <h2>Process</h2>
                     <p>{caseStudy.processDescription}</p>
                   </div>
-                  <div className="row g-4 justify-content-center">
-                    {caseStudy.processSteps.map((step, index) => (
-                      <div className="col-lg-4 col-md-6" key={index}>
-                        <div className="single-process magnetic-item">
-                          <div className="icon">
-                            <img src={step.icon} alt={`${step.title} Icon`} />
-                          </div>
-                          <span>{step.stepNumber}</span>
-                          <h3>{step.title}</h3>
-                          <p>{step.description}</p>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
+                  <div className="grid-container" style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '1rem' }}>
+  {caseStudy.processSteps.map((step, index) => (
+    <div className="single-process magnetic-item" key={index}>
+      <div className="icon">
+        {step.icon}
+      </div>
+      <span>{step.stepNumber}</span>
+      <h3>{step.title}</h3>
+      <p>{step.description}</p>
+    </div>
+  ))}
+</div>
+
 
                 </div>
               </div>
