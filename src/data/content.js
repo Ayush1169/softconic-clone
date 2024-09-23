@@ -266,7 +266,7 @@ export const caseStudies = [
         stepNumber: "Step 01",
         title: "Requirement Analysis",
         description: "Conducted thorough analysis of MKC's needs across learning, hostel, inventory, and CRM systems.",
-        icon: <FaClipboardList color="#6cd358"/> 
+        icon: <FaClipboardList color="#6cd358" width={50} height={50}/> 
       },
       {
         stepNumber: "Step 02",

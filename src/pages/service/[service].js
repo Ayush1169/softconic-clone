@@ -136,7 +136,7 @@ function ServiceFAQArea({ faqSections }) {
         {faqSections.map((faqSection, sectionIndex) => (
           <div key={sectionIndex} className="row gy-5 faq-section">
             <div className="col-lg-12">
-              <h2 className="faq-title">{faqSection.title}</h2>
+              <h2 className="faq-title" style={{ color: 'var(--theme-color)' }}>{faqSection.title}</h2>
             </div>
             <FAQContent questions={faqSection.questions} sectionIndex={sectionIndex} layout={faqSection.layout} image={faqSection.image} />
           </div>
@@ -148,6 +148,28 @@ function ServiceFAQArea({ faqSections }) {
 
 function FAQContent({ questions, sectionIndex, layout, image }) {
   if (!questions || questions.length === 0) return null;
+
+
+  const formatAnswer = (answer) => {
+    return answer.split(/(\d+\.\s+)/).reduce((acc, part, index) => {
+      if (/\d+\.\s+/.test(part)) {
+        acc.push(
+          <span key={index} style={{ color: 'red' }}>
+            {part}
+          </span>
+        );
+      } else {
+        acc.push(
+          <span key={index}>{part}</span>,
+          <br key={`break-${index}`} />
+        );
+      }
+      return acc;
+    }, []);
+  };
+  
+  
+  
 
   const FAQItems = (
     <div className="faq-content-area">
@@ -173,7 +195,7 @@ function FAQContent({ questions, sectionIndex, layout, image }) {
               data-bs-parent={`#accordionExample${sectionIndex}`}
             >
               <div className="accordion-body">
-                {item.answer}
+                {formatAnswer(item.answer)}
               </div>
             </div>
           </div>
@@ -210,6 +232,7 @@ function FAQContent({ questions, sectionIndex, layout, image }) {
     </>
   );
 }
+
 
 
 function TechnologiesSection({ technologies }) {

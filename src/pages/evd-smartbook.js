@@ -56,24 +56,24 @@ const EVDSmartbook = () => {
                         </Section>
 
                         <div className="row-oriented-sections">
-    <div className="section-box">
-        <Section title="Vision">
-            <p><strong>Vision:</strong> To provide businesses with a unified, smart management platform...</p>
-        </Section>
-    </div>
+                            <div className="section-box">
+                                <Section title="Vision">
+                                    <p><strong>Vision:</strong> To provide businesses with a unified, smart management platform...</p>
+                                </Section>
+                            </div>
 
-    <div className="section-box">
-        <Section title="Goal">
-            <p><strong>Goal:</strong> EVD Smartbook aims to optimize workforce management...</p>
-        </Section>
-    </div>
+                            <div className="section-box">
+                                <Section title="Goal">
+                                    <p><strong>Goal:</strong> EVD Smartbook aims to optimize workforce management...</p>
+                                </Section>
+                            </div>
 
-    <div className="section-box">
-        <Section title="Focus Area">
-            <p>Our focus is to empower businesses by automating routine tasks...</p>
-        </Section>
-    </div>
-</div>
+                            <div className="section-box">
+                                <Section title="Focus Area">
+                                    <p>Our focus is to empower businesses by automating routine tasks...</p>
+                                </Section>
+                            </div>
+                        </div>
 
 
                         <Section title="Objectives of EVD Smartbook">

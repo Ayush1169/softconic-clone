@@ -11569,12 +11569,14 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
 @media (max-width: 767px) {
   .service-details .service-faq-area .faq-content-area h2 {
     font-size: 38px;
+    
   }
 }
 
 @media (max-width: 576px) {
   .service-details .service-faq-area .faq-content-area h2 {
     font-size: 30px;
+    
   }
 }
 .service-details .service-faq-area .accordion .accordion-item {
@@ -11643,6 +11645,69 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   letter-spacing: 0.03em;
   color: #B5B5B5;
   padding: 20px 20px 30px;
+}
+
+
+
+
+
+.grid-container {
+  display: grid;
+  gap: 20px;
+  justify-items: center; 
+}
+
+
+.grid-container {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.grid-container[data-count="4"] {
+  grid-template-columns: repeat(2, 1fr); 
+}
+
+
+.grid-container[data-count="5"] {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-item {
+  background-color: #1c1c1c;
+  color: #fefefe;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.grid-item:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.grid-container[data-count="5"] {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
 }
 
 
@@ -13861,9 +13926,6 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   }
 }
 
-.Features-one-container {
-  padding: 40px 0;
-}
 
 .Features-one {
   position: relative;
@@ -14041,7 +14103,6 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
 }
 .section-title-Benefitteacher{
   color: #ddd;
-  padding-bottom: 30px;
 }
 
 .Benefitteacher-one {
@@ -15106,6 +15167,9 @@ color: #cccccc;
 .evd-smartbook .section {
   margin: 40px 0px;
 }
+.evd-smartbook .section h2{
+  text-align: center;
+}
 .evd-smartbook .section p{
   color: #b5b5b5;
 }
@@ -15116,8 +15180,8 @@ color: #cccccc;
 .evd-smartbook .row-oriented-grid {
   display: flex;
   justify-content: center;
-  gap: 20px; /* Space between boxes */
-  flex-wrap: wrap; /* Wrap to the next line if the screen is narrow */
+  gap: 20px; 
+  flex-wrap: wrap; 
 }
 
 .evd-smartbook .box {
@@ -15125,20 +15189,19 @@ color: #cccccc;
   padding: 20px;
   border-radius: 8px;
   text-align: center;
-  min-width: 220px; /* Ensures boxes remain in a row with a minimum size */
-  transition: background-color 0.3s ease, transform 0.3s ease; /* Transition for hover effect */
-  flex: 1; /* Allow boxes to grow equally */
+  min-width: 220px; 
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  flex: 1; 
 }
 
 .evd-smartbook .box:hover {
-  background-color: #525252;
   color: var(--white-color);
-  transform: translateY(-5px); /* Lift effect on hover */
+  transform: translateY(-5px); 
 }
 
 .evd-smartbook .box-icon {
-  font-size: 2em; /* Adjust icon size */
-  margin-bottom: 10px; /* Space between icon and text */
+  font-size: 2em; 
+  margin-bottom: 10px; 
 }
 
 .evd-smartbook .row-oriented-sections {
@@ -15149,17 +15212,17 @@ color: #cccccc;
 
 .evd-smartbook .section-box {
   flex: 1;
-  min-width: 300px; /* Minimum width for responsiveness */
-  background-color: var(--gray-color); /* Background color of the box */
-  padding: 20px; /* Padding inside the box */
-  border-radius: 8px; /* Rounded corners */
-  transition: background-color 0.3s ease, transform 0.3s ease; /* Transition for hover effect */
+  min-width: 300px; 
+  background-color: var(--gray-color); 
+  padding: 20px; 
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.3s ease; 
 }
 
 .evd-smartbook .section-box:hover {
-  background-color: #525252; /* Change background color on hover */
-  color: var(--white-color); /* Change text color on hover */
-  transform: translateY(-5px); /* Lift effect on hover */
+  background-color: #525252; 
+  color: var(--white-color); 
+  transform: translateY(-5px);
 }
 
 

@@ -3,6 +3,7 @@ import Layout from "../../components/layout/Layout";
 import React from "react";
 import { caseStudies } from "../../data/content";
 import { useRouter } from "next/router";
+import { FaCheckCircle } from 'react-icons/fa';
 
 const CaseStudyDetailsPage = () => {
   const router = useRouter();
@@ -26,9 +27,9 @@ const CaseStudyDetailsPage = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="case-study-title">
-                <h1>{caseStudy.mainTitle}</h1>
+                <h1 style={{ textAlign: 'center' }}>{caseStudy.mainTitle}</h1>
               </div>
-              <div className="case-big-img magnetic-item">
+              <div className="case-big-img magnetic-item" style={{ display: 'flex', justifyContent: 'center' }}>
                 <img
                   className="img-fluid"
                   src={caseStudy.mainImage}
@@ -36,28 +37,35 @@ const CaseStudyDetailsPage = () => {
                 />
               </div>
               <div className="case-content mb-60">
-                <p>{caseStudy.description}</p>
+                <p style={{ textAlign: 'center' }}>{caseStudy.description}</p>
               </div>
 
               {/* Challenges Section */}
+
+
               <div className="row mb-120">
-                <div className="col-lg-12">
-                  <div className="case-content">
-                    <h2>Project Challenges</h2>
-                    <ul>
-                      {caseStudy.projectChallenges.map((challenge, index) => (
-                        <li key={index} style={{ color: '#fefefe' }}>{challenge}</li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
-              </div>
+  <div className="col-lg-12">
+    <div className="case-content">
+      <h2>Project Challenges</h2>
+      <div className="grid-container" data-count={caseStudy.projectChallenges.length}>
+        {caseStudy.projectChallenges.map((challenge, index) => (
+          <div key={index} className="grid-item">
+            <FaCheckCircle size={40} color="green" className="icon" />
+            {challenge}
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
 
               <div className="row g-lg-4 gy-5 mb-120">
                 <div className="col-lg-6 d-flex align-items-center">
                   <div className="case-content">
-                    <h2>Overview</h2>
+                    <h2 style={{ color: "#06D889" }}>Overview</h2>
                     {caseStudy.overview.split(/(?=\d+\))/).map((point, index) => (
                       <p key={index}>{point.trim()}</p>
                     ))}
@@ -85,7 +93,7 @@ const CaseStudyDetailsPage = () => {
                 </div>
                 <div className="col-lg-6 d-flex align-items-center">
                   <div className="case-content">
-                    <h2>Solution</h2>
+                    <h2 style={{ color: "#06D889" }}>Solution</h2>
                     {caseStudy.solution.split(/(?=\d+\))/).map((point, index) => (
                       <p key={index}>{point.trim()}</p>
                     ))}
@@ -95,21 +103,33 @@ const CaseStudyDetailsPage = () => {
               <div className="row mb-120">
                 <div className="col-lg-12">
                   <div className="case-content mb-60">
-                    <h2>Process</h2>
+                    <h2 style={{ color: "#06D889" }}>Process</h2>
                     <p>{caseStudy.processDescription}</p>
                   </div>
                   <div className="grid-container" style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '1rem' }}>
-  {caseStudy.processSteps.map((step, index) => (
-    <div className="single-process magnetic-item" key={index}>
-      <div className="icon">
-        {step.icon}
-      </div>
-      <span>{step.stepNumber}</span>
-      <h3>{step.title}</h3>
-      <p>{step.description}</p>
-    </div>
-  ))}
-</div>
+                    {caseStudy.processSteps.map((step, index) => (
+                     <div className="single-process magnetic-item" key={index}>
+                     <div
+                       className="icon"
+                       style={{
+                         width: '60px', 
+                         height: '60px',
+                         display: 'flex',
+                         alignItems: 'center',
+                         justifyContent: 'center',
+                         marginBottom: '10px', 
+                         fontSize: '2rem'
+                       }}
+                     >
+                       {step.icon}
+                     </div>
+                     <span>{step.stepNumber}</span>
+                     <h3>{step.title}</h3>
+                     <p>{step.description}</p>
+                   </div>
+                   
+                    ))}
+                  </div>
 
 
                 </div>
@@ -117,7 +137,7 @@ const CaseStudyDetailsPage = () => {
               <div className="row mb-120">
                 <div className="col-lg-12">
                   <div className="case-content">
-                    <h2>Outcomes</h2>
+                    <h2 style={{ color: "#06D889" }}>Outcomes</h2>
                     <p>{caseStudy.outcomes}</p>
                   </div>
                 </div>
@@ -125,16 +145,13 @@ const CaseStudyDetailsPage = () => {
               <div className="row mb-120">
                 <div className="col-lg-12">
                   <div className="case-content">
-                    <h2>Conclusion</h2>
+                    <h2 style={{ color: "#06D889" }}>Conclusion</h2>
                     <p>{caseStudy.conclusion}</p>
                   </div>
                 </div>
               </div>
               <div className="row">
                 <div className="col-lg-12">
-                  <div className="case-content mb-60">
-                    <h2>Additional Images</h2>
-                  </div>
                   <div className="row g-4 justify-content-center">
                     {caseStudy.additionalImages.map((image, index) => (
                       <div className="col-md-6" key={index}>
@@ -153,7 +170,7 @@ const CaseStudyDetailsPage = () => {
               <div className="row mb-120">
                 <div className="col-lg-12">
                   <div className="case-content">
-                    <h2>Testimonials</h2>
+                    <h2 style={{ color: "#06D889" }}>Testimonials</h2>
                     {caseStudy.testimonials.map((testimonial, index) => (
                       <div key={index} className="mb-4">
                         <blockquote>

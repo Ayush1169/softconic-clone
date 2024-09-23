@@ -65,7 +65,7 @@ const EVDERPLandingPage = () => {
       </section>
 
       <section className="objectives">
-        <h2>Objectives of EVD ERP</h2>
+        <h2 style={{ textAlign: 'center' }}>Objectives of EVD ERP</h2>
         <div className="objective-grid">
           <div className="objective-card">
             <h3><Layers size={24} /> 1. Custom Design and Development</h3>
@@ -91,7 +91,7 @@ const EVDERPLandingPage = () => {
       </section>
 
       <section className="major-features">
-        <h2>Major Features</h2>
+        <h2 style={{ textAlign: 'center' }}>Major Features</h2>
         <div className="feature-grid">
           <div className="feature-card">
             <Package size={48} />
@@ -186,7 +186,7 @@ const EVDERPLandingPage = () => {
       </section>
 
       <section className="common-features">
-        <h2>Common Features Demonstrating Impact</h2>
+        <h2 style={{ textAlign: "center" }}>Common Features Demonstrating Impact</h2>
         <div className="feature-grid">
           <div className="feature-card">
             <Zap size={48} />

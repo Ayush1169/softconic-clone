@@ -23,7 +23,7 @@ const Objectives = () => {
 
 
 
-        <div className="row justify-content-center objective-section -container">
+        <div className="row justify-content-center objective-section-container">
           <div className="col-xxl-3 col-xl-3    col-lg-3 col-md-6">
             <div className="objective-section-one">
 
