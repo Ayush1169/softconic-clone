@@ -98,16 +98,29 @@ function Header() {
         <div className="address-card">
           <div className="content">
             <div className="informations">
-              <div className="single-info">
-                <div className="icon">
-                  <i className="fas fa-map-marker-alt" />
-                </div>
-                <div className="info">
-                  <p>
-                    Infront of Fitness Mantra Gym, Plot No: 667/7, Second Floor, Ward 02, DDM Rd, Korba, Chhattisgarh, 495677
-                  </p>
-                </div>
-              </div>
+            <div className="single-info">
+                      <div className="icon">
+                        <i className="fas fa-map-marker-alt" />
+                      </div>
+                      <div className="info">
+                        <p>
+                          <a target='_blank' href="https://www.google.com/maps/place/EVD+Technology+LLP/@22.3530279,82.7020842,17z/data=!3m2!4b1!5s0x3a278f2e1ea838eb:0xd1a92c85d2f85e57!4m6!3m5!1s0x3a2788cb666b7427:0xff101e61b70ad2!8m2!3d22.3530279!4d82.7020842!16s%2Fg%2F11bvtg_v2v?entry=ttu">
+                            Infront of Fitness Mantra Gym, Plot No: 667/7, Second Floor, Ward 02, DDM Rd, Korba, Chhattisgarh, 495677</a>
+                        </p>
+                      </div>
+                    </div>
+                    <div className="single-info">
+                      <div className="icon">
+                        <i className="fas fa-map-marker-alt" />
+                      </div>
+                      <div className="info">
+                        <p>
+                          <a target='_blank' href="https://www.google.com/maps/place/Progressive+Point/@21.2129458,81.6633226,17z/data=!3m1!4b1!4m6!3m5!1s0x3a28dd2051f9c227:0x3b746deed9b1a21d!8m2!3d21.2129458!4d81.6633226!16s%2Fg%2F11gy1lxvf4?entry=ttu">
+                            Office no 152, 1st Floor, Progressive Point, Near Fruit Market, Lalpur, Raipur, Chhattisgarh, 492001</a>
+
+                        </p>
+                      </div>
+                    </div>
               <div className="single-info">
                 <div className="icon">
                   <i className="fas fa-phone-alt" />
