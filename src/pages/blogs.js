@@ -264,7 +264,7 @@ function BlogSidebarPage() {
 
                   </div>
                 </div>
-                <div className="single-widgets widget_egns_tag">
+                {/* <div className="single-widgets widget_egns_tag">
                   <div className="widget-title">
                     <h4>All Tag</h4>
                   </div>
@@ -297,7 +297,7 @@ function BlogSidebarPage() {
                       <a>3D Design</a>
                     </Link>
                   </p>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

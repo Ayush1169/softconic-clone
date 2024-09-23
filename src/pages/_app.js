@@ -20,7 +20,7 @@ export default function App({ Component, pageProps }) {
     setLoading(false);
     setTimeout(() => {
       setLoading(true);
-    }, 10);
+    }, 500);
   }, []);
   useMagneticHover();
   useEffect(() => {
