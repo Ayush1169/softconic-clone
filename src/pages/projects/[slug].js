@@ -65,7 +65,7 @@ function ProjectDetailsPage({ project , prevProject, nextProject }) {
                         <div className="single-process magnetic-item"
                         style={{
                           minHeight: "300px",
-                          height:"550px"
+                          height:"570px"
                         }}>
                           <div className="icon">
                             <img
