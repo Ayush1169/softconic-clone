@@ -28,7 +28,7 @@ const Objectives = () => {
             <div className="objective-section-one">
 
               <div className="objective-section-one-icon">
-              <Archive color="green" />
+              <Archive color="green" width={50} height={50} />
               </div>
               <div className="objective-section-one-info">
                 <h4>Digitization of Every Stream</h4>
@@ -46,7 +46,7 @@ const Objectives = () => {
             <div className="objective-section-one">
 
               <div className="objective-section-one-icon">
-              <Shield color="green" />
+              <Shield color="green"  width={50} height={50} />
               </div>
               <div className="objective-section-one-info">
                 <h4>Encouraging Integration of Technology in Education</h4>
@@ -63,7 +63,7 @@ const Objectives = () => {
             <div className="objective-section-one">
 
               <div className="objective-section-one-icon">
-              <ThumbsUp color="green" />
+              <ThumbsUp color="green"  width={50} height={50} />
               </div>
               <div className="objective-section-one-info">
                 <h4>Adaptive Learning Platforms and AI</h4>
@@ -80,7 +80,7 @@ const Objectives = () => {
             <div className="objective-section-one">
 
               <div className="objective-section-one-icon">
-              <Gamepad color="green" />
+              <Gamepad color="green"  width={50} height={50} />
               </div>
               <div className="objective-section-one-info">
                 <h4>Gamification and Learning Apps</h4>
