@@ -211,32 +211,100 @@ function FAQContent({ questions, sectionIndex, layout, image }) {
   );
 }
 
+
 function TechnologiesSection({ technologies }) {
   if (!technologies || !technologies.comparisonSections || !technologies.title || !technologies.description) {
     return null;
   }
 
   const { title, description, comparisonSections } = technologies;
+
+  const formatContent = (content) => {
+    // Split the content into an array of lines
+    const lines = content.split('\n');
+    
+    return lines.map((line, index) => {
+      const match = line.match(/^(\d+\.)\s*(.*)/);
+      if (match) {
+        return (
+          <React.Fragment key={index}>
+            <span style={{ 
+              fontWeight: 'bold', 
+              color: 'var(--theme-color)',
+              display: 'inline-block',
+              marginRight: '5px'
+            }}>
+              {match[1]}
+            </span>
+            {match[2]}
+            <br />
+          </React.Fragment>
+        );
+      }
+      return (
+        <React.Fragment key={index}>
+          {line}
+          <br />
+        </React.Fragment>
+      );
+    });
+  };
+
   return (
     <div className="technologies">
       <div className="container">
         <h1>{title}</h1>
         <p>{description}</p>
 
-        <div className="comparison-sections">
+        <div className="comparison-sections" style={{
+          display: 'grid',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+          gap: '30px'
+        }}>
           {comparisonSections.map((section, index) => (
-            <div key={index} className="comparison-section">
+            <div key={index} className="comparison-section" style={{
+              background: 'linear-gradient(135deg, #1e1e1e, #0a0a0a)',
+              borderRadius: '10px',
+              overflow: 'hidden',
+              transition: 'all 0.3s ease',
+              boxShadow: '0 10px 20px rgba(0, 0, 0, 0.2)'
+            }}>
               <img
-                src={section.image} // Use the specific image for each section
+                src={section.image}
                 alt={section.title}
                 className="section-image"
+                style={{
+                  width: '100%',
+                  height: '200px',
+                  objectFit: 'cover'
+                }}
               />
-              <h2>{section.title}</h2>
-              <div className="comparison-content">
+              <h2 style={{
+                fontSize: '1.8rem',
+                padding: '20px',
+                backgroundColor: 'rgba(255, 255, 255, 0.05)',
+                margin: '0'
+              }}>{section.title}</h2>
+              <div className="comparison-content" style={{ padding: '20px' }}>
                 {section.questions.map((q, idx) => (
-                  <div key={idx} className="comparison-item">
-                    <strong>{q.question}</strong>
-                    <p>{q.answer}</p>
+                  <div key={idx} className="comparison-item" style={{
+                    marginBottom: '20px',
+                    opacity: '1',
+                    transform: 'translateY(0)',
+                    animation: 'fadeInUp 0.5s ease forwards'
+                  }}>
+                    <strong style={{
+                      display: 'block',
+                      fontSize: '1.2rem',
+                      marginBottom: '10px',
+                      color: 'var(--theme-color)'
+                    }}>{q.question}</strong>
+                    <p style={{
+                      margin: '0',
+                      fontSize: '1rem',
+                      color: '#a0a0a0',
+                      textAlign: 'left'
+                    }}>{formatContent(q.answer)}</p>
                   </div>
                 ))}
               </div>
@@ -250,6 +318,25 @@ function TechnologiesSection({ technologies }) {
 
 function UserGuidesSection({ dataSets }) {
   if (!dataSets || dataSets.length === 0) return null;
+
+  const formatStep = (step) => {
+    const match = step.match(/^(\d+\.)\s*(.*)/);
+    if (match) {
+      return (
+        <>
+          <span style={{ 
+            fontWeight: 'bold', 
+            color: 'var(--theme-color)',
+            marginRight: '5px'
+          }}>
+            {match[1]}
+          </span>
+          {match[2]}
+        </>
+      );
+    }
+    return step;
+  };
 
   return (
     <div className="user-guides-section">
@@ -321,7 +408,7 @@ function UserGuidesSection({ dataSets }) {
                           color: 'var(--theme-color)',
                           fontWeight: 'bold'
                         }}>→</span>
-                        {step}
+                        {formatStep(step)}
                       </li>
                     ))}
                   </ul>
