@@ -220,7 +220,6 @@ function TechnologiesSection({ technologies }) {
   const { title, description, comparisonSections } = technologies;
 
   const formatContent = (content) => {
-    // Split the content into an array of lines
     const lines = content.split('\n');
     
     return lines.map((line, index) => {
@@ -250,16 +249,26 @@ function TechnologiesSection({ technologies }) {
     });
   };
 
+  const getGridTemplate = (count) => {
+    if (count <= 3) return 'repeat(3, 1fr)';
+    if (count === 4) return 'repeat(2, 1fr)';
+    return 'repeat(3, 1fr)';
+  };
+
   return (
     <div className="technologies">
-      <div className="container">
-        <h1>{title}</h1>
-        <p>{description}</p>
+      <div className="container" style={{ maxWidth: '1400px', margin: '0 auto', padding: '0 20px' }}>
+        <h1 style={{ fontSize: '3rem', textAlign: 'center', marginBottom: '40px', color: 'var(--theme-color)' }}>{title}</h1>
+        <p style={{ fontSize: '1.2rem', textAlign: 'center', maxWidth: '800px', margin: '0 auto 60px', color: '#a0a0a0' }}>{description}</p>
 
         <div className="comparison-sections" style={{
           display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-          gap: '30px'
+          gridTemplateColumns: getGridTemplate(comparisonSections.length),
+          gap: '30px',
+          justifyContent: 'center',
+          alignItems: 'start',
+          margin: '0 auto',
+          maxWidth: '1200px'
         }}>
           {comparisonSections.map((section, index) => (
             <div key={index} className="comparison-section" style={{
@@ -267,7 +276,10 @@ function TechnologiesSection({ technologies }) {
               borderRadius: '10px',
               overflow: 'hidden',
               transition: 'all 0.3s ease',
-              boxShadow: '0 10px 20px rgba(0, 0, 0, 0.2)'
+              boxShadow: '0 10px 20px rgba(0, 0, 0, 0.2)',
+              display: 'flex',
+              flexDirection: 'column',
+              height: '100%'
             }}>
               <img
                 src={section.image}
@@ -285,12 +297,10 @@ function TechnologiesSection({ technologies }) {
                 backgroundColor: 'rgba(255, 255, 255, 0.05)',
                 margin: '0'
               }}>{section.title}</h2>
-              <div className="comparison-content" style={{ padding: '20px' }}>
+              <div className="comparison-content" style={{ padding: '20px', flex: 1 }}>
                 {section.questions.map((q, idx) => (
                   <div key={idx} className="comparison-item" style={{
                     marginBottom: '20px',
-                    opacity: '1',
-                    transform: 'translateY(0)',
                     animation: 'fadeInUp 0.5s ease forwards'
                   }}>
                     <strong style={{
@@ -316,45 +326,68 @@ function TechnologiesSection({ technologies }) {
   );
 }
 
+
 function UserGuidesSection({ dataSets }) {
   if (!dataSets || dataSets.length === 0) return null;
 
   const formatStep = (step) => {
-    const match = step.match(/^(\d+\.)\s*(.*)/);
-    if (match) {
+    const lines = step.split('\n');
+    
+    return lines.map((line, index) => {
+      const match = line.match(/^(\d+\.)\s*(.*)/);
+      if (match) {
+        return (
+          <React.Fragment key={index}>
+            <span style={{ 
+              fontWeight: 'bold', 
+              color: 'var(--theme-color)',
+              display: 'inline-block',
+              marginRight: '5px'
+            }}>
+              {match[1]}
+            </span>
+            {match[2]}
+            <br />
+          </React.Fragment>
+        );
+      }
       return (
-        <>
-          <span style={{ 
-            fontWeight: 'bold', 
-            color: 'var(--theme-color)',
-            marginRight: '5px'
-          }}>
-            {match[1]}
-          </span>
-          {match[2]}
-        </>
+        <React.Fragment key={index}>
+          {line}
+          <br />
+        </React.Fragment>
       );
-    }
-    return step;
+    });
+  };
+
+  const getGridTemplate = (count) => {
+    if (count <= 3) return 'repeat(3, 1fr)';
+    if (count === 4) return 'repeat(2, 1fr)';
+    return 'repeat(3, 1fr)';
   };
 
   return (
     <div className="user-guides-section">
-      <div className="container">
+      <div className="container" style={{ maxWidth: '1400px', margin: '0 auto', padding: '0 20px' }}>
         {dataSets.map((guideSet, setIndex) => (
           <div key={setIndex} className="user-guide-set"
             style={{
               backgroundImage: "url('/assets/img/Ellipse.png')",
               backgroundSize: "cover",
               backgroundPosition: "center",
-              backgroundRepeat: "no-repeat"
+              backgroundRepeat: "no-repeat",
+              padding: '60px 0'
             }}>
-            <h2>{guideSet.title}</h2>
-            <p>{guideSet.description}</p>
+            <h2 style={{ fontSize: '2.5rem', textAlign: 'center', marginBottom: '30px', color: 'var(--theme-color)' }}>{guideSet.title}</h2>
+            <p style={{ fontSize: '1.1rem', textAlign: 'center', maxWidth: '800px', margin: '0 auto 40px', color: '#a0a0a0' }}>{guideSet.description}</p>
             <div className="user-guides-container" style={{ 
-              display: 'flex', 
-              flexWrap: 'wrap', 
-              justifyContent: 'center' 
+              display: 'grid',
+              gridTemplateColumns: getGridTemplate(guideSet.guides.length),
+              gap: '30px',
+              justifyContent: 'center',
+              alignItems: 'start',
+              margin: '0 auto',
+              maxWidth: '1200px'
             }}>
               {guideSet.guides.map((guide, guideIndex) => (
                 <div key={guideIndex} className="user-guide" style={{
@@ -362,10 +395,10 @@ function UserGuidesSection({ dataSets }) {
                   borderRadius: '10px',
                   padding: '30px',
                   boxShadow: '0 10px 20px rgba(0, 0, 0, 0.2)',
-                  flex: guideSet.guides.length === 1 ? '0 1 100%' : '0 1 calc(33.333% - 20px)',
-                  marginBottom: '20px',
                   transition: 'all 0.3s ease',
-                  maxWidth: guideSet.guides.length === 1 ? '100%' : 'calc(33.333% - 20px)'
+                  display: 'flex',
+                  flexDirection: 'column',
+                  height: '100%'
                 }}>
                   <img
                     src={guide.image}
@@ -391,7 +424,8 @@ function UserGuidesSection({ dataSets }) {
                   <ul style={{ 
                     listStyleType: 'none', 
                     padding: 0, 
-                    margin: 0 
+                    margin: 0,
+                    flex: 1
                   }}>
                     {guide.steps.map((step, stepIndex) => (
                       <li key={stepIndex} style={{
@@ -421,6 +455,7 @@ function UserGuidesSection({ dataSets }) {
     </div>
   );
 }
+
 
 
 
