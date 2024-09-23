@@ -263,42 +263,76 @@ function UserGuidesSection({ dataSets }) {
             }}>
             <h2>{guideSet.title}</h2>
             <p>{guideSet.description}</p>
-            <div className="user-guides-container" style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
+            <div className="user-guides-container" style={{ 
+              display: 'flex', 
+              flexWrap: 'wrap', 
+              justifyContent: 'center' 
+            }}>
               {guideSet.guides.map((guide, guideIndex) => (
                 <div key={guideIndex} className="user-guide" style={{
                   backgroundColor: '#1e1e1e',
                   borderRadius: '10px',
                   padding: '30px',
                   boxShadow: '0 10px 20px rgba(0, 0, 0, 0.2)',
-                  flex: '0 1 calc(33.333% - 20px)', /* 3 items per row with space */
+                  flex: guideSet.guides.length === 1 ? '0 1 100%' : '0 1 calc(33.333% - 20px)',
                   marginBottom: '20px',
-                  transition: 'all 0.3s ease'
+                  transition: 'all 0.3s ease',
+                  maxWidth: guideSet.guides.length === 1 ? '100%' : 'calc(33.333% - 20px)'
                 }}>
                   <img
                     src={guide.image}
                     alt={guide.title}
                     className="section-image"
+                    style={{
+                      width: '100%',
+                      height: '200px',
+                      objectFit: 'cover',
+                      borderRadius: '10px',
+                      marginBottom: '20px'
+                    }}
                   />
-                  <h3 style={{ color: 'var(--theme-color)', marginBottom: '20px', fontSize: '1.6rem', borderBottom: '2px solid var(--theme-color)', paddingBottom: '10px' }}>
+                  <h3 style={{ 
+                    color: 'var(--theme-color)', 
+                    marginBottom: '20px', 
+                    fontSize: '1.6rem', 
+                    borderBottom: '2px solid var(--theme-color)', 
+                    paddingBottom: '10px' 
+                  }}>
                     {guide.title}
                   </h3>
-                  <ul>
+                  <ul style={{ 
+                    listStyleType: 'none', 
+                    padding: 0, 
+                    margin: 0 
+                  }}>
                     {guide.steps.map((step, stepIndex) => (
-                      <li key={stepIndex}>{step}</li>
+                      <li key={stepIndex} style={{
+                        marginBottom: '15px',
+                        position: 'relative',
+                        paddingLeft: '25px',
+                        fontSize: '1rem',
+                        lineHeight: '1.5',
+                        color: '#a0a0a0'
+                      }}>
+                        <span style={{
+                          position: 'absolute',
+                          left: 0,
+                          color: 'var(--theme-color)',
+                          fontWeight: 'bold'
+                        }}>→</span>
+                        {step}
+                      </li>
                     ))}
                   </ul>
                 </div>
               ))}
             </div>
-
-
           </div>
         ))}
       </div>
     </div>
   );
 }
-
 
 
 
