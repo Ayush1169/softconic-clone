@@ -3,6 +3,7 @@ import Layout from "../components/layout/Layout";
 import Link from "next/link";
 import React, { useState } from "react";
 import data from "../data/mesonaryData";
+import Head from "next/head";
 
 function ProjectMasonaryPage() {
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -32,7 +33,14 @@ function ProjectMasonaryPage() {
   };
 
   return (
-    <Layout>
+    <>
+    <Head>
+        <title>
+          EVD Technology
+        </title>
+        <link rel="icon" href="/assets/img/fevicon.png" />
+      </Head>
+    <Layout pageTitle={"Projects"}>
       <Breadcrumb
         pageList="Projects"
         title="Our Completed Projects"
@@ -102,7 +110,7 @@ function ProjectMasonaryPage() {
           </div>
         </div>
       </div>
-    </Layout>
+    </Layout></>
   );
 }
 

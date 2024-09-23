@@ -22,7 +22,7 @@ function AboutPage() {
         </title>
         <link rel="icon" href="/assets/img/fevicon.png" />
       </Head>
-    <Layout>
+    <Layout pageTitle={"About"}>
       <Breadcrumb
         pageList="About"
         title="About us"

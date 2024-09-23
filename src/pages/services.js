@@ -2,6 +2,7 @@ import Breadcrumb from "../components/common/Breadcrumb";
 import Layout from "../components/layout/Layout";
 import Link from "next/link";
 import React from "react";
+import Head from "next/head";
 import {
   RiComputerLine,
   RiSmartphoneLine,
@@ -91,7 +92,14 @@ function Service4Page() {
   ];
 
   return (
-    <Layout>
+   <>
+   <Head>
+        <title>
+          EVD Technology
+        </title>
+        <link rel="icon" href="/assets/img/fevicon.png" />
+      </Head>
+    <Layout pageTitle={"Services"}>
       <Breadcrumb
         pageList="Services"
         title="Our Providing Services"
@@ -210,7 +218,7 @@ function Service4Page() {
           </div>
         </div>
       </div>
-    </Layout>
+    </Layout></>
   );
 }
 

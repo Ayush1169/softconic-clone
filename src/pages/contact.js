@@ -6,6 +6,7 @@ import Layout from "../components/layout/Layout";
 import 'react-toastify/dist/ReactToastify.css';
 import Aero from "../../public/assets/img/aero.svg"
 import Image from "next/image";
+import Head from "next/head";
 
 function Contactpage() {
   const [formValues, setFormValues] = useState({
@@ -19,13 +20,13 @@ function Contactpage() {
 
   const [errors, setErrors] = useState({});
 
-  // Handle input change
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormValues({ ...formValues, [name]: value });
   };
 
-  // Form validation logic
+
   const validateForm = () => {
     const newErrors = {};
     if (!formValues.firstName) newErrors.firstName = "First Name is required";
@@ -40,12 +41,11 @@ function Contactpage() {
     return Object.keys(newErrors).length === 0;
   };
 
-  // Handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
 
     if (!validateForm()) {
-      // Show an alert for form errors
+    
       alert("Please fill all required fields correctly.");
       return;
     }
@@ -59,24 +59,23 @@ function Contactpage() {
       message: formValues.message,
     };
 
-    // Send the email using emailjs
+
     emailjs
       .send(
-        "service_tjkquvz", // Email service ID
-        "template_fb5jmgr", // Email template ID
+        "service_tjkquvz", 
+        "template_fb5jmgr", 
         templateParams,
-        "UjXT7K73yIRw42mCc" // Emailjs public key
+        "UjXT7K73yIRw42mCc"
       )
       .then((response) => {
-        // Display a toast notification for success
+      
         toast.success("Message sent successfully");
       })
       .catch((error) => {
-        // Display a toast notification for failure
+       
         toast.error("Email sending failed");
       });
 
-    // Clear form values after submission
     setFormValues({
       firstName: "",
       lastName: "",
@@ -88,7 +87,14 @@ function Contactpage() {
   };
 
   return (
-    <Layout>
+    <>
+    <Head>
+        <title>
+          EVD Technology
+        </title>
+        <link rel="icon" href="/assets/img/fevicon.png" />
+      </Head>
+    <Layout pageTitle={"Contact"}>
       <Breadcrumb pageList="Contact" title="For Any Query" pageName="CONTACT" />
       <div className="contact-page-wrap sec-mar"
        style={{ 
@@ -332,7 +338,7 @@ function Contactpage() {
 
       {/* ToastContainer needs to be in your component tree */}
       <ToastContainer />
-    </Layout>
+    </Layout></>
   );
 }
 

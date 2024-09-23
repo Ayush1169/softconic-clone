@@ -3,6 +3,7 @@ import Breadcrumb from "../components/common/Breadcrumb";
 import Layout from "../components/layout/Layout";
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
+import Head from "next/head";
 
 function BlogSidebarPage() {
   const [posts, setPosts] = useState([]);
@@ -75,7 +76,14 @@ function BlogSidebarPage() {
   };
 
   return (
-    <Layout >
+   <>
+   <Head>
+        <title>
+          EVD Technology
+        </title>
+        <link rel="icon" href="/assets/img/fevicon.png" />
+      </Head>
+    <Layout pageTitle={"Blogs"}>
       <Breadcrumb
         pageList="BLOGS"
         title="Exploring The EVDT Blog"
@@ -303,7 +311,7 @@ function BlogSidebarPage() {
           </div>
         </div>
       </div>
-    </Layout>
+    </Layout></>
   );
 }
 

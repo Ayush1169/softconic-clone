@@ -16,27 +16,41 @@ import Preloader from "../components/common/Preloader";
 
 export default function App({ Component, pageProps }) {
   const [loading, setLoading] = useState(false);
+  
   useEffect(() => {
     setLoading(false);
-    setTimeout(() => {
+    const timer = setTimeout(() => {
       setLoading(true);
     }, 500);
+    
+    return () => clearTimeout(timer); // Cleanup timer on unmount
   }, []);
+
   useMagneticHover();
+  
   useEffect(() => {
     import("bootstrap/dist/js/bootstrap");
   }, []);
+
   return (
     <>
       {loading ? (
         <>
           <Component {...pageProps} />
           <ToastContainer />
-          <Script id="wow" src="/js/wow.min.js"></Script>
+          {/* Load WOW.js and initialize it */}
           <Script
-            id="initWow"
-            strategy="lazyOnload"
-          >{`new WOW().init();`}</Script>
+            id="wow"
+            src="/js/wow.min.js"
+            onLoad={() => {
+              // Initialize WOW after it has loaded
+              if (typeof WOW !== "undefined") {
+                new WOW().init();
+              } else {
+                console.error("WOW.js is not defined.");
+              }
+            }}
+          />
         </>
       ) : (
         <Preloader />

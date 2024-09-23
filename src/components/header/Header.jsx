@@ -909,7 +909,7 @@ function Header() {
               </ul>
             </li>
             <li
-              className={` ${["/project", "/project-masonary", "/project-details"].includes(
+              className={` ${["/projects", "/project-masonary", "/project-details"].includes(
                 currentRoute
               )
                 ? "active"
@@ -917,7 +917,7 @@ function Header() {
                 }`}
             >
               <a href="/projects" className="d">
-                Project
+                Projects
               </a>
              
             </li>
@@ -936,7 +936,7 @@ function Header() {
                 : ""
                 }`}
             >
-              <a href="#" className="drop-down">
+              <a href="" className="drop-down">
                 Products
               </a>
               <i
@@ -1141,7 +1141,7 @@ function Header() {
                   }`}
                 onClick={() => toggleMenu("blog")}
               >
-                Blog
+                Blogs
               </a>
               <i
                 className={`bi bi-plus dropdown-icon ${state.activeMenu === "blog" ? "active" : ""

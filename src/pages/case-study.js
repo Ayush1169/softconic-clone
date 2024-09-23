@@ -2,11 +2,20 @@ import Breadcrumb from "../components/common/Breadcrumb";
 import Layout from "../components/layout/Layout";
 import Link from "next/link";
 import React from "react";
+import Head from "next/head";
 import { caseStudies } from "../data/content"; // Ensure this matches the export in your content file
 
 function CaseStudyPage() {
   return (
-    <Layout>
+    <>
+    <Head>
+        <title>
+          EVD Technology
+        </title>
+        <link rel="icon" href="/assets/img/fevicon.png" />
+      </Head>
+      
+    <Layout pageTitle={"Case Study"}>
       <Breadcrumb
         pageList="CASE STUDY"
         title="From Challenge To Triumph"
@@ -77,6 +86,7 @@ function CaseStudyPage() {
         </div>
       </div>
     </Layout>
+    </>
   );
 }
 
