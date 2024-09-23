@@ -14619,17 +14619,17 @@ color: #cccccc;
 
 .tech-stack {
   padding: 20px;
-  background-color: #1a1a1a; /* Dark background */
+  background-color: #1a1a1a;
 }
 
 .tech-stack h2 {
-  color: var(--theme-color); /* Theme color for the heading */
+  color: var(--theme-color);
   text-align: center;
   margin-bottom: 20px;
 }
 
 .tech-stack p {
-  color: #f0f0f0; /* Whiteish text */
+  color: #f0f0f0;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -14643,19 +14643,19 @@ color: #cccccc;
 }
 
 .tech-stack li {
-  background-color: #2b2b2b; /* Slightly lighter box color */
-  color: #f0f0f0; /* Whiteish text */
+  background-color: #2b2b2b;
+  color: #f0f0f0;
   padding: 20px;
   margin: 10px;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   text-align: center;
-  flex: 0 1 calc(33.333% - 20px); /* 3 items per row */
+  flex: 0 1 calc(50% - 20px); /* 2 items per row */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .tech-stack li strong {
-  color: var(--highlight-color); /* Color for strong emphasis */
+  color: var(--highlight-color);
 }
 
 .tech-stack li:hover {
@@ -14663,26 +14663,25 @@ color: #cccccc;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
 }
 
-/* Responsive design */
 @media (max-width: 768px) {
   .tech-stack li {
-    flex: 0 1 calc(50% - 20px); /* 2 items per row */
+    flex: 0 1 calc(50% - 20px); 
   }
 }
 
 @media (max-width: 480px) {
   .tech-stack li {
-    flex: 0 1 100%; /* 1 item per row */
+    flex: 0 1 100%; 
   }
 }
 
 .benefits {
   padding: 20px;
-  background-color: #1a1a1a; /* Dark background */
+  background-color: #1a1a1a; 
 }
 
 .benefits h2 {
-  color: var(--theme-color); /* Use your theme color */
+  color: var(--theme-color); 
   text-align: center;
   margin-bottom: 30px;
 }
@@ -14938,10 +14937,23 @@ color: #cccccc;
 /* Grid layout */
 .evd-erp-landing .objective-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
-  gap: 20px; 
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
   justify-content: center;
 }
+
+@media (max-width: 768px) {
+  .evd-erp-landing .objective-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 items per row on medium screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .evd-erp-landing .objective-grid {
+    grid-template-columns: 1fr; /* 1 item per row on small screens */
+  }
+}
+
 
 .evd-erp-landing .feature-grid,
 .evd-erp-landing .benefits-grid {

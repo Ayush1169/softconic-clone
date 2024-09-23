@@ -28,7 +28,6 @@ const EVDERPLandingPage = () => {
       <section className="intro">
         <h2>Comprehensive Enterprise Resource Planning Solution</h2>
         <p>EVD ERP is designed to simplify and enhance business processes across various sectors. With features such as inventory and team management, invoicing, and lead tracking, EVD ERP empowers businesses to stay organized, improve productivity, and drive efficiency in day-to-day operations.</p>
-        <button className="cta-button">Get Started <ArrowRight size={20} /></button>
       </section>
 
       <section className="highlights">
@@ -117,15 +116,15 @@ const EVDERPLandingPage = () => {
       </section>
 
       <section className="tech-stack">
-        <h2>Technology Stack</h2>
-        <p>EVD ERP is built using the latest technologies for a robust and scalable platform:</p>
-        <ul>
-          <li><Server size={24} /> <strong>Backend:</strong> Node.js</li>
-          <li><Layers size={24} /> <strong>Frontend:</strong> React.js</li>
-          <li><Database size={24} /> <strong>Database:</strong> MongoDB</li>
-          <li><Cloud size={24} /> <strong>Cloud:</strong> AWS</li>
-        </ul>
-      </section>
+  <h2>Technology Stack</h2>
+  <p>EVD ERP is built using the latest technologies for a robust and scalable platform:</p>
+  <ul>
+    <li><Server size={24} /> <strong>Backend:</strong> Node.js</li>
+    <li><Layers size={24} /> <strong>Frontend:</strong> React.js</li>
+    <li><Database size={24} /> <strong>Database:</strong> MongoDB</li>
+    <li><Cloud size={24} /> <strong>Cloud:</strong> AWS</li>
+  </ul>
+</section>
 
       <section className="benefits">
         <h2>Benefits of EVD ERP</h2>
@@ -214,7 +213,6 @@ const EVDERPLandingPage = () => {
       <section className="conclusion">
         <h2>Conclusion</h2>
         <p>EVD ERP is an essential tool for businesses looking to enhance operational efficiency, improve team management, and provide better customer service. With its customizable features, role-based access, and real-time insights, EVD ERP is designed to support decision-makers, employees, and customers alike. By implementing EVD ERP, businesses across industries can streamline their processes, save time, and focus on growth.</p>
-        <button className="cta-button">Get Started with EVD ERP <ArrowRight size={20} /></button>
       </section>
     </div>
    </Layout>
