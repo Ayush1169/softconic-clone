@@ -179,7 +179,7 @@ function Header() {
             <div className="mobile-logo-wrap">
               <Link legacyBehavior href="/">
                 <a>
-                  <img alt="image" src="assets/img/EVDT-LOGO.png" />
+                  <img alt="image" src="/assets/img/EVDT-LOGO.png" />
                 </a>
               </Link>
             </div>
@@ -752,14 +752,9 @@ function Header() {
             </li>
             <li
               className={`menu-item-has-children ${[
-                "/team1",
-                "/team2",
-                "/team3",
-                "/pricing1",
-                "/pricing2",
-                "/contact",
-                "/faq",
-                "/error",
+                "/evd-academy",
+                "/evd-erp",
+                "/evd-smartbook",
               ].includes(currentRoute)
                 ? "active"
                 : ""
