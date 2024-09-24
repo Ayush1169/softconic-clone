@@ -17,6 +17,7 @@ import Layout from '../components/layout/Layout'
 const page = () => {
     return (
         <>
+        
             <Layout>
                 <div className='academy'>
                 <Hero />

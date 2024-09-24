@@ -110,9 +110,9 @@ function BlogSidebarPage() {
           image2="/assets/img/blog/hero2.png"
         />
         <div className="home3-blog-area sec-mar"
-          style={{ 
+          style={{
             backgroundImage: "url('/assets/img/Ellipse.png')",
-            backgroundSize: "cover", 
+            backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat"
           }}>
@@ -134,8 +134,8 @@ function BlogSidebarPage() {
                             alt={post.title.rendered}
                             style={{
                               width: '100%',
-                              height: '200px', 
-                              objectFit: 'cover' 
+                              height: '200px',
+                              objectFit: 'cover'
                             }}
                           />
                           <div className="blog-tag">
@@ -186,7 +186,7 @@ function BlogSidebarPage() {
                               </Link>
                             </div>
                             <div className="social-area">
-                              {/* Social sharing icons */}
+
                             </div>
                           </div>
                         </div>
@@ -275,17 +275,17 @@ function BlogSidebarPage() {
                           <div className="wc">
                             <h6>
                               <Link legacyBehavior href={`/blog-details/${post.id}`}>
-                              <a style={{
-                        display: '-webkit-box',
-                        WebkitLineClamp: 2,
-                        WebkitBoxOrient: 'vertical',
-                        overflow: 'hidden',
-                        textOverflow: 'ellipsis',
-                        lineHeight: '1.3em',
-                        maxHeight: '2.6em' 
-                      }}>
-                        {post.title.rendered}
-                      </a>
+                                <a style={{
+                                  display: '-webkit-box',
+                                  WebkitLineClamp: 2,
+                                  WebkitBoxOrient: 'vertical',
+                                  overflow: 'hidden',
+                                  textOverflow: 'ellipsis',
+                                  lineHeight: '1.3em',
+                                  maxHeight: '2.6em'
+                                }}>
+                                  {post.title.rendered}
+                                </a>
                               </Link>
                             </h6>
                             <Link legacyBehavior href="/blog">
