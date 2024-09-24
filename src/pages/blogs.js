@@ -76,6 +76,8 @@ function BlogSidebarPage() {
     }
   }, [router.query, categories]);
 
+
+
   const handlePageChange = (newPage) => {
     if (newPage >= 1 && newPage <= totalPages) {
       setPage(newPage);
@@ -89,10 +91,8 @@ function BlogSidebarPage() {
   };
 
   const handleCategoryClick = (categoryId) => {
-    setSelectedCategory(categoryId);
+    setSelectedCategory(categoryId === selectedCategory ? null : categoryId);
     setPage(1);
-    const category = categories.find(cat => cat.id === categoryId);
-    router.push(`/blog?category=${category.slug}`, undefined, { shallow: true });
   };
 
   return (
@@ -245,7 +245,7 @@ function BlogSidebarPage() {
                       {categories.map((category) => (
                         <li key={category.id}>
                           <a
-                            // onClick={() => handleCategoryClick(category.id)}
+                            onClick={() => handleCategoryClick(category.id)}
                             style={{ cursor: 'pointer' }}
                           >
                             <span>{category.name}</span>
