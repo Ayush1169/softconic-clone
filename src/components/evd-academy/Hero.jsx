@@ -14,9 +14,9 @@ const Hero = () => {
               <p>In the dynamic landscape of education, the synergy between technology and education has birthed  transformative solutions. EVD, standing for EdTech Vision for Digitalization, emerges as a beacon of innovation through its Custom Design and Development Platform, curated by a visionary software company name as EVD Technology</p>
 
 
-              <div className="button-hero-one">
+              {/* <div className="button-hero-one">
                 <button className="button-hero">View More</button>
-              </div>
+              </div> */}
 
             </div>
           </div>

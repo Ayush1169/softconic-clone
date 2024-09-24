@@ -360,8 +360,7 @@ export const caseStudies = [
     "Managing Growing Operations: Astera faced challenges due to multiple departments operating in silos, necessitating a cohesive solution to centralize data.",
     "Communication Barriers: Improving communication between sales, support, and production teams was crucial for operational success.",
     "Manual Process Automation: The need to automate time-consuming manual processes was essential to minimize errors and improve efficiency.",
-    "Production Workflow Tracking: Timely tracking of production workflows was necessary to ensure prompt delivery of lighting solutions to clients.",
-    "Effective Inventory Management: Avoiding overstocking and stockouts was critical to maintaining project timelines and ensuring resource availability."
+    "Production Workflow Tracking: Timely tracking of production workflows was necessary to ensure prompt delivery of lighting solutions to clients."
   ],
   "testimonials": [
     {

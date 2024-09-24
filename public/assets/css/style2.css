@@ -11679,10 +11679,10 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   grid-template-columns: repeat(2, 1fr); 
 }
 
-
-.grid-container[data-count="5"] {
-  grid-template-columns: repeat(3, 1fr);
+.grid-container {
+  grid-template-columns: repeat(3, 1fr); 
 }
+
 
 .grid-item {
   background-color: #1c1c1c;

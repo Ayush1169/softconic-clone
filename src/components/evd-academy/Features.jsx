@@ -106,7 +106,7 @@ const Features = () => {
           </div>
 
           <div className="row justify-content-center Features-one-container">
-            <Swiper {...swiperParams} ref={swiperRef} className="swiper testi-content-slider3">
+              <Swiper {...swiperParams} ref={swiperRef} className="swiper testi-content-slider3">
               {featuresData.map((feature, index) => (
                 <SwiperSlide key={index} className="swiper-slide">
                   <div className="Features-one">

@@ -43,7 +43,7 @@ const EVDSmartbook = () => {
 
                     <main className="container">
                         <Section title="Introduction">
-                            <p>EVD Smartbook is a 360 digital solution designed to streamline workforce management for businesses...</p>
+                            <p style={{ textAlign: 'center' }}>EVD Smartbook is a 360 digital solution designed to streamline workforce management for businesses...</p>
                         </Section>
 
                         <Section title="Key Features">
@@ -105,7 +105,7 @@ const EVDSmartbook = () => {
                         </Section>
 
                         <Section title="Benefits of EVD Smartbook">
-                            <h3>Benefits for Business Owners:</h3>
+                            <h3 style={{ textAlign: 'center' }}>Benefits for Business Owners:</h3>
                             <div className="row-oriented-grid">
                                 <Box title="Enhanced Accountability" description="Real-time attendance tracking with geo-location." />
                                 <Box title="Streamlined Operations" description="Centralized management of payroll, tasks, and expenses." />
@@ -113,7 +113,7 @@ const EVDSmartbook = () => {
                                 <Box title="Improved Productivity" description="Automating routine tasks allows focus on critical business needs." />
                             </div>
 
-                            <h3>Benefits for Employees:</h3>
+                            <h3 style={{ textAlign: 'center' }}>Benefits for Employees:</h3>
                             <div className="row-oriented-grid">
                                 <Box title="Easy Attendance" description="Clock in/out using mobile devices with geo-location features." />
                                 <Box title="Task Clarity" description="Clear task assignments and deadlines available through the mobile app." />
