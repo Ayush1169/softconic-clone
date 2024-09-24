@@ -1989,13 +1989,15 @@ export const servicesData = {
   },
   "website-development": {
     title: "Website Development",
-    image: "/assets/img/inner-pages/about-service-img.png",
+    image:"/assets/img/services/website-development/hero1.png",
+    hero1:"/assets/img/services/website-development/hero1.png",
+    hero2:"/assets/img/services/website-development/hero2.png",
     description: "In today's digital age, a robust online presence is not just a luxury but a necessity for businesses of all sizes. Whether you're a budding startup or an established enterprise, a well-designed website serves as your digital store. It's often the first point of contact for potential customers, making it a critical component of your brand's identity. This is where website development companies come into play. These specialized firms focus on creating and maintaining websites, ensuring they are not only visually appealing but also functional, user-friendly, and aligned with your business objectives. In this comprehensive guide, we'll check the complexities of website development companies, explore the services they offer, and provide insights on choosing the right partner for your business needs.",
     faqSections: [
       {
         title: "",
         layout: true,
-        image: "/assets/img/inner-pages/about-service-img.png",
+        image: "/assets/img/services/website-development/img1.png",
         questions: [
           {
             question: "What is the average cost of a website?",
@@ -2047,14 +2049,14 @@ export const servicesData = {
           guides: [
             {
               title: "Frontend Development",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/website-development/img3.png",
               steps: [
                 "Frontend development focuses on the visual aspects of a website—everything that users see and interact with. This includes the layout, design, graphics, and overall user experience (UX). Technologies commonly used in frontend development include HTML, CSS, and JavaScript."
               ]
             },
             {
               title: "Backend Development",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/website-development/img4.png",
               steps: [
                 "Backend development, on the other hand, deals with the server-side aspects of a website. This includes server configuration, database management, and application logic. Backend developers work behind the scenes to ensure the website functions smoothly, handling tasks such as user authentication, data processing, and content management."
               ]
@@ -2068,21 +2070,21 @@ export const servicesData = {
           guides: [
             {
               title: "Freelancers",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/website-development/img4.png",
               steps: [
                 "Freelancers are individual developers who offer specialized skills. They are often a more affordable option, making them ideal for small businesses or startups with limited budgets. However, freelancers may not always provide the full range of services that larger companies offer."
               ]
             },
             {
               title: "Agencies",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/website-development/img5.png",
               steps: [
                 "Agencies are companies with teams of professionals who offer a full range of website development services. They typically have more resources and expertise, making them a good choice for larger projects that require a comprehensive approach."
               ]
             },
             {
               title: "Specialized Companies",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/website-development/img6.png",
               steps: [
                 "Specialized companies focus on specific types of websites, such as e-commerce, corporate, or portfolio sites. These firms often have deep expertise in a particular niche, making them ideal for businesses with specialized needs."
               ]
@@ -2096,35 +2098,35 @@ export const servicesData = {
           guides: [
             {
               title: "Frontend Development",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/website-development/img7.png",
               steps: [
                 "Frontend development involves crafting the visual elements of a website using technologies like HTML, CSS, and JavaScript. This includes creating layouts, designing graphics, and ensuring the website is responsive across different devices."
               ]
             },
             {
               title: "Backend Development",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/website-development/img8.png",
               steps: [
                 "Backend development focuses on developing the server-side logic, managing databases, and integrating APIs. This ensures that the website can handle data securely and efficiently."
               ]
             },
             {
               title: "Full-Stack Development",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/website-development/img9.png",
               steps: [
                 "Full-stack development combines both frontend and backend development. Full-stack developers are skilled in both areas and can handle all aspects of website development."
               ]
             },
             {
               title: "UI/UX Design",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/website-development/img10.png",
               steps: [
                 "UI/UX design is all about creating intuitive and user-friendly interfaces. Good design enhances the user experience, making it easier for visitors to navigate the website and find the information they need."
               ]
             },
             {
               title: "SEO and Digital Marketing",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/website-development/img11.png",
               steps: [
                 "Search engine optimization (SEO) and digital marketing are critical components of a successful website. These services help improve the website's visibility on search engines, drive traffic, and convert visitors into customers."
               ]
@@ -2138,21 +2140,21 @@ export const servicesData = {
           guides: [
             {
               title: "Experience and Expertise",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/website-development/img12.png",
               steps: [
                 "Look for companies with a proven track record in your industry. Experience matters, especially for complex projects that require specialized knowledge."
               ]
             },
             {
               title: "Portfolio and Case Studies",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/website-development/img13.png",
               steps: [
                 "Review the company's past projects to assess their quality and relevance. A good portfolio can provide insight into the company's capabilities and design style."
               ]
             },
             {
               title: "Client Testimonials and Reviews",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/website-development/img14.png",
               steps: [
                 "Check feedback from previous clients to gauge satisfaction levels. Positive reviews and testimonials are a good indicator of a company's reliability and quality of service."
               ]
@@ -2166,42 +2168,42 @@ export const servicesData = {
           guides: [
             {
               title: "Initial Consultation and Requirement Gathering",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/website-development/img15.png",
               steps: [
                 "The first step involves understanding the client's needs and goals. This includes discussing the project's scope, target audience, and desired features."
               ]
             },
             {
               title: "Planning and Strategy",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/website-development/img16.png",
               steps: [
                 "Once the requirements are clear, the company defines the project scope, timelines, and budget. This stage also involves creating a detailed project plan and strategy."
               ]
             },
             {
               title: "Design and Prototyping",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/website-development/img17.png",
               steps: [
                 "The design phase involves creating wireframes and visual designs for the website. Prototypes are developed to give the client a visual representation of the final product."
               ]
             },
             {
               title: "Development and Coding",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/website-development/img18.png",
               steps: [
                 "This phase involves building the website's frontend and backend. Developers write the code, integrate APIs, and set up databases."
               ]
             },
             {
               title: "Testing and Quality Assurance",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/website-development/img19.png",
               steps: [
                 "Before launching, the website undergoes rigorous testing to ensure it is bug-free and functional. This includes testing for usability, performance, and security."
               ]
             },
             {
               title: "Deployment and Launch",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/website-development/img20.png",
               steps: [
                 "Once the website is ready, it is deployed and made live. This involves setting up the website on a server and configuring it for public access."
               ]
@@ -2215,7 +2217,7 @@ export const servicesData = {
           guides: [
             {
               title: "Programming Languages",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/website-development/img21.png",
               steps: [
                 "HTML: The standard language for creating web pages.",
                 "CSS: Used for styling and layout.",
@@ -2226,7 +2228,7 @@ export const servicesData = {
             },
             {
               title: "Content Management Systems (CMS)",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/website-development/img22.png",
               steps: [
                 "WordPress: The most popular CMS, known for its ease of use.",
                 "Joomla: A flexible CMS suitable for complex sites.",
@@ -2235,7 +2237,7 @@ export const servicesData = {
             },
             {
               title: "Frameworks and Libraries",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/website-development/img23.png",
               steps: [
                 "React: A JavaScript library for building user interfaces.",
                 "Angular: A framework for building dynamic web apps.",
@@ -2310,13 +2312,15 @@ export const servicesData = {
   },
   "web-app-development": {
     title: "Web App Development",
-    image: "/assets/img/inner-pages/about-service-img.png",
+    hero1:"/assets/img/services/web-app-development/hero1.png",
+    hero2:"/assets/img/services/web-app-development/hero2.png",
+    image: "/assets/img/services/web-app-development/img1.png",
     description: "Web app development is transforming how businesses engage with their customers. As the demand for digital solutions grows, web apps offer seamless interactions and enhanced user experiences. With the rise of mobile devices, responsive design and efficient functionality have become essential in today's competitive market.",
     faqSections: [
       {
         title: "",
         layout: true,
-        image: "/assets/img/inner-pages/about-service-img.png",
+        image: "/assets/img/services/web-app-development/img2.png",
         questions: [
           {
             question: "",
@@ -2349,21 +2353,21 @@ export const servicesData = {
           guides: [
             {
               title: "Understanding Web Apps",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/web-app-development/img3.png",
               steps: [
                 "Web apps are software applications that run on web servers, accessible via web browsers. Unlike traditional desktop applications, web apps do not require installation, making them accessible on various devices. This flexibility allows users to interact with web apps anytime, anywhere, ensuring convenience and efficiency."
               ]
             },
             {
               title: "Key Benefits of Web App Development",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/web-app-development/img14.png",
               steps: [
                 "Web app development offers several advantages over traditional software solutions. Firstly, they are platform-independent, allowing users to access them on any device with a browser. This eliminates compatibility issues, ensuring a broader audience reach. Additionally, web apps can be updated centrally, allowing developers to roll out new features and improvements without requiring user intervention.",
                 "Moreover, web apps enhance collaboration and communication. Businesses can streamline processes and boost productivity by providing a centralized platform for users to interact and share data. The cost-effectiveness of web app development is another significant benefit. Companies can reduce development and maintenance costs by utilizing existing web technologies and infrastructures."]
             },
             {
               title: "Essential Features of Successful Web Apps",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/web-app-development/img5.png",
               steps: [
                 "To create a successful web app, developers must focus on several key features. First and foremost, responsive design is crucial. With the variety of devices available today, web apps must adapt to different screen sizes and resolutions, ensuring a consistent user experience.",
                 "Another vital feature is performance optimization. Users expect web apps to load quickly and operate smoothly. To achieve this, developers must prioritize efficient coding practices, image optimization, and caching mechanisms. Security is also paramount in web app development. Implementing robust security measures protects user data and builds trust with the audience.",
@@ -2371,14 +2375,14 @@ export const servicesData = {
             },
             {
               title: "Choosing the Right Development Framework",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/web-app-development/img16.png",
               steps: [
                 "Selecting the right development framework is crucial for successful web app development. Several popular frameworks are available, each with its strengths and use cases. React, Angular, and Vue.js are widely used front-end frameworks known for their flexibility and performance.",
                 "Node.js, Django, and Ruby on Rails are popular back-end frameworks that offer powerful tools for building scalable web apps. These frameworks provide developers with a structured approach, enabling faster development cycles and efficient code management."]
             },
             {
               title: "Future Trends in Web App Development",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/web-app-development/img7.png",
               steps: [
                 "Web app development constantly evolves, with new trends shaping the industry. One such trend is the rise of Progressive Web Apps (PWAs). PWAs combine the best features of web and mobile apps, offering offline access, push notifications, and a native app-like experience.",
                 "The integration of artificial intelligence (AI) is another emerging trend. AI-powered web apps can analyze user behavior and provide personalized recommendations, enhancing user satisfaction and engagement. Voice search optimization is also gaining traction. With the increasing popularity of voice-activated devices, optimizing web apps for voice search is crucial for staying competitive.",
@@ -2397,13 +2401,15 @@ export const servicesData = {
   },
   "custom-web-development": {
     title: "Custom Web Development",
-    image: "/assets/img/inner-pages/about-service-img.png",
+    hero1:"/assets/img/services/custom-web-development/hero1.png",
+    hero2:"/assets/img/services/custom-web-development/hero2.png",
+    image: "/assets/img/services/custom-web-development/img1.png",
     description: "In today's digital landscape, businesses need a strong online presence to succeed. Custom web development plays a crucial role in achieving this goal. Unlike off-the-shelf solutions, custom web development provides tailored solutions that meet specific business needs. Let's explore the benefits and key aspects of custom web development.",
     faqSections: [
       {
         title: "",
         layout: true,
-        image: "/assets/img/inner-pages/about-service-img.png",
+        image: "/assets/img/services/custom-web-development/img2.png",
         questions: [
           {
             question: "",
@@ -2436,7 +2442,7 @@ export const servicesData = {
           guides: [
             {
               title: "The Benefits of Custom Web Development",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/custom-web-development/img3.png",
               steps: [
                 "Custom web development offers numerous advantages for businesses. Firstly, it provides a unique design that reflects your brand's identity. A well-designed website captures visitors' attention and builds trust. Customization allows you to create a user-friendly interface that enhances the user experience.",
                 "Secondly, custom web development ensures scalability. As your business grows, your website can easily accommodate increased traffic and new features. This flexibility is essential for staying competitive in a fast-paced market. Additionally, custom solutions offer better security. With tailored security measures, you can protect sensitive data and safeguard your website against threats.",
@@ -2445,7 +2451,7 @@ export const servicesData = {
             },
             {
               title: "Key Features of Custom Web Development",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/custom-web-development/img4.png",
               steps: [
                 "When embarking on a custom web development project, several key features should be considered. First, focus on responsive design. With the increasing use of mobile devices, your website must be accessible on all screen sizes. A responsive design ensures a consistent user experience across devices.",
                 "Another important feature is performance optimization. Users expect fast-loading websites. Slow-loading pages can drive visitors away. By optimizing your website's performance, you can improve user engagement and retention. Techniques such as image compression and code minification can significantly enhance loading times.",
@@ -2454,7 +2460,7 @@ export const servicesData = {
             },
             {
               title: "The Custom Web Development Process",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/custom-web-development/img5.png",
               steps: [
                 "Understanding the custom web development process is essential for successful project execution. It typically starts with a thorough analysis of your business needs and goals. This involves gathering requirements, conducting market research, and defining the project's scope.",
                 "Next, the design phase begins. Designers create wireframes and prototypes to visualize the website's layout and functionality. This step ensures that the final product aligns with your vision. Once the design is approved, development starts. Developers write clean and efficient code to bring the design to life.",
@@ -2464,7 +2470,7 @@ export const servicesData = {
             },
             {
               title: "Choosing the Right Development Partner",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/custom-web-development/img6.png",
               steps: [
                 "Selecting the right development partner is vital for a successful custom web development project. Look for a team with a proven track record of delivering high-quality solutions. Consider their experience in your industry and their ability to understand your unique business needs.",
                 "Communication is key throughout the development process. Choose a partner who values collaboration and keeps you informed at every stage. Clear communication ensures that your vision is accurately translated into the final product."
@@ -2482,13 +2488,16 @@ export const servicesData = {
   },
   "e-commerce-development": {
     title: "E-Commerce Development",
-    image: "/assets/img/inner-pages/about-service-img.png",
+    hero1:"/assets/img/services/e-commerce-development/hero1.png",
+    hero2:"/assets/img/services/e-commerce-development/hero2.png",
+    image: "/assets/img/services/e-commerce-development/img1.png",
+
     description: "E-commerce development has revolutionized the way businesses operate, offering endless opportunities for growth and expansion. As the digital marketplace continues to evolve, staying updated with the latest trends and best practices is crucial. This article explores key aspects of e-commerce development that can help your business thrive in today's competitive landscape.",
     faqSections: [
       {
         title: "",
         layout: true,
-        image: "/assets/img/inner-pages/about-service-img.png",
+        image: "/assets",
         questions: [
           {
             question: "",
@@ -2521,14 +2530,14 @@ export const servicesData = {
           guides: [
             {
               title: "Why E-Commerce is Vital for Business Growth",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/e-commerce-development/img2.png",
               steps: [
                 "In the digital age, e-commerce serves as a powerful tool for businesses to reach a global audience. Online shopping offers convenience and accessibility, making it a preferred choice for consumers. By embracing e-commerce, businesses can tap into new markets and increase their revenue streams. Moreover, e-commerce platforms enable companies to provide personalized experiences, enhancing customer satisfaction and loyalty."
               ]
             },
             {
               title: "Essential Features of a Successful E-Commerce Website",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/e-commerce-development/img3.png",
               steps: [
                 "To succeed in e-commerce, your website must incorporate essential features that enhance the user experience. Firstly, a responsive design is imperative. Consumers use various devices to shop online, and your website must adapt seamlessly to different screen sizes. A user-friendly interface with intuitive navigation ensures that visitors can easily find what they need.",
                 "Security is another critical aspect. Protecting customer data is paramount, and implementing robust security measures builds trust. Additionally, fast loading times are essential. Slow websites can frustrate users and lead to abandoned carts. Optimizing performance is key to retaining potential customers."
@@ -2536,7 +2545,7 @@ export const servicesData = {
             },
             {
               title: "Current Trends in E-Commerce Development",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/e-commerce-development/img4.png",
               steps: [
                 "E-commerce development is constantly evolving, with new trends shaping the industry. One significant trend is the rise of mobile commerce. As smartphones become ubiquitous, more consumers are shopping on their mobile devices. Therefore, optimizing your e-commerce site for mobile is no longer optional.",
                 "Another trend is the integration of artificial intelligence. AI-powered chatbots and recommendation engines enhance the shopping experience by providing personalized assistance and product suggestions. These technologies not only improve customer satisfaction but also increase conversion rates."
@@ -2544,7 +2553,7 @@ export const servicesData = {
             },
             {
               title: "Leveraging Social Commerce for E-Commerce Success",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/e-commerce-development/img5.png",
               steps: [
                 "Social media platforms have become powerful tools for e-commerce businesses. Social commerce involves selling products directly through social media channels. By leveraging platforms like Instagram and Facebook, businesses can reach a broader audience and engage with customers in real-time.",
                 "Social commerce also facilitates user-generated content. Customers can share their experiences and reviews, building trust and credibility for your brand. Encouraging user-generated content not only boosts sales but also strengthens your brand's online presence."
@@ -2552,7 +2561,7 @@ export const servicesData = {
             },
             {
               title: "The Role of Data Analytics in E-Commerce Development",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/e-commerce-development/img6.png",
               steps: [
                 "Data analytics plays a pivotal role in optimizing e-commerce strategies. By analyzing customer behavior and preferences, businesses can make informed decisions and tailor their offerings. This data-driven approach enables companies to identify trends, optimize pricing, and improve inventory management.",
                 "Furthermore, data analytics helps in enhancing marketing efforts. By understanding customer demographics and purchasing patterns, businesses can create targeted marketing campaigns that resonate with their audience. This personalized approach increases engagement and drives sales."
@@ -2560,7 +2569,7 @@ export const servicesData = {
             },
             {
               title: "Best Practices for E-Commerce Development",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/e-commerce-development/img7.png",
               steps: [
                 "To ensure the success of your e-commerce venture, adhere to best practices. Firstly, focus on providing excellent customer service. Responsive customer support and easy return policies build trust and encourage repeat purchases. Clear product descriptions and high-quality images are also essential for helping customers make informed decisions.",
                 "Additionally, optimize your checkout process. A streamlined and user-friendly checkout reduces cart abandonment rates. Offering multiple payment options caters to diverse customer preferences and enhances convenience."
@@ -2568,7 +2577,7 @@ export const servicesData = {
             },
             {
               title: "Future Prospects in E-Commerce Development",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/e-commerce-development/img8.png",
               steps: [
                 "The future of e-commerce development holds exciting possibilities. With advancements in technology, augmented reality (AR) and virtual reality (VR) are set to revolutionize online shopping. AR and VR provide immersive experiences, allowing customers to visualize products before purchasing. This innovation will redefine how consumers interact with e-commerce platforms.",
                 "Moreover, sustainability is becoming a key focus. Consumers are increasingly conscious of environmental impact, and businesses are responding by adopting eco-friendly practices. From sustainable packaging to ethical sourcing, integrating sustainability into your e-commerce strategy can enhance your brand's reputation and attract environmentally-conscious consumers."
@@ -2586,13 +2595,15 @@ export const servicesData = {
   },
   "full-stack-development": {
     title: "Full Stack Development",
-    image: "/assets/img/inner-pages/about-service-img.png",
+    hero1:"/assets/img/services/full-stack-development/hero1.png",
+    hero2:"/assets/img/services/full-stack-development/hero2.png",
+    image: "/assets/img/services/full-stack-development/img1.png",
     description: "Full stack development is reshaping the digital landscape, offering versatile solutions for web and app development. By integrating front-end and back-end development, full stack developers provide seamless user experiences. This article explores key aspects of full stack development, highlighting its benefits, challenges, and future prospects.",
     faqSections: [
       {
         title: "",
         layout: true,
-        image: "/assets/img/inner-pages/about-service-img.png",
+        image: "/assets/img/services/full-stack-development/img2.png",
         questions: [
           {
             question: "",
@@ -2625,14 +2636,14 @@ export const servicesData = {
           guides: [
             {
               title: "Understanding Full Stack Development",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/full-stack-development/img3.png",
               steps: [
                 "Full stack development involves working on both the client-side and server-side of applications. This approach allows developers to create comprehensive solutions. By mastering multiple technologies, full stack developers can handle everything from designing user interfaces to managing databases."
               ]
             },
             {
               title: "Key Skills for Full Stack Developers",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/full-stack-development/img4.png",
               steps: [
                 "Full stack developers require a diverse set of skills to excel. Proficiency in front-end technologies like HTML, CSS, and JavaScript is essential. Additionally, understanding server-side languages such as Node.js, Python, or Ruby is crucial. Knowledge of databases like MongoDB and SQL enhances a developer's ability to manage data efficiently.",
                 "Moreover, full stack developers need familiarity with version control systems like Git. This ensures smooth collaboration and code management. Understanding cloud services, APIs, and web architecture also contributes to a developer's skill set."
@@ -2640,7 +2651,7 @@ export const servicesData = {
             },
             {
               title: "Advantages of Full Stack Development",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/full-stack-development/img5.png",
               steps: [
                 "Full stack development offers several advantages for businesses and developers. Firstly, it allows for a streamlined development process. With a single developer or team handling both front-end and back-end tasks, projects can progress faster. This efficiency reduces costs and enhances productivity.",
                 "Moreover, full stack developers have a holistic view of projects. This comprehensive understanding enables them to identify and resolve issues promptly. By bridging the gap between front-end and back-end development, they ensure seamless integration and optimal performance."
@@ -2648,7 +2659,7 @@ export const servicesData = {
             },
             {
               title: "Challenges in Full Stack Development",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/full-stack-development/img6.png",
               steps: [
                 "While full stack development offers numerous benefits, it also presents challenges. Keeping up with rapidly evolving technologies can be daunting. Developers must continuously update their skills to remain competitive. Additionally, balancing expertise across multiple domains requires dedication and effort.",
                 "Furthermore, managing complex projects single-handedly can lead to burnout. Full stack developers often juggle numerous tasks, making time management crucial. Collaborating effectively with specialized teams can mitigate these challenges, ensuring successful project outcomes."
@@ -2656,7 +2667,7 @@ export const servicesData = {
             },
             {
               title: "Best Practices for Full Stack Development",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/full-stack-development/img7.png",
               steps: [
                 "To excel in full stack development, adhere to best practices. Firstly, prioritize continuous learning. Stay updated with the latest technologies and frameworks. Engaging with online courses, workshops, and developer communities can enhance your skills.",
                 "Secondly, focus on efficient communication. Whether working individually or in teams, clear communication ensures smooth project execution. Documenting code and maintaining version control also contribute to successful development.",
@@ -2665,7 +2676,7 @@ export const servicesData = {
             },
             {
               title: "Future Prospects of Full Stack Development",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/full-stack-development/img8.png",
               steps: [
                 "The future of full stack development is promising, with increasing demand for versatile developers. As businesses continue to embrace digital transformation, full stack developers will play a pivotal role. Emerging technologies like artificial intelligence and machine learning offer exciting opportunities for innovation.",
                 "Additionally, the rise of remote work has expanded the reach of full stack development. Developers can collaborate globally, contributing to diverse projects. This trend opens doors to new experiences and career growth."

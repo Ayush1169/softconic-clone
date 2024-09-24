@@ -29,13 +29,16 @@ function ServiceDetailsPage() {
     );
   }
 
-  const { title, description, technologies } = serviceContent;
+  const { title, description, technologies, hero1, hero2,image } = serviceContent;
 
   return (
     <Layout>
-      <Breadcrumb pageList={title} title={title} pageName={title} />
+      <Breadcrumb pageList={title} title={title} pageName={title} 
+         image1={hero1} 
+         image2={hero2}
+      />
       <div className="service-details sec-mar">
-        {title && description && <AboutServices title={title} description={description} />}
+        {title && description && <AboutServices title={title} description={description} image={image} />}
         {howWeWork && howWeWork.length > 0 && <HowWeWorkSection />}
        
         {technologies && technologies.comparisonSections && <TechnologiesSection technologies={technologies} />}
@@ -50,7 +53,7 @@ function ServiceDetailsPage() {
   );
 }
 
-function AboutServices({ title, description }) {
+function AboutServices({ title, description ,image}) {
   return (
     <div className="about-services"
       style={{
@@ -71,7 +74,7 @@ function AboutServices({ title, description }) {
           </div>
           <div className="col-lg-6 wow animate fadeInRight" data-wow-delay="300ms" data-wow-duration="1500ms">
             <div className="service-img magnetic-item">
-              <img className="img-fluid" src="/assets/img/inner-pages/about-service-img.png" alt="" />
+              <img className="img-fluid" src={image} alt="" style={{width:"100%"}} />
             </div>
           </div>
         </div>
