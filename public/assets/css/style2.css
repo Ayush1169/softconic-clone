@@ -13210,14 +13210,14 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
 
 
 
-/* Technologies Section */
 .technologies {
   padding: 60px 0;
   background-color: #0a0a0a;
   color: #e0e0e0;
 }
 
-.technologies .container {
+.technologies .container,
+.user-guides-section .container {
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 20px;
@@ -13230,7 +13230,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   color: var(--theme-color);
 }
 
-.technologies p {
+.technologies .description {
   font-size: 1.2rem;
   text-align: center;
   max-width: 800px;
@@ -13250,6 +13250,8 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   overflow: hidden;
   transition: all 0.3s ease;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
 }
 
 .comparison-section:hover {
@@ -13266,6 +13268,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
 
 .comparison-content {
   padding: 20px;
+  flex: 1;
 }
 
 .comparison-item {
@@ -13293,10 +13296,12 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   text-align: left;
 }
 
-
-
 .user-guide-set {
   margin-bottom: 60px;
+  background-image: url('/assets/img/Ellipse.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .user-guide-set:last-child {
@@ -13370,7 +13375,6 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   font-weight: bold;
 }
 
-/* Image styles */
 .section-image {
   width: 100%;
   height: 200px;
@@ -13379,24 +13383,10 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   margin-bottom: 20px;
 }
 
-.tech-image-container {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 40px;
-}
-
-.tech-image {
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 3px solid var(--theme-color);
-  transition: all 0.3s ease;
-}
-
-.tech-image:hover {
-  transform: scale(1.1);
-  box-shadow: 0 0 20px rgba(var(--theme-color-rgb), 0.5);
+.step-number {
+  font-weight: bold;
+  color: var(--theme-color);
+  margin-right: 5px;
 }
 
 @keyframes fadeInUp {
@@ -13406,18 +13396,84 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   }
 }
 
+@media screen and (max-width: 1200px) {
+  .technologies h1,
+  .user-guide-set h2 {
+    font-size: 2.5rem;
+  }
+
+  .technologies .description,
+  .user-guide-set p {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .comparison-sections,
+  .user-guides-container {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .technologies h1,
+  .user-guide-set h2 {
+    font-size: 2.2rem;
+  }
+
+  .technologies .description,
+  .user-guide-set p {
+    font-size: 1rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .comparison-sections,
   .user-guides-container {
     grid-template-columns: 1fr;
   }
-  
-  .tech-image-container {
-    flex-wrap: wrap;
+
+  .technologies h1,
+  .user-guide-set h2 {
+    font-size: 2rem;
   }
-  
-  .tech-image {
-    margin: 10px;
+
+  .comparison-section h2,
+  .user-guide h3 {
+    font-size: 1.5rem;
+  }
+
+  .comparison-item strong {
+    font-size: 1.1rem;
+  }
+
+  .comparison-item p,
+  .user-guide li {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .technologies,
+  .user-guides-section {
+    padding: 40px 0;
+  }
+
+  .technologies h1,
+  .user-guide-set h2 {
+    font-size: 1.8rem;
+  }
+
+  .technologies .description,
+  .user-guide-set p {
+    font-size: 0.9rem;
+  }
+
+  .comparison-section h2,
+  .user-guide h3 {
+    font-size: 1.3rem;
+  }
+
+  .section-image {
+    height: 150px;
   }
 }
 
@@ -15215,27 +15271,49 @@ color: #cccccc;
   font-size: 2em; 
   margin-bottom: 10px; 
 }
-
 .evd-smartbook .row-oriented-sections {
   display: flex;
+  flex-wrap: wrap; /* Allows wrapping to multiple rows if the screen is smaller */
   justify-content: space-between;
-  gap: 20px; 
+  gap: 20px;
 }
 
 .evd-smartbook .section-box {
   flex: 1;
   min-width: 300px; 
-  background-color: var(--gray-color); 
-  padding: 20px; 
+  background-color: var(--gray-color);
+  padding: 20px;
   border-radius: 8px;
-  transition: background-color 0.3s ease, transform 0.3s ease; 
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .evd-smartbook .section-box:hover {
-  background-color: #525252; 
-  color: var(--white-color); 
+  background-color: #525252;
+  color: var(--white-color);
   transform: translateY(-5px);
 }
+
+/* Responsive for tablets and below */
+@media (max-width: 1024px) {
+  .evd-smartbook .section-box {
+    min-width: 250px; /* Adjust the minimum width */
+  }
+}
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+  .evd-smartbook .row-oriented-sections {
+    flex-direction: column; /* Stacks sections vertically */
+    align-items: center; /* Centers the content */
+  }
+
+  .evd-smartbook .section-box {
+    width: 100%; /* Takes up full width */
+    min-width: unset; /* Remove minimum width to allow flexibility */
+    max-width: 500px; /* Optional: limit max width for better readability */
+  }
+}
+
 
 
 

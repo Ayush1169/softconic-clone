@@ -179,7 +179,7 @@ function Header() {
             <div className="mobile-logo-wrap">
               <Link legacyBehavior href="/">
                 <a>
-                  <img alt="image" src="assets/img/logo.svg" />
+                  <img alt="image" src="assets/img/EVDT-LOGO.png" />
                 </a>
               </Link>
             </div>

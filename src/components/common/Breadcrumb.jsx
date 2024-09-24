@@ -9,7 +9,7 @@ function Breadcrumb({ title, pageName, pageList, image1, image2 }) {
           <img src={image1} alt="" /> 
         </div>
         <div className="inner-banner-2 magnetic-item">
-          <img src={image2} alt="" /> 
+          <img src={image2} alt="" style={{ height: "200px" }}/> 
         </div>
       </div>
       <div className="container">

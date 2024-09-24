@@ -20,6 +20,8 @@ function CaseStudyPage() {
         pageList="CASE STUDY"
         title="From Challenge To Triumph"
         pageName="Case Study"
+        image1={"/assets/img/caseStudy/header1.png"}
+        image2={"/assets/img/caseStudy/header2.png"}
       />
       <div className="home6-case-study-section sec-mar"
         style={{

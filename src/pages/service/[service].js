@@ -234,7 +234,6 @@ function FAQContent({ questions, sectionIndex, layout, image }) {
 }
 
 
-
 function TechnologiesSection({ technologies }) {
   if (!technologies || !technologies.comparisonSections || !technologies.title || !technologies.description) {
     return null;
@@ -272,73 +271,26 @@ function TechnologiesSection({ technologies }) {
     });
   };
 
-  const getGridTemplate = (count) => {
-    if (count === 1) return '1fr';
-    if (count <= 3) return 'repeat(3, 1fr)';
-    if (count === 4) return 'repeat(2, 1fr)';
-    return 'repeat(3, 1fr)';
-  };
-
   return (
     <div className="technologies">
-      <div className="container" style={{ maxWidth: '1400px', display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '0 20px' }}>
-        <h1 style={{ fontSize: '3rem', textAlign: 'center', marginBottom: '40px', color: 'var(--theme-color)' }}>{title}</h1>
-        <p style={{ fontSize: '1.2rem', textAlign: 'center', maxWidth: '800px', margin: '0 auto 60px', color: '#a0a0a0' }}>{description}</p>
+      <div className="container">
+        <h1>{title}</h1>
+        <p className="description">{description}</p>
 
-        <div className="comparison-sections" style={{
-          display: 'flex',
-          gridTemplateColumns: getGridTemplate(comparisonSections.length),
-          gap: '30px',
-          justifyContent: 'center',
-          alignItems: 'start',
-          maxWidth: comparisonSections.length === 1 ? '800px' : '1200px',
-          
-        }}>
+        <div className="comparison-sections">
           {comparisonSections.map((section, index) => (
-            <div key={index} className="comparison-section" style={{
-              background: 'linear-gradient(135deg, #1e1e1e, #0a0a0a)',
-              borderRadius: '10px',
-              overflow: 'hidden',
-              transition: 'all 0.3s ease',
-              boxShadow: '0 10px 20px rgba(0, 0, 0, 0.2)',
-              display: 'flex',
-              flexDirection: 'column',
-              height: '100%'
-            }}>
+            <div key={index} className="comparison-section">
               <img
                 src={section.image}
                 alt={section.title}
                 className="section-image"
-                style={{
-                  width: '100%',
-                  height: '300px',
-                  objectFit: 'cover'
-                }}
               />
-              <h2 style={{
-                fontSize: '1.8rem',
-                padding: '20px',
-                backgroundColor: 'rgba(255, 255, 255, 0.05)',
-                margin: '0'
-              }}>{section.title}</h2>
-              <div className="comparison-content" style={{ padding: '20px', flex: 1 }}>
+              <h2>{section.title}</h2>
+              <div className="comparison-content">
                 {section.questions.map((q, idx) => (
-                  <div key={idx} className="comparison-item" style={{
-                    marginBottom: '20px',
-                    animation: 'fadeInUp 0.5s ease forwards'
-                  }}>
-                    <strong style={{
-                      display: 'block',
-                      fontSize: '1.2rem',
-                      marginBottom: '10px',
-                      color: 'var(--theme-color)'
-                    }}>{q.question}</strong>
-                    <p style={{
-                      margin: '0',
-                      fontSize: '1rem',
-                      color: '#a0a0a0',
-                      textAlign: 'left'
-                    }}>{formatContent(q.answer)}</p>
+                  <div key={idx} className="comparison-item">
+                    <strong>{q.question}</strong>
+                    <p>{formatContent(q.answer)}</p>
                   </div>
                 ))}
               </div>
@@ -358,13 +310,7 @@ function UserGuidesSection({ dataSets }) {
     if (match) {
       return (
         <>
-          <span style={{ 
-            fontWeight: 'bold', 
-            color: 'var(--theme-color)',
-            marginRight: '5px'
-          }}>
-            {match[1]}
-          </span>
+          <span className="step-number">{match[1]}</span>
           {match[2]}
         </>
       );
@@ -376,72 +322,21 @@ function UserGuidesSection({ dataSets }) {
     <div className="user-guides-section">
       <div className="container">
         {dataSets.map((guideSet, setIndex) => (
-          <div key={setIndex} className="user-guide-set"
-            style={{
-              backgroundImage: "url('/assets/img/Ellipse.png')",
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-              backgroundRepeat: "no-repeat"
-            }}>
+          <div key={setIndex} className="user-guide-set">
             <h2>{guideSet.title}</h2>
             <p>{guideSet.description}</p>
-            <div className="user-guides-container" style={{ 
-              display: 'flex', 
-              flexWrap: 'wrap', 
-              justifyContent: 'center' 
-            }}>
+            <div className="user-guides-container">
               {guideSet.guides.map((guide, guideIndex) => (
-                <div key={guideIndex} className="user-guide" style={{
-                  backgroundColor: '#1e1e1e',
-                  borderRadius: '10px',
-                  padding: '30px',
-                  boxShadow: '0 10px 20px rgba(0, 0, 0, 0.2)',
-                  flex: guideSet.guides.length === 1 ? '0 1 100%' : '0 1 calc(33.333% - 20px)',
-                  marginBottom: '20px',
-                  transition: 'all 0.3s ease',
-                  maxWidth: guideSet.guides.length === 1 ? '100%' : 'calc(33.333% - 20px)'
-                }}>
+                <div key={guideIndex} className="user-guide">
                   <img
                     src={guide.image}
                     alt={guide.title}
                     className="section-image"
-                    style={{
-                      width: '100%',
-                      height: '200px',
-                      objectFit: 'cover',
-                      borderRadius: '10px',
-                      marginBottom: '20px'
-                    }}
                   />
-                  <h3 style={{ 
-                    color: 'var(--theme-color)', 
-                    marginBottom: '20px', 
-                    fontSize: '1.6rem', 
-                    borderBottom: '2px solid var(--theme-color)', 
-                    paddingBottom: '10px' 
-                  }}>
-                    {guide.title}
-                  </h3>
-                  <ul style={{ 
-                    listStyleType: 'none', 
-                    padding: 0, 
-                    margin: 0 
-                  }}>
+                  <h3>{guide.title}</h3>
+                  <ul>
                     {guide.steps.map((step, stepIndex) => (
-                      <li key={stepIndex} style={{
-                        marginBottom: '15px',
-                        position: 'relative',
-                        paddingLeft: '25px',
-                        fontSize: '1rem',
-                        lineHeight: '1.5',
-                        color: '#a0a0a0'
-                      }}>
-                        <span style={{
-                          position: 'absolute',
-                          left: 0,
-                          color: 'var(--theme-color)',
-                          fontWeight: 'bold'
-                        }}>→</span>
+                      <li key={stepIndex}>
                         {formatStep(step)}
                       </li>
                     ))}
