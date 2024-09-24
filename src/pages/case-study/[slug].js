@@ -44,8 +44,8 @@ const CaseStudyDetailsPage = () => {
                     className="img-fluid"
                     src={caseStudy.mainImage}
                     alt={caseStudy.title}
-                    style={{ height: '300px', width: '100%',  imageRendering: 'auto', }}
-                    
+                    style={{ height: '300px', width: '100%', imageRendering: 'auto', }}
+
                   />
                 </div>
                 <div className="case-content mb-60">
@@ -60,16 +60,27 @@ const CaseStudyDetailsPage = () => {
                     <div className="case-content">
                       <h2>Project Challenges</h2>
                       <div className="grid-container" data-count={caseStudy.projectChallenges.length}>
-                        {caseStudy.projectChallenges.map((challenge, index) => (
-                          <div key={index} className="grid-item">
-                            <FaCheckCircle size={40} color="green" className="icon" />
-                            {challenge}
-                          </div>
-                        ))}
+                        {caseStudy.projectChallenges.map((challenge, index) => {
+                          const text = challenge || ""; 
+                          const imageUrl = challenge?.image || "";
+
+                          const [heading, ...description] = text.includes(":") ? text.split(":") : [text, ""];
+
+                          return (
+                            <div key={index} className="grid-item">
+                              {imageUrl && <img src={imageUrl} alt={`Challenge ${index}`} className="challenge-image" />} 
+                              <FaCheckCircle size={40} color="green" className="icon" />
+                              <h3>{heading.trim()}</h3>
+                              <p>{description.join(":").trim()}</p>
+                             
+                            </div>
+                          );
+                        })}
                       </div>
                     </div>
                   </div>
                 </div>
+
 
 
 

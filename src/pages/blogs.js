@@ -165,7 +165,11 @@ function BlogSidebarPage() {
                             textOverflow: 'ellipsis',
                           }}>
                             <Link legacyBehavior href={`/blog-details/${post.id}`}>
-                              <a>{post.title.rendered}</a>
+                              <a 
+                              href={post.link}
+                              target="_blank"
+                              >
+                                {post.title.rendered}</a>
                             </Link>
                           </h4>
                           <div className="blog-footer">

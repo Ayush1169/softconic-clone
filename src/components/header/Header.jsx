@@ -205,12 +205,12 @@ function Header() {
                 Services
               </a>
               <i
-                className={`bi bi-plus dropdown-icon ${state.activeMenu === "pages" ? "active" : ""
+                className={`bi bi-plus dropdown-icon ${state.activeMenu === "services" ? "active" : ""
                   }`}
-                onClick={() => toggleMenu("pages")}
+                onClick={() => toggleMenu("services")}
               />
               <ul
-                className={`sub-menu ${state.activeMenu === "pages" ? "d-block" : ""
+                className={`sub-menu ${state.activeMenu === "services" ? "d-block" : ""
                   }`}
               >
                 <li>
@@ -439,13 +439,13 @@ function Header() {
                       </Link>
                     </li>
                     <li>
-                      <Link legacyBehavior href="/service/content-marketing">
+                      <Link legacyBehavior href="/service/content-writing">
                         <a
                           className={
-                            currentRoute === "/service/content-marketing" ? "active" : ""
+                            currentRoute === "/service/content-writing" ? "active" : ""
                           }
                         >
-                          Content Marketing
+                          Content Writing
                         </a>
                       </Link>
                     </li>
@@ -764,12 +764,12 @@ function Header() {
                 Products
               </a>
               <i
-                className={`bi bi-plus dropdown-icon ${state.activeMenu === "pages" ? "active" : ""
+                className={`bi bi-plus dropdown-icon ${state.activeMenu === "Products" ? "active" : ""
                   }`}
-                onClick={() => toggleMenu("pages")}
+                onClick={() => toggleMenu("Products")}
               />
               <ul
-                className={`sub-menu ${state.activeMenu === "pages" ? "d-block" : ""
+                className={`sub-menu ${state.activeMenu === "Products" ? "d-block" : ""
                   }`}
               >
                 <li>
@@ -828,17 +828,14 @@ function Header() {
               >
                 Blogs
               </a>
-              <i
-                className={`bi bi-plus dropdown-icon ${state.activeMenu === "blog" ? "active" : ""
-                  }`}
-                onClick={() => toggleMenu("blog")}
-              />
             </li>
           </ul>
           <div className="d-lg-none d-block">
             <form className="mobile-menu-form">
               <div className="hotline pt-30">
-                <div className="hotline-icon">
+                <div className="hotline-icon"  style={{
+                    marginBottom: "50px"
+                  }}>
                   <svg
                     width={26}
                     height={26}
@@ -850,15 +847,26 @@ function Header() {
                     <path d="M25.9707 11.4691C25.4823 8.60468 24.1324 5.99813 22.0581 3.92387C19.9838 1.8496 17.3773 0.49968 14.5128 0.011294C14.1122 -0.0600432 13.7336 0.214331 13.6623 0.614917C13.5964 1.02099 13.8653 1.39963 14.2714 1.47096C16.8285 1.90447 19.1607 3.11721 21.0155 4.96649C22.8702 6.82125 24.0775 9.15343 24.511 11.7106C24.5714 12.0728 24.8841 12.3252 25.2408 12.3252C25.2847 12.3252 25.3231 12.3197 25.367 12.3142C25.7676 12.2539 26.042 11.8697 25.9707 11.4691Z"></path>
                   </svg>
                 </div>
-                <div className="hotline-info">
+               <div    style={{display:"flex",flexDirection:"column" , justifyContent:"start" , alignItems:"left"}}>
+               <div className="hotline-info">
                   <span>Call Us Now</span>
                   <h6>
-                    <a href="tel:29658718617">2-965-871-8617</a>
+                    <a href="tel:+91-7829401605">+91-7829401605</a>
                   </h6>
                 </div>
+                <div className="hotline-info">
+                  <h6>
+                    <a href="tel:+91-6261743903">+91-6261743903</a>
+                  </h6>
+                </div>
+               </div>
               </div>
               <div className="email pt-20 d-flex align-items-center">
-                <div className="email-icon">
+                <div className="email-icon" 
+                  style={{
+                    marginBottom: "50px"
+                  }}
+                   >
                   <svg
                     width={26}
                     height={26}
@@ -870,13 +878,21 @@ function Header() {
                     </g>
                   </svg>
                 </div>
+                <div               style={{display:"flex",flexDirection:"column" , justifyContent:"start" , alignItems:"left"}}>
                 <div className="email-info">
                   <span>Email Now</span>
                   <h6>
-                    <a href="mailto:example@gmail.com">example@gmail.com</a>
+                    <a href="mailto:sales@evdtechnology.com">sales@evdtechnology.com</a>
                   </h6>
                 </div>
+                <div className="email-info">
+                  <h6>
+                    <a href="mailto:anshu@evdtechnology.com">anshu@evdtechnology.com</a>
+                  </h6>
+                </div>
+                </div>
               </div>
+              
             </form>
             <div className="header-btn5">
               <Link legacyBehavior href="/contact">
