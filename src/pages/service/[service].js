@@ -325,7 +325,7 @@ function UserGuidesSection({ dataSets }) {
           <div key={setIndex} className="user-guide-set">
             <h2>{guideSet.title}</h2>
             <p>{guideSet.description}</p>
-            <div className="user-guides-container">
+            <div className={`user-guides-container ${guideSet.guides.length >= 4 ? 'two-column-layout' : ''}`}>
               {guideSet.guides.map((guide, guideIndex) => (
                 <div key={guideIndex} className="user-guide">
                   <img
