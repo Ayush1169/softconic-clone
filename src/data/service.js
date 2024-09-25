@@ -514,13 +514,13 @@ export const servicesData = {
   },
   "digital-marketing": {
     title: "Digital Marketing ",
-    image: "/assets/img/inner-pages/about-service-img.png",
+    image: "/assets/img/services/digital-marketing/image-1 (2).png",
     description: "In today's business world, digital marketing has become a critical component of any successful strategy. With the rise of the internet and mobile technology, traditional marketing methods are no longer sufficient. Enter the digital marketing agency—an organization specializing in creating and executing online marketing strategies tailored to a business's unique needs. These agencies help businesses of all sizes harness the power of digital platforms to reach their target audience, enhance brand awareness, and drive sales.",
     faqSections: [
       {
         title: "",
         layout: true,
-        image: "/assets/img/inner-pages/about-service-img.png",
+        image: "/assets/img/services/digital-marketing/image-32.png",
         questions: [
           {
             question: "What is the average cost of hiring a digital marketing agency?",
@@ -571,6 +571,7 @@ export const servicesData = {
           guides: [
             {
               title: "",
+              image: "/assets/img/services/digital-marketing/image-2 (2).png",
               steps: [
                 "A digital marketing agency is a company that offers a range of online marketing services to help businesses grow and succeed in the digital landscape. Unlike traditional marketing firms, digital agencies focus on leveraging internet-based platforms and technologies. Their core functions include optimizing websites for search engines, managing social media accounts, running paid ad campaigns, creating engaging content, and much more."
               ]
@@ -584,49 +585,49 @@ export const servicesData = {
           guides: [
             {
               title: "Search Engine Optimization (SEO)",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/digital-marketing/image-3 (2).png",
               steps: [
                 "Improving a website's visibility on search engine results pages (SERPs) through on-page and off-page optimization techniques."
               ]
             },
             {
               title: "Pay-Per-Click Advertising (PPC)",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/digital-marketing/image-4 (2).png",
               steps: [
                 "Managing paid ad campaigns on platforms like Google Ads and social media, targeting specific keywords and demographics."
               ]
             },
             {
               title: "Content Marketing",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/digital-marketing/image-5 (2).png",
               steps: [
                 "Creating valuable, relevant content to attract and engage a target audience, fostering brand loyalty and generating leads."
               ]
             },
             {
               title: "Social Media Marketing",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/digital-marketing/image-6 (2).png",
               steps: [
                 "Managing and growing a brand's presence on social media platforms like Facebook, Instagram, Twitter, and LinkedIn."
               ]
             },
             {
               title: "Email Marketing",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/digital-marketing/image-7 (2).png",
               steps: [
                 "Developing and executing email campaigns to nurture leads and communicate with customers."
               ]
             },
             {
               title: "Conversion Rate Optimization (CRO)",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/digital-marketing/image-8 (2).png",
               steps: [
                 "Analyzing and optimizing website elements to increase the percentage of visitors who take desired actions."
               ]
             },
             {
               title: "Web Design and Development",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/digital-marketing/image-9 (2).png",
               steps: [
                 "Creating aesthetically pleasing and functional websites optimized for user experience and conversions."
               ]
@@ -641,28 +642,28 @@ export const servicesData = {
           guides: [
             {
               title: "Expertise and Experience",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/digital-marketing/image-10 (2).png",
               steps: [
                 "Agencies bring specialized knowledge and a team of experts with diverse skill sets."
               ]
             },
             {
               title: "Cost-Effectiveness",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/digital-marketing/image-11 (2).png",
               steps: [
                 "Outsourcing digital marketing can be more cost-effective than hiring a full-time in-house team."
               ]
             },
             {
               title: "Access to Advanced Tools and Technologies",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/digital-marketing/image-12 (2).png",
               steps: [
                 "Agencies have access to the latest tools and software for analytics, automation, and more."
               ]
             },
             {
               title: "Focus on Core Business Activities",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/digital-marketing/image-13 (2).png",
               steps: [
                 "By outsourcing marketing efforts, businesses can focus on their core competencies."
               ]
@@ -677,35 +678,35 @@ export const servicesData = {
           guides: [
             {
               title: "Assess Your Business Needs",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/digital-marketing/image-14 (2).png",
               steps: [
                 "Identify what you need help with—SEO, content, social media, etc."
               ]
             },
             {
               title: "Evaluate Portfolio and Case Studies",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/digital-marketing/image-15 (2).png",
               steps: [
                 "Review past work to gauge the agency's capabilities and experience in your industry."
               ]
             },
             {
               title: "Understand Pricing and Packages",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/digital-marketing/image-16 (2).png",
               steps: [
                 "Ensure the agency's pricing aligns with your budget and that there are no hidden fees."
               ]
             },
             {
               title: "Client Reviews and Testimonials",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/digital-marketing/image-17 (2).png",
               steps: [
                 "Check reviews and testimonials to understand the agency's reputation and client satisfaction."
               ]
             },
             {
               title: "Agency Culture and Communication",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/digital-marketing/image-18 (2).png",
               steps: [
                 "The agency's culture should align with your business values, and communication should be clear and responsive."
               ]
@@ -720,35 +721,35 @@ export const servicesData = {
           guides: [
             {
               title: "Initial Consultation and Goal Setting",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/digital-marketing/image-19.png",
               steps: [
                 "Understanding the client's goals and objectives."
               ]
             },
             {
               title: "Strategy Development",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/digital-marketing/image-20.png",
               steps: [
                 "Crafting a comprehensive strategy tailored to the client's needs."
               ]
             },
             {
               title: "Implementation and Execution",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/digital-marketing/image-21.png",
               steps: [
                 "Executing the planned strategies across various digital channels."
               ]
             },
             {
               title: "Monitoring and Analytics",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/digital-marketing/image-22.png",
               steps: [
                 "Tracking performance metrics and KPIs to measure success."
               ]
             },
             {
               title: "Reporting and Optimization",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/digital-marketing/image-23.png",
               steps: [
                 "Providing regular reports and making data-driven adjustments to optimize results."
               ]
@@ -763,7 +764,7 @@ export const servicesData = {
           guides: [
             {
               title: "Keeping Up with Industry Trends",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/digital-marketing/image-24.png",
               steps: [
                 "The digital landscape is constantly evolving, making it essential to stay updated with the latest trends and technologies."
               ]
@@ -771,21 +772,21 @@ export const servicesData = {
             },
             {
               title: "Managing Budget Constraints",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/digital-marketing/image-25.png",
               steps: [
                 "Allocating budget efficiently across various channels can be challenging."
               ]
             },
             {
               title: "Navigating Algorithm Changes",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/digital-marketing/image-26.png",
               steps: [
                 "Search engines and social media platforms frequently update their algorithms, affecting visibility and reach."
               ]
             },
             {
               title: "Measuring ROI",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/digital-marketing/image-27.png",
               steps: [
                 "Determining the return on investment (ROI) for digital marketing efforts can be complex, especially with multi-channel campaigns."
               ]
@@ -800,28 +801,28 @@ export const servicesData = {
           guides: [
             {
               title: "The Rise of Video Marketing",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/digital-marketing/image-28.png",
               steps: [
                 "Video content is becoming increasingly popular, offering high engagement rates."
               ]
             },
             {
               title: "The Growing Importance of Voice Search",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/digital-marketing/image-29.png",
               steps: [
                 "With the proliferation of smart speakers, optimizing content for voice search is becoming essential."
               ]
             },
             {
               title: "Personalization and Customer Experience",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/digital-marketing/image-30.png",
               steps: [
                 "Personalized marketing efforts are more effective in engaging customers and building loyalty."
               ]
             },
             {
               title: "The Impact of AI and Machine Learning",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/digital-marketing/image-31.png",
               steps: [
                 "AI-powered tools and machine learning algorithms are revolutionizing marketing strategies, from chatbots to predictive analytics."
               ]
