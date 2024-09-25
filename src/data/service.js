@@ -34,14 +34,14 @@ export const howWeWork = [
 export const servicesData = {
   "web-development": {
     title: "Web Development",
-    image: "/assets/img/services/web-development/image.png",
+    image: "/assets/img/services/web-development/11.png",
     description: "Web development is the process of creating websites and applications for the internet or a private network (intranet). It encompasses several aspects, including web design, web content development, client-side/server-side scripting, and network security configuration. As the digital landscape evolves, web development continues to grow in importance, enabling businesses to create engaging, functional, and accessible digital experiences for users.",
     faqSections: [
       {
         title: "FAQs about Web Development",
         image: "/assets/img/services/web-development/h4.png",
         layout: true,
-        image: "/assets/img/services/web-development/image1.png",
+        image: "/assets/img/services/web-development/h4.png",
         questions: [
           {
             question: "What is web development, and why is it important?",
@@ -192,8 +192,8 @@ export const servicesData = {
             },
             {
               title: "Full-Stack Development",
-              image: "/assets/img/services/web-development/d3.png",
-              image: "/assets/img/services/web-development/d3.png",
+              image: "/assets/img/services/web-development/22.png",
+              image: "/assets/img/services/web-development/22.png",
               steps: [
                 "Full-stack developers have expertise in both front-end and back-end development, enabling them to build complete web applications from start to finish. They are skilled in a variety of technologies and frameworks, allowing them to work on every aspect of the development process."
               ]
@@ -6118,12 +6118,13 @@ export const servicesData = {
 
   "integration-with-third-party-api": {
     "title": "Integration With Third Party APIs",
+    "image": "/assets/img/services/Integration-with-third-party-APIs/image.png",
     "description": "API integration refers to the process of connecting various software applications to exchange data and functionality. It allows businesses to enhance their existing platforms by adding new features and automating processes without building everything from scratch.",
     "faqSections": [
       {
         "title": "Understanding API Integration",
         "layout": true,
-        "image": "/assets/img/inner-pages/about-service-img.png",
+        "image": "/assets/img/services/Integration-with-third-party-APIs/h4.png",
         "questions": [
           {
             "question": "What is API Integration?",
@@ -6142,7 +6143,7 @@ export const servicesData = {
       {
         "title": "Benefits and Challenges",
         "layout": true,
-        "image": "/assets/img/inner-pages/about-service-img.png",
+        "image": "/assets/img/services/Integration-with-third-party-APIs/h5.png",
         "questions": [
           {
             "question": "What are the key benefits of Third-Party API Integration?",
@@ -6163,7 +6164,7 @@ export const servicesData = {
         {
           "title": "Popular Types of Third-Party APIs",
           "layout": true,
-          "image": "/assets/img/inner-pages/api-types.png",
+          "image": "/assets/img/services/Integration-with-third-party-APIs/h1.png",
           "questions": [
             {
               "question": "What are some popular types of Third-Party APIs?",
@@ -6174,7 +6175,7 @@ export const servicesData = {
         {
           "title": "Best Practices for API Integration",
           "layout": true,
-          "image": "/assets/img/inner-pages/api-best-practices.png",
+          "image": "/assets/img/services/Integration-with-third-party-APIs/h2.png",
           "questions": [
             {
               "question": "What are the best practices for API Integration?",
@@ -6186,11 +6187,11 @@ export const servicesData = {
       "dataSets": [
         {
           "title": "Implementing API Integration",
-          "image": "/assets/img/inner-pages/api-implementation.png",
+          "image": "/assets/img/services/Integration-with-third-party-APIs/h3.png",
           "guides": [
             {
               "title": "Steps for Successful API Integration",
-              "image": "/assets/img/inner-pages/api-integration-steps.png",
+              "image": "/assets/img/services/Integration-with-third-party-APIs/h3.png",
               "steps": [
                 "Identify the need for API integration",
                 "Research and select appropriate APIs",
@@ -6213,12 +6214,13 @@ export const servicesData = {
 
   "testing": {
     "title": "Software Testing",
+    "image": "/assets/img/services/testing/1.png",
     "description": "Software testing involves evaluating a software application to ensure it meets required standards and functions correctly. It identifies bugs and verifies that the product behaves as expected in various scenarios.",
     "faqSections": [
       {
         "title": "Understanding Software Testing",
         "layout": true,
-        "image": "/assets/img/inner-pages/about-service-img.png",
+        "image": "/assets/img/services/testing/4.png",
         "questions": [
           {
             "question": "What is Software Testing?",
@@ -6233,7 +6235,7 @@ export const servicesData = {
       {
         "title": "Types of Software Testing",
         "layout": true,
-        "image": "/assets/img/inner-pages/about-service-img.png",
+        "image": "/assets/img/services/testing/5.png",
         "questions": [
           {
             "question": "What are the main types of Software Testing?",
@@ -6244,13 +6246,13 @@ export const servicesData = {
     ],
     "technologies": {
       "title": "Software Testing Technologies and Practices",
-      "image": "/assets/img/inner-pages/about-service-img.png",
+      "image": "/assets/img/services/testing/11.png",
       "description": "Software testing employs various methodologies, best practices, and tools to ensure comprehensive evaluation of software applications.",
       "comparisonSections": [
         {
           "title": "Testing Methodologies",
           "layout": true,
-          "image": "/assets/img/inner-pages/about-service-img.png",
+          "image": "/assets/img/services/testing/11.png",
           "questions": [
             {
               "question": "What are the main testing methodologies?",
@@ -6261,7 +6263,7 @@ export const servicesData = {
         {
           "title": "Common Testing Tools",
           "layout": true,
-          "image": "/assets/img/inner-pages/about-service-img.png",
+          "image": "/assets/img/services/testing/2.png",
           "questions": [
             {
               "question": "What are some common testing tools?",
@@ -6273,11 +6275,11 @@ export const servicesData = {
       "dataSets": [
         {
           "title": "Best Practices for Effective Testing",
-          "image": "/assets/img/inner-pages/about-service-img.png",
+          "image": "/assets/img/services/testing/3.png",
           "guides": [
             {
               "title": "Implementing Effective Testing Practices",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/testing/3.png",
               "steps": [
                 "Define Clear Objectives",
                 "Create Comprehensive Test Plans",
@@ -6299,12 +6301,13 @@ export const servicesData = {
 
   "remote-staffing": {
     "title": "Remote Staffing",
+    "image": "/assets/img/services/remote-staffing/1.png",
     "description": "In the modern era, businesses are rapidly adapting to the evolving landscape of workforce management. One of the most significant shifts is towards remote staffing, a flexible and cost-effective solution for companies looking to optimize their operations. This article explores the key benefits of remote staffing and why it's becoming a top choice for businesses worldwide.",
     "faqSections": [
       {
         "title": "Understanding Remote Staffing",
         "layout": true,
-        "image": "/assets/img/inner-pages/about-service-img.png",
+        "image": "/assets/img/services/remote-staffing/4.png",
         "questions": [
           {
             "question": "What is Remote Staffing?",
@@ -6315,7 +6318,7 @@ export const servicesData = {
       {
         "title": "Benefits of Remote Staffing",
         "layout": true,
-        "image": "/assets/img/inner-pages/about-service-img.png",
+        "image": "/assets/img/services/remote-staffing/5.png",
         "questions": [
           {
             "question": "What are the main benefits of Remote Staffing?",
@@ -6326,7 +6329,7 @@ export const servicesData = {
       {
         "title": "Challenges of Remote Staffing",
         "layout": true,
-        "image": "/assets/img/inner-pages/about-service-img.png",
+        "image": "/assets/img/services/remote-staffing/6.png",
         "questions": [
           {
             "question": "What are the challenges of Remote Staffing?",
@@ -6337,13 +6340,13 @@ export const servicesData = {
     ],
     "technologies": {
       "title": "Implementing Remote Staffing",
-      "image": "/assets/img/inner-pages/about-service-img.png",
+      "image": "/assets/img/services/remote-staffing/2.png",
       "description": "To effectively implement remote staffing, businesses need to consider various strategies and technologies.",
       "comparisonSections": [
         {
           "title": "How to Implement Remote Staffing Effectively",
           "layout": true,
-          "image": "/assets/img/inner-pages/about-service-img.png",
+          "image": "/assets/img/services/remote-staffing/2.png",
           "questions": [
             {
               "question": "What are the key steps to implement Remote Staffing effectively?",
@@ -6355,11 +6358,11 @@ export const servicesData = {
       "dataSets": [
         {
           "title": "The Future of Remote Staffing",
-          "image": "/assets/img/inner-pages/about-service-img.png",
+          "image": "/assets/img/services/remote-staffing/3.png",
           "guides": [
             {
               "title": "Understanding the Future of Remote Staffing",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/remote-staffing/3.png",
               "steps": [
                 "Remote staffing is not just a temporary trend; it's the future of business operations.",
                 "As technology continues to advance, this model will become even more prevalent.",
@@ -6379,12 +6382,13 @@ export const servicesData = {
 
   "outsourcing": {
     "title": "Outsourcing",
+    "image": "/assets/img/services/outsourcing/1.png",
     "description": "Outsourcing has become a crucial strategy for companies looking to streamline operations and boost growth. By delegating tasks to external experts, businesses can focus on core activities while optimizing costs. In this article, we will explore the key benefits of outsourcing, common challenges, and how to implement it effectively.",
     "faqSections": [
       {
         "title": "Understanding Outsourcing",
         "layout": true,
-        "image": "/assets/img/inner-pages/about-service-img.png",
+        "image": "/assets/img/services/outsourcing/6.png",
         "questions": [
           {
             "question": "What is Outsourcing?",
@@ -6395,13 +6399,13 @@ export const servicesData = {
     ],
     "technologies": {
       "title": "Outsourcing Strategies and Considerations",
-      "image": "/assets/img/inner-pages/about-service-img.png",
+      "image": "/assets/img/services/outsourcing/2.png",
       "description": "Outsourcing offers various benefits but also comes with challenges. Understanding these aspects and implementing effective strategies is crucial for successful outsourcing.",
       "comparisonSections": [
         {
           "title": "Benefits of Outsourcing",
           "layout": true,
-          "image": "/assets/img/inner-pages/about-service-img.png",
+          "image": "/assets/img/services/outsourcing/2.png",
           "questions": [
             {
               "question": "What are the main benefits of Outsourcing?",
@@ -6412,7 +6416,7 @@ export const servicesData = {
         {
           "title": "Challenges of Outsourcing",
           "layout": true,
-          "image": "/assets/img/inner-pages/about-service-img.png",
+          "image": "/assets/img/services/outsourcing/3.png",
           "questions": [
             {
               "question": "What are the main challenges of Outsourcing?",
@@ -6424,11 +6428,11 @@ export const servicesData = {
       "dataSets": [
         {
           "title": "How to Outsource Effectively",
-          "image": "/assets/img/inner-pages/about-service-img.png",
+          "image": "/assets/img/services/outsourcing/4.png",
           "guides": [
             {
               "title": "Steps for Effective Outsourcing",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/outsourcing/4.png",
               "steps": [
                 "Define Clear Objectives: Before outsourcing, businesses should clearly define their objectives. Knowing exactly what tasks or functions to outsource, as well as the desired outcomes, helps in selecting the right partner and ensuring successful collaboration.",
                 "Choose the Right Partner: Selecting the right outsourcing partner is crucial. Businesses should look for providers with a proven track record, relevant expertise, and positive client testimonials. It's also important to ensure the provider aligns with the company's culture and values.",
@@ -6440,11 +6444,11 @@ export const servicesData = {
         },
         {
           "title": "The Future of Outsourcing",
-          "image": "/assets/img/inner-pages/about-service-img.png",
+          "image": "/assets/img/services/outsourcing/5.png",
           "guides": [
             {
               "title": "Outlook on Outsourcing",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/outsourcing/5.png",
               "steps": [
                 "As businesses evolve, outsourcing will continue to play a pivotal role in operational strategies.",
                 "Advances in technology, such as automation and artificial intelligence, are likely to enhance the outsourcing landscape, making it even more efficient and cost-effective.",
@@ -6462,12 +6466,13 @@ export const servicesData = {
   },
   "contract-staffing": {
     "title": "Contract Staffing: A Flexible Solution for Modern Businesses",
+    "image": "/assets/img/services/contract-staffing/1.png",
     "description": "Contract staffing has emerged as a powerful solution for businesses seeking flexibility and expertise without long-term commitments. This staffing model allows companies to hire professionals on a short-term basis to meet specific project needs or cover seasonal demands.",
     "faqSections": [
       {
         "title": "Frequently Asked Questions about Contract Staffing",
         "layout": true,
-        "image": "/assets/img/inner-pages/about-service-img.png",
+        "image": "/assets/img/services/contract-staffing/4.png",
         "questions": [
           {
             "question": "What is contract staffing?",
@@ -6482,13 +6487,13 @@ export const servicesData = {
     ],
     "technologies": {
       "title": "Technologies in Contract Staffing",
-      "image": "/assets/img/inner-pages/about-service-img.png",
+      "image": "/assets/img/services/contract-staffing/2.png",
       "description": "Contract staffing allows businesses to bring in highly skilled professionals for specific tasks, often using various technologies and platforms.",
       "comparisonSections": [
         {
           "title": "Comparison: Contract Staffing vs. Traditional Hiring",
           "layout": true,
-          "image": "/assets/img/inner-pages/front-end-frameworks.png",
+          "image": "/assets/img/services/contract-staffing/2.png",
           "questions": [
             {
               "question": "How does the duration of employment differ?",
@@ -6508,11 +6513,11 @@ export const servicesData = {
       "dataSets": [
         {
           "title": "Best Practices for Contract Staffing",
-          "image": "/assets/img/inner-pages/about-service-img.png",
+          "image": "/assets/img/services/contract-staffing/3.png",
           "guides": [
             {
               "title": "Steps to Implement Contract Staffing Effectively",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/contract-staffing/3.png",
               "steps": [
                 "Identify specific needs, including required skills and contract duration.",
                 "Partner with staffing agencies to find qualified contractors.",
@@ -6532,12 +6537,13 @@ export const servicesData = {
 
   "project-based-staffing": {
     "title": "Project-Based Staffing: Agile Solutions for Evolving Demands",
+    "image": "/assets/img/services/project/1.png",
     "description": "Project-based staffing has emerged as an effective strategy, allowing businesses to hire specialized talent for short-term projects without long-term commitments.",
     "faqSections": [
       {
         "title": "Frequently Asked Questions about Project-Based Staffing",
         "layout": true,
-        "image": "/assets/img/inner-pages/about-service-img.png",
+        "image": "/assets/img/services/project/4.png",
         "questions": [
           {
             "question": "What is project-based staffing?",
@@ -6552,13 +6558,13 @@ export const servicesData = {
     ],
     "technologies": {
       "title": "Technologies in Project-Based Staffing",
-      "image": "/assets/img/inner-pages/about-service-img.png",
+      "image": "/assets/img/services/project/2.png",
       "description": "Project-based staffing allows companies to bring in experts with precise skills needed to complete tasks efficiently.",
       "comparisonSections": [
         {
           "title": "Comparison: Project-Based Staffing vs. Traditional Hiring",
           "layout": true,
-          "image": "/assets/img/inner-pages/front-end-frameworks.png",
+          "image": "/assets/img/services/project/2.png",
           "questions": [
             {
               "question": "How does project-based staffing provide flexibility?",
@@ -6574,11 +6580,11 @@ export const servicesData = {
       "dataSets": [
         {
           "title": "Best Practices for Project-Based Staffing",
-          "image": "/assets/img/inner-pages/about-service-img.png",
+          "image": "/assets/img/services/project/3.png",
           "guides": [
             {
               "title": "Steps to Implement Project-Based Staffing Effectively",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/project/3.png",
               "steps": [
                 "Define project scope clearly, including deliverables and timelines.",
                 "Choose the right talent with relevant skills and experience.",
@@ -6598,12 +6604,13 @@ export const servicesData = {
 
   "artificial-intelligence": {
     "title": "Artificial Intelligence: Revolutionizing Our World",
+    "image": "/assets/img/services/ai/1.png",
     "description": "Artificial intelligence (AI) is revolutionizing how we live, work, and interact with technology. By mimicking human intelligence, AI systems are capable of performing tasks that typically require human cognition.",
     "faqSections": [
       {
         "title": "Frequently Asked Questions",
         "layout": true,
-        "image": "/assets/img/inner-pages/about-service-img.png",
+        "image": "/assets/img/services/ai/4.png",
         "questions": [
           {
             "question": "What is artificial intelligence?",
@@ -6618,13 +6625,13 @@ export const servicesData = {
     ],
     "technologies": {
       "title": "Applications of Artificial Intelligence",
-      "image": "/assets/img/inner-pages/about-service-img.png",
+      "image": "/assets/img/services/ai/2.png",
       "description": "AI is being integrated into numerous industries, transforming how businesses operate and how we experience technology.",
       "comparisonSections": [
         {
           "title": "Key Applications",
           "layout": true,
-          "image": "/assets/img/inner-pages/front-end-frameworks.png",
+          "image": "/assets/img/services/ai/2.png",
           "questions": [
             {
               "question": "How is AI used in healthcare?",
@@ -6652,11 +6659,11 @@ export const servicesData = {
       "dataSets": [
         {
           "title": "Benefits of Artificial Intelligence",
-          "image": "/assets/img/inner-pages/about-service-img.png",
+          "image": "/assets/img/services/ai/3.png",
           "guides": [
             {
               "title": "Advantages of AI",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/ai/3.png",
               "steps": [
                 "Increased Efficiency: AI processes data quickly and accurately.",
                 "Cost Savings: Automating tasks reduces operational costs.",
@@ -6680,12 +6687,13 @@ export const servicesData = {
 
   "machine-learning": {
     "title": "Machine Learning",
+    "image": "/assets/img/services/ml/1.png",
     "description": "Machine learning (ML) is a subset of artificial intelligence (AI) that allows computers to learn from and make decisions based on data.",
     "faqSections": [
       {
         "title": "FAQs about Machine Learning",
         "layout": true,
-        "image": "/assets/img/inner-pages/about-service-img.png",
+        "image": "/assets/img/services/ml/7.png",
         "questions": [
           {
             "question": "What is the difference between AI and machine learning?",
@@ -6712,13 +6720,13 @@ export const servicesData = {
     ],
     "technologies": {
       "title": "Key Technologies in Machine Learning",
-      "image": "/assets/img/inner-pages/about-service-img.png",
+      "image": "/assets/img/services/ml/2.png",
       "description": "Machine learning relies on various technologies and algorithms to function effectively.",
       "comparisonSections": [
         {
           "title": "Types of Machine Learning Techniques",
           "layout": true,
-          "image": "/assets/img/inner-pages/front-end-frameworks.png",
+          "image": "/assets/img/services/ml/2.png",
           "questions": [
             {
               "question": "What are the types of machine learning?",
@@ -6730,11 +6738,11 @@ export const servicesData = {
       "dataSets": [
         {
           "title": "Applications of Machine Learning",
-          "image": "/assets/img/inner-pages/about-service-img.png",
+          "image": "/assets/img/services/ml/3.png",
           "guides": [
             {
               "title": "Machine Learning in Healthcare",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/ml/3.png",
               "steps": [
                 "Improving diagnostics.",
                 "Predicting patient outcomes.",
@@ -6743,7 +6751,7 @@ export const servicesData = {
             },
             {
               "title": "Machine Learning in Finance",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/ml/4.png",
               "steps": [
                 "Fraud detection.",
                 "Risk management.",
@@ -6752,7 +6760,7 @@ export const servicesData = {
             },
             {
               "title": "Machine Learning in Retail",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/ml/5.png",
               "steps": [
                 "Personalizing product recommendations.",
                 "Optimizing pricing.",
@@ -6761,7 +6769,7 @@ export const servicesData = {
             },
             {
               "title": "Machine Learning in Autonomous Vehicles",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/ml/6.png",
               "steps": [
                 "Interpreting sensor data.",
                 "Making driving decisions.",
