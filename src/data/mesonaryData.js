@@ -4,7 +4,7 @@ const data = [
     category: "Online Learning Platform",
     class: "Educational",
     title: "Major Kalshi Classes - Online Learning Platform",
-    image: "/assets/img/home-4/work-01.png",
+    image: "/assets/img/projects/Group 25.png",
     images: [
       "/assets/img/inner-pages/mkc-dt-01.png",
       "/assets/img/inner-pages/mkc-dt-02.png",
@@ -58,7 +58,7 @@ const data = [
     category: "EdTech",
     class: "Educational",
     title: "Veda Academy - Online Learning Platform",
-    image: "/assets/img/home-4/work-02.png", // Assuming you will have an image here
+    image: "/assets/img/projects/Group 24.png", // Assuming you will have an image here
     images: [
       "/assets/img/inner-pages/veda-dt-01.png",
       "/assets/img/inner-pages/veda-dt-02.png",
@@ -112,7 +112,7 @@ const data = [
     category: "Mobile App",
     class: "MVP",
     title: "Scrollify - Real-Time News App",
-    image: "/assets/img/home-4/work-01.png", // Assuming you will have an image here
+    image: "/assets/img/projects/Group 1686552502.png", // Assuming you will have an image here
     images: [
       "/assets/img/inner-pages/scrollify-dt-01.png",
       "/assets/img/inner-pages/scrollify-dt-02.png",
@@ -166,7 +166,7 @@ const data = [
     category: "Music Distribution",
     class: "Platform Development",
     title: "Deliver My Tune - Music Distribution Platform",
-    image: "/assets/img/home-4/work-01.png", // Assuming you will have an image here
+    image: "/assets/img/projects/Group 26.png", // Assuming you will have an image here
     images: [
       "/assets/img/inner-pages/dmt-dt-01.png",
       "/assets/img/inner-pages/dmt-dt-02.png",
@@ -218,7 +218,7 @@ const data = [
     category: "Health Resource",
     class: "Website Development",
     title: "Dovemed - Online Medical Resource",
-    image: "/assets/img/home-4/work-01.png", // Assuming you will have an image here
+    image: "/assets/img/projects/Group 1686552508.png", // Assuming you will have an image here
     images: [
       "/assets/img/inner-pages/dovemed-dt-01.png",
       "/assets/img/inner-pages/dovemed-dt-02.png",
@@ -271,7 +271,7 @@ const data = [
     category: "E-commerce",
     class: "Website Development",
     title: "The Custom Bakers - Custom Cake E-commerce Platform",
-    image: "/assets/img/home-4/work-01.png", // Assuming you will have an image here
+    image: "/assets/img/projects/Group 1686552510.png", // Assuming you will have an image here
     images: [
       "/assets/img/inner-pages/custom-bakers-dt-01.png",
       "/assets/img/inner-pages/custom-bakers-dt-02.png",
@@ -323,7 +323,7 @@ const data = [
     category: "Tourism",
     class: "Website Development",
     title: "Travel Bastar - Official Tourism Website",
-    image: "/assets/img/home-4/work-01.png", // Assuming you will have an image here
+    image: "/assets/img/projects/Group 1686552509.png", // Assuming you will have an image here
     images: [
       "/assets/img/inner-pages/travel-bastar-dt-01.png",
       "/assets/img/inner-pages/travel-bastar-dt-02.png",
@@ -377,7 +377,7 @@ const data = [
     category: "Agriculture",
     class: "Benefits Management System",
     title: "AHBMS - Animal Husbandry Benefits Management System",
-    image: "/assets/img/home-4/work-01.png", // Assuming you will have an image here
+    image: "/assets/img/projects/Group 1686556763 1.png", // Assuming you will have an image here
     images: [
       "/assets/img/inner-pages/ahbms-dt-01.png",
       "/assets/img/inner-pages/ahbms-dt-02.png",
@@ -431,7 +431,7 @@ const data = [
     category: "Healthcare",
     class: "Mobile App",
     title: "VHAI - Health Consultancy and Appointment App",
-    image: "/assets/img/home-4/work-01.png", 
+    image: "/assets/img/projects/Group 1686556762 1.png", 
     images: [
       "/assets/img/inner-pages/vhai-dt-01.png",
       "/assets/img/inner-pages/vhai-dt-02.png",
