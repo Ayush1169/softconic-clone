@@ -6,16 +6,17 @@ const data = [
     title: "Major Kalshi Classes - Online Learning Platform",
     image: "/assets/img/projects/Group 25.png",
     images: [
-      "/assets/img/inner-pages/mkc-dt-01.png",
-      "/assets/img/inner-pages/mkc-dt-02.png",
-      "/assets/img/inner-pages/mkc-dt-03.png"
+      "/assets/img/services/ai/1.png",
+      "/assets/img/services/ai/1.png",
+      "/assets/img/services/ai/1.png",
+      "/assets/img/services/ai/1.png"
     ],
     slug: "major-kalshi-classes",
     client: "Major Kalshi Classes",
-    company: "Your Company Name", // Replace with the company that handled the project
-    location: "India", // Assuming India for MKC
+    company: "Your Company Name",
+    location: "India", 
     projectType: "Educational Platform",
-    duration: "Ongoing", // As this may involve ongoing maintenance
+    duration: "Ongoing", 
     description: `Major Kalshi Classes is an innovative online learning platform designed 
       to help students prepare for competitive exams. Our goal was to create a user-friendly 
       system that offers a variety of courses and resources to enhance students' learning experiences.

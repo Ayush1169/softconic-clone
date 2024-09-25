@@ -25,6 +25,10 @@ function ProjectDetailsPage({ project , prevProject, nextProject }) {
                   className="img-fluid"
                   src={project.images[0]}
                   alt={project.title}
+                  style={{
+                    width: "700px",
+                    height: "400px",
+                  }}
                 />
               </div>
             </div>
@@ -39,7 +43,7 @@ function ProjectDetailsPage({ project , prevProject, nextProject }) {
                     />
                   </div>
                 </div>
-                <div className="col-lg-12">
+                {/* <div className="col-lg-12">
                   <div className="portfolio-img magnetic-item">
                     <img
                       className="img-fluid"
@@ -47,7 +51,7 @@ function ProjectDetailsPage({ project , prevProject, nextProject }) {
                       alt=""
                     />
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -86,7 +90,7 @@ function ProjectDetailsPage({ project , prevProject, nextProject }) {
                     <div className="portfolio-img magnetic-item">
                       <img
                         className="img-fluid"
-                        src={project.images[3]}
+                        src={project.images[2]}
                         alt=""
                       />
                     </div>
@@ -95,7 +99,7 @@ function ProjectDetailsPage({ project , prevProject, nextProject }) {
                     <div className="portfolio-img magnetic-item">
                       <img
                         className="img-fluid"
-                        src={project.images[4]}
+                        src={project.images[3]}
                         alt=""
                       />
                     </div>
@@ -130,7 +134,11 @@ function ProjectDetailsPage({ project , prevProject, nextProject }) {
                   </li>
                 </ul>
               </div>
-              <div className="portfolio-details-sm-banner">
+              <div className="portfolio-details-sm-banner" style={
+                {
+                  backgroundImage: `url("/assets/img/services/ai/1.png")`,
+                }
+              }>
                 <div className="section-title-5">
                   <h2>
                     Ready to <br />
@@ -151,16 +159,16 @@ function ProjectDetailsPage({ project , prevProject, nextProject }) {
             {prevProject && (
               <div className="single-navigation">
                 <div className="content">
-                  <Link legacyBehavior href={`/project/${prevProject.slug}`}>
+                  <Link legacyBehavior href={`/projects/${prevProject.slug}`}>
                     <a>Previous</a>
                   </Link>
                   <h4>
-                    <Link legacyBehavior href={`/project/${prevProject.slug}`}>
+                    <Link legacyBehavior href={`/projects/${prevProject.slug}`}>
                       <a>{prevProject.title}</a>
                     </Link>
                   </h4>
                 </div>
-                <Link legacyBehavior href={`/project/${prevProject.slug}`}>
+                <Link legacyBehavior href={`/projects/${prevProject.slug}`}>
                   <a className="img">
                     <img
                       src={prevProject.images[0]}
@@ -183,7 +191,7 @@ function ProjectDetailsPage({ project , prevProject, nextProject }) {
             )}
             {nextProject && (
               <div className="single-navigation two">
-                <Link legacyBehavior href={`/project-details/${nextProject.slug}`}>
+                <Link legacyBehavior href={`/projects/${nextProject.slug}`}>
                   <a className="img">
                     <img
                       src={nextProject.images[0]}
