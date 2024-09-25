@@ -4561,12 +4561,13 @@ export const servicesData = {
   },
   "content-writing": {
     "title": "The Art of Content Writing: A Complete Guide",
+    "image": "/assets/img/services/content-writing/image.png",
     "description": "Content writing is a powerful tool for engaging audiences and driving traffic to your website. It involves creating valuable and relevant content that attracts and retains users. Here’s a detailed guide on mastering content writing, along with some frequently asked questions.",
     "faqSections": [
       {
         "title": "FAQs about Content Writing",
         "layout": true,
-        "image": "/assets/img/inner-pages/about-service-img.png",
+        "image": "/assets/img/services/content-writing/image-12.png",
         "questions": [
           {
             "question": "What is content writing?",
@@ -4599,7 +4600,7 @@ export const servicesData = {
         {
           "title": "The Importance of Quality Content",
           "layout": true,
-          "image": "/assets/img/inner-pages/about-service-img.png",
+          "image": "/assets/img/services/content-writing/image-1.png",
           "questions": [
             {
               "question": "Why is quality content important?",
@@ -4610,7 +4611,7 @@ export const servicesData = {
         {
           "title": "Types of Content Writing",
           "layout": true,
-          "image": "/assets/img/inner-pages/about-service-img.png",
+          "image": "/assets/img/services/content-writing/image-2 (2).png",
           "questions": [
             {
               "question": "What are the types of content writing?",
@@ -4626,35 +4627,35 @@ export const servicesData = {
           "guides": [
             {
               "title": "Know Your Audience",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/content-writing/image-3 (2).png",
               "steps": [
                 "Understanding your target audience is crucial for creating content that resonates. Research their needs, preferences, and pain points to tailor your message effectively."
               ]
             },
             {
               "title": "Create Compelling Headlines",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/content-writing/image-4 (2).png",
               "steps": [
                 "Your headline is the first thing readers see, so make it attention-grabbing and relevant. A strong headline encourages readers to continue exploring your content."
               ]
             },
             {
               "title": "Focus on Readability",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/content-writing/image-5 (2).png",
               "steps": [
                 "Readability is essential for keeping your audience engaged. Use short paragraphs, bullet points, and subheadings to make your content easy to read and navigate."
               ]
             },
             {
               "title": "Incorporate Keywords",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/content-writing/image-6 (2).png",
               "steps": [
                 "Integrating keywords naturally into your content helps improve SEO and ensures your content is discoverable by search engines."
               ]
             },
             {
               "title": "Use a Conversational Tone",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/content-writing/image-7 (2).png",
               "steps": [
                 "Writing in a conversational tone makes your content more relatable and engaging. Address your readers directly and use simple language."
               ]
@@ -4667,28 +4668,28 @@ export const servicesData = {
           "guides": [
             {
               "title": "Research and Plan",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/content-writing/image-8 (2).png",
               "steps": [
                 "Thorough research is key to producing high-quality content. Plan your topics, outline your ideas, and gather relevant information before you start writing."
               ]
             },
             {
               "title": "Edit and Proofread",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/content-writing/image-9.png",
               "steps": [
                 "Editing and proofreading are crucial steps in the writing process. Review your content for grammar, spelling, and clarity to ensure it’s polished and professional."
               ]
             },
             {
               "title": "Include Calls to Action",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/content-writing/image-10.png",
               "steps": [
                 "Incorporate clear calls to action to guide your readers on what to do next. Whether it’s signing up for a newsletter or making a purchase, effective CTAs drive conversions."
               ]
             },
             {
               "title": "Stay Updated with Trends",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/content-writing/image-11.png",
               "steps": [
                 "Keeping up with content trends helps you create relevant and timely content. Stay informed about industry developments and audience interests."
               ]
@@ -4704,12 +4705,13 @@ export const servicesData = {
   },
   "social-media-video-marketing": {
     "title": "Social Media Video Marketing: A Comprehensive Guide",
+    "image": "/assets/img/services/social-media-video-marketing/image.png",
     "description": "Explore the importance of social media video marketing, practical strategies, and tips to enhance your video content for maximum impact.",
     "faqSections": [
       {
         "title": "FAQs",
         "layout": true,
-        "image": "/assets/img/inner-pages/about-service-img.png",
+        "image": "/assets/img/services/social-media-video-marketing/image-6.png",
         "questions": [
           {
             "question": "What makes social media videos effective?",
@@ -4742,7 +4744,7 @@ export const servicesData = {
         {
           "title": "Video Platforms Comparison",
           "layout": true,
-          "image": "/assets/img/inner-pages/front-end-frameworks.png",
+          "image": "/assets/img/services/social-media-video-marketing/image-1.png",
           "questions": [
             {
               "question": "What are the differences between Facebook, Instagram, and YouTube for video marketing?",
@@ -4758,7 +4760,7 @@ export const servicesData = {
           "guides": [
             {
               "title": "Creating Engaging Social Media Videos",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/social-media-video-marketing/image-2.png",
               "steps": [
                 "Know your audience and tailor your content.",
                 "Develop a clear and concise message.",
@@ -4767,7 +4769,7 @@ export const servicesData = {
             },
             {
               "title": "Best Practices for Social Media Videos",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/social-media-video-marketing/image-3 (2).png",
               "steps": [
                 "Choose the right format for each platform.",
                 "Add captions and text overlays for accessibility.",
@@ -4782,7 +4784,7 @@ export const servicesData = {
           "guides": [
             {
               "title": "Leveraging Social Media Platforms",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/social-media-video-marketing/image-4 (2).png",
               "steps": [
                 "Use Facebook’s targeting options for specific audiences.",
                 "Engage followers on Instagram with interactive elements.",
@@ -4791,7 +4793,7 @@ export const servicesData = {
             },
             {
               "title": "Analyzing Video Performance",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/social-media-video-marketing/image-5.png",
               "steps": [
                 "Track key metrics to gauge effectiveness.",
                 "Conduct A/B testing to refine your strategy.",
@@ -4809,12 +4811,13 @@ export const servicesData = {
   },
   "graphic-designing": {
     "title": "Graphic Designing: An Overview",
+    "image": "/assets/img/services/graphic-designing/image.png",
     "description": "Discover the essentials of graphic design, its importance in modern business, key elements, popular tools, and how to become a graphic designer.",
     "faqSections": [
       {
         "title": "FAQs",
         "layout": true,
-        "image": "/assets/img/inner-pages/about-service-img.png",
+        "image": "/assets/img/services/graphic-designing/image-6.png",
         "questions": [
           {
             "question": "What is graphic designing?",
@@ -4847,7 +4850,7 @@ export const servicesData = {
         {
           "title": "Graphic Design Tools Comparison",
           "layout": true,
-          "image": "/assets/img/inner-pages/front-end-frameworks.png",
+          "image": "/assets/img/services/graphic-designing/image-1.png",
           "questions": [
             {
               "question": "How do Adobe Creative Suite and Canva differ?",
@@ -4863,7 +4866,7 @@ export const servicesData = {
           "guides": [
             {
               "title": "Understanding Key Elements of Graphic Design",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/graphic-designing/image-2.png",
               "steps": [
                 "Learn typography principles for effective text arrangement.",
                 "Explore color theory to evoke specific emotions.",
@@ -4872,7 +4875,7 @@ export const servicesData = {
             },
             {
               "title": "Popular Graphic Design Tools",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/graphic-designing/image-3 (2).png",
               "steps": [
                 "Familiarize yourself with Adobe Creative Suite for professional design.",
                 "Experiment with Canva for quick and easy design projects."
@@ -4886,7 +4889,7 @@ export const servicesData = {
           "guides": [
             {
               "title": "Steps to Become a Graphic Designer",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/graphic-designing/image-4 (2).png",
               "steps": [
                 "Learn the basics of design through online courses.",
                 "Practice regularly with design tools to build confidence.",
@@ -4895,7 +4898,7 @@ export const servicesData = {
             },
             {
               "title": "The Role of Creativity in Graphic Design",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/graphic-designing/image-5.png",
               "steps": [
                 "Balance creativity with practicality to meet client goals.",
                 "Embrace originality while ensuring designs serve their purpose."
@@ -4912,12 +4915,13 @@ export const servicesData = {
   },
   "website-audit": {
     "title": "Website Audit: A Comprehensive Overview",
+    "image": "/assets/img/services/website-audit/image.png",
     "description": "Learn about website audits, their importance, key elements, types, tools, and how to perform an effective audit to enhance your site's performance.",
     "faqSections": [
       {
         "title": "FAQs",
         "layout": true,
-        "image": "/assets/img/inner-pages/about-service-img.png",
+        "image": "/assets/img/services/website-audit/image-8.png",
         "questions": [
           {
             "question": "What is a website audit?",
@@ -4950,7 +4954,7 @@ export const servicesData = {
         {
           "title": "Website Audit Tools Comparison",
           "layout": true,
-          "image": "/assets/img/inner-pages/front-end-frameworks.png",
+          "image": "/assets/img/services/website-audit/image-1.png",
           "questions": [
             {
               "question": "How do Google Search Console and SEMrush differ?",
@@ -4966,7 +4970,7 @@ export const servicesData = {
           "guides": [
             {
               "title": "On-Page SEO Audit",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/website-audit/image-2.png",
               "steps": [
                 "Evaluate the content and HTML of individual pages.",
                 "Key factors include keyword density, internal linking, and meta tags.",
@@ -4975,7 +4979,7 @@ export const servicesData = {
             },
             {
               "title": "Off-Page SEO Audit",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/website-audit/image-3 (2).png",
               "steps": [
                 "Off-page SEO refers to external factors that affect your site’s reputation, like backlinks.",
                 "A thorough audit will evaluate the quality of these links.",
@@ -4984,7 +4988,7 @@ export const servicesData = {
             },
             {
               "title": "Technical SEO Audit",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/website-audit/image-4 (2).png",
               "steps": [
                 "A technical SEO audit covers aspects such as site speed, mobile-friendliness, and indexing issues.",
                 "It ensures that search engines can efficiently crawl and index your site.",
@@ -4999,7 +5003,7 @@ export const servicesData = {
           "guides": [
             {
               "title": "Step 1: Analyze SEO Metrics",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/website-audit/image-5 (2).png",
               "steps": [
                 "Start by evaluating SEO metrics such as keyword rankings, content quality, and backlinks.",
                 "Use tools like SEMrush to gather data and identify areas for improvement."
@@ -5007,7 +5011,7 @@ export const servicesData = {
             },
             {
               "title": "Step 2: Assess User Experience",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/website-audit/image-6 (2).png",
               "steps": [
                 "Next, focus on user experience by examining site navigation, mobile responsiveness, and overall design.",
                 "Tools like Google Analytics can provide insights into user behavior, helping you optimize your site for engagement."
@@ -5015,7 +5019,7 @@ export const servicesData = {
             },
             {
               "title": "Step 3: Conduct a Technical Audit",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/website-audit/image-7.png",
               "steps": [
                 "Finally, address technical issues like broken links, slow page loading times, and indexing problems.",
                 "Use tools like Screaming Frog or Google Search Console to detect and fix any technical deficiencies."
@@ -5032,12 +5036,13 @@ export const servicesData = {
   },
   "bulk-sms-and-email-marketing": {
     "title": "Bulk SMS & Email Marketing: A Comprehensive Guide",
+    "image": "/assets/img/services/bulk-sms/image.png",
     "description": "Explore the power of Bulk SMS and Email Marketing as effective digital marketing tools to boost engagement, drive sales, and increase brand awareness.",
     "faqSections": [
       {
         "title": "FAQs",
         "layout": true,
-        "image": "/assets/img/inner-pages/about-service-img.png",
+        "image": "/assets/img/services/bulk-sms/image-11.png",
         "questions": [
           {
             "question": "What is Bulk SMS Marketing?",
@@ -5066,7 +5071,7 @@ export const servicesData = {
         {
           "title": "SMS vs. Email Marketing",
           "layout": true,
-          "image": "/assets/img/inner-pages/front-end-frameworks.png",
+          "image": "/assets/img/services/bulk-sms/image-1.png",
           "questions": [
             {
               "question": "What are the key differences between SMS and email marketing?",
@@ -5082,7 +5087,7 @@ export const servicesData = {
           "guides": [
             {
               "title": "Instant Reach and High Open Rates",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/bulk-sms/image-2.png",
               "steps": [
                 "Bulk SMS marketing has open rates exceeding 90%.",
                 "Messages are delivered instantly, perfect for time-sensitive promotions."
@@ -5090,7 +5095,7 @@ export const servicesData = {
             },
             {
               "title": "Personalization and Targeting",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/bulk-sms/image-4 (2).png",
               "steps": [
                 "Send personalized messages by segmenting your audience.",
                 "Targeted offers increase the chances of conversions."
@@ -5098,7 +5103,7 @@ export const servicesData = {
             },
             {
               "title": "Cost-Effective and Easy to Implement",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/bulk-sms/image-5 (2).png",
               "steps": [
                 "Bulk SMS is highly cost-effective compared to other advertising forms.",
                 "Businesses can send thousands of messages at once with minimal setup."
@@ -5112,7 +5117,7 @@ export const servicesData = {
           "guides": [
             {
               "title": "Wide Reach and Versatility",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/bulk-sms/image-6 (2).png",
               "steps": [
                 "Reach a global audience for promotions and updates.",
                 "Email provides flexibility in content and design."
@@ -5120,7 +5125,7 @@ export const servicesData = {
             },
             {
               "title": "Automation and Customization",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/bulk-sms/image-7 (2).png",
               "steps": [
                 "Set up automated campaigns based on user behavior.",
                 "Customized emails foster stronger customer relationships."
@@ -5128,7 +5133,7 @@ export const servicesData = {
             },
             {
               "title": "Analytics and Performance Tracking",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/bulk-sms/image-8.png",
               "steps": [
                 "Track metrics like open rates and conversions.",
                 "Use data to refine future campaigns for improved performance."
@@ -5142,7 +5147,7 @@ export const servicesData = {
           "guides": [
             {
               "title": "Obtain Permission",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/bulk-sms/image-9.png",
               "steps": [
                 "Always obtain explicit permission before sending messages.",
                 "This is a legal requirement and ensures genuine interest."
@@ -5150,7 +5155,7 @@ export const servicesData = {
             },
             {
               "title": "Keep It Short and Engaging",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/bulk-sms/image-10.png",
               "steps": [
                 "For SMS, keep messages concise and direct.",
                 "For emails, ensure subject lines are engaging and content is easy to digest."
