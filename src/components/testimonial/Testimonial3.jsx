@@ -88,7 +88,6 @@ function Testimonial3() {
                       </div>
                       <div className="review-date-and-time">
                         <p>May 9, 2023</p>
-                        <span>10.30 PM</span>
                       </div>
                     </div>
                   </div>

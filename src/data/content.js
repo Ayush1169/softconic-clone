@@ -128,7 +128,7 @@ const HomePage = {
       author: "Prakash Gupta",
       position: "Center Head at Major kalshi Pvt. ltd.",
       img: "",
-      img2:""
+      img2:"/assets/img/image 41.png"
     },
     {
       content:
@@ -136,7 +136,7 @@ const HomePage = {
       author: "Anwar Hashmi",
       position: "Switzerland",
       img: "",
-      img2:"",
+      img2:"/assets/img/image-2.png",
     },
     {
       content:
@@ -144,7 +144,7 @@ const HomePage = {
       author: "Arya Aditya",
       position: "Products @DP World",
       img: "",
-      img2:"",
+      img2:"/assets/img/image-3.png",
     },
     {
       content:
@@ -152,7 +152,7 @@ const HomePage = {
       author: "Aayush Goyal",
       position: "CEO - ExpertRight",
       img: "",
-      img2:"",
+      img2:"/assets/img/image (25).png",
     },
     {
       content:
@@ -160,7 +160,7 @@ const HomePage = {
       author: "Syed Nafeez",
       position: "United Kingdom",
       img: "",
-      img2:"",
+      img2:"/assets/img/image-2.png",
     },
     {
       content:
@@ -168,7 +168,7 @@ const HomePage = {
       author: "Balaji Harsh",
       position: "Crafting products for BHARAT at SATYA",
       img: "",
-      img2:"",
+      img2:"/assets/img/image.png",
     },
   ],
 };

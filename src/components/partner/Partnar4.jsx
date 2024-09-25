@@ -16,7 +16,7 @@ import Coreco from "../../../public/assets/img/company/coreco.webp";
 function Partnar4() {
   return (
     <div className="home4-trusted-client-area sec-mar">
-      <p>We take care of more than 1.5k Trusted Allies</p>
+      <p>Companies We Have Worked With</p>
       <div className="marque-wrap">
         <div className="marquee_text">
           <Marquee >
