@@ -5399,6 +5399,17 @@ video {
   position: relative;
   padding-bottom: 250px;
 }
+.home4-contact-area {
+  background-image: url(../img/Contact.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  min-height: 575px;
+  position: relative;
+  z-index: 1;
+  opacity: 0.2;
+}
 
 @media (max-width: 576px) {
   .home4-contact-area .contact-wrapper {

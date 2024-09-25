@@ -4,6 +4,7 @@ import Layout from "../../components/layout/Layout";
 import React, { useEffect, useState } from "react";
 import Link from 'next/link';
 import { servicesData, howWeWork } from "../../data/service";
+import Home3Contact from '../../components/contact/Home3Contact';
 
 function ServiceDetailsPage() {
   const router = useRouter();
@@ -47,8 +48,8 @@ function ServiceDetailsPage() {
         {serviceContent.faqSections && serviceContent.faqSections.length > 0 && (
           <ServiceFAQArea faqSections={serviceContent.faqSections} />
         )}
-        <ContactSection />
-      </div>
+        <Home3Contact />
+      </div> 
     </Layout>
   );
 }
@@ -394,5 +395,4 @@ function ContactSection() {
     </div>
   );
 }
-
 export default ServiceDetailsPage;
