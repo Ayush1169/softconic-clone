@@ -56,12 +56,12 @@ function SuccessStory3() {
             <p>{HomePage.completedProjects.description}</p>
           </div>
           <div className="view-all-btn">
-            <Link legacyBehavior href="/project"><a className="primary-btn3">View All Project</a></Link>
+            <Link legacyBehavior href="/projects"><a className="primary-btn3">View All Projects</a></Link>
           </div>
         </div>
       </div>
     </div>
-    <div className="container-fluid">
+        <div className="container-fluid">
       <div className="row">
         <div className="col-lg-12">
           <Swiper {...slider} className="swiper home3-success-stories-slider">

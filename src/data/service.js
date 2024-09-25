@@ -2695,7 +2695,7 @@ export const servicesData = {
   },
   "android-app-development": {
     title: "Android App Development",
-    image: "/assets/img/inner-pages/about-service-img.png",
+    image: "/assets/img/services/website-development/img22.png",
     description: "Android app development is all about creating apps for Android devices, which include smartphones, tablets, and more. With billions of Android users worldwide, businesses are focusing on building Android apps to reach a larger audience. In this guide, we’ll explore why Android app development is important and answer some common questions.",
     faqSections: [
       {
@@ -5208,7 +5208,7 @@ export const servicesData = {
         {
           "title": "Difference Between Product Ideation and Conceptualization",
           "layout": true,
-          "image": "/assets/img/inner-pages/front-end-frameworks.png",
+          "image": "",
           "questions": [
             {
               "question": "What is Product Ideation?",
@@ -5224,11 +5224,11 @@ export const servicesData = {
       "dataSets": [
         {
           "title": "Effective Brainstorming Techniques",
-          "image": "/assets/img/inner-pages/about-service-img.png",
+          "image": "",
           "guides": [
             {
               "title": "Brainstorming Techniques",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "",
               "steps": [
                 "Mind Mapping",
                 "SCAMPER",
@@ -5237,7 +5237,7 @@ export const servicesData = {
             },
             {
               "title": "Identifying Market Needs",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "",
               "steps": [
                 "Gather customer feedback",
                 "Conduct surveys",

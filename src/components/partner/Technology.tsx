@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Marquee from "react-fast-marquee";
 import { FrontEndData } from "../../data/techImg";
+import { faLeftLong } from '@fortawesome/free-solid-svg-icons';
 
 function Technology() {
   const imageStyle = {
@@ -29,8 +30,9 @@ function Technology() {
                   style={{
                     ...imageStyle,
                     opacity: hovered === value.id ? 1 : 0.5, 
-                    width:80,
-                    height:70
+                    width:"100%",
+                    height:60,
+                    marginLeft:20,
                   }}
                 />
               </div>
