@@ -43,7 +43,7 @@ const EVDSmartbook = () => {
 
                     <main className="container">
                         <Section title="Introduction">
-                            <p style={{ textAlign: 'center' }}>EVD Smartbook is a 360 digital solution designed to streamline workforce management for businesses...</p>
+                            <p style={{ textAlign: 'center' }}>EVD Smartbook is a 360 digital solution designed to streamline workforce management for businesses. It offers key features such as attendance tracking, task management, payroll, and inventory management, all in one user-friendly platform. Discover how EVD Smartbook simplifies operations and enhances productivity for both business owners and employees.</p>
                         </Section>
 
                         <Section title="Key Features">
@@ -145,7 +145,7 @@ const EVDSmartbook = () => {
                         </Section>
 
                         <Section title="Conclusion" className="text-center">
-                            <p>EVD Smartbook is more than just a management tool...</p>
+                            <p>EVD Smartbook is more than just a management tool—it’s a transformative solution for businesses across industries. By automating essential processes and providing real-time insights, it improves operational efficiency, empowers employees, and drives business growth. Take control of your workforce management today with EVD Smartbook!.</p>
                             <button className="cta-button">Take Control of Your Workforce Management Today with EVD Smartbook!</button>
                         </Section>
                     </main>
