@@ -838,13 +838,13 @@ export const servicesData = {
   },
   "software-development": {
     title: "Software Development",
-    image: "/assets/img/inner-pages/about-service-img.png",
+    image: "/assets/img/services/software-development/image.png",
     description: "Introduction to Software Development Software development is a pivotal force in the technological evolution that defines our contemporary world. Whether it's the applications on our smartphones or the sophisticated systems powering industrial operations, software is a cornerstone of modern existence. But what precisely is software development? At its essence, it encompasses the creation, design, deployment, and ongoing maintenance of software. This comprehensive process is indispensable for crafting the digital solutions and platforms that are integral to our everyday lives.",
     faqSections: [
       {
         title: "",
         layout: true,
-        image: "/assets/img/inner-pages/about-service-img.png",
+        image: "/assets/img/services/software-development/image-26.png",
         questions: [
           {
             question: "What is the most popular programming language in 2024?",
@@ -894,21 +894,21 @@ export const servicesData = {
           guides: [
             {
               title: "Programming Languages",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/software-development/image-1.png",
               steps: [
                 "The bedrock of software development lies in programming languages. These languages offer the syntax and frameworks necessary for coding applications. From time-tested languages like C and Java to newer favorites like Python and JavaScript, each has unique strengths and applications."
               ]
             },
             {
               title: "Development Methodologies",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/software-development/image-2 (2).png",
               steps: [
                 "The methodology chosen for software development can significantly impact the process. Agile methodologies prioritize flexibility and iterative progress, while the Waterfall model follows a more rigid, sequential approach. DevOps, on the other hand, merges development and operations to emphasize continuous integration and deployment."
               ]
             },
             {
               title: "Software Development Life Cycle (SDLC)",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/software-development/image-3 (2).png",
               steps: [
                 "The Software Development Life Cycle (SDLC) is a methodical approach to building software. It comprises stages such as planning, analysis, design, implementation, testing, deployment, and maintenance. Each phase is crucial for delivering a high-quality software product."
               ]
@@ -921,35 +921,35 @@ export const servicesData = {
           guides: [
             {
               title: "System Software",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/software-development/image-4 (2).png",
               steps: [
                 "System software encompasses operating systems, device drivers, and utilities. It acts as a bridge between hardware and user applications, ensuring seamless operation."
               ]
             },
             {
               title: "Application Software",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/software-development/image-5 (2).png",
               steps: [
                 "Application software refers to programs designed for end-users, such as word processors, games, and business applications. These tools are tailored to meet specific user needs."
               ]
             },
             {
               title: "Embedded Software",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/software-development/image-6 (2).png",
               steps: [
                 "Embedded software is specialized and resides within devices like smartwatches, automobiles, and household appliances. It controls specific hardware functions and is often optimized for efficiency."
               ]
             },
             {
               title: "Web Development",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/software-development/image-7 (2).png",
               steps: [
                 "Web development involves creating websites and web applications. This includes both frontend development, which focuses on user interface and experience, and backend development, which handles server-side logic."
               ]
             },
             {
               title: "Mobile App Development",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/software-development/image-8 (2).png",
               steps: [
                 "Mobile app development specializes in crafting applications for mobile devices, including smartphones and tablets. This field requires expertise in platforms like iOS and Android, as well as knowledge of mobile-specific technologies."
               ]
@@ -962,21 +962,21 @@ export const servicesData = {
           guides: [
             {
               title: "Responsibilities and Essential Skills",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/software-development/image-9 (2).png",
               steps: [
                 "Software developers are responsible for designing, coding, testing, and maintaining software applications. They must possess strong problem-solving abilities, keen attention to detail, and a deep understanding of various programming languages and technologies."
               ]
             },
             {
               title: "Specializations in Software Development",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/software-development/image-10 (2).png",
               steps: [
                 " Developers can focus on specific areas such as frontend, backend, full-stack, mobile development, or DevOps. Each specialization demands a unique skill set and knowledge base."
               ]
             },
             {
               title: "A Day in the Life of a Developer",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/software-development/image-11 (2).png",
               steps: [
                 "A software developer's daily routine may include writing code, debugging, attending meetings, and collaborating with colleagues. It's a dynamic profession that requires adaptability and a commitment to continuous learning."
               ]
@@ -989,6 +989,7 @@ export const servicesData = {
           guides: [
             {
               title: "",
+              image: "/assets/img/services/software-development/image-12.png",
               steps: [
                 ""
               ]
@@ -1000,28 +1001,28 @@ export const servicesData = {
           guides: [
             {
               title: "Integrated Development Environments (IDEs)",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/software-development/image-13.png",
               steps: [
                 "IDEs like Visual Studio Code and IntelliJ IDEA offer a comprehensive suite of tools for coding, debugging, and testing. They enhance productivity with features like code completion and syntax highlighting."
               ]
             },
             {
               title: "Version Control Systems",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/software-development/image-14.png",
               steps: [
                 "Version control systems, such as Git, are indispensable for tracking code changes and facilitating collaboration. They are essential for managing codebases and preserving project history."
               ]
             },
             {
               title: "Debugging and Testing Tools",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/software-development/image-15.png",
               steps: [
                 "Debugging tools help identify and rectify code errors, while testing tools ensure the software meets quality standards. Automated testing frameworks like Selenium and JUnit are widely used for efficiency and accuracy."
               ]
             },
             {
               title: "Frameworks and Libraries",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/software-development/image-16.png",
               steps: [
                 "Frameworks and libraries provide pre-written code that developers can leverage to build applications more efficiently. Popular examples include React, Angular, and Django."
               ]
@@ -1034,35 +1035,35 @@ export const servicesData = {
           guides: [
             {
               title: "Gathering and Analyzing Requirements",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/software-development/image-17.png",
               steps: [
                 "The initial phase of the development process involves gathering and understanding the project's requirements. This step is crucial for ensuring that the final product meets stakeholders' needs."
               ]
             },
             {
               title: "Design and Prototyping",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/software-development/image-18 (2).png",
               steps: [
                 "Design and prototyping involve creating a detailed blueprint of the software, including architectural design and user interface layouts. Prototypes are often created for testing and gathering feedback."
               ]
             },
             {
               title: "Coding and Implementation",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/software-development/image-19 (2).png",
               steps: [
                 " During the implementation phase, developers write the code according to the design and specifications. This stage brings the project to life."
               ]
             },
             {
               title: "Testing and Quality Assurance",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/software-development/image-20 (2).png",
               steps: [
                 "Testing is vital to ensure that the software operates as intended and meets all requirements. This phase includes various types of testing, such as unit testing, integration testing, and user acceptance testing."
               ]
             },
             {
               title: "Deployment and Ongoing Maintenance",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/software-development/image-21 (2).png",
               steps: [
                 "After thorough testing, the software is deployed to the production environment. Maintenance involves ongoing updates and issue resolution to keep the software functioning smoothly."
               ]
@@ -1075,28 +1076,28 @@ export const servicesData = {
           guides: [
             {
               title: "Managing Complexity",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/software-development/image-22 (2).png",
               steps: [
                 "Software projects can be intricate, with numerous components and dependencies. Effective management of this complexity requires meticulous planning and coordination."
               ]
             },
             {
               title: "Ensuring Security",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/software-development/image-23 (2).png",
               steps: [
                 "Security is a top priority in software development. Developers must implement robust security measures to protect against vulnerabilities and threats."
               ]
             },
             {
               title: "Adapting to Technological Advancements",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/software-development/image-24 (2).png",
               steps: [
                 "The technology landscape is continually evolving. Developers must stay current with the latest tools, programming languages, and frameworks to remain competitive."
               ]
             },
             {
               title: "Balancing Time, Cost, and Quality",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/software-development/image-25 (2).png",
               steps: [
                 "Striking the right balance between time, cost, and quality is a common challenge. Developers must prioritize tasks and manage resources efficiently to deliver a successful product."
               ]
@@ -2695,14 +2696,14 @@ export const servicesData = {
   },
   "android-app-development": {
     title: "Android App Development",
-    image: "/assets/img/services/website-development/img22.png",
+    image: "/assets/img/services/android-app-development/image.png",
     description: "Android app development is all about creating apps for Android devices, which include smartphones, tablets, and more. With billions of Android users worldwide, businesses are focusing on building Android apps to reach a larger audience. In this guide, we’ll explore why Android app development is important and answer some common questions.",
     faqSections: [
       {
         title: "Frequently Asked Questions (FAQs)",
-        image: "/assets/img/inner-pages/about-service-img.png",
+        image: "/assets/img/services/android-app-development/image-9.png",
         layout: true,
-        image: "/assets/img/inner-pages/about-service-img.png",
+        image: "/assets/img/services/android-app-development/image-9.png",
         questions: [
           {
             question: "What is Android app development?",
@@ -2757,14 +2758,14 @@ export const servicesData = {
           guides: [
             {
               title: "Easy to Reach a Global Audience",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/android-app-development/image-1.png",
               steps: [
                 "Android dominates the global smartphone market. This makes it the best platform if your business is targeting a wide audience. By building an Android app, you can connect with millions of users worldwide."
               ]
             },
             {
               title: "Affordable and Efficient Development",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/android-app-development/image-02.png",
               steps: [
                 "Android provides many tools that make the app development process easier and cheaper. Developers can use free tools like Android Studio and existing libraries to build high-quality apps without spending too much time or money."
               ]
@@ -2778,21 +2779,21 @@ export const servicesData = {
           guides: [
             {
               title: "Simple and User-Friendly Design",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/android-app-development/image-03.png",
               steps: [
                 "A good Android app should have a simple design that is easy to use. Users want apps that are easy to navigate and fun to use. This helps increase the number of people using your app and keeps them coming back."
               ]
             },
             {
               title: "Fast and Smooth Performance",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/android-app-development/image-4.png",
               steps: [
                 "No one likes slow apps. Your app should work quickly and efficiently without crashing. Make sure it runs well on all types of devices to give users a good experience."
               ]
             },
             {
               title: "Regular Updates",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/android-app-development/image-05.png",
               steps: [
                 "It’s important to update your app regularly to fix problems, add new features, and stay compatible with the latest Android updates. Regular updates also improve your app’s security and performance."
               ]
@@ -2806,21 +2807,21 @@ export const servicesData = {
           guides: [
             {
               title: "Quick Launch",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/android-app-development/image-06.png",
               steps: [
                 "Android apps are easy to develop quickly, helping startups bring their ideas to life faster. This gives them an advantage in reaching the market before competitors."
               ]
             },
             {
               title: "Growth Potential",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/android-app-development/image-07.png",
               steps: [
                 "Android apps can grow as your business grows. Whether you start small or big, your app can scale up to handle more users without slowing down."
               ]
             },
             {
               title: "Earning Money",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/android-app-development/image-08.png",
               steps: [
                 "Startups can earn money from Android apps in different ways, such as offering in-app purchases or showing ads. This can be a great way for a startup to generate income."
               ]
@@ -2839,14 +2840,14 @@ export const servicesData = {
   },
   "ios-app-development": {
     title: "IOS App Development",
-    image: "/assets/img/inner-pages/about-service-img.png",
+    image: "/assets/img/services/ios-app-development/image.png",
     description: "iOS app development is the process of creating applications for Apple’s iOS operating system, used in iPhones and iPads. With a growing number of Apple users worldwide, iOS apps have become essential for businesses. This article will explain iOS app development in simple terms and answer some common questions.",
     faqSections: [
       {
         title: "Frequently Asked Questions (FAQs)",
-        image: "/assets/img/inner-pages/about-service-img.png",
+        image: "/assets/img/services/ios-app-development/image-09.png",
         layout: true,
-        image: "/assets/img/inner-pages/about-service-img.png",
+        image: "/assets/img/services/ios-app-development/image-09.png",
         questions: [
           {
             question: "What is iOS app development?",
@@ -2901,14 +2902,14 @@ export const servicesData = {
           guides: [
             {
               title: "High-Quality User Experience",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/ios-app-development/image-1.png",
               steps: [
                 "Apple has strict guidelines that ensure a high-quality user experience. This means that iOS apps often perform better in terms of speed, design, and security, which improves customer satisfaction."
               ]
             },
             {
               title: "Secure and Reliable Platform",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/ios-app-development/image-02.png",
               steps: [
                 "One of the key advantages of iOS development is its security. iOS is known for its strong security features, which helps protect users' data. This makes it an excellent choice for apps that handle sensitive information, such as financial or healthcare applications."
               ]
@@ -2922,7 +2923,7 @@ export const servicesData = {
           guides: [
             {
               title: "Clean and Intuitive Design",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/ios-app-development/image-03.png",
               steps: [
                 "Apple users expect apps to be clean and easy to navigate. A simple and intuitive user interface can enhance the user experience, encouraging more downloads and higher engagement."
               ]
@@ -2930,14 +2931,14 @@ export const servicesData = {
             },
             {
               title: "Fast Performance",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/ios-app-development/image-4.png",
               steps: [
                 "Performance is critical. Users expect iOS apps to run smoothly and without glitches. Optimizing your app for performance helps avoid crashes and slow load times, which can lead to better reviews and increased user retention."
               ]
             },
             {
               title: "Regular Updates and Compatibility",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/ios-app-development/image-05.png",
               steps: [
                 "Keeping your iOS app updated ensures it works smoothly with the latest iOS versions. Regular updates also allow you to add new features, fix bugs, and improve security, keeping your users satisfied."
               ]
@@ -2951,21 +2952,21 @@ export const servicesData = {
           guides: [
             {
               title: "Premium User Base",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/ios-app-development/image-06.png",
               steps: [
                 "IOS users are known to spend more on apps and in-app purchases compared to Android users. This makes iOS development an attractive option for businesses looking to monetize their apps effectively."
               ]
             },
             {
               title: "Better Security",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/ios-app-development/image-07.png",
               steps: [
                 "IOS offers advanced security features, which protect user data from hackers and malware. This makes it the go-to platform for apps that require secure transactions or handle private user data."
               ]
             },
             {
               title: "Global Reach",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/ios-app-development/image-08.png",
               steps: [
                 "With millions of iPhone and iPad users worldwide, an iOS app can help you reach a global audience, especially in markets where Apple devices are highly popular."
               ]
@@ -2982,13 +2983,13 @@ export const servicesData = {
   },
   "hybrid-app-development": {
     title: "Hybrid App Development",
-    image: "/assets/img/inner-pages/about-service-img.png",
+    image: "/assets/img/services/hybrid-app-development/image.png",
     description: "In today’s fast-paced world of technology, businesses are always looking for ways to deliver mobile applications quickly and cost-effectively. This is where hybrid app development comes into play. Combining the advantages of both native and web apps, hybrid apps offer a powerful solution to reach multiple platforms with a single codebase.",
     faqSections: [
       {
         title: "",
         layout: true,
-        image: "/assets/img/inner-pages/about-service-img.png",
+        image: "/assets/img/services/hybrid-app-development/image-25.png",
         questions: [
           {
             question: "What is a hybrid app?",
@@ -3040,14 +3041,14 @@ export const servicesData = {
           guides: [
             {
               title: "Difference Between Hybrid and Native Apps",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/hybrid-app-development/image-1.png",
               steps: [
                 "While native apps are built for a specific platform (like iOS or Android) and use platform-specific programming languages, hybrid apps use web technologies like HTML, CSS, and JavaScript. Hybrid apps are hosted inside a native container, allowing them to function like a web app while still accessing the device’s features."
               ]
             },
             {
               title: "The Basics of Hybrid Apps",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/hybrid-app-development/image-02.png",
               steps: [
                 "Hybrid apps essentially run inside a WebView (a browser instance) but behave like native apps by leveraging plugins or frameworks that allow access to native functionalities such as cameras, GPS, and storage."
               ]
@@ -3060,21 +3061,21 @@ export const servicesData = {
           guides: [
             {
               title: "Cost-Effective Development",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/hybrid-app-development/image-03.png",
               steps: [
                 "Since hybrid apps use a single codebase for multiple platforms, businesses can save a lot on development costs. You no longer need separate teams for iOS and Android development, reducing both the time and money spent."
               ]
             },
             {
               title: "Faster Time to Market",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/hybrid-app-development/image-04.png",
               steps: [
                 "Hybrid app development allows for quicker deployment across different platforms, speeding up the time to market. With one codebase, updates and fixes can be applied universally, reducing the maintenance efforts."
               ]
             },
             {
               title: "Single Codebase for Multiple Platforms",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/hybrid-app-development/image-05.png",
               steps: [
                 "One of the key benefits is that developers only need to write code once, and it will work across multiple platforms. This simplifies the development process and reduces the time needed to maintain and upgrade apps."
               ]
@@ -3087,14 +3088,14 @@ export const servicesData = {
           guides: [
             {
               title: "Performance Limitations",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/hybrid-app-development/image-06.png",
               steps: [
                 "While hybrid apps are efficient, they may not match the performance level of native apps. Native apps are optimized for specific platforms, while hybrid apps, running in a WebView, can sometimes struggle with complex animations or high-performance features."
               ]
             },
             {
               title: "Device Compatibility Issues",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/hybrid-app-development/image-07.png",
               steps: [
                 "Since hybrid apps rely on a WebView, they may face compatibility issues with certain device features or software versions. This can lead to bugs or performance drops, especially on older devices."
               ]
@@ -3107,21 +3108,21 @@ export const servicesData = {
           guides: [
             {
               title: "React Native",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/hybrid-app-development/image-08.png",
               steps: [
                 "Developed by Facebook, React Native is one of the most popular frameworks for hybrid app development. It allows developers to build mobile apps using JavaScript and React, providing a near-native performance."
               ]
             },
             {
               title: "Flutter",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/hybrid-app-development/image-09.png",
               steps: [
                 "Flutter, created by Google, is a relatively new but powerful framework. It uses Dart as its programming language and allows developers to create high-performance, visually appealing apps with a single codebase."
               ]
             },
             {
               title: "Ionic",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/hybrid-app-development/image-10.png",
               steps: [
                 "Ionic is an open-source framework that leverages HTML5 to create hybrid apps. It offers a rich library of pre-designed components, helping developers build apps faster with a consistent UI across platforms."
               ]
@@ -3134,21 +3135,21 @@ export const servicesData = {
           guides: [
             {
               title: "Web Technologies Involved",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/hybrid-app-development/image-11.png",
               steps: [
                 "Hybrid apps use web technologies like HTML, CSS, and JavaScript to create the app’s user interface. These are then embedded into a native container to allow access to device features."
               ]
             },
             {
               title: "Mobile WebView",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/hybrid-app-development/image-12.png",
               steps: [
                 "The app runs inside a WebView, which displays web content inside a native app shell. This allows the app to function like a website but still be downloadable from app stores."
               ]
             },
             {
               title: "Native Features Integration",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/hybrid-app-development/image-13.png",
               steps: [
                 "Through plugins and frameworks, hybrid apps can access native features like the camera, GPS, and sensors, making them nearly as functional as native apps."
               ]
@@ -3161,21 +3162,21 @@ export const servicesData = {
           guides: [
             {
               title: "Planning and Designing the App",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/hybrid-app-development/image-14 (2).png",
               steps: [
                 "The development process starts with planning and designing the app’s layout, ensuring it meets the requirements for both platforms. This stage includes wireframing and UI/UX design."
               ]
             },
             {
               title: "Developing the Codebase",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/hybrid-app-development/image-15 (2).png",
               steps: [
                 "Once the design is finalized, developers work on creating a single codebase using the chosen framework. This code is then optimized to run smoothly on both Android and iOS."
               ]
             },
             {
               title: "Testing and Launching",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/hybrid-app-development/image-16 (2).png",
               steps: [
                 "After development, the app is thoroughly tested on different devices to ensure smooth functionality. Once testing is complete, the app is launched on both the Google Play Store and Apple’s App Store."
               ]
@@ -3188,14 +3189,14 @@ export const servicesData = {
           guides: [
             {
               title: "Performance Comparison",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/hybrid-app-development/image-17 (2).png",
               steps: [
                 "Native apps tend to perform better since they are designed specifically for one platform. However, hybrid apps offer flexibility and are good for simpler apps or apps that don’t need high-performance features."
               ]
             },
             {
               title: "Cost Comparison",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/hybrid-app-development/image-18 (2).png",
               steps: [
                 "Hybrid apps are usually cheaper to develop since they require only one codebase. Native apps, on the other hand, require separate development teams, increasing costs."
               ]
@@ -3208,7 +3209,7 @@ export const servicesData = {
           guides: [
             {
               title: "Factors to Consider",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/hybrid-app-development/image-19.png",
               steps: [
                 "When choosing a framework, consider your app’s needs, the required performance level, and your development team’s expertise."
               ]
@@ -3216,7 +3217,7 @@ export const servicesData = {
             },
             {
               title: "Best Frameworks for Specific Use Cases",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/hybrid-app-development/image-20.png",
               steps: [
                 "React Native and Flutter are great for most use cases, while Ionic may be more suitable for simpler apps or web-based applications."
               ]
@@ -3229,14 +3230,14 @@ export const servicesData = {
           guides: [
             {
               title: "Streamlining Development",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/hybrid-app-development/image-21.png",
               steps: [
                 "Businesses can streamline their development process by using hybrid apps, reducing the need for multiple development teams."
               ]
             },
             {
               title: "Wider Reach with Lower Costs",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/hybrid-app-development/image-22.png",
               steps: [
                 "With a single codebase, businesses can reach a wider audience on multiple platforms without significantly increasing costs."
               ]
@@ -3249,14 +3250,14 @@ export const servicesData = {
           guides: [
             {
               title: "Focus on User Experience",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/hybrid-app-development/image-23.png",
               steps: [
                 "Make sure your app offers a great user experience across all platforms, paying attention to performance and design consistency."
               ]
             },
             {
               title: "Proper Testing Across Devices",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/hybrid-app-development/image-24.png",
               steps: [
                 "Thoroughly test your app on various devices and operating systems to ensure there are no bugs or performance issues."
               ]
@@ -3273,13 +3274,13 @@ export const servicesData = {
   },
   "progressive-web-app-development": {
     title: "Progressive Web App Development: A Game-Changer for Businesses",
-    image: "/assets/img/inner-pages/about-service-img.png",
+    image: "/assets/img/services/progressive-web-app-development/image.png",
     description: "Progressive Web Apps (PWAs) have revolutionized the way businesses deliver mobile-friendly experiences to their users. By combining the best features of web and mobile apps, PWAs provide a seamless and engaging user experience. In this article, we’ll explore the key aspects of Progressive Web App development, including its benefits, technology stack, and future trends.",
     faqSections: [
       {
         title: "",
         layout: true,
-        image: "/assets/img/inner-pages/about-service-img.png",
+        image: "/assets/img/services/progressive-web-app-development/image-18.png",
         questions: [
           {
             question: "",
@@ -3309,10 +3310,11 @@ export const servicesData = {
       dataSets: [
         {
           title: "What is a Progressive Web App (PWA)?",
-          image: "/assets/img/inner-pages/about-service-img.png",
+          image: "/assets/img/services/progressive-web-app-development/image-1.png",
           guides: [
             {
               title: "",
+              image: "/assets/img/services/progressive-web-app-development/image-1.png",
               steps: [
                 "A Progressive Web App (PWA) is a web application that uses modern web capabilities to deliver an app-like experience to users. It is designed to be fast, reliable, and engaging across all devices and browsers. PWAs are accessible through a web browser, but they feel and function like native mobile apps."
               ]
@@ -3325,21 +3327,21 @@ export const servicesData = {
           guides: [
             {
               title: "Faster Load Times",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/progressive-web-app-development/image-2.png",
               steps: [
                 "PWAs use service workers to cache assets and content, allowing for faster load times. This feature ensures that the app can load instantly, even in areas with poor internet connectivity."
               ]
             },
             {
               title: "Offline Access",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/progressive-web-app-development/image-3 (2).png",
               steps: [
                 "One of the standout features of PWAs is their ability to work offline or in low-connectivity environments. This is achieved through cached data, which allows users to access content even without an internet connection."
               ]
             },
             {
               title: "Improved User Engagement",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/progressive-web-app-development/image-4 (2).png",
               steps: [
                 "With push notifications and home screen shortcuts, PWAs help businesses engage users more effectively. These features mimic native app functionality, encouraging users to return to the app regularly."
               ]
@@ -3349,10 +3351,11 @@ export const servicesData = {
         },
         {
           title: "Cross-Platform Compatibility",
-          image: "/assets/img/inner-pages/about-service-img.png",
+          image: "/assets/img/services/progressive-web-app-development/image-5 (2).png",
           guides: [
             {
               title: "",
+              image: "/assets/img/services/progressive-web-app-development/image-5 (2).png",
               steps: [
                 "PWAs are designed to work across multiple platforms, including iOS, Android, and desktop browsers. This makes them a versatile solution for businesses that want to reach a broader audience without developing separate apps for each platform."
               ]
@@ -3365,28 +3368,28 @@ export const servicesData = {
           guides: [
             {
               title: "Service Workers",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/progressive-web-app-development/image-6 (2).png",
               steps: [
                 "Service workers are the backbone of PWAs. They enable background processes such as caching, syncing, and push notifications. This allows PWAs to function offline and load content quickly."
               ]
             },
             {
               title: "Web App Manifest",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/progressive-web-app-development/image-7 (2).png",
               steps: [
                 "The Web App Manifest is a JSON file that defines how the PWA should appear and function when installed on a user’s device. It includes details like the app’s name, icons, and theme colors, giving the app a native-like appearance."
               ]
             },
             {
               title: "HTTPS Protocol",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/progressive-web-app-development/image-8 (2).png",
               steps: [
                 "PWAs require a secure connection, which is why they are served over HTTPS. This ensures that all data transferred between the app and the server is encrypted, providing a secure browsing experience."
               ]
             },
             {
               title: "Responsive Design",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/progressive-web-app-development/image-9.png",
               steps: [
                 "Responsive design is crucial for PWAs to ensure they work seamlessly on various devices and screen sizes. PWAs use flexible layouts and media queries to adapt to different screen resolutions, making them user-friendly on both mobile and desktop."
               ]
@@ -3399,35 +3402,35 @@ export const servicesData = {
           guides: [
             {
               title: "Plan Your App’s Features",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/progressive-web-app-development/image-10.png",
               steps: [
                 "Before starting development, outline the key features of your PWA. Determine which functionalities are essential for user engagement, such as push notifications, offline capabilities, or geolocation."
               ]
             },
             {
               title: "Choose the Right Tools",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/progressive-web-app-development/image-11.png",
               steps: [
                 "Select a technology stack that fits your development goals. Tools like React, Angular, and Vue.js are popular frameworks for building PWAs. Additionally, Workbox can help manage service workers and caching strategies."
               ]
             },
             {
               title: "Build a Responsive User Interface",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/progressive-web-app-development/image-12 (2).png",
               steps: [
                 "Design a responsive UI that adapts to different devices. Focus on delivering a smooth and intuitive user experience, ensuring that the app is easy to navigate on both mobile and desktop."
               ]
             },
             {
               title: "Implement Service Workers",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/progressive-web-app-development/image-13 (2).png",
               steps: [
                 "Set up service workers to enable caching and offline functionality. Ensure that your app can load content even when the user has no internet access."
               ]
             },
             {
               title: "Test and Launch",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/progressive-web-app-development/image-14.png",
               steps: [
                 "Test your PWA on multiple devices and browsers to ensure it works seamlessly. Once testing is complete, deploy the app on a secure HTTPS server and make it available to users."
               ]
@@ -3440,21 +3443,21 @@ export const servicesData = {
           guides: [
             {
               title: "Increased Adoption by Large Enterprises",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/progressive-web-app-development/image-15.png",
               steps: [
                 "As more businesses recognize the benefits of PWAs, we can expect larger enterprises to adopt this technology. Companies like Twitter, Starbucks, and Pinterest have already seen significant engagement improvements with their PWAs."
               ]
             },
             {
               title: "Integration with AI and Machine Learning",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/progressive-web-app-development/image-16.png",
               steps: [
                 "The future of PWAs will likely involve AI and machine learning integration. These technologies can enhance user experiences by offering personalized content and real-time data processing."
               ]
             },
             {
               title: "Advanced Web APIs",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/progressive-web-app-development/image-17.png",
               steps: [
                 "With advancements in web APIs, PWAs will soon have access to more native app functionalities, such as camera access, biometric authentication, and file handling. This will further narrow the gap between web apps and native mobile apps."
               ]
@@ -4218,14 +4221,14 @@ export const servicesData = {
   },
   "social-media-marketing": {
     title: "Social Media Marketing",
-    image: "/assets/img/inner-pages/about-service-img.png",
+    image: "/assets/img/services/social-media-marketing/image.png",
     description: "Social media marketing (SMM) is a crucial strategy for businesses looking to connect with their audience and grow their brand. It involves leveraging platforms like Facebook, Instagram, Twitter, LinkedIn, and more to promote products and engage with users. Here’s a comprehensive guide to understanding and implementing effective social media marketing strategies.",
     faqSections: [
       {
         title: "FAQs about Social Media Marketing",
         image: "/assets/img/inner-pages/about-service-img.png",
         layout: true,
-        image: "/assets/img/inner-pages/about-service-img.png",
+        image: "/assets/img/services/social-media-marketing/image-17.png",
         questions: [
           {
             question: "What is the best social media platform for my business?",
@@ -4276,28 +4279,28 @@ export const servicesData = {
           guides: [
             {
               title: "Boosts Brand Awareness",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/social-media-marketing/image-1.png",
               steps: [
                 "Social media marketing helps in increasing brand awareness. By consistently posting valuable content and engaging with users, businesses can keep their brand top-of-mind for potential customers."
               ]
             },
             {
               title: "Drives Targeted Traffic",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/social-media-marketing/image-2.png",
               steps: [
                 "With targeted ads and strategic content, social media can drive targeted traffic to your website. Platforms allow businesses to reach users based on their interests, behaviors, and demographics."
               ]
             },
             {
               title: "Enhances Customer Engagement",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/social-media-marketing/image-3 (2).png",
               steps: [
                 "Social media provides a platform for real-time interaction with customers. Businesses can respond to inquiries, gather feedback, and build stronger relationships with their audience."
               ]
             },
             {
               title: "Supports SEO Efforts",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/social-media-marketing/image-4 (2).png",
               steps: [
                 "While social media itself doesn’t directly influence SEO rankings, it helps drive traffic and engagement to your website. Increased traffic and user interaction can indirectly boost your SEO performance."
               ]
@@ -4310,28 +4313,28 @@ export const servicesData = {
           guides: [
             {
               title: "Facebook",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/social-media-marketing/image-5 (2).png",
               steps: [
                 "Facebook remains one of the most influential platforms for social media marketing. It offers diverse ad formats, advanced targeting options, and robust analytics to help businesses reach their audience effectively."
               ]
             },
             {
               title: "Instagram",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/social-media-marketing/image-6 (2).png",
               steps: [
                 "Instagram is known for its visual content. With features like Stories, IGTV, and Reels, businesses can create engaging content that resonates with users. Instagram’s shopping features also enable direct sales."
               ]
             },
             {
               title: "Twitter",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/social-media-marketing/image-7 (2).png",
               steps: [
                 "Twitter is ideal for real-time updates and engaging in conversations with your audience. Use it to share news, participate in trending topics, and respond quickly to customer feedback."
               ]
             },
             {
               title: "LinkedIn",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/social-media-marketing/image-8 (2).png",
               steps: [
                 "LinkedIn is a professional networking platform. It’s best suited for B2B marketing and building relationships with industry professionals. Share thought leadership content and engage with a business-oriented audience."
               ]
@@ -4344,35 +4347,35 @@ export const servicesData = {
           guides: [
             {
               title: "Define Your Goals",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/social-media-marketing/image-9 (2).png",
               steps: [
                 "Start by setting clear, measurable goals for your social media efforts. Whether it's increasing brand awareness, generating leads, or driving sales, having defined objectives will guide your strategy."
               ]
             },
             {
               title: "Know Your Audience",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/social-media-marketing/image-10.png",
               steps: [
                 "Understand who your target audience is and what platforms they use. Tailor your content and messaging to meet their preferences and needs."
               ]
             },
             {
               title: "Create Engaging Content",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/social-media-marketing/image-11.png",
               steps: [
                 "Develop content that is both valuable and relevant to your audience. Use a mix of images, videos, and infographics to keep your content engaging and varied."
               ]
             },
             {
               title: "Use Analytics",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/social-media-marketing/image-12.png",
               steps: [
                 "Monitor your social media performance using analytics tools. Track metrics like engagement rates, click-through rates, and conversion rates to measure the effectiveness of your strategy and make data-driven adjustments."
               ]
             },
             {
               title: "Engage with Your Audience",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/social-media-marketing/image-13.png",
               steps: [
                 "Respond to comments, messages, and mentions promptly. Engaging with your audience helps build trust and strengthens your relationship with them."
               ]
@@ -4385,21 +4388,21 @@ export const servicesData = {
           guides: [
             {
               title: "Staying Updated",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/social-media-marketing/image-14.png",
               steps: [
                 "Social media trends and algorithms change frequently. Keeping up with these changes can be challenging but is necessary to maintain an effective strategy."
               ]
             },
             {
               title: "Managing Multiple Platforms",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/social-media-marketing/image-15.png",
               steps: [
                 "Handling multiple social media accounts can be overwhelming. Using social media management tools can help streamline your efforts and maintain consistency across platforms."
               ]
             },
             {
               title: "Dealing with Negative Feedback",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/social-media-marketing/image-16.png",
               steps: [
                 "Negative comments or reviews can impact your brand’s reputation. Address issues professionally and promptly to mitigate potential damage."
               ]
@@ -4416,12 +4419,13 @@ export const servicesData = {
   },
   "product-development": {
     "title": "Product Development",
+    "image": "/assets/img/services/product-development/image.png",
     "description": "A Complete Guide to Building Successful Products",
     "faqSections": [
       {
         "title": "The Stages of Product Development",
         "layout": true,
-        "image": "/assets/img/inner-pages/about-service-img.png",
+        "image": "/assets/img/services/product-development/image-4.png",
         "questions": [
           {
             "question": "What are the stages of product development?",
@@ -4438,7 +4442,7 @@ export const servicesData = {
         {
           "title": "Key Factors for Successful Product Development",
           "layout": true,
-          "image": "/assets/img/inner-pages/front-end-frameworks.png",
+          "image": "/assets/img/services/product-development/image-2.png",
           "questions": [
             {
               "question": "What are the key factors for successful product development?",
@@ -4449,7 +4453,7 @@ export const servicesData = {
         {
           "title": "Challenges in Product Development",
           "layout": true,
-          "image": "/assets/img/inner-pages/front-end-frameworks.png",
+          "image": "/assets/img/services/product-development/image-3.png",
           "questions": [
             {
               "question": "What are the challenges in product development?",
@@ -4465,7 +4469,7 @@ export const servicesData = {
           "guides": [
             {
               "title": "Emerging Trends in Product Development",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/product-development/image-1.png",
               "steps": [
                 "1. User-Centered Design: More companies are adopting user-centered design, ensuring that products are built with the end-user in mind. \n2. AI and Machine Learning Integration: AI is enhancing product functionality and user experience, from personalized recommendations to automated customer support. \n3. Sustainable Product Development: Products that use eco-friendly materials or support renewable energy are gaining traction in the market."
               ]
@@ -4481,12 +4485,13 @@ export const servicesData = {
   },
   "seo": {
     "title": "Mastering SEO: A Comprehensive Guide",
+    "image": "/assets/img/services/mastering-seo/image.png",
     "description": "SEO, or Search Engine Optimization, is crucial for improving the visibility of your website on search engines like Google. By optimizing your site effectively, you can attract more organic traffic and enhance your online presence. This guide will cover essential SEO strategies and answer common questions to help you succeed.",
     "faqSections": [
       {
         "title": "Understanding SEO",
         "layout": true,
-        "image": "/assets/img/inner-pages/about-service-img.png",
+        "image": "/assets/img/services/mastering-seo/image-4.png",
         "questions": [
           {
             "question": "What is SEO?",
@@ -4507,7 +4512,7 @@ export const servicesData = {
         {
           "title": "SEO Best Practices",
           "layout": true,
-          "image": "/assets/img/inner-pages/front-end-frameworks.png",
+          "image": "/assets/img/services/mastering-seo/image-1.png",
           "questions": [
             {
               "question": "What are the best practices for SEO?",
@@ -4518,7 +4523,7 @@ export const servicesData = {
         {
           "title": "Common SEO Challenges",
           "layout": true,
-          "image": "/assets/img/inner-pages/front-end-frameworks.png",
+          "image": "/assets/img/services/mastering-seo/image-2 (2).png",
           "questions": [
             {
               "question": "What are the challenges in SEO?",
@@ -4534,7 +4539,7 @@ export const servicesData = {
           "guides": [
             {
               "title": "FAQs on SEO",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/mastering-seo/image-3 (2).png",
               "steps": [
                 "1. What is the importance of SEO? SEO helps increase your website’s visibility on search engines, driving organic traffic and improving your online presence.",
                 "2. How long does it take to see results from SEO? SEO is a long-term strategy, and results can vary. Typically, it takes a few months to see noticeable improvements in rankings and traffic.",
@@ -5170,12 +5175,13 @@ export const servicesData = {
 
   "product-ideation-and-conceptual": {
     "title": "Product Ideation & Conceptualization",
+    "image": "/assets/img/services/product-ideation/image.png",
     "description": "Every groundbreaking product you see in the market today started with an idea. But turning that idea into something tangible involves a well-structured process. This process is what we call Product Ideation and Conceptualization—the bridge between imagination and reality.",
     "faqSections": [
       {
         "title": "Frequently Asked Questions",
         "layout": true,
-        "image": "/assets/img/inner-pages/about-service-img.png",
+        "image": "/assets/img/services/product-ideation/image-5 (2).png",
         "questions": [
           {
             "question": "What is the difference between ideation and conceptualization?",
@@ -5252,7 +5258,7 @@ export const servicesData = {
           "guides": [
             {
               "title": "Balancing Creativity and Feasibility",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/product-ideation/image-4.png",
               "steps": [
                 "Evaluate the practicality of ideas",
                 "Focus on core functionalities"
@@ -5271,12 +5277,13 @@ export const servicesData = {
 
   "product-launch-and-support": {
     "title": "Product Launch & Support",
+    image: "/assets/img/services/product-launch/image-1.png",
     "description": "Launching a product successfully requires more than just creating the product. Effective planning and post-launch support are essential to ensure your product thrives in the market.",
     "faqSections": [
       {
         "title": "Frequently Asked Questions",
         "layout": true,
-        "image": "/assets/img/inner-pages/about-service-img.png",
+        "image": "/assets/img/services/product-launch/image-7.png",
         "questions": [
           {
             "question": "What is the importance of market research before a product launch?",
@@ -5309,7 +5316,7 @@ export const servicesData = {
         {
           "title": "Pre-Launch Planning",
           "layout": true,
-          "image": "/assets/img/inner-pages/front-end-frameworks.png",
+          "image": "/assets/img/services/product-launch/image-2.png",
           "questions": [
             {
               "question": "What is the role of competitor analysis?",
@@ -5324,7 +5331,7 @@ export const servicesData = {
         {
           "title": "Executing the Launch",
           "layout": true,
-          "image": "/assets/img/inner-pages/front-end-frameworks.png",
+          "image": "/assets/img/services/product-launch/image-3 (2).png",
           "questions": [
             {
               "question": "What digital marketing strategies should I use?",
@@ -5344,7 +5351,7 @@ export const servicesData = {
           "guides": [
             {
               "title": "Customer Support Channels",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/product-launch/image-4 (2).png",
               "steps": [
                 "Live chat",
                 "Email support",
@@ -5353,7 +5360,7 @@ export const servicesData = {
             },
             {
               "title": "Technical Support and Troubleshooting",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/product-launch/image-5 (2).png",
               "steps": [
                 "Dedicated technical support",
                 "Quick troubleshooting"
@@ -5361,7 +5368,7 @@ export const servicesData = {
             },
             {
               "title": "Ongoing Product Monitoring",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/product-launch/image-6.png",
               "steps": [
                 "Gather data",
                 "Analyze trends",
@@ -5380,12 +5387,13 @@ export const servicesData = {
 
   "quality-assurance-and-testing": {
     "title": "Quality Assurance & Testing",
+    "image": "/assets/img/services/quality-assurance/image.png",
     "description": "In today's fast-paced software development world, Quality Assurance (QA) is a crucial process that ensures the delivery of high-quality products, identifying potential errors, improving functionality, and boosting user satisfaction.",
     "faqSections": [
       {
         "title": "Frequently Asked Questions",
         "layout": true,
-        "image": "/assets/img/inner-pages/about-service-img.png",
+        "image": "/assets/img/services/quality-assurance/image-4.png",
         "questions": [
           {
             "question": "Why is QA essential for businesses?",
@@ -5418,7 +5426,7 @@ export const servicesData = {
         {
           "title": "Software Testing Components",
           "layout": true,
-          "image": "/assets/img/inner-pages/front-end-frameworks.png",
+          "image": "/assets/img/services/quality-assurance/image-1.png",
           "questions": [
             {
               "question": "What is Functional Testing?",
@@ -5441,7 +5449,7 @@ export const servicesData = {
         {
           "title": "Automated vs. Manual Testing",
           "layout": true,
-          "image": "/assets/img/inner-pages/front-end-frameworks.png",
+          "image": "/assets/img/services/quality-assurance/image-2 (2).png",
           "questions": [
             {
               "question": "What are the benefits of Automated Testing?",
@@ -5461,7 +5469,7 @@ export const servicesData = {
           "guides": [
             {
               "title": "Integrating QA in Agile",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/quality-assurance/image-3.png",
               "steps": [
                 "Implement continuous testing",
                 "Gather feedback in each development cycle",
@@ -5480,12 +5488,13 @@ export const servicesData = {
 
   "software-integration": {
     "title": "Software Integration",
+    "image": "/assets/img/services/software-integration/image.png",
     "description": "In today's technology-driven world, software integration is essential for streamlining operations and improving efficiency, allowing data to flow smoothly between applications.",
     "faqSections": [
       {
         "title": "Frequently Asked Questions",
         "layout": true,
-        "image": "/assets/img/inner-pages/about-service-img.png",
+        "image": "/assets/img/services/software-integration/image-4 (2).png",
         "questions": [
           {
             "question": "Why does software integration matter?",
@@ -5518,7 +5527,7 @@ export const servicesData = {
         {
           "title": "Benefits Overview",
           "layout": true,
-          "image": "/assets/img/inner-pages/front-end-frameworks.png",
+          "image": "/assets/img/services/software-integration/image-1.png",
           "questions": [
             {
               "question": "How does integration improve efficiency?",
@@ -5541,7 +5550,7 @@ export const servicesData = {
         {
           "title": "Types of Software Integration",
           "layout": true,
-          "image": "/assets/img/inner-pages/front-end-frameworks.png",
+          "image": "/assets/img/services/software-integration/image-2.png",
           "questions": [
             {
               "question": "What are Application Programming Interfaces (APIs)?",
@@ -5569,7 +5578,7 @@ export const servicesData = {
           "guides": [
             {
               "title": "Strategies for Successful Integration",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/software-integration/image-3.png",
               "steps": [
                 "Conduct a thorough analysis of current systems.",
                 "Determine the best integration method for your needs.",
