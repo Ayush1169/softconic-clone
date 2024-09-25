@@ -5207,7 +5207,7 @@ export const servicesData = {
         {
           "title": "Difference Between Product Ideation and Conceptualization",
           "layout": true,
-          "image": "/assets/img/services/android-app-development/image (24).png",
+          "image": "",
           "questions": [
             {
               "question": "What is Product Ideation?",
@@ -5227,7 +5227,7 @@ export const servicesData = {
           "guides": [
             {
               "title": "Brainstorming Techniques",
-              "image": "/assets/img/services/android-app-development/image (24).png",
+              "image": "",
               "steps": [
                 "Mind Mapping",
                 "SCAMPER",
@@ -5236,7 +5236,7 @@ export const servicesData = {
             },
             {
               "title": "Identifying Market Needs",
-              "image": "/assets/img/services/android-app-development/image (24).png",
+              "image": "",
               "steps": [
                 "Gather customer feedback",
                 "Conduct surveys",
