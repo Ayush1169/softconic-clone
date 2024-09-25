@@ -373,14 +373,14 @@ export const servicesData = {
   },
   "mobile-app-development": {
     title: "Mobile App Development",
-    image: "/assets/img/inner-pages/about-service-img.png",
+    image: "/assets/img/services/mobile-app-development/image.png",
     description: "The landscape of mobile app development has evolved dramatically over the past decade. With billions of smartphones in use worldwide, businesses are increasingly turning to mobile apps to engage customers, streamline operations, and offer innovative services. In this, we will explore the key aspects of mobile app development, from ideation to deployment, and the critical factors that contribute to creating a successful application.",
     faqSections: [
       {
         title: "FAQ",
         image: "/assets/img/inner-pages/about-service-img.png",
         layout: true,
-        image: "/assets/img/inner-pages/about-service-img.png",
+        image: "/assets/img/services/mobile-app-development/image-14.png",
         questions: [
           {
             question: "",
@@ -397,10 +397,10 @@ export const servicesData = {
       dataSets: [
         {
           title: "The Importance of Mobile Apps in Today's Market",
-          image: "/assets/img/inner-pages/about-service-img.png",
           guides: [
             {
               title: "",
+              image: "/assets/img/services/mobile-app-development/image-1.png",
               steps: [
                 "In a world where mobile devices dominate our daily lives, mobile apps have become an essential tool for businesses and consumers alike. Mobile apps provide convenience, instant access to services, and a personalized user experience. Companies leverage apps to enhance customer engagement, increase brand loyalty, and generate new revenue streams. The proliferation of mobile apps also underscores the competitive advantage they offer in reaching a global audience."
               ]
@@ -413,49 +413,49 @@ export const servicesData = {
           guides: [
             {
               title: "Ideation and Conceptualization",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/mobile-app-development/image-2.png",
               steps: [
                 "The first step in mobile app development is to conceptualize the app's purpose and target audience. This involves identifying a problem or need and brainstorming potential solutions. Conducting thorough market research helps in understanding user preferences, competitive landscape, and potential market gaps. A well-defined concept sets the foundation for the entire development process."
               ]
             },
             {
               title: "Planning and Strategy",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/mobile-app-development/image-3 (2).png",
               steps: [
                 "Once the concept is established, the next phase involves planning the app's features, functionality, and overall design. This stage includes creating a product roadmap, setting milestones, and defining the app's minimum viable product (MVP). A detailed project plan helps in managing resources, timelines, and budgets effectively."
               ]
             },
             {
               title: "Design and User Experience (UX)",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/mobile-app-development/image-4 (2).png",
               steps: [
                 "Design plays a crucial role in the success of a mobile app. A user-friendly interface and intuitive user experience (UX) design are vital for retaining users. The design phase involves creating wireframes, mockups, and prototypes to visualize the app's layout and flow. It's essential to focus on simplicity, consistency, and responsiveness to ensure a seamless user experience across different devices."
               ]
             },
             {
               title: "Development and Coding",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/mobile-app-development/image-5 (2).png",
               steps: [
                 "The development phase is where the app's functionality comes to life. This involves writing code, integrating third-party services, and setting up databases. Developers must choose the right technology stack, whether it's native app development (iOS, Android) or cross-platform frameworks (React Native, Flutter). Rigorous testing is crucial during this phase to identify and fix bugs, ensuring the app runs smoothly."
               ]
             },
             {
               title: "Testing and Quality Assurance",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/mobile-app-development/image-6 (2).png",
               steps: [
                 "Before launching, thorough testing and quality assurance (QA) are essential to ensure the app's reliability and performance. Testing involves evaluating the app's functionality, usability, security, and compatibility across various devices and operating systems. QA teams use automated and manual testing methods to identify and resolve issues, delivering a polished final product."
               ]
             },
             {
               title: "Deployment and Launch",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/mobile-app-development/image-7 (2).png",
               steps: [
                 "The deployment phase involves releasing the app on app stores (Apple App Store, Google Play Store) or other distribution platforms. This includes preparing marketing materials, app descriptions, and screenshots. A well-executed launch strategy, including pre-launch marketing and promotions, can significantly impact the app's initial traction and visibility."
               ]
             },
             {
               title: "Post-Launch and Maintenance",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/mobile-app-development/image-8 (2).png",
               steps: [
                 "Post-launch activities include monitoring the app's performance, gathering user feedback, and implementing updates. Regular maintenance is crucial to address bugs, improve features, and ensure compatibility with new operating system updates. Keeping the app updated and responsive to user needs helps maintain its relevance and user satisfaction."
               ]
@@ -469,35 +469,35 @@ export const servicesData = {
           guides: [
             {
               title: "User-Centric Design",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/mobile-app-development/image-9 (2).png",
               steps: [
                 "A successful mobile app prioritizes the user's needs and preferences. Understanding the target audience and designing the app accordingly enhances user engagement and satisfaction. This includes easy navigation, clear call-to-actions, and personalized content."
               ]
             },
             {
               title: "Performance and Speed",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/mobile-app-development/image-10.png",
               steps: [
                 "App performance is a critical factor that can make or break user experience. Slow load times and crashes can lead to user frustration and abandonment. Optimizing the app's performance, minimizing load times, and ensuring smooth transitions are essential for retaining users."
               ]
             },
             {
               title: "Security and Privacy",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/mobile-app-development/image-11.png",
               steps: [
                 "With increasing concerns over data privacy, ensuring robust security measures is paramount. Developers must implement encryption, secure data storage, and comply with privacy regulations to protect user information. Building trust with users through transparent privacy policies can enhance the app's credibility."
               ]
             },
             {
               title: "Scalability",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/mobile-app-development/image-12.png",
               steps: [
                 "As the user base grows, the app must be able to scale efficiently. Scalability involves managing increased traffic, data, and functionality without compromising performance. Cloud services and scalable infrastructure can support the app's growth and ensure a seamless user experience."
               ]
             },
             {
               title: "Marketing and User Acquisition",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/mobile-app-development/image-13.png",
               steps: [
                 "A comprehensive marketing strategy is essential for promoting the app and acquiring users. This includes app store optimization (ASO), social media marketing, influencer partnerships, and paid advertising. Building a strong online presence and engaging with users through multiple channels can drive downloads and increase visibility."
               ]
@@ -1115,14 +1115,14 @@ export const servicesData = {
   },
   "ui-ux-designing": {
     title: "UI/UX Designing",
-    image: "/assets/img/inner-pages/about-service-img.png",
+    image: "/assets/img/services/uiux-designing/image.png",
     description: "Understanding UI/UX Design UI/UX design is pivotal in creating engaging and functional digital experiences. UI stands for User Interface, while UX means User Experience. Both are crucial in ensuring that users have a smooth and enjoyable interaction with your product. Let's explore how these components work together to enhance user satisfaction.",
     faqSections: [
       {
         title: "UI/UX Design Best Practices",
         image: "/assets/img/inner-pages/about-service-img.png",
         layout: true,
-        image: "/assets/img/inner-pages/about-service-img.png",
+        image: "/assets/img/services/uiux-designing/image-5.png",
         questions: [
           {
             question: "Conduct User Research",
@@ -1167,28 +1167,28 @@ export const servicesData = {
           guides: [
             {
               title: "What is UI Design?",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/uiux-designing/image-1.png",
               steps: [
                 "User Interface (UI) design focuses on the look and feel of a product. It involves designing the layout, buttons, icons, and other visual elements. Good UI design ensures that the interface is intuitive and easy to navigate. It uses principles of visual hierarchy and design consistency to guide users through the interface effectively."
               ]
             },
             {
               title: "What is UX Design?",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/uiux-designing/image-2 (2).png",
               steps: [
                 "User Experience (UX) design, on the other hand, is all about the overall experience a user has when interacting with a product. It includes research, prototyping, and usability testing. UX design aims to solve user problems and meet their needs in the most efficient way possible. It involves understanding user behavior and crafting experiences that are both functional and enjoyable."
               ]
             },
             {
               title: "The Importance of UI/UX Design",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/uiux-designing/image-3 (2).png",
               steps: [
                 "Effective UI/UX design can significantly impact user retention and satisfaction. A well-designed interface enhances usability, making it easier for users to achieve their goals. Additionally, a positive user experience can boost brand loyalty and encourage repeat usage. Investing in quality UI/UX design is essential for standing out in a competitive market."
               ]
             },
             {
               title: "Key Elements of UI/UX Design",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/uiux-designing/image-4.png",
               steps: [
                 "Visual design encompasses the aesthetics of the user interface. This includes color schemes, typography, and iconography. A visually appealing design can capture users' attention and make a lasting impression. Consistency in visual elements also helps users navigate the interface more intuitively.",
                 "Usability refers to how easily users can interact with a product. It involves creating an intuitive layout and ensuring that all functions are accessible. Conducting usability testing can help identify any issues and improve the overall user experience. Usable designs reduce frustration and enhance user satisfaction.",
@@ -1208,13 +1208,13 @@ export const servicesData = {
   },
   "erp-crm": {
     title: "ERP and CRM ",
-    image: "/assets/img/inner-pages/about-service-img.png",
+    image: "/assets/img/services/erp-crm/image.png",
     description: "Enterprise Resource Planning (ERP) is a software solution that integrates various business processes into one unified system. ERP systems manage everything from inventory to human resources, providing a central hub for data and operations. They streamline workflows and enhance efficiency across departments.",
     faqSections: [
       {
         title: "",
         layout: true,
-        image: "/assets/img/inner-pages/about-service-img.png",
+        image: "/assets/img/services/erp-crm/image-14.png",
         questions: [
           {
             question: "",
@@ -1248,21 +1248,21 @@ export const servicesData = {
           guides: [
             {
               title: "Streamlined Operations",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/erp-crm/image-1.png",
               steps: [
                 "ERP systems automate routine tasks, reducing manual effort and errors. This integration leads to smoother operations and faster processing times. Businesses can manage their resources more effectively and respond to market changes swiftly."
               ]
             },
             {
               title: "Enhanced Data Visibility",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/erp-crm/image-2 (2).png",
               steps: [
                 "With ERP, all business data is consolidated into a single system. This centralization allows for real-time data access, improving decision-making and strategic planning. Managers can easily monitor performance metrics and financials."
               ]
             },
             {
               title: "Improved Collaboration",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/erp-crm/image-3 (2).png",
               steps: [
                 "An ERP system fosters collaboration by connecting different departments. It enables seamless communication and data sharing across the organization. Teams work together more efficiently, leading to increased productivity."
               ]
@@ -1276,6 +1276,7 @@ export const servicesData = {
           guides: [
             {
               title: "",
+              image: "/assets/img/services/erp-crm/image-4 (2).png",
               steps: [
                 "Customer Relationship Management (CRM) focuses on managing interactions with current and potential customers. CRM systems track customer information, sales, and service requests. They help businesses understand customer needs and improve engagement."
               ]
@@ -1288,21 +1289,21 @@ export const servicesData = {
           guides: [
             {
               title: "Enhanced Customer Insights",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/erp-crm/image-5 (2).png",
               steps: [
                 "CRM systems collect and analyze customer data, providing valuable insights. Businesses can understand customer behavior, preferences, and buying patterns. This knowledge helps tailor marketing efforts and improve customer satisfaction."
               ]
             },
             {
               title: "Optimized Sales Processes",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/erp-crm/image-6 (2).png",
               steps: [
                 "CRM tools streamline the sales process by automating tasks such as lead tracking and follow-ups. Sales teams can manage their pipelines more effectively and close deals faster. This efficiency boosts sales performance and revenue."
               ]
             },
             {
               title: "Better Customer Service",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/erp-crm/image-7 (2).png",
               steps: [
                 "A CRM system improves customer service by keeping track of service requests and interactions. Support teams can access customer histories and resolve issues more efficiently. Enhanced service leads to higher customer satisfaction and loyalty."
               ]
@@ -1315,21 +1316,21 @@ export const servicesData = {
           guides: [
             {
               title: "Focus Areas",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/erp-crm/image-8 (2).png",
               steps: [
                 "ERP systems focus on internal processes and resource management. They integrate various business functions, such as finance, supply chain, and manufacturing. CRM systems, however, concentrate on customer interactions and relationship management."
               ]
             },
             {
               title: "Integration",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/erp-crm/image-9.png",
               steps: [
                 "While ERP systems integrate multiple business functions, CRM systems primarily integrate customer-related processes. Many organizations use both ERP and CRM systems to cover all operational and customer relationship aspects."
               ]
             },
             {
               title: "Data Management",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/erp-crm/image-10.png",
               steps: [
                 "ERP systems manage and analyze operational data across departments. CRM systems handle customer-specific data, such as contact information and purchase history. Both systems offer valuable insights but serve different purposes."
               ]
@@ -1343,20 +1344,20 @@ export const servicesData = {
           guides: [
             {
               title: "Assess Your Needs",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/erp-crm/image-11.png",
               steps: [
                 "Evaluate your business processes and objectives to determine whether an ERP, CRM, or both systems are needed. Consider factors such as company size, industry, and specific requirements."
               ]
             },
             {
               title: "Evaluate Options",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/erp-crm/image-12.png",
               steps: [
                 "Research different ERP and CRM solutions available in the market. Compare features, scalability, and pricing to find the best fit for your organization. Look for systems that offer customization and integration capabilities."]
             },
             {
               title: "Implementation and Training",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/erp-crm/image-13.png",
               steps: [
                 "Successful implementation requires careful planning and training. Ensure your team is trained to use the new system effectively. Proper support and maintenance are also crucial for long-term success."]
             },
@@ -5600,12 +5601,13 @@ export const servicesData = {
 
   "web-and-mobile-app-design": {
     "title": "Web & Mobile App Designing",
+    "image": "/assets/img/services/web-mobile-app-designing/image.png",
     "description": "In today's digital landscape, businesses need to create seamless and engaging web and mobile app experiences. This section explores the essentials of designing effective, user-friendly interfaces.",
     "faqSections": [
       {
         "title": "Frequently Asked Questions",
         "layout": true,
-        "image": "/assets/img/inner-pages/about-service-img.png",
+        "image": "/assets/img/services/web-mobile-app-designing/image-4.png",
         "questions": [
           {
             "question": "Why does web and mobile app design matter?",
@@ -5634,7 +5636,7 @@ export const servicesData = {
         {
           "title": "Web Design Essentials",
           "layout": true,
-          "image": "/assets/img/inner-pages/front-end-frameworks.png",
+          "image": "/assets/img/services/web-mobile-app-designing/image-1.png",
           "questions": [
             {
               "question": "What is visual hierarchy?",
@@ -5653,7 +5655,7 @@ export const servicesData = {
         {
           "title": "Mobile App Design Essentials",
           "layout": true,
-          "image": "/assets/img/inner-pages/front-end-frameworks.png",
+          "image": "/assets/img/services/web-mobile-app-designing/image-2 (2).png",
           "questions": [
             {
               "question": "What is an intuitive interface?",
@@ -5677,7 +5679,7 @@ export const servicesData = {
           "guides": [
             {
               "title": "Design Tips",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/web-mobile-app-designing/image-3 (2).png",
               "steps": [
                 "Ensure fast load times by optimizing images and minimizing code.",
                 "Use appropriate color theory and typography for readability and brand identity.",
@@ -5696,12 +5698,13 @@ export const servicesData = {
 
   "logo-designing": {
     "title": "Logo Designing",
+    "image": "/assets/img/services/logo-designing/image.png",
     "description": "A logo is a vital component of your brand's identity, serving as its visual representation. This section highlights the importance of logo design and the key elements that make it effective.",
     "faqSections": [
       {
         "title": "Frequently Asked Questions",
         "layout": true,
-        "image": "/assets/img/inner-pages/about-service-img.png",
+        "image": "/assets/img/services/logo-designing/image-3.png",
         "questions": [
           {
             "question": "Why does logo design matter for brand identity?",
@@ -5730,7 +5733,7 @@ export const servicesData = {
         {
           "title": "Essential Elements",
           "layout": true,
-          "image": "/assets/img/inner-pages/front-end-frameworks.png",
+          "image": "/assets/img/services/logo-designing/image-1.png",
           "questions": [
             {
               "question": "What is simplicity in logo design?",
@@ -5754,7 +5757,7 @@ export const servicesData = {
           "guides": [
             {
               "title": "Professional Tips",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/logo-designing/image-2.png",
               "steps": [
                 "Ensure versatility: Your logo should look good across digital, print, and various platforms.",
                 "Avoid common mistakes: Don’t overcomplicate the design or ignore scalability, and ensure your logo is unique."
@@ -5772,12 +5775,13 @@ export const servicesData = {
 
   "redesign-and-modernizing-services": {
     "title": "Redesign & Modernizing Services",
+    "image": "/assets/img/services/redesign-modernizing-services/image.png",
     "description": "Redesigning and modernizing services are essential for keeping your digital platforms up-to-date and relevant. This section explains the benefits of redesigning, steps involved, and how modern trends can improve your website or application.",
     "faqSections": [
       {
         "title": "Frequently Asked Questions",
         "layout": true,
-        "image": "/assets/img/inner-pages/about-service-img.png",
+        "image": "/assets/img/services/redesign-modernizing-services/image-3.png",
         "questions": [
           {
             "question": "Why does redesigning and modernizing matter?",
@@ -5806,7 +5810,7 @@ export const servicesData = {
         {
           "title": "Key Steps",
           "layout": true,
-          "image": "/assets/img/inner-pages/front-end-frameworks.png",
+          "image": "/assets/img/services/redesign-modernizing-services/image-1.png",
           "questions": [
             {
               "question": "What happens during a website audit?",
@@ -5830,7 +5834,7 @@ export const servicesData = {
           "guides": [
             {
               "title": "Emerging Trends",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/redesign-modernizing-services/image-2.png",
               "steps": [
                 "Dark Mode: Offering an alternative visual experience with energy-saving benefits and aesthetic appeal.",
                 "Microinteractions: Adding small, engaging animations to enhance user interaction.",
@@ -6022,12 +6026,13 @@ export const servicesData = {
 
   "crm": {
     "title": "Customer Relationship Management (CRM)",
+    "image": "/assets/img/services/crm/image.png",
     "description": "CRM refers to strategies, technologies, and tools that businesses use to manage interactions with potential and current customers. It aims to improve customer relationships, increase retention, and drive sales growth by gathering customer data and using it to provide better services.",
     "faqSections": [
       {
         "title": "Introduction to CRM",
         "layout": true,
-        "image": "/assets/img/inner-pages/about-service-img.png",
+        "image": "/assets/img/services/crm/image-5.png",
         "questions": [
           {
             "question": "What is CRM?",
@@ -6046,7 +6051,7 @@ export const servicesData = {
       {
         "title": "Types of CRM Systems",
         "layout": true,
-        "image": "/assets/img/inner-pages/about-service-img.png",
+        "image": "/assets/img/services/crm/image-6.png",
         "questions": [
           {
             "question": "What is Operational CRM?",
@@ -6071,7 +6076,7 @@ export const servicesData = {
         {
           "title": "Key Features of CRM Software",
           "layout": true,
-          "image": "/assets/img/inner-pages/front-end-frameworks.png",
+          "image": "/assets/img/services/crm/image-1.png",
           "questions": [
             {
               "question": "What are the main features of CRM software?",
@@ -6082,7 +6087,7 @@ export const servicesData = {
         {
           "title": "Benefits of Using a CRM System",
           "layout": true,
-          "image": "/assets/img/inner-pages/front-end-frameworks.png",
+          "image": "/assets/img/services/crm/image-2.png",
           "questions": [
             {
               "question": "What are the benefits of using a CRM system?",
@@ -6098,7 +6103,7 @@ export const servicesData = {
           "guides": [
             {
               "title": "How to Implement a CRM System",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/crm/image-3.png",
               "steps": [
                 "Identify your business needs",
                 "Choose the right CRM software",
@@ -6109,7 +6114,7 @@ export const servicesData = {
             },
             {
               "title": "Best CRM Software Available",
-              "image": "/assets/img/inner-pages/about-service-img.png",
+              "image": "/assets/img/services/crm/image-4.png",
               "steps": [
                 "Salesforce: A widely recognized CRM, offers a full suite of tools for businesses of all sizes",
                 "HubSpot CRM: Perfect for small to mid-sized businesses, known for its user-friendly interface and affordability",
