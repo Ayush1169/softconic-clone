@@ -34,14 +34,14 @@ export const howWeWork = [
 export const servicesData = {
   "web-development": {
     title: "Web Development",
-    image: "/assets/img/inner-pages/about-service-img.png",
+    image: "/assets/img/services/web-development/image.png",
     description: "Web development is the process of creating websites and applications for the internet or a private network (intranet). It encompasses several aspects, including web design, web content development, client-side/server-side scripting, and network security configuration. As the digital landscape evolves, web development continues to grow in importance, enabling businesses to create engaging, functional, and accessible digital experiences for users.",
     faqSections: [
       {
         title: "FAQs about Web Development",
-        image: "/assets/img/inner-pages/about-service-img.png",
+        image: "/assets/img/services/web-development/h4.png",
         layout: true,
-        image: "/assets/img/inner-pages/about-service-img.png",
+        image: "/assets/img/services/web-development/image1.png",
         questions: [
           {
             question: "What is web development, and why is it important?",
@@ -73,9 +73,9 @@ export const servicesData = {
       comparisonSections: [
         {
           title: "Front-End Frameworks",
-          image: "/assets/img/inner-pages/about-service-img.png",
+          image: "/assets/img/services/web-development/image1.png",
           layout: true,
-          image: "/assets/img/inner-pages/about-service-img.png",
+          image: "/assets/img/services/web-development/image1.png",
           questions: [
             {
               question: "React",
@@ -93,9 +93,9 @@ export const servicesData = {
         },
         {
           title: "Back-End Technologies",
-          image: "/assets/img/inner-pages/about-service-img.png",
+          image: "/assets/img/services/web-development/b1.png",
           layout: true,
-          image: "/assets/img/inner-pages/about-service-img.png",
+          image: "/assets/img/services/web-development/b1.png",
           questions: [
             {
               question: "Node.js",
@@ -113,9 +113,9 @@ export const servicesData = {
         },
         {
           title: "Content Management Systems",
-          image: "/assets/img/inner-pages/about-service-img.png",
+          image: "/assets/img/services/web-development/b2.png",
           layout: true,
-          image: "/assets/img/inner-pages/about-service-img.png",
+          image: "/assets/img/services/web-development/b2.png",
           questions: [
             {
               question: "WordPress",
@@ -140,24 +140,24 @@ export const servicesData = {
           guides: [
             {
               title: "Defining Web Development",
-              image: "/assets/img/inner-pages/about-service-img.png",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/web-development/c1.png",
+              image: "/assets/img/services/web-development/c1.png",
               steps: [
                 "Web development involves building and maintaining websites. It ranges from creating plain text pages to complex web applications, social network applications, and electronic business applications."
               ]
             },
             {
               title: "The Evolution of Web Development",
-              image: "/assets/img/inner-pages/about-service-img.png",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/web-development/c2.png",
+              image: "/assets/img/services/web-development/c2.png",
               steps: [
                 "Web development has evolved significantly over the years, from static HTML pages to dynamic, responsive web applications powered by advanced technologies such as JavaScript, CSS3, and HTML5. The evolution continues with emerging technologies like Progressive Web Apps (PWAs) and Single Page Applications (SPAs)."
               ]
             },
             {
               title: "Importance in the Digital Age",
-              image: "/assets/img/inner-pages/about-service-img.png",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/web-development/c3.png",
+              image: "/assets/img/services/web-development/c3.png",
               steps: [
                 "Web applications must be optimized for speed and performance to provide a seamless user experience. This involves minimizing load times, optimizing images, and implementing efficient coding practices."
               ]
@@ -172,8 +172,8 @@ export const servicesData = {
 
             {
               title: "Front-End Development",
-              image: "/assets/img/inner-pages/about-service-img.png",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/web-development/d1.png",
+              image: "/assets/img/services/web-development/d1.png",
               steps: [
                 "HTML (HyperText Markup Language): The standard markup language for creating web pages. It provides the structure of a webpage.",
                 "CSS (Cascading Style Sheets): Used to style and layout web pages, including design, colors, and fonts.",
@@ -182,8 +182,8 @@ export const servicesData = {
             },
             {
               title: "Back-End Development",
-              image: "/assets/img/inner-pages/about-service-img.png",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/web-development/d2.png",
+              image: "/assets/img/services/web-development/d2.png",
               steps: [
                 "Server-Side Languages: Languages such as PHP, Python, Ruby, and Node.js handle the logic and database interactions on the server.",
                 "Databases: Tools like MySQL, PostgreSQL, and MongoDB store and manage data for web applications.",
@@ -192,8 +192,8 @@ export const servicesData = {
             },
             {
               title: "Full-Stack Development",
-              image: "/assets/img/inner-pages/about-service-img.png",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/web-development/d3.png",
+              image: "/assets/img/services/web-development/d3.png",
               steps: [
                 "Full-stack developers have expertise in both front-end and back-end development, enabling them to build complete web applications from start to finish. They are skilled in a variety of technologies and frameworks, allowing them to work on every aspect of the development process."
               ]
@@ -207,40 +207,40 @@ export const servicesData = {
           guides: [
             {
               title: "E-commerce Websites",
-              image: "/assets/img/inner-pages/about-service-img.png",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/web-development/e1.png",
+              image: "/assets/img/services/web-development/e1.png",
               steps: [
                 "Web development enables businesses to create robust e-commerce platforms that offer seamless shopping experiences, secure payment processing, and effective inventory management."
               ]
             },
             {
               title: "Content Management Systems (CMS)",
-              image: "/assets/img/inner-pages/about-service-img.png",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/web-development/e2.png",
+              image: "/assets/img/services/web-development/e2.png",
               steps: [
                 "A CMS allows users to create, manage, and modify content on a website without the need for specialized technical knowledge. Popular CMS platforms include WordPress, Joomla, and Drupal."
               ]
             },
             {
               title: "Web Applications",
-              image: "/assets/img/inner-pages/about-service-img.png",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/web-development/e3.png",
+              image: "/assets/img/services/web-development/e3.png",
               steps: [
                 "Web applications are software programs that run on a web server and are accessed through a web browser. They offer functionality similar to desktop applications but with the advantages of accessibility and platform independence."
               ]
             },
             {
               title: "Social Networking Sites",
-              image: "/assets/img/inner-pages/about-service-img.png",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/web-development/e4.png",
+              image: "/assets/img/services/web-development/e4.png",
               steps: [
                 "Web development plays a key role in the creation of social networking sites like Facebook, Twitter, and LinkedIn, providing users with platforms to connect, share, and interact online."
               ]
             },
             {
               title: "Educational Platforms",
-              image: "/assets/img/inner-pages/about-service-img.png",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/web-development/e4.png",
+              image: "/assets/img/services/web-development/e4.png",
               steps: [
                 "Online learning platforms leverage web development to deliver educational content, courses, and training programs to users worldwide, facilitating remote learning and skill development."
               ]
@@ -254,32 +254,32 @@ export const servicesData = {
           guides: [
             {
               title: "Increased Reach and Accessibility",
-              image: "/assets/img/inner-pages/about-service-img.png",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/web-development/f1.png",
+              image: "/assets/img/services/web-development/f1.png",
               steps: [
                 "Web development allows businesses to reach a global audience and provide 24/7 access to products, services, and information, enhancing customer convenience and satisfaction."
               ]
             },
             {
               title: "Improved User Experience",
-              image: "/assets/img/inner-pages/about-service-img.png",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/web-development/f2.png",
+              image: "/assets/img/services/web-development/f2.png",
               steps: [
                 "By employing modern design principles and technologies, web development creates intuitive and user-friendly interfaces that enhance the overall user experience."
               ]
             },
             {
               title: "Enhanced Brand Visibility",
-              image: "/assets/img/inner-pages/about-service-img.png",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/web-development/f3.png",
+              image: "/assets/img/services/web-development/f3.png",
               steps: [
                 "A well-designed website serves as a powerful marketing tool, showcasing a brand’s products, services, and values while attracting and retaining customers."
               ]
             },
             {
               title: "Cost-Effective Marketing",
-              image: "/assets/img/inner-pages/about-service-img.png",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/web-development/f4.png",
+              image: "/assets/img/services/web-development/f4.png",
               steps: [
                 "Web development enables businesses to implement digital marketing strategies such as SEO, social media marketing, and content marketing, offering cost-effective ways to reach and engage target audiences."
               ]
@@ -293,32 +293,32 @@ export const servicesData = {
           guides: [
             {
               title: "Security and Privacy Concerns",
-              image: "/assets/img/inner-pages/about-service-img.png",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/web-development/g1.png",
+              image: "/assets/img/services/web-development/g1.png",
               steps: [
                 "With the increasing number of cyber threats, ensuring the security and privacy of web applications is a significant challenge. Developers must implement robust security measures to protect sensitive data and prevent breaches."
               ]
             },
             {
               title: "Cross-Browser Compatibility",
-              image: "/assets/img/inner-pages/about-service-img.png",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/web-development/g2.png",
+              image: "/assets/img/services/web-development/g2.png",
               steps: [
                 "Web developers face the challenge of ensuring that websites function consistently across different browsers and devices, requiring thorough testing and optimization."
               ]
             },
             {
               title: "Performance Optimization",
-              image: "/assets/img/inner-pages/about-service-img.png",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/web-development/g3.png",
+              image: "/assets/img/services/web-development/g3.png",
               steps: [
                 "Web applications must be optimized for speed and performance to provide a seamless user experience. This involves minimizing load times, optimizing images, and implementing efficient coding practices."
               ]
             },
             {
               title: "Keeping Up with Technological Advances",
-              image: "/assets/img/inner-pages/about-service-img.png",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/web-development/g4.png",
+              image: "/assets/img/services/web-development/g4.png",
               steps: [
                 "The rapid pace of technological advancements in web development requires developers to continuously update their skills and knowledge to stay relevant and competitive."
               ]
@@ -332,8 +332,8 @@ export const servicesData = {
           guides: [
             {
               title: "Getting Started with Web Development",
-              image: "/assets/img/inner-pages/about-service-img.png",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/web-development/h1.png",
+              image: "/assets/img/services/web-development/h1.png",
               steps: [
                 "Choose a programming language and framework that suits your project needs and goals.",
                 "Learn the basics of HTML, CSS, and JavaScript to build and style web pages.",
@@ -342,8 +342,8 @@ export const servicesData = {
             },
             {
               title: "Building and Deploying Web Applications",
-              image: "/assets/img/inner-pages/about-service-img.png",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/web-development/h2.png",
+              image: "/assets/img/services/web-development/h2.png",
               steps: [
                 "Design a user-friendly interface and create wireframes and prototypes to visualize your application.",
                 "Develop the front-end and back-end components, ensuring seamless integration and functionality.",
@@ -352,8 +352,8 @@ export const servicesData = {
             },
             {
               title: "Optimizing Web Performance and SEO",
-              image: "/assets/img/inner-pages/about-service-img.png",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/web-development/h3.png",
+              image: "/assets/img/services/web-development/h3.png",
               steps: [
                 "Implement best practices for web performance optimization, such as minifying code, compressing images, and using a content delivery network (CDN).",
                 "Optimize your website for search engines by using relevant keywords, meta tags, and structured data."
@@ -1371,13 +1371,13 @@ export const servicesData = {
   },
   "saas-development": {
     title: "SaaS Development",
-    image: "/assets/img/inner-pages/about-service-img.png",
+    image: "/assets/img/services/saas-development/tt1.png",
     description: "Software as a Service (SaaS) has become an essential model in today’s digital economy, offering a wide array of applications accessible through the cloud. With its numerous benefits, businesses are increasingly adopting SaaS solutions to enhance efficiency and scalability. This article explores the essential strategies and best practices for successful SaaS development.",
     faqSections: [
       {
         title: "",
         layout: true,
-        image: "/assets/img/inner-pages/about-service-img.png",
+        image: "/assets/img/services/saas-development/tt17.png",
         questions: [
           {
             question: "",
@@ -1407,10 +1407,11 @@ export const servicesData = {
       dataSets: [
         {
           title: "Understanding SaaS Development",
-          image: "/assets/img/inner-pages/about-service-img.png",
+          image: "/assets/img/services/saas-development/tt2.png",
           guides: [
             {
               title: "",
+              image: "/assets/img/services/saas-development/tt2.png",
               steps: [
                 "SaaS development involves creating software applications that are hosted on remote servers and delivered to users over the internet. Unlike traditional software, SaaS solutions are subscription-based, providing continuous updates and support. This model eliminates the need for users to install and maintain software on their local devices, reducing IT overhead and facilitating seamless access."
               ]
@@ -1424,21 +1425,21 @@ export const servicesData = {
           guides: [
             {
               title: "Cost-Effectiveness",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/saas-development/tt3.png",
               steps: [
                 "SaaS eliminates the need for significant upfront investment in hardware and software. The subscription model allows for predictable monthly expenses, making budgeting easier."
               ]
             },
             {
               title: "Scalability",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/saas-development/tt4.png",
               steps: [
                 "SaaS applications can easily scale to accommodate growing user bases and increasing demand. This flexibility ensures that businesses can expand without encountering technical bottlenecks."
               ]
             },
             {
               title: "Accessibility",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/saas-development/tt5.png",
               steps: [
                 "With SaaS, users can access applications from anywhere with an internet connection, promoting remote work and collaboration."
               ]
@@ -1451,28 +1452,28 @@ export const servicesData = {
           guides: [
             {
               title: "Focus on User Experience (UX)",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/saas-development/tt6.png",
               steps: [
                 "A seamless and intuitive user interface is crucial for retaining customers. Conduct regular UX testing to identify areas for improvement and ensure the software meets users' needs."
               ]
             },
             {
               title: "Ensure Robust Security",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/saas-development/tt7.png",
               steps: [
                 "Data protection is paramount in SaaS applications. Implement strong encryption, regular security audits, and compliance with industry standards to safeguard user data."
               ]
             },
             {
               title: "Embrace Agile Development",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/saas-development/tt8.png",
               steps: [
                 "Agile methodologies promote flexibility and continuous improvement. By breaking development into iterative cycles, teams can quickly respond to feedback and changing requirements."
               ]
             },
             {
               title: "Leverage Cloud Infrastructure",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/saas-development/tt9.png",
               steps: [
                 "Utilize reliable cloud providers to ensure high availability and performance. Cloud infrastructure offers scalability and redundancy, minimizing downtime and service disruptions."
               ]
@@ -1486,7 +1487,7 @@ export const servicesData = {
           guides: [
             {
               title: "Regular Updates and Maintenance",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/saas-development/tt10.png",
               steps: [
                 "Keep the software up-to-date with regular updates and maintenance. This ensures users have access to the latest features and security enhancements."
               ]
@@ -1494,21 +1495,21 @@ export const servicesData = {
             },
             {
               title: "Customer Support",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/saas-development/tt11.png",
               steps: [
                 "Provide excellent customer support to address user issues promptly. A responsive support team enhances customer satisfaction and loyalty."
               ]
             },
             {
               title: "Data Analytics",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/saas-development/tt12.png",
               steps: [
                 "Integrate data analytics to gain insights into user behavior and application performance. These insights can guide feature development and optimization efforts."
               ]
             },
             {
               title: "API Integration",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/saas-development/tt13.png",
               steps: [
                 "Offer APIs for seamless integration with other software applications. This expands the software’s functionality and provides users with greater flexibility."
               ]
@@ -1522,21 +1523,21 @@ export const servicesData = {
           guides: [
             {
               title: "Data Privacy Concerns",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/saas-development/tt14.png",
               steps: [
                 "Users are increasingly concerned about data privacy. Developers must comply with regulations such as GDPR and ensure transparency in data handling practices."
               ]
             },
             {
               title: "Network Dependency",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/saas-development/tt15.png",
               steps: [
                 "SaaS applications rely on stable internet connections. Developers should optimize performance to minimize latency and ensure smooth operation even with fluctuating network conditions."
               ]
             },
             {
               title: "Competition",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/saas-development/tt16.png",
               steps: [
                 "The SaaS market is highly competitive. Developers must continuously innovate and differentiate their products to remain competitive."
               ]
@@ -1553,14 +1554,14 @@ export const servicesData = {
   },
   "staff-augmentation": {
     title: "Staff Augmentation",
-    image: "/assets/img/inner-pages/about-service-img.png",
+    image: "/assets/img/services/staff-augmentation/h1.png",
     description: "In today's fast-paced business environment, companies are constantly seeking ways to adapt and stay competitive. One such strategy is staff augmentation, a flexible hiring model that allows businesses to meet their evolving needs without the commitment of full-time employment. This article provides a detailed exploration of staff augmentation, its benefits, challenges, and best practices.",
     faqSections: [
       {
         title: "FAQs about Staff Augmentation",
-        image: "/assets/img/inner-pages/about-service-img.png",
+        image: "/assets/img/services/staff-augmentation/h19.png",
         layout: true,
-        image: "/assets/img/inner-pages/about-service-img.png",
+        image: "/assets/img/services/staff-augmentation/h19.png",
         questions: [
           {
             question: "What is the difference between staff augmentation and outsourcing?",
@@ -1610,14 +1611,14 @@ export const servicesData = {
           guides: [
             {
               title: "What is Staff Augmentation?",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/staff-augmentation/h2.png",
               steps: [
                 "Staff augmentation is a business strategy where companies hire external professionals to fill specific roles or meet temporary needs. Unlike outsourcing, where entire projects are handed off, augmented staff work alongside existing employees, providing specialized skills and expertise."
               ]
             },
             {
               title: "Importance of Staff Augmentation in Today's Business World",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/staff-augmentation/h3.png",
               steps: [
                 "As businesses strive to stay competitive, staff augmentation offers the flexibility to scale up or down quickly, access niche expertise, and reduce hiring risks. It enables companies to respond to market demands without the long-term commitments associated with traditional employment."
               ]
@@ -1630,28 +1631,28 @@ export const servicesData = {
           guides: [
             {
               title: "Short-Term Augmentation",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/staff-augmentation/h4.png",
               steps: [
                 "Short-term augmentation involves hiring external staff for a brief period, often to meet a sudden spike in demand or to complete a specific project."
               ]
             },
             {
               title: "Long-Term Augmentation",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/staff-augmentation/h5.png",
               steps: [
                 "Long-term augmentation is suitable for ongoing projects or roles requiring specialized skills. This model allows companies to retain talent for extended periods without committing to permanent employment."
               ]
             },
             {
               title: "Skill-Based Augmentation",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/staff-augmentation/h6.png",
               steps: [
                 "Skill-based augmentation focuses on acquiring specific skills or expertise that are not available internally. This is ideal for companies needing highly specialized professionals for particular tasks."
               ]
             },
             {
               title: "Commodity-Based Augmentation",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/staff-augmentation/h7.png",
               steps: [
                 "This involves hiring external staff for general roles that do not require specialized skills. It helps fill gaps in the workforce without the complexities of recruiting for niche positions."
               ]
@@ -1664,28 +1665,28 @@ export const servicesData = {
           guides: [
             {
               title: "Flexibility and Scalability",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/staff-augmentation/h8.png",
               steps: [
                 "Staff augmentation allows businesses to adjust their workforce size based on demand, making it easier to manage workloads during peak times."
               ]
             },
             {
               title: "Access to Specialized Skills",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/staff-augmentation/h9.png",
               steps: [
                 "Companies can quickly access professionals with the skills and expertise needed for specific projects, ensuring high-quality outcomes."
               ]
             },
             {
               title: "Cost-Effective Solution",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/staff-augmentation/h10.png",
               steps: [
                 "By reducing the need for permanent hires, staff augmentation lowers recruitment and training costs while allowing businesses to allocate resources efficiently."
               ]
             },
             {
               title: "Reduced Hiring Risks",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/staff-augmentation/h11.png",
               steps: [
                 "Augmented staff are typically vetted by staffing agencies, minimizing the risks associated with bad hires and ensuring a smoother integration into existing teams."
               ]
@@ -1698,21 +1699,21 @@ export const servicesData = {
           guides: [
             {
               title: "Integration with Existing Teams",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/staff-augmentation/h12.png",
               steps: [
                 "Integrating external staff with internal teams can be challenging, especially if there are cultural differences or misalignment of expectations."
               ]
             },
             {
               title: "Dependency on External Providers",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/staff-augmentation/h13.png",
               steps: [
                 "Relying heavily on external professionals can create dependency issues, potentially impacting project continuity if resources are withdrawn unexpectedly."
               ]
             },
             {
               title: "Potential for Reduced Team Cohesion",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/staff-augmentation/h14.png",
               steps: [
                 "Frequent changes in team composition can affect morale and cohesion, as permanent employees may feel uncertain about their job security."
               ]
@@ -1725,28 +1726,28 @@ export const servicesData = {
           guides: [
             {
               title: "Clearly Define Roles and Expectations",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/staff-augmentation/h15.png",
               steps: [
                 "Ensure that both internal teams and augmented staff have a clear understanding of their roles, responsibilities, and expectations to avoid confusion and miscommunication."
               ]
             },
             {
               title: "Choose the Right Staffing Partner",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/staff-augmentation/h16.png",
               steps: [
                 "Select a reputable staffing agency with a proven track record of providing skilled professionals who match your company's needs and culture."
               ]
             },
             {
               title: "Foster a Collaborative Environment",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/staff-augmentation/h17.png",
               steps: [
                 "Encourage collaboration and open communication between internal teams and augmented staff to build trust and ensure successful project outcomes."
               ]
             },
             {
               title: "Regularly Assess Performance",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/staff-augmentation/h18.png",
               steps: [
                 "Monitor the performance of augmented staff regularly to ensure they are meeting expectations and contributing effectively to the team."
               ]
@@ -1763,14 +1764,14 @@ export const servicesData = {
   },
   "ai-ml": {
     title: "AI and ML",
-    image: "/assets/img/inner-pages/about-service-img.png",
+    image: "/assets/img/services/ai-ml/h1.png",
     description: "Artificial Intelligence (AI) and Machine Learning (ML) are at the forefront of technological innovation, transforming industries and shaping the future of human interaction with technology. These technologies enable computers to perform tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation. This article explores the vast landscape of AI and ML, their applications, benefits, challenges, and future prospects.",
     faqSections: [
       {
         title: "FAQs about AI and Machine Learning",
-        image: "/assets/img/inner-pages/about-service-img.png",
+        image: "/assets/img/services/ai-ml/h21.png",
         layout: true,
-        image: "/assets/img/inner-pages/about-service-img.png",
+        image: "/assets/img/services/ai-ml/h21.png",
         questions: [
           {
             question: "What is the difference between AI and Machine Learning?",
@@ -1816,7 +1817,7 @@ export const servicesData = {
           guides: [
             {
               title: "Defining AI and Machine Learning",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/ai-ml/h2.png",
               steps: [
                 "Artificial Intelligence (AI): AI refers to the simulation of human intelligence processes by machines, particularly computer systems. These processes include learning, reasoning, problem-solving, and self-correction.",
                 "Machine Learning (ML): A subset of AI, ML involves the development of algorithms that allow computers to learn from and make predictions based on data. ML algorithms improve automatically through experience.",
@@ -1825,14 +1826,14 @@ export const servicesData = {
             },
             {
               title: "The Evolution of AI and ML",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/ai-ml/h3.png",
               steps: [
                 "AI and ML have evolved significantly since their inception. From the early days of rule-based systems to the advent of deep learning and neural networks, these technologies have matured to enable complex tasks and applications."
               ]
             },
             {
               title: "Importance in Modern Technology",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/ai-ml/h4.png",
               steps: [
                 "AI and ML are integral to modern technology, driving innovations in various fields such as healthcare, finance, transportation, and entertainment. Their ability to process vast amounts of data and generate insights is transforming how businesses operate and compete."
               ]
@@ -1845,7 +1846,7 @@ export const servicesData = {
           guides: [
             {
               title: "Core Components of AI Systems",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/ai-ml/h5.png",
               steps: [
                 "Neural Networks: Modeled after the human brain, neural networks consist of layers of interconnected nodes that process data in complex ways.",
                 "Natural Language Processing (NLP): NLP enables machines to understand and interpret human language, facilitating interactions between humans and computers.",
@@ -1854,7 +1855,7 @@ export const servicesData = {
             },
             {
               title: "Machine Learning Algorithms",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/ai-ml/h6.png",
               steps: [
                 "Supervised Learning: Involves training algorithms on labeled data to make predictions or classify data points.",
                 "Unsupervised Learning: Algorithms learn patterns and structures from unlabeled data, often used for clustering and association.",
@@ -1863,7 +1864,7 @@ export const servicesData = {
             },
             {
               title: "Data Requirements and Processing",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/ai-ml/h7.png",
               steps: [
                 "AI and ML require large volumes of data to function effectively. Data preprocessing, including cleaning, normalization, and transformation, is essential to ensure accurate model training and prediction."
               ]
@@ -1876,35 +1877,35 @@ export const servicesData = {
           guides: [
             {
               title: "Healthcare",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/ai-ml/h8.png",
               steps: [
                 "AI and ML are revolutionizing healthcare by enabling early diagnosis, personalized treatment plans, and predictive analytics. Applications include medical imaging analysis, drug discovery, and patient monitoring."
               ]
             },
             {
               title: "Finance",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/ai-ml/h9.png",
               steps: [
                 "In the finance sector, AI and ML are used for fraud detection, algorithmic trading, risk assessment, and personalized financial services. These technologies enhance decision-making and improve customer experience."
               ]
             },
             {
               title: "Retail",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/ai-ml/h10.png",
               steps: [
                 "AI-driven analytics help retailers optimize inventory, personalize marketing, and improve customer service. Machine learning algorithms predict consumer behavior, enabling targeted promotions and product recommendations."
               ]
             },
             {
               title: "Automotive Industry",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/ai-ml/h11.png",
               steps: [
                 "AI and ML power autonomous vehicles, enhancing safety and efficiency. These technologies enable features such as adaptive cruise control, lane-keeping assistance, and collision avoidance."
               ]
             },
             {
               title: "Entertainment",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/ai-ml/h12.png",
               steps: [
                 "AI and ML personalize content recommendations on streaming platforms, enhance video game realism, and automate video editing processes, creating immersive experiences for users."
               ]
@@ -1917,28 +1918,28 @@ export const servicesData = {
           guides: [
             {
               title: "Increased Efficiency and Productivity",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/ai-ml/h13.png",
               steps: [
                 "AI and ML automate repetitive tasks, allowing businesses to streamline operations and allocate resources more effectively. This leads to increased productivity and reduced operational costs."
               ]
             },
             {
               title: "Improved Decision-Making",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/ai-ml/h14.png",
               steps: [
                 "By analyzing large datasets, AI and ML provide actionable insights that enhance decision-making processes. These technologies help businesses identify trends, predict outcomes, and make data-driven decisions."
               ]
             },
             {
               title: "Enhanced Customer Experience",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/ai-ml/h15.png",
               steps: [
                 "AI-powered chatbots and virtual assistants improve customer service by providing instant support and personalized interactions. Machine learning algorithms tailor recommendations to individual preferences, enhancing customer satisfaction."
               ]
             },
             {
               title: "Innovation and Competitive Advantage",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/ai-ml/h16.png",
               steps: [
                 "Companies that leverage AI and ML gain a competitive edge by innovating faster and delivering superior products and services. These technologies enable businesses to explore new opportunities and expand into emerging markets."
               ]
@@ -1951,28 +1952,28 @@ export const servicesData = {
           guides: [
             {
               title: "Data Privacy and Security",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/ai-ml/h17.png",
               steps: [
                 "The widespread use of AI and ML raises concerns about data privacy and security. Protecting sensitive information and ensuring compliance with regulations is critical to maintaining trust and preventing data breaches."
               ]
             },
             {
               title: "Bias and Fairness",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/ai-ml/h18.png",
               steps: [
                 "AI and ML models can perpetuate biases present in training data, leading to unfair outcomes. Ensuring fairness and mitigating bias is essential to developing ethical AI systems."
               ]
             },
             {
               title: "Technical Complexity",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/ai-ml/h19.png",
               steps: [
                 "The complexity of AI and ML technologies requires specialized skills and expertise. Developing and maintaining these systems can be challenging, particularly for smaller organizations with limited resources."
               ]
             },
             {
               title: "Ethical Considerations",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/ai-ml/h20.png",
               steps: [
                 "AI and ML raise ethical questions regarding accountability, transparency, and the potential impact on jobs and society. Addressing these concerns is crucial to ensuring responsible AI development and deployment."
               ]
