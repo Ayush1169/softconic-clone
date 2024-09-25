@@ -35,15 +35,12 @@ function Home3Team({ showAll }) {
                 <div className="experts-img">
                   <img
                     className="img-fluid"
-                    src={`assets/img/home-4/experts-0${index + 1}.png`}
+                    src={member.src}
                     alt={member.name}
                   />
                   <div className="expert-social">
                     <ul>
-                      <li><a href="https://www.facebook.com/"><i className="bx bxl-facebook" /></a></li>
-                      <li><a href="https://twitter.com/"><i className="bx bxl-twitter" /></a></li>
-                      <li><a href="https://www.instagram.com/"><i className="bx bxl-pinterest-alt" /></a></li>
-                      <li><a href="https://www.pinterest.com/"><i className="bx bxl-instagram" /></a></li>
+                      <li><a target='_blank' href={member.linkedin}><i className="bx bxl-linkedin" /></a></li>
                     </ul>
                   </div>
                 </div>
