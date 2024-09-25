@@ -40,7 +40,7 @@ const HomePage = {
       { name: "Gulab Rabbani", role: "Senior Growth Consultant", linkedin: "https://www.linkedin.com/in/gulab-rabbani/",src:"/assets/img/team/pic-2.png" },
       { name: "Chinmayee Dash", role: "Chief Technical Officer", linkedin: "https://www.linkedin.com/in/chinmayee-d-171156141/",src:"/assets/img/team/pic-4.webp" },
       { name: "Shubham Kedia", role: "Digital Marketing Expert", linkedin: "https://www.linkedin.com/in/shubham-kedia/",src:"/assets/img/team/IMG_4581 (1) 1.png" },
-      { name: "Rajesh Rahangdale", role: "Technical Lead", linkedin: "https://www.linkedin.com/in/rajesh-rahangdale/",src:"/assets/img/team/One.png" },
+      { name: "Rajesh Rahangdale", role: "Technical Lead", linkedin: "https://www.linkedin.com/in/rajesh-rahangdale/",src:"/assets/img/team/Rajesh Sir 1.png" },
       { name: "Md Aish", role: "Technical Lead", linkedin: "https://www.linkedin.com/in/md-aish/",src:"/assets/img/team/One.png" },
       { name: "Deepanshu Patel", role: "UI/UX Designer", linkedin: "https://www.linkedin.com/in/deepanshu-patel-10747b2a6/",src:"/assets/img/team/image 59 (1).png" }
     ]
