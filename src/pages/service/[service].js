@@ -38,7 +38,7 @@ function ServiceDetailsPage() {
          image1={hero1} 
          image2={hero2}
       />
-      <div className="service-details sec-mar">
+      <div className="service-details sec-mar" style={{marginBottom:"-115x"}}>
         {title && description && <AboutServices title={title} description={description} image={image} />}
         {howWeWork && howWeWork.length > 0 && <HowWeWorkSection />}
        
