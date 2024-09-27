@@ -406,7 +406,7 @@ function Preloader() {
         <div className="loader-line-mask">
           <div className="loader-line" />
         </div>
-        <img src="/assets/img/fevicon.jpg" alt="logo" style={{width: 60, height: 60}}/>
+        <img src="/assets/img/fevicon.jpg" alt="logo" style={{width: 100, height: 100}}/>
       </div>
     </div>
   </div>

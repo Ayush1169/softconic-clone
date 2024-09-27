@@ -2564,9 +2564,10 @@ export const servicesData = {
             "title": "Why E-Commerce is Vital for Business Growth",
             "image": "/assets/img/services/e-commerce-development/img2.png",
             "steps": [
-              "In the digital age, e-commerce serves as a powerful tool for businesses to reach a global audience. Online shopping offers convenience and accessibility, making it a preferred choice for consumers. By embracing e-commerce, businesses can tap into new markets and increase their revenue streams. Moreover, e-commerce platforms enable companies to provide personalized experiences, enhancing customer satisfaction and loyalty."
+              "In the digital age, e-commerce serves as a powerful tool for businesses to reach a global audience. Online shopping offers convenience and accessibility, making it a preferred choice for consumers. By embracing e-commerce, businesses can tap into new markets and increase their revenue streams. Moreover, e-commerce platforms enable companies to provide personalized experiences, enhancing customer satisfaction and loyalty.",
+              
             ]
-          }
+          },
         ]
       },
       {

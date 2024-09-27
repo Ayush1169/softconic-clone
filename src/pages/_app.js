@@ -21,7 +21,7 @@ export default function App({ Component, pageProps }) {
     setLoading(false);
     const timer = setTimeout(() => {
       setLoading(true);
-    }, 500);
+    }, 1000);
     
     return () => clearTimeout(timer); // Cleanup timer on unmount
   }, []);
