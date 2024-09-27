@@ -557,7 +557,7 @@ function Header() {
                       }`}
                   >
                     <li>
-                      <Link legacyBehavior href="/service/erp-crm">
+                      <Link legacyBehavior href="/service/erp">
                         <a
                           className={
                             currentRoute === "/service/erp-crm" ? "active" : ""

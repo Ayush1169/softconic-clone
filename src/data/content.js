@@ -116,9 +116,9 @@ const HomePage = {
     { name: "Paridhi Group", imageUrl: "assets/img/homePage/project10.png" },
     { name: "Scrollify", imageUrl: "assets/img/homePage/project11.png" },
     { name: "Murgi Baazar", imageUrl: "assets/img/homePage/project12.png" },
-    { name: "Dovemed", imageUrl: "assets/img/homePage/project.png" },
-    { name: "Aamcho Bastar", imageUrl: "assets/img/homePage/project.png" },
-    { name: "The Custom Bakers", imageUrl: "assets/img/homePage/project.png" },
+    { name: "Dovemed", imageUrl: "assets/img/homePage/project13.png" },
+    { name: "Aamcho Bastar", imageUrl: "assets/img/homePage/project14.png" },
+    { name: "The Custom Bakers", imageUrl: "assets/img/homePage/project15.png" },
   ],
 
   testimonials: [

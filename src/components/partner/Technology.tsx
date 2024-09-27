@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Marquee from "react-fast-marquee";
 import { FrontEndData } from "../../data/techImg";
-import { faLeftLong } from '@fortawesome/free-solid-svg-icons';
 
 function Technology() {
   const imageStyle = {
