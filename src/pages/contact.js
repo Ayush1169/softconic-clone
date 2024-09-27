@@ -10,7 +10,7 @@ import Head from "next/head";
 
 function Contactpage() {
   const [formValues, setFormValues] = useState({
-    firstName: "",
+    name: "",
     lastName: "",
     company: "",
     email: "",
@@ -29,7 +29,7 @@ function Contactpage() {
 
   const validateForm = () => {
     const newErrors = {};
-    if (!formValues.firstName) newErrors.firstName = "First Name is required";
+    if (!formValues.name) newErrors.name = "First Name is required";
     if (!formValues.lastName) newErrors.lastName = "Last Name is required";
     if (!formValues.company) newErrors.company = "Company/Organization is required";
     if (!formValues.email) newErrors.email = "Email is required";
@@ -51,7 +51,7 @@ function Contactpage() {
     }
 
     const templateParams = {
-      firstName: formValues.firstName,
+      name: formValues.name,
       lastName: formValues.lastName,
       company: formValues.company,
       email: formValues.email,
@@ -77,7 +77,7 @@ function Contactpage() {
       });
 
     setFormValues({
-      firstName: "",
+      name: "",
       lastName: "",
       company: "",
       email: "",
@@ -201,11 +201,11 @@ function Contactpage() {
                             <label>First name</label>
                             <input
                               type="text"
-                              name="firstName"
-                              value={formValues.firstName}
+                              name="name"
+                              value={formValues.name}
                               onChange={handleChange}
                             />
-                            {errors.firstName && <span>{errors.firstName}</span>}
+                            {errors.name && <span>{errors.name}</span>}
                           </div>
                         </div>
 
