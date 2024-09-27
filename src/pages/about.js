@@ -20,7 +20,7 @@ function AboutPage() {
         <title>
           EVD Technology
         </title>
-        <link rel="icon" href="/assets/img/fevicon.png" />
+        <link rel="icon" href="/assets/img/fevicon.jpg" />
       </Head>
     <Layout pageTitle={"About"}>
       <Breadcrumb
