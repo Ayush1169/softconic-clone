@@ -254,7 +254,7 @@ export const caseStudies = [
     "id": 1,
     "title": "Enhancing Defense Education through Integrated LMS Development",
     "mainTitle": "MKC: Transforming Defense Coaching with Comprehensive Digital Solution",
-    "mainImage": "/assets/img/caseStudy/mkc1.png",
+    "mainImage": "/assets/img/EVD-Website 3/CaseStudy-mkc1-ET.png",
     "description": "Major Kalshi Classes (MKC) is a premier defense coaching institute providing preparatory classes for various defense examinations in India. The institute required a robust digital solution to enhance their existing system by incorporating an online Learning Management System (LMS) to cater to students, parents, and administrators while offering seamless integration with their existing hostel, inventory, and CRM systems. The goal was to provide a white-label solution that could streamline operations and create a centralized platform for learning, accommodation, resource management, and customer relationship management.",
     "overview": "MKC faced several challenges in implementing this comprehensive system. They required a white-label solution with limited customization due to cost constraints, necessitating a balance between flexibility and out-of-the-box functionality. The integration of hostel, inventory, and CRM systems posed technical challenges in ensuring smooth data flow. The platform needed to cater to three distinct user types (Students, Parents, and Administrators) with role-based access, while maintaining simplicity and feature breadth. Additionally, the system had to be highly scalable to handle thousands of concurrent users accessing various features without performance lags.",
     "overviewImage": "/assets/img/caseStudy/case1.png",
@@ -290,8 +290,8 @@ export const caseStudies = [
       }
     ],
     "additionalImages": [
-      "/assets/img/caseStudy/mkc4.png",
-      "/assets/img/caseStudy/mkc5.png"
+      "/assets/img/EVD-Website 3/CaseStudy-mkc4-ET.png",
+      "/assets/img/EVD-Website 3/CaseStudy-mkc5-ET.png"
     ],
     "slug": "mkc",
     "category": "Education Technology",
@@ -315,12 +315,12 @@ export const caseStudies = [
   "id": 2,
   "title": "Streamlining Operations through Custom ERP and CRM Development",
   "mainTitle": "Astera: Transforming Film and Event Lighting Solutions with Integrated Software",
-  "mainImage": "/assets/img/inner-pages/case-study-img-02.png",
+  "mainImage": "/assets/img/EVD-Website 3/CaseStudy-mkc-SD-1.png",
   "description": "Astera, a leading provider of wireless LED lighting solutions for film and events, needed a robust software solution to streamline its operations. The company required a custom-built ERP (Enterprise Resource Planning) and CRM (Customer Relationship Management) system, along with 12 essential modules to manage various aspects of their business, such as HRMS (Human Resource Management System), Inventory, and Production. The goal was to integrate all operations under one platform to improve efficiency, manage workflows, and enhance customer relationships.",
   "overview": "Astera faced significant challenges in managing its growing operations, which included multiple departments working in silos. The need for an integrated solution became evident to centralize data, improve communication, automate manual processes, track production workflows, and manage inventory effectively.",
   "overviewImage": "/assets/img/caseStudy/case2.png",
   "solution": "We developed a comprehensive ERP and CRM system that included: 1) HRMS for managing employee data, recruitment, attendance, payroll, and performance. 2) Inventory Management for monitoring stock levels and automating reordering. 3) Production Management to oversee the production process and track progress. 4) Sales and CRM for managing customer relationships and automating the sales pipeline. 5) Purchase Management for streamlining procurement. 6) Finance and Accounting for managing invoices and tracking expenses. 7) Quality Control for ensuring product standards. 8) Project Management for handling lighting projects and timelines. 9) Supplier Management for maintaining supplier relationships.",
-  "solutionImage": "/assets/img/inner-pages/case-study-img-02.png",
+  "solutionImage": "/assets/img/EVD-Website 3/CaseStudy-mkc-SD-2.png",
   "processDescription": "The development process involved designing an intuitive, scalable, and secure cloud-based system that integrates various business functions under one platform, facilitating remote access and collaboration.",
   "processSteps": [
     {
@@ -349,8 +349,8 @@ export const caseStudies = [
     }
   ],
   "additionalImages": [
-    "/assets/img/inner-pages/case-study-img-02.png",
-    "/assets/img/inner-pages/case-study-img-02.png"
+    "/assets/img/EVD-Website 3/CaseStudy-mkc-SD-3.png",
+    "/assets/img/EVD-Website 3/CaseStudy-mkc-SD-4.png"
   ],
   "slug": "astera",
   "category": "Software Development",
@@ -374,12 +374,12 @@ export const caseStudies = [
   "id": 3,
   "title": "Software Development for Deliver My Tune",
   "mainTitle": "Deliver My Tune: Empowering Artists with a Digital Distribution Platform",
-  "mainImage": "/assets/img/inner-pages/case-study-img-02.png",
+  "mainImage": "/assets/img/EVD-Website 3/CaseStudy-mkc-DMD1.png",
   "description": "Deliver My Tune is India’s first digital music and video distribution company that helps artists distribute their music across various platforms and get rewarded for their work. They required a comprehensive digital platform, including an Artist Panel and an Admin Panel, to streamline the process of uploading, managing, and distributing content while ensuring transparency and rewarding artists fairly.",
   "overview": "The project aimed to create a seamless and user-friendly experience for artists while providing the company with an admin panel to manage all content, rewards, and artist data. Deliver My Tune faced several challenges that required a robust software solution, including artist empowerment, scalable content management, a transparent reward system, and efficient admin control.",
   "overviewImage": "/assets/img/caseStudy/case3.png",
   "solution": "We developed a two-component platform consisting of: 1) Artist Panel with a dashboard for artists to create profiles, upload content, and track performance, integrating a reward system based on views and streams. 2) Admin Panel for managing uploaded content, monitoring artist activities, and ensuring efficient reward distribution, with tools for analytics and platform performance tracking.",
-  "solutionImage": "/assets/img/inner-pages/case-study-img-02.png",
+  "solutionImage": "/assets/img/EVD-Website 3/CaseStudy-mkc-DMD-2.png",
   "processDescription": "The development process involved creating intuitive interfaces for both artists and admins, ensuring a user-friendly experience. We focused on robust backend architecture to manage high volumes of content while providing real-time analytics and automated rewards.",
   "processSteps":[
     {
@@ -408,8 +408,8 @@ export const caseStudies = [
     }
   ],
   "additionalImages": [
-    "/assets/img/inner-pages/case-study-img-02.png",
-    "/assets/img/inner-pages/case-study-img-02.png"
+    "/assets/img/EVD-Website 3/CaseStudy-mkc-DMD-3.png",
+    "/assets/img/EVD-Website 3/CaseStudy-mkc-DMD-4.png"
   ],
   "slug": "deliver-my-tune-digital",
   "category": "Digital Music Distribution",
@@ -435,19 +435,19 @@ export const caseStudies = [
 {
   "id": 4,
   "title": "Digital Marketing for VHAI",
-  "mainTitle": "VHAI Digital Marketing: Raising Awareness for Public Health Initiatives",
-  "mainImage": "/assets/img/inner-pages/case-study-img-01.png",
-  "description": "VHAI (Voluntary Health Association of India) is a non-profit organization dedicated to improving public health in India. Their goal was to raise awareness about health issues and increase engagement with their target audience through digital marketing. The focus was on leveraging Facebook and Instagram ads to reach a broader audience, drive traffic to their website, and encourage active participation in health initiatives.",
-  "overview": "Our team worked closely with VHAI to create and execute a customized digital marketing campaign on Facebook and Instagram. The main challenge was reaching a diverse audience, including different age groups, geographic locations, and interests. VHAI aimed to increase awareness of public health issues, encourage community engagement, drive more traffic to their website, and generate donations for various health programs.",
+  "mainTitle": "V4Health Digital Marketing: Raising Awareness for Public Health Initiatives",
+  "mainImage": "/assets/img/EVD-Website 3/CaseStudy-DM-1.png",
+  "description": "V4Health is a non-profit organization dedicated to improving public health in India. Their goal was to raise awareness about health issues and increase engagement with their target audience through digital marketing. The focus was on leveraging Facebook and Instagram ads to reach a broader audience, drive traffic to their website, and encourage active participation in health initiatives.",
+  "overview": "Our team worked closely with V4Health to create and execute a customized digital marketing campaign on Facebook and Instagram. The main challenge was reaching a diverse audience, including different age groups, geographic locations, and interests. V4Health aimed to increase awareness of public health issues, encourage community engagement, drive more traffic to their website, and generate donations for various health programs.",
   "overviewImage": "/assets/img/caseStudy/case4.png",
   "solution": "To address VHAI's needs, we developed a comprehensive digital marketing strategy. This included market research and target audience analysis, campaign design with tailored ad creatives, ad setup on Facebook and Instagram, budget management, and performance tracking with reporting.",
-  "solutionImage": "/assets/img/inner-pages/case-study-img-01.png",
+  "solutionImage": "/assets/img/EVD-Website 3/CaseStudy-DM-2.png",
   "processDescription": "The campaign included highly targeted ads using advanced audience targeting tools. Key features included carousel ads, video ads, stories ads, A/B testing, ad retargeting, and conversion tracking with Facebook Pixel and Instagram Insights.",
   "processSteps": [
     {
       stepNumber: "Step 01",
       title: "Market Research and Target Audience Analysis",
-      description: "Studied the demographics, behavior, and interests of VHAI’s potential audience.",
+      description: "Studied the demographics, behavior, and interests of V4Health's potential audience.",
       icon: <FaSearch style={{ color: '#6cd358' }} />
     },
     {
@@ -470,13 +470,13 @@ export const caseStudies = [
     }
   ],
   "additionalImages": [
-    "/assets/img/inner-pages/case-study-img-01.png",
-    "/assets/img/inner-pages/case-study-img-01.png"
+    "/assets/img/EVD-Website 3/CaseStudy-DM-3.png",
+    "/assets/img/EVD-Website 3/CaseStudy-DM-4.png"
   ],
   "slug": "vhai",
   "category": "Digital Marketing",
   "outcomes": "The digital marketing campaign successfully achieved VHAI’s goals, reaching over 500,000 people, increasing social media engagement by 75%, boosting website traffic by 60%, and leading to a 40% increase in donations.",
-  "conclusion": "This case study showcases how a well-executed digital marketing campaign on Facebook and Instagram can help non-profits like VHAI increase their reach, engagement, and support for important health initiatives.",
+  "conclusion": "This case study showcases how a well-executed digital marketing campaign on Facebook and Instagram can help non-profits like V4Health increase their reach, engagement, and support for important health initiatives.",
   "projectChallenges": [
     "Reaching a diverse audience with different age groups and interests.",
     "Creating content that resonated with the target audience.",
@@ -486,7 +486,7 @@ export const caseStudies = [
   "testimonials": [
     {
       "quote": "Working with the digital marketing team was an eye-opener for us. We knew we needed to get our message out, but they showed us how effective social media can be when done right. The team was professional, proactive, and always ready with fresh ideas. Thanks to their efforts, we’ve reached thousands of people and received more support than we imagined.",
-      "author": "VHAI Team"
+      "author": "V4Health Team"
     }
   ]
 },
@@ -494,12 +494,12 @@ export const caseStudies = [
   "id": 5,
   "title": "ERP/CRM Development for PCMW",
   "mainTitle": "PCMW: Streamlining Pest Control Operations with Custom ERP/CRM",
-  "mainImage": "/assets/img/inner-pages/case-study-img-03.png",
+  "mainImage": "/assets/img/EVD-Website 3/CaseStudy-ERM-CRM-1.png",
   "description": "PCMW-M. Walshe Pest Control is a well-established company that provides commercial pest control services. They partnered with our team to develop a custom ERP (Enterprise Resource Planning) and CRM (Customer Relationship Management) solution to streamline operations, manage customer relations, and optimize internal workflows.",
   "overview": "The main challenge for PCMW was handling multiple clients, service requests, and technicians across different locations. Their previous use of separate systems for customer information, scheduling, invoicing, and inventory led to disjointed operations, manual processes, and limited tracking.",
   "overviewImage": "/assets/img/caseStudy/case5.png",
   "solution": "We designed and implemented a customized ERP/CRM solution that integrated all essential business operations, improving efficiency and effectiveness across the board.",
-  "solutionImage": "/assets/img/inner-pages/case-study-img-03.png",
+  "solutionImage": "/assets/img/EVD-Website 3/CaseStudy-ERM-CRM-2.png",
   "processDescription": "The scope of work included requirements gathering, designing the system, development of features, testing and deployment, training, and post-launch support.",
   "processSteps": [
     {
@@ -528,8 +528,8 @@ export const caseStudies = [
     }
   ],
   "additionalImages": [
-    "/assets/img/inner-pages/case-study-img-03.png",
-    "/assets/img/inner-pages/case-study-img-03.png"
+    "/assets/img/EVD-Website 3/CaseStudy-ERM-CRM-3.png",
+    "/assets/img/EVD-Website 3/CaseStudy-ERM-CRM-5.png"
   ],
   "slug": "pcmw",
   "category": "ERP/CRM Development",

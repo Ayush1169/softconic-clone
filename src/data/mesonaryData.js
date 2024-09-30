@@ -6,10 +6,10 @@ const data = [
     title: "Major Kalshi Classes - Online Learning Platform",
     image: "/assets/img/projects/Group 25.png",
     images: [
-      "/assets/img/services/ai/1.png",
-      "/assets/img/services/ai/1.png",
-      "/assets/img/services/ai/1.png",
-      "/assets/img/services/ai/1.png"
+      "/assets/img/EVD-Website 3/KalshiClasses-1.png",
+      "/assets/img/EVD-Website 3/KalshiClasses-2.png",
+      "/assets/img/EVD-Website 3/KalshiClasses-3.png",
+      "/assets/img/EVD-Website 3/KalshiClasses-4.png"
     ],
     slug: "major-kalshi-classes",
     client: "Major Kalshi Classes",
@@ -61,9 +61,10 @@ const data = [
     title: "Veda Academy - Online Learning Platform",
     image: "/assets/img/projects/Group 24.png", // Assuming you will have an image here
     images: [
-      "/assets/img/inner-pages/veda-dt-01.png",
-      "/assets/img/inner-pages/veda-dt-02.png",
-      "/assets/img/inner-pages/veda-dt-03.png"
+      "/assets/img/EVD-Website 3/Veda Academy-1.png",
+      "/assets/img/EVD-Website 3/Veda Academy-2.png",
+      "/assets/img/EVD-Website 3/Veda Academy-3.png",
+      "/assets/img/EVD-Website 3/Veda Academy-4.png"
     ],
     slug: "veda-academy-online-learning-platform",
     client: "Veda Academy",
@@ -115,9 +116,10 @@ const data = [
     title: "Scrollify - Real-Time News App",
     image: "/assets/img/projects/Group 1686552502.png", // Assuming you will have an image here
     images: [
-      "/assets/img/inner-pages/scrollify-dt-01.png",
-      "/assets/img/inner-pages/scrollify-dt-02.png",
-      "/assets/img/inner-pages/scrollify-dt-03.png"
+      "/assets/img/EVD-Website 3/Scrollify-1.png",
+      "/assets/img/EVD-Website 3/Scrollify-2.png",
+      "/assets/img/EVD-Website 3/Scrollify-3.png",
+      "/assets/img/EVD-Website 3/Scrollify-4.png"
     ],
     slug: "scrollify-real-time-news-app",
     client: "Scrollify",
@@ -169,9 +171,10 @@ const data = [
     title: "Deliver My Tune - Music Distribution Platform",
     image: "/assets/img/projects/Group 26.png", // Assuming you will have an image here
     images: [
-      "/assets/img/inner-pages/dmt-dt-01.png",
-      "/assets/img/inner-pages/dmt-dt-02.png",
-      "/assets/img/inner-pages/dmt-dt-03.png"
+      "/assets/img/EVD-Website 3/Music-1.png",
+      "/assets/img/EVD-Website 3/Music-2.png",
+      "/assets/img/EVD-Website 3/Music-4.png",
+      "/assets/img/EVD-Website 3/Music-3.png"
     ],
     slug: "deliver-my-tune-music-distribution-platform",
     client: "Deliver My Tune (DMT)",
@@ -221,9 +224,10 @@ const data = [
     title: "Dovemed - Online Medical Resource",
     image: "/assets/img/projects/Group 1686552508.png", // Assuming you will have an image here
     images: [
-      "/assets/img/inner-pages/dovemed-dt-01.png",
-      "/assets/img/inner-pages/dovemed-dt-02.png",
-      "/assets/img/inner-pages/dovemed-dt-03.png"
+      "/assets/img/EVD-Website 3/Dovemed-1.png",
+      "/assets/img/EVD-Website 3/Dovemed-2.png",
+      "/assets/img/EVD-Website 3/Dovemed-3.png",
+      "/assets/img/EVD-Website 3/Dovemed-4.png"
     ],
     slug: "dovemed-online-medical-resource",
     client: "Dovemed",
@@ -274,9 +278,10 @@ const data = [
     title: "The Custom Bakers - Custom Cake E-commerce Platform",
     image: "/assets/img/projects/Group 1686552510.png", // Assuming you will have an image here
     images: [
-      "/assets/img/inner-pages/custom-bakers-dt-01.png",
-      "/assets/img/inner-pages/custom-bakers-dt-02.png",
-      "/assets/img/inner-pages/custom-bakers-dt-03.png"
+      "/assets/img/EVD-Website 3/Cake-1.png",
+      "/assets/img/EVD-Website 3/Cake-2.png",
+      "/assets/img/EVD-Website 3/Cake-3.png",
+      "/assets/img/EVD-Website 3/Cake-4.png"
     ],
     slug: "the-custom-bakers-ecommerce-platform",
     client: "The Custom Bakers",
@@ -431,7 +436,7 @@ const data = [
     id: 10,
     category: "Healthcare",
     class: "Mobile App",
-    title: "VHAI - Health Consultancy and Appointment App",
+    title: "V4Health - Health Consultancy and Appointment App",
     image: "/assets/img/projects/Group 1686556762 1.png", 
     images: [
       "/assets/img/inner-pages/vhai-dt-01.png",
@@ -454,7 +459,7 @@ const data = [
         step: "01",
         title: "Research",
         icon: "assets/img/inner-pages/research.svg",
-        description: `We began with in-depth research to understand the needs of VHAI and its users. This 
+        description: `We began with in-depth research to understand the needs of V4Health and its users. This 
         included analyzing user behavior and preferences to design a system that was intuitive and efficient.`
       },
       {
@@ -475,7 +480,7 @@ const data = [
       }
     ],
     result: `The Health Consultancy and Appointment App has significantly enhanced healthcare accessibility 
-    for VHAI users. With a smooth appointment booking process and accurate user data management, individuals 
+    for V4Health users. With a smooth appointment booking process and accurate user data management, individuals 
     can now easily consult with health professionals at their convenience. The positive feedback from users 
     has reinforced the app's role as a vital tool in promoting health and well-being across India, furthering 
     VHAI’s mission to improve healthcare access for all.`
