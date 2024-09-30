@@ -6879,13 +6879,13 @@ export const servicesData = {
 
   "data-science": {
     "title": "Data Science: The Backbone of Decision-Making",
-    "image": "/assets/img/services/data-science/image.png",
+    "image": "/assets/img/services/Data Science/image.png",
     "description": "Data science is more than just a buzzword; it's the backbone of decision-making in our increasingly data-driven world. With vast amounts of data generated every second, understanding how to harness and interpret this information is crucial. In this article, we’ll explore what data science is, its evolution, core components, and its far-reaching applications.",
     "faqSections": [
       {
         "title": "FAQs",
         "layout": true,
-        "image": "/assets/img/services/data-science/image-18.png",
+        "image": "/assets/img/services/Data Science/image-7.png",
         "questions": [
           {
             "question": "What is the primary goal of data science?",
@@ -6917,7 +6917,7 @@ export const servicesData = {
         {
           "title": "Programming Languages",
           "layout": true,
-          "image": "/assets/img/inner-pages/front-end-frameworks.png",
+          "image": "/assets/img/services/Data Science/image-1.png",
           "questions": [
             {
               "question": "What programming languages are used in data science?",
@@ -6933,7 +6933,7 @@ export const servicesData = {
           "guides": [
             {
               "title": "What is Data Science?",
-              "image": "/assets/img/services/data-science/image-1.png",
+              "image": "/assets/img/services/Data Science/Mask group.png",
               "steps": [
                 "Data science is the field that deals with extracting insights and knowledge from structured and unstructured data through scientific methods, algorithms, and systems."
               ]
@@ -6946,14 +6946,14 @@ export const servicesData = {
           "guides": [
             {
               "title": "Historical Background",
-              "image": "/assets/img/services/data-science/image-2.png",
+              "image": "/assets/img/services/Data Science/image-2.png",
               "steps": [
                 "Data science has its roots in statistics, computer science, and domain knowledge. Initially, data was just numbers on a spreadsheet. But as technology advanced, so did our ability to process and analyze these numbers."
               ]
             },
             {
               "title": "Milestones in Data Science",
-              "image": "/assets/img/services/data-science/image-3.png",
+              "image": "/assets/img/services/Data Science/image-17.png",
               "steps": [
                 "From the introduction of databases in the 1970s to the rise of big data in the 2000s, key milestones have shaped data science. Each step forward has made it easier to collect, store, and analyze data."
               ]
@@ -6966,28 +6966,28 @@ export const servicesData = {
           "guides": [
             {
               "title": "Data Collection",
-              "image": "/assets/img/services/data-science/image-5.png",
+              "image": "/assets/img/services/Data Science/image-3.png",
               "steps": [
                 "This is where the journey begins. Data can come from various sources like surveys, transactions, or social media. The goal is to gather relevant and high-quality data for analysis."
               ]
             },
             {
               "title": "Data Processing",
-              "image": "/assets/img/services/data-science/image-6.png",
+              "image": "/assets/img/services/Data Science/image-14.png",
               "steps": [
                 "Once data is collected, it needs to be cleaned and transformed. This step ensures that any anomalies or missing values are addressed, preparing the data for analysis."
               ]
             },
             {
               "title": "Data Analysis",
-              "image": "/assets/img/services/data-science/image-7.png",
+              "image": "/assets/img/services/Data Science/image-15.png",
               "steps": [
                 "This is the heart of data science. Here, techniques like statistical analysis, machine learning, and algorithms are applied to extract insights from the data."
               ]
             },
             {
               "title": "Data Visualization",
-              "image": "/assets/img/services/data-science/image-8.png",
+              "image": "/assets/img/services/Data Science/image-16.png",
               "steps": [
                 "A picture is worth a thousand words! Visualizing data helps to communicate findings effectively, making it easier for stakeholders to understand complex results."
               ]
@@ -7000,28 +7000,28 @@ export const servicesData = {
           "guides": [
             {
               "title": "Healthcare",
-              "image": "/assets/img/services/data-science/image-10.png",
+              "image": "/assets/img/services/Data Science/image-4.png",
               "steps": [
                 "Data science is revolutionizing healthcare by predicting outbreaks, personalizing treatment plans, and optimizing operational efficiencies."
               ]
             },
             {
               "title": "Finance",
-              "image": "/assets/img/services/data-science/image-11.png",
+              "image": "/assets/img/services/Data Science/image-11.png",
               "steps": [
                 "In finance, data science is used for risk assessment, fraud detection, and algorithmic trading, helping institutions make informed decisions."
               ]
             },
             {
               "title": "Marketing",
-              "image": "/assets/img/services/data-science/image-12.png",
+              "image": "/assets/img/services/Data Science/image-12.png",
               "steps": [
                 "Marketers leverage data science to understand consumer behavior, segment audiences, and optimize campaigns for better ROI."
               ]
             },
             {
               "title": "Transportation",
-              "image": "/assets/img/services/data-science/image-13.png",
+              "image": "/assets/img/services/Data Science/image-13.png",
               "steps": [
                 "From route optimization to predicting traffic patterns, data science is making transportation systems more efficient."
               ]
@@ -7034,21 +7034,21 @@ export const servicesData = {
           "guides": [
             {
               "title": "Data Privacy Concerns",
-              "image": "/assets/img/services/data-science/image-15.png",
+              "image": "/assets/img/services/Data Science/image-5.png",
               "steps": [
                 "With great data comes great responsibility. Ensuring data privacy while utilizing it for insights is a significant challenge."
               ]
             },
             {
               "title": "Data Quality Issues",
-              "image": "/assets/img/services/data-science/image-16.png",
+              "image": "/assets/img/services/Data Science/image-9.png",
               "steps": [
                 "Poor quality data can lead to misleading conclusions. Ensuring the accuracy and completeness of data is critical."
               ]
             },
             {
               "title": "Skills Gap",
-              "image": "/assets/img/services/data-science/image-17.png",
+              "image": "/assets/img/services/Data Science/image-10.png",
               "steps": [
                 "There’s a growing demand for skilled data scientists, but the supply is limited. Bridging this skills gap is essential for the future of the field."
               ]
@@ -7061,14 +7061,14 @@ export const servicesData = {
           "guides": [
             {
               "title": "Trends to Watch",
-              "image": "/assets/img/services/data-science/image-18.png",
+              "image": "/assets/img/services/Data Science/image-6.png",
               "steps": [
                 "As technology evolves, so will data science. Trends like automation, augmented analytics, and ethical AI are shaping the future landscape."
               ]
             },
             {
               "title": "Impact of AI and Machine Learning",
-              "image": "/assets/img/services/data-science/image-19.png",
+              "image": "/assets/img/services/Data Science/image-8.png",
               "steps": [
                 "The integration of AI and machine learning will continue to enhance data science, providing even more sophisticated tools for analysis."
               ]
