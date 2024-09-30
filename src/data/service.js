@@ -1993,7 +1993,7 @@ export const servicesData = {
   },
   "website-development": {
     title: "Website Development",
-    image:"/assets/img/services/website-development/hero1.png",
+    image:"/assets/img/services/website-development/image 1.png",
     hero1:"/assets/img/services/website-development/hero1.png",
     hero2:"/assets/img/services/website-development/hero2.png",
     description: "In today's digital age, a robust online presence is not just a luxury but a necessity for businesses of all sizes. Whether you're a budding startup or an established enterprise, a well-designed website serves as your digital store. It's often the first point of contact for potential customers, making it a critical component of your brand's identity. This is where website development companies come into play. These specialized firms focus on creating and maintaining websites, ensuring they are not only visually appealing but also functional, user-friendly, and aligned with your business objectives. In this comprehensive guide, we'll check the complexities of website development companies, explore the services they offer, and provide insights on choosing the right partner for your business needs.",
@@ -2001,7 +2001,7 @@ export const servicesData = {
       {
         title: "",
         layout: true,
-        image: "/assets/img/services/website-development/img1.png",
+        image: "/assets/img/services/website-development/image 43.png",
         questions: [
           {
             question: "What is the average cost of a website?",
@@ -2074,21 +2074,21 @@ export const servicesData = {
           guides: [
             {
               title: "Freelancers",
-              image: "/assets/img/services/website-development/img4.png",
+              image: "/assets/img/services/website-development/image-1.png",
               steps: [
                 "Freelancers are individual developers who offer specialized skills. They are often a more affordable option, making them ideal for small businesses or startups with limited budgets. However, freelancers may not always provide the full range of services that larger companies offer."
               ]
             },
             {
               title: "Agencies",
-              image: "/assets/img/services/website-development/img5.png",
+              image: "/assets/img/services/website-development/image-10.png",
               steps: [
                 "Agencies are companies with teams of professionals who offer a full range of website development services. They typically have more resources and expertise, making them a good choice for larger projects that require a comprehensive approach."
               ]
             },
             {
               title: "Specialized Companies",
-              image: "/assets/img/services/website-development/img6.png",
+              image: "/assets/img/services/website-development/image-18.png",
               steps: [
                 "Specialized companies focus on specific types of websites, such as e-commerce, corporate, or portfolio sites. These firms often have deep expertise in a particular niche, making them ideal for businesses with specialized needs."
               ]
@@ -2102,35 +2102,35 @@ export const servicesData = {
           guides: [
             {
               title: "Frontend Development",
-              image: "/assets/img/services/website-development/img7.png",
+              image: "/assets/img/services/website-development/image-2.png",
               steps: [
                 "Frontend development involves crafting the visual elements of a website using technologies like HTML, CSS, and JavaScript. This includes creating layouts, designing graphics, and ensuring the website is responsive across different devices."
               ]
             },
             {
               title: "Backend Development",
-              image: "/assets/img/services/website-development/img8.png",
+              image: "/assets/img/services/website-development/image-11.png",
               steps: [
                 "Backend development focuses on developing the server-side logic, managing databases, and integrating APIs. This ensures that the website can handle data securely and efficiently."
               ]
             },
             {
               title: "Full-Stack Development",
-              image: "/assets/img/services/website-development/img9.png",
+              image: "/assets/img/services/website-development/image-19.png",
               steps: [
                 "Full-stack development combines both frontend and backend development. Full-stack developers are skilled in both areas and can handle all aspects of website development."
               ]
             },
             {
               title: "UI/UX Design",
-              image: "/assets/img/services/website-development/img10.png",
+              image: "/assets/img/services/website-development/image-24.png",
               steps: [
                 "UI/UX design is all about creating intuitive and user-friendly interfaces. Good design enhances the user experience, making it easier for visitors to navigate the website and find the information they need."
               ]
             },
             {
               title: "SEO and Digital Marketing",
-              image: "/assets/img/services/website-development/img11.png",
+              image: "/assets/img/services/website-development/image-17.png",
               steps: [
                 "Search engine optimization (SEO) and digital marketing are critical components of a successful website. These services help improve the website's visibility on search engines, drive traffic, and convert visitors into customers."
               ]
@@ -2144,21 +2144,21 @@ export const servicesData = {
           guides: [
             {
               title: "Experience and Expertise",
-              image: "/assets/img/services/website-development/img12.png",
+              image: "/assets/img/services/website-development/image-3.png",
               steps: [
                 "Look for companies with a proven track record in your industry. Experience matters, especially for complex projects that require specialized knowledge."
               ]
             },
             {
               title: "Portfolio and Case Studies",
-              image: "/assets/img/services/website-development/img13.png",
+              image: "/assets/img/services/website-development/image-12.png",
               steps: [
                 "Review the company's past projects to assess their quality and relevance. A good portfolio can provide insight into the company's capabilities and design style."
               ]
             },
             {
               title: "Client Testimonials and Reviews",
-              image: "/assets/img/services/website-development/img14.png",
+              image: "/assets/img/services/website-development/image-20.png",
               steps: [
                 "Check feedback from previous clients to gauge satisfaction levels. Positive reviews and testimonials are a good indicator of a company's reliability and quality of service."
               ]
@@ -2172,42 +2172,42 @@ export const servicesData = {
           guides: [
             {
               title: "Initial Consultation and Requirement Gathering",
-              image: "/assets/img/services/website-development/img15.png",
+              image: "/assets/img/services/website-development/image-4.png",
               steps: [
                 "The first step involves understanding the client's needs and goals. This includes discussing the project's scope, target audience, and desired features."
               ]
             },
             {
               title: "Planning and Strategy",
-              image: "/assets/img/services/website-development/img16.png",
+              image: "/assets/img/services/website-development/image-13.png",
               steps: [
                 "Once the requirements are clear, the company defines the project scope, timelines, and budget. This stage also involves creating a detailed project plan and strategy."
               ]
             },
             {
               title: "Design and Prototyping",
-              image: "/assets/img/services/website-development/img17.png",
+              image: "/assets/img/services/website-development/image-21.png",
               steps: [
                 "The design phase involves creating wireframes and visual designs for the website. Prototypes are developed to give the client a visual representation of the final product."
               ]
             },
             {
               title: "Development and Coding",
-              image: "/assets/img/services/website-development/img18.png",
+              image: "/assets/img/services/website-development/image-6.png",
               steps: [
                 "This phase involves building the website's frontend and backend. Developers write the code, integrate APIs, and set up databases."
               ]
             },
             {
               title: "Testing and Quality Assurance",
-              image: "/assets/img/services/website-development/img19.png",
+              image: "/assets/img/services/website-development/image-15.png",
               steps: [
                 "Before launching, the website undergoes rigorous testing to ensure it is bug-free and functional. This includes testing for usability, performance, and security."
               ]
             },
             {
               title: "Deployment and Launch",
-              image: "/assets/img/services/website-development/img20.png",
+              image: "/assets/img/services/website-development/image-23.png",
               steps: [
                 "Once the website is ready, it is deployed and made live. This involves setting up the website on a server and configuring it for public access."
               ]
@@ -2221,7 +2221,7 @@ export const servicesData = {
           guides: [
             {
               title: "Programming Languages",
-              image: "/assets/img/services/website-development/img21.png",
+              image: "/assets/img/services/website-development/image-5.png",
               steps: [
                 "HTML: The standard language for creating web pages.",
                 "CSS: Used for styling and layout.",
@@ -2232,7 +2232,7 @@ export const servicesData = {
             },
             {
               title: "Content Management Systems (CMS)",
-              image: "/assets/img/services/website-development/img22.png",
+              image: "/assets/img/services/website-development/image-14.png",
               steps: [
                 "WordPress: The most popular CMS, known for its ease of use.",
                 "Joomla: A flexible CMS suitable for complex sites.",
@@ -2241,7 +2241,7 @@ export const servicesData = {
             },
             {
               title: "Frameworks and Libraries",
-              image: "/assets/img/services/website-development/img23.png",
+              image: "/assets/img/services/website-development/image-22.png",
               steps: [
                 "React: A JavaScript library for building user interfaces.",
                 "Angular: A framework for building dynamic web apps.",
@@ -2258,14 +2258,14 @@ export const servicesData = {
           guides: [
             {
               title: "Custom Development",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/website-development/image-7.png",
               steps: [
                 "Custom websites offer unique design and functionality tailored to specific needs. However, they come at a higher cost and require more time to develop."
               ]
             },
             {
               title: "Template-Based Development",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/website-development/image-16.png",
               steps: [
                 "Template-based websites are more affordable and quicker to deploy. They are ideal for businesses with limited budgets or tight timelines. However, they offer less customization."
               ]
@@ -2279,7 +2279,7 @@ export const servicesData = {
           guides: [
             {
               title: "Factors Affecting Cost",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/website-development/image-8.png",
               steps: [
                 "Project Complexity: More complex websites require more time and resources.",
                 "Features: Advanced features like e-commerce functionality or custom integrations add to the cost.",
@@ -2296,7 +2296,7 @@ export const servicesData = {
           guides: [
             {
               title: "Benefits of Regular Maintenance",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/website-development/image-9.png",
 
               steps: [
                 "Security: Protects the website from vulnerabilities.",
