@@ -4094,7 +4094,7 @@ export const servicesData = {
         },
         {
           title: "Difference Between Product Ideation and Conceptualization",
-          image: "/assets/img/inner-pages/about-service-img.png",
+          image: "/assets/img/services/product-ideation/image-1.png",
           guides: [
             {
               title: "",
@@ -4111,7 +4111,7 @@ export const servicesData = {
           guides: [
             {
               title: "Brainstorming Techniques",
-              image: "/assets/img/inner-pages/about-service-img.png",
+              image: "/assets/img/services/Images (4)/image-1.png",
               steps: [
                 "Effective brainstorming is the backbone of product ideation. Techniques like mind mapping, SCAMPER (Substitute, Combine, Adapt, Modify, Put to another use, Eliminate, Reverse), and reverse brainstorming can open up fresh perspectives."
               ]
@@ -4208,7 +4208,7 @@ export const servicesData = {
         },
         {
           title: "Challenges in Product Ideation",
-          image: "/assets/img/inner-pages/about-service-img.png",
+          image: "/assets/img/services/ERP/image.png",
           guides: [
             {
               title: "Balancing Creativity and Feasibility",
@@ -7086,13 +7086,13 @@ export const servicesData = {
 ,
 "optimizing-saas-application": {
     "title": "Optimizing SaaS Application",
-    "image": "/assets/img/services/saas-optimization/image.png",
+    "image": "/assets/img/services/Optimizing-SaaS-Application/image.png",
     "description": "Software as a Service (SaaS) has transformed how businesses operate by providing cloud-based solutions that streamline processes and increase accessibility. However, like any digital platform, SaaS applications require constant optimization to perform at their best. In this article, we will explore strategies for optimizing SaaS applications to ensure peak performance, improved user experience, and enhanced scalability.",
     "faqSections": [
       {
         "title": "FAQs",
         "layout": true,
-        "image": "/assets/img/services/saas-optimization/image-18.png",
+        "image": "/assets/img/services/Optimizing-SaaS-Application/image-7.png",
         "questions": [
           {
             "question": "Why is SaaS application optimization important?",
@@ -7124,7 +7124,7 @@ export const servicesData = {
         {
           "title": "Performance Monitoring Tools",
           "layout": true,
-          "image": "/assets/img/inner-pages/front-end-frameworks.png",
+          "image": "/assets/img/services/Optimizing-SaaS-Application/image-1.png",
           "questions": [
             {
               "question": "What tools are recommended for performance monitoring?",
@@ -7140,7 +7140,7 @@ export const servicesData = {
           "guides": [
             {
               "title": "Understanding SaaS Optimization",
-              "image": "/assets/img/services/saas-optimization/image-1.png",
+              "image": "/assets/img/services/Optimizing-SaaS-Application/image-2.png",
               "steps": [
                 "SaaS optimization involves strategies to enhance performance, improve user experience, and ensure scalability of cloud-based applications."
               ]
@@ -7153,7 +7153,7 @@ export const servicesData = {
           "guides": [
             {
               "title": "The Importance of Optimization",
-              "image": "/assets/img/services/saas-optimization/image-2.png",
+              "image": "/assets/img/services/Optimizing-SaaS-Application/image-3.png",
               "steps": [
                 "Optimizing SaaS applications is crucial for reducing downtime, improving load times, and delivering seamless user experiences."
               ]
@@ -7166,49 +7166,49 @@ export const servicesData = {
           "guides": [
             {
               "title": "Performance Monitoring and Load Testing",
-              "image": "/assets/img/services/saas-optimization/image-4.png",
+              "image": "/assets/img/services/Optimizing-SaaS-Application/image-4.png",
               "steps": [
                 "Regular performance monitoring and load testing identify bottlenecks and ensure the system can handle peak traffic."
               ]
             },
             {
               "title": "Scalability Planning",
-              "image": "/assets/img/services/saas-optimization/image-5.png",
+              "image": "/assets/img/services/Optimizing-SaaS-Application/image-13.png",
               "steps": [
                 "Planning scalability early helps avoid disruptions during expansion as user demand grows."
               ]
             },
             {
               "title": "Optimizing Database Performance",
-              "image": "/assets/img/services/saas-optimization/image-6.png",
+              "image": "/assets/img/services/Optimizing-SaaS-Application/image-14.png",
               "steps": [
                 "Optimizing database queries and implementing caching solutions improves load times and overall performance."
               ]
             },
             {
               "title": "Caching Strategies for Faster Load Times",
-              "image": "/assets/img/services/saas-optimization/image-7.png",
+              "image": "/assets/img/services/Optimizing-SaaS-Application/image-15.png",
               "steps": [
                 "Implementing server-side caching reduces response times and enhances app performance."
               ]
             },
             {
               "title": "CDN Integration for Faster Content Delivery",
-              "image": "/assets/img/services/saas-optimization/image-8.png",
+              "image": "/assets/img/services/Optimizing-SaaS-Application/image-5.png",
               "steps": [
                 "Integrating a CDN speeds up load times for users globally, ensuring content is delivered efficiently."
               ]
             },
             {
               "title": "Optimizing for Mobile Users",
-              "image": "/assets/img/services/saas-optimization/image-9.png",
+              "image": "/assets/img/services/Optimizing-SaaS-Application/image-11.png",
               "steps": [
                 "Ensuring mobile optimization is crucial for user satisfaction, with responsive design and mobile-friendly features."
               ]
             },
             {
               "title": "Security Enhancements",
-              "image": "/assets/img/services/saas-optimization/image-10.png",
+              "image": "/assets/img/services/Optimizing-SaaS-Application/image-12.png",
               "steps": [
                 "Regular updates to security protocols and data encryption are vital for protecting SaaS applications."
               ]
@@ -7221,28 +7221,28 @@ export const servicesData = {
           "guides": [
             {
               "title": "Regular Code Audits",
-              "image": "/assets/img/services/saas-optimization/image-12.png",
+              "image": "/assets/img/services/Optimizing-SaaS-Application/image-6.png",
               "steps": [
                 "Frequent code audits help identify inefficient code, streamlining the codebase for better performance."
               ]
             },
             {
               "title": "API Optimization",
-              "image": "/assets/img/services/saas-optimization/image-13.png",
+              "image": "/assets/img/services/Optimizing-SaaS-Application/image-8.png",
               "steps": [
                 "Optimizing APIs improves application performance and enhances user experience by ensuring efficient data transfer."
               ]
             },
             {
               "title": "Automating Updates and Maintenance",
-              "image": "/assets/img/services/saas-optimization/image-14.png",
+              "image": "/assets/img/services/Optimizing-SaaS-Application/image-9.png",
               "steps": [
                 "Automation tools for updates and maintenance reduce downtime and keep the application running efficiently."
               ]
             },
             {
               "title": "Minimizing Latency with Edge Computing",
-              "image": "/assets/img/services/saas-optimization/image-15.png",
+              "image": "/assets/img/services/Optimizing-SaaS-Application/image-10.png",
               "steps": [
                 "Implementing edge computing enhances performance by processing data closer to the source."
               ]
@@ -7261,11 +7261,12 @@ export const servicesData = {
 "erp": {
   "title": "Enterprise Resource Planning (ERP)",
   "description": "ERP is a suite of integrated applications that helps organizations automate and manage core business processes in real-time. From accounting and procurement to supply chain and human resources, ERP systems provide a unified platform for managing various business operations.",
+  "image": "/assets/img/services/ERP/image.png",
   "faqSections": [
     {
       "title": "FAQs about ERP",
       "layout": true,
-      "image": "/assets/img/inner-pages/about-service-img.png",
+      "image": "/assets/img/services/ERP/image-3.png",
       "questions": [
         {
           "question": "What is the difference between ERP and CRM?",
@@ -7294,7 +7295,7 @@ export const servicesData = {
       {
         "title": "Comparing Different ERP Types",
         "layout": true,
-        "image": "/assets/img/inner-pages/front-end-frameworks.png",
+        "image": "/assets/img/services/ERP/image-1.png",
         "questions": [
           {
             "question": "What are the main types of ERP systems?",
@@ -7314,28 +7315,28 @@ export const servicesData = {
         "guides": [
           {
             "title": "Manufacturing",
-            "image": "/assets/img/inner-pages/about-service-img.png",
+            "image": "/assets/img/services/ERP/image-2.png",
             "steps": [
               "ERP systems are widely used in manufacturing to manage production planning, inventory, and supply chain logistics. They help manufacturers increase efficiency and reduce waste."
             ]
           },
           {
             "title": "Healthcare",
-            "image": "/assets/img/inner-pages/about-service-img.png",
+            "image": "/assets/img/services/ERP/image-4.png",
             "steps": [
               "In healthcare, ERP systems assist with managing patient records, supply chains, and regulatory compliance, all of which are critical to delivering high-quality care."
             ]
           },
           {
             "title": "Retail",
-            "image": "/assets/img/inner-pages/about-service-img.png",
+            "image": "/assets/img/services/ERP/image-5.png",
             "steps": [
               "Retail businesses use ERP to manage inventory, sales, and customer data. This helps them optimize their operations and improve customer satisfaction."
             ]
           },
           {
             "title": "Education",
-            "image": "/assets/img/inner-pages/about-service-img.png",
+            "image": "/assets/img/services/ERP/image-6.png",
             "steps": [
               "In educational institutions, ERP systems streamline administrative tasks, manage student records, and handle financial operations, improving overall institutional efficiency."
             ]
