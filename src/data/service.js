@@ -2053,14 +2053,14 @@ export const servicesData = {
           guides: [
             {
               title: "Frontend Development",
-              image: "/assets/img/services/website-development/img3.png",
+              image: "/assets/img/services/website-development/image 22.png",
               steps: [
                 "Frontend development focuses on the visual aspects of a website—everything that users see and interact with. This includes the layout, design, graphics, and overall user experience (UX). Technologies commonly used in frontend development include HTML, CSS, and JavaScript."
               ]
             },
             {
               title: "Backend Development",
-              image: "/assets/img/services/website-development/img4.png",
+              image: "/assets/img/services/website-development/image-33.png",
               steps: [
                 "Backend development, on the other hand, deals with the server-side aspects of a website. This includes server configuration, database management, and application logic. Backend developers work behind the scenes to ensure the website functions smoothly, handling tasks such as user authentication, data processing, and content management."
               ]
