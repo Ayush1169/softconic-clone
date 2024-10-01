@@ -136,13 +136,13 @@ function ProjectDetailsPage({ project , prevProject, nextProject }) {
               </div>
               <div className="portfolio-details-sm-banner" style={
                 {
-                  backgroundImage: `url("/assets/img/services/ai/1.png")`,
+                  backgroundImage: `url("/assets/img/services/image (1) (1).png")`,
                 }
               }>
                 <div className="section-title-5">
                   <h2>
-                    Ready to <br />
-                    <span>work with us?</span>
+                    Ready To 
+                    Work With Us?
                   </h2>
                   <div className="get-btn">
                     <Link legacyBehavior href="/contact">
