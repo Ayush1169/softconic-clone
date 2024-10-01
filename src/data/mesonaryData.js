@@ -9,7 +9,7 @@ const data = [
       "/assets/img/EVD-Website 3/KalshiClasses-1.png",
       "/assets/img/EVD-Website 3/KalshiClasses-2.png",
       "/assets/img/EVD-Website 3/KalshiClasses-3.png",
-      "/assets/img/EVD-Website 3/KalshiClasses-4.png"
+      "/assets/img/EVD-Website 3/KalshiClasses-4 (2).png",
     ],
     slug: "major-kalshi-classes",
     client: "Major Kalshi Classes",
@@ -331,9 +331,10 @@ const data = [
     title: "Travel Bastar - Official Tourism Website",
     image: "/assets/img/projects/Group 1686552509.png", // Assuming you will have an image here
     images: [
-      "/assets/img/inner-pages/travel-bastar-dt-01.png",
-      "/assets/img/inner-pages/travel-bastar-dt-02.png",
-      "/assets/img/inner-pages/travel-bastar-dt-03.png"
+      "/assets/img/EVD-Website 3/Travel-1.png",
+      "/assets/img/EVD-Website 3/Travel-2.png",
+      "/assets/img/EVD-Website 3/Travel-3.png",
+      "/assets/img/EVD-Website 3/Travel-4.png"
     ],
     slug: "travel-bastar-official-tourism-website",
     client: "Department of Tourism, Bastar",
@@ -385,9 +386,10 @@ const data = [
     title: "AHBMS - Animal Husbandry Benefits Management System",
     image: "/assets/img/projects/Group 1686556763 1.png", // Assuming you will have an image here
     images: [
-      "/assets/img/inner-pages/ahbms-dt-01.png",
-      "/assets/img/inner-pages/ahbms-dt-02.png",
-      "/assets/img/inner-pages/ahbms-dt-03.png"
+      "/assets/img/EVD-Website 3/Animal-1 (2).png",
+      "/assets/img/EVD-Website 3/Animal-2.png",
+      "/assets/img/EVD-Website 3/Animal-3.png",
+      "/assets/img/EVD-Website 3/Animal-5 (1).png"
     ],
     slug: "ahbms-animal-husbandry-benefits-management-system",
     client: "Department of Animal Husbandry, Maharashtra",
@@ -439,9 +441,10 @@ const data = [
     title: "V4Health - Health Consultancy and Appointment App",
     image: "/assets/img/projects/Group 1686556762 1.png", 
     images: [
-      "/assets/img/inner-pages/vhai-dt-01.png",
-      "/assets/img/inner-pages/vhai-dt-02.png",
-      "/assets/img/inner-pages/vhai-dt-03.png"
+      "/assets/img/EVD-Website 3/Health-1.png",
+      "/assets/img/EVD-Website 3/Health-2.png",
+      "/assets/img/EVD-Website 3/image_2024_10_01T07_03_37_767Z.png",
+      "/assets/img/EVD-Website 3/Health-4.png"
     ],
     slug: "vhai-health-consultancy-appointment-app",
     client: "Voluntary Health Association of India (VHAI)",
