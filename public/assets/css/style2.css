@@ -9888,12 +9888,19 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
 
 .home6-case-study-section .home6-case-study .case-content h3 a {
   font-family: var(--theme-color);
-  font-weight: 600;
-  font-size: 30px;
-  line-height: 1.4;
-  text-transform: capitalize;
-  color: var(--white-color);
-  transition: 0.5s;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.4;
+    text-transform: capitalize;
+    color: var(--white-color);
+    transition: 0.5s;
+  
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+   
 }
 
 @media (max-width: 576px) {
@@ -11651,6 +11658,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   letter-spacing: 0.03em;
   color: #B5B5B5;
   padding: 20px 20px 30px;
+  padding-left: 0;
 }
 
 
