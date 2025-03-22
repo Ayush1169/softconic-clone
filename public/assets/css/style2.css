@@ -494,7 +494,9 @@ video {
   .header-area2.style-2 {
     padding: 0px 3% !important;
   }
-
+  .header-area2 .header-logo {
+    padding-left: 10px !important;
+  }
   .header-area2.style-2 .nav-right {
     gap: 10px !important; 
   }
@@ -505,7 +507,7 @@ video {
 @media (max-width: 1500px) {
   .header-area2 {
     padding: 0px 2%;
-    padding-left: 3%;
+    padding-left: 10px;
   }
 }
 
@@ -543,7 +545,7 @@ video {
   color: var(--theme-color);
   border: 1px solid var(--theme-color);
   border-radius: 5px;
-  padding: 10px 35px;
+  padding: 10px 5px;
   transition: 0.5s;
   position: relative;
   overflow: hidden;
@@ -576,6 +578,7 @@ video {
 
 .header-area2.style-2 .header-logo {
   padding: 25px 0;
+  padding-left: 10px;
 
 }
 
@@ -638,19 +641,21 @@ video {
 }
 
 .header-area2 .header-logo {
-  padding: 15px 0;
+ padding-left: 10px;
+
   width: 20%;
 }
 
 @media (max-width: 1199px) {
   .header-area2 .header-logo {
     padding: 25px 0;
+    padding-left: 10px;
     width: 20%;
   }
 }
 @media (max-width: 767px) {
   .header-area2 .header-logo {
-    padding: 10px 0;
+    padding-left: 10px;
     width: 40%; 
   }
 }
@@ -717,18 +722,23 @@ video {
 
 .header-area2 .header-btn5 {
   margin-top: 50px;
+
   width: 100%;
+ 
 }
 
 .header-area2 .header-btn5 a {
   width: 100%;
   text-align: center;
   font-size: 18px;
-  padding: 11px 26px;
+  padding: 11px 22px;
+  /* padding-right: 12px; */
 }
 
 .header-area2 .nav-right {
+  padding-right: 14px;
   gap: 30px;
+  
 }
 
 @media (max-width: 991px) {
@@ -739,6 +749,7 @@ video {
 
 .header-area2 .nav-right .header-btn .primary-btn3 {
   padding: 10px 26px;
+ 
 }
 
 .header-area2 .nav-right .sidebar-btn2 {
@@ -3304,6 +3315,7 @@ video {
 
 .main-container .sidebar-wrapper .header-logo a img {
   max-width: unset;
+  padding-left: 10px;
 }
 
 .main-container .sidebar-wrapper .sidebar-button {
@@ -3410,6 +3422,7 @@ video {
 
 .main-container .main-content .header5 .header-logo a img {
   max-width: unset;
+  padding-left: 10px;
 }
 
 .main-container .main-content .header5 .sidebar-button {
@@ -6073,6 +6086,10 @@ video {
   .home3-success-stories-area.two {
     padding: 0px 3%;
   }
+   .header-area2.header-logo{
+    padding-left: 10px;
+   
+   }
 }
 
 @media (max-width: 1199px) {
@@ -9925,7 +9942,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   font-weight: 600;
   font-size: 18px;
   letter-spacing: 0.03em;
-  padding: 16px 46px;
+  padding: 16px 16px;
 }
 
 .home6-case-study-section .view-btn .primary-btn3::after {
