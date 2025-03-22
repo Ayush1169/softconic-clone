@@ -1235,8 +1235,8 @@ export const servicesData = {
           image: "/assets/img/inner-pages/front-end-frameworks.png",
           questions: [
             {
-              question: "",
-              answer: ""
+              question: "Q1: Can ERP and CRM be used together in a business?",
+              answer: "A: Yes, integrating ERP and CRM provides a seamless flow of information between departments, improving customer satisfaction and operational efficiency."
             }
           ]
         }
