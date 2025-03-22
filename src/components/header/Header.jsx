@@ -80,9 +80,13 @@ function Header() {
       >
         <div className="siderbar-top">
           <div className="sidebar-log">
-            <Link legacyBehavior href="/" >
-              <a >
-                <img src="/assets/img/EVDT-LOGO.png" alt="" style={{ width: "50%" }} />
+            <Link legacyBehavior href="/">
+              <a>
+                <img
+                  src="/assets/img/EVDT-LOGO.png"
+                  alt=""
+                  style={{ width: "50%" }}
+                />
               </a>
             </Link>
           </div>
@@ -92,35 +96,47 @@ function Header() {
         </div>
         <div className="sidebar-content">
           <p>
-            EVD Technology is a dynamic company committed to delivering innovative digital solutions that drive business growth. With a focus on client success, it helps businesses thrive in the ever-evolving tech landscape.
+            EVD Technology is a dynamic company committed to delivering
+            innovative digital solutions that drive business growth. With a
+            focus on client success, it helps businesses thrive in the
+            ever-evolving tech landscape.
           </p>
         </div>
         <div className="address-card">
           <div className="content">
             <div className="informations">
-            <div className="single-info">
-                      <div className="icon">
-                        <i className="fas fa-map-marker-alt" />
-                      </div>
-                      <div className="info">
-                        <p>
-                          <a target='_blank' href="https://www.google.com/maps/place/EVD+Technology+LLP/@22.3530279,82.7020842,17z/data=!3m2!4b1!5s0x3a278f2e1ea838eb:0xd1a92c85d2f85e57!4m6!3m5!1s0x3a2788cb666b7427:0xff101e61b70ad2!8m2!3d22.3530279!4d82.7020842!16s%2Fg%2F11bvtg_v2v?entry=ttu">
-                            Infront of Fitness Mantra Gym, Plot No: 667/7, Second Floor, Ward 02, DDM Rd, Korba, Chhattisgarh, 495677</a>
-                        </p>
-                      </div>
-                    </div>
-                    <div className="single-info">
-                      <div className="icon">
-                        <i className="fas fa-map-marker-alt" />
-                      </div>
-                      <div className="info">
-                        <p>
-                          <a target='_blank' href="https://www.google.com/maps/place/Progressive+Point/@21.2129458,81.6633226,17z/data=!3m1!4b1!4m6!3m5!1s0x3a28dd2051f9c227:0x3b746deed9b1a21d!8m2!3d21.2129458!4d81.6633226!16s%2Fg%2F11gy1lxvf4?entry=ttu">
-                            Office no 152, 1st Floor, Progressive Point, Near Fruit Market, Lalpur, Raipur, Chhattisgarh, 492001</a>
-
-                        </p>
-                      </div>
-                    </div>
+              <div className="single-info">
+                <div className="icon">
+                  <i className="fas fa-map-marker-alt" />
+                </div>
+                <div className="info">
+                  <p>
+                    <a
+                      target="_blank"
+                      href="https://www.google.com/maps/place/EVD+Technology+LLP/@22.3530279,82.7020842,17z/data=!3m2!4b1!5s0x3a278f2e1ea838eb:0xd1a92c85d2f85e57!4m6!3m5!1s0x3a2788cb666b7427:0xff101e61b70ad2!8m2!3d22.3530279!4d82.7020842!16s%2Fg%2F11bvtg_v2v?entry=ttu"
+                    >
+                      Infront of Fitness Mantra Gym, Plot No: 667/7, Second
+                      Floor, Ward 02, DDM Rd, Korba, Chhattisgarh, 495677
+                    </a>
+                  </p>
+                </div>
+              </div>
+              <div className="single-info">
+                <div className="icon">
+                  <i className="fas fa-map-marker-alt" />
+                </div>
+                <div className="info">
+                  <p>
+                    <a
+                      target="_blank"
+                      href="https://www.google.com/maps/place/Progressive+Point/@21.2129458,81.6633226,17z/data=!3m1!4b1!4m6!3m5!1s0x3a28dd2051f9c227:0x3b746deed9b1a21d!8m2!3d21.2129458!4d81.6633226!16s%2Fg%2F11gy1lxvf4?entry=ttu"
+                    >
+                      Office no 152, 1st Floor, Progressive Point, Near Fruit
+                      Market, Lalpur, Raipur, Chhattisgarh, 492001
+                    </a>
+                  </p>
+                </div>
+              </div>
               <div className="single-info">
                 <div className="icon">
                   <i className="fas fa-phone-alt" />
@@ -135,8 +151,12 @@ function Header() {
                   <i className="far fa-envelope" />
                 </div>
                 <div className="info">
-                  <a href="mailto: sales@evdtechnology.com">sales@evdtechnology.com</a>
-                  <a href="mailto: anshu@evdtechnology.com">anshu@evdtechnology.com</a>
+                  <a href="mailto: sales@evdtechnology.com">
+                    sales@evdtechnology.com
+                  </a>
+                  <a href="mailto: anshu@evdtechnology.com">
+                    anshu@evdtechnology.com
+                  </a>
                 </div>
               </div>
             </div>
@@ -148,13 +168,38 @@ function Header() {
           <p className="para">Follow us on Social Network</p>
           <div className="blog-widget-body">
             <ul className="follow-list d-flex flex-row align-items-start gap-4">
-
-
-              <li><a target="_blank" href="https://www.facebook.com/evdtechnologyofficial/"><i className="bx bxl-facebook" /></a></li>
-              <li><a target="_blank" href="https://www.youtube.com/@evdtechnology6379"><i className="bx bxl-youtube" /></a></li>
-              <li><a target="_blank" href="https://www.linkedin.com/company/evdtechnologyllp"><i className="bx bxl-linkedin" /></a></li>
-              <li><a target="_blank" href="https://www.instagram.com/evdtechnologyllp/"><i className="bx bxl-instagram" /></a></li>
-
+              <li>
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/evdtechnologyofficial/"
+                >
+                  <i className="bx bxl-facebook" />
+                </a>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://www.youtube.com/@evdtechnology6379"
+                >
+                  <i className="bx bxl-youtube" />
+                </a>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/company/evdtechnologyllp"
+                >
+                  <i className="bx bxl-linkedin" />
+                </a>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://www.instagram.com/evdtechnologyllp/"
+                >
+                  <i className="bx bxl-instagram" />
+                </a>
+              </li>
             </ul>
           </div>
         </div>
@@ -196,22 +241,23 @@ function Header() {
               </Link>
             </li>
             <li
-              className={`menu-item-has-children ${state.activeMenu.includes(currentRoute)
-                ? "active"
-                : ""
-                }`}
+              className={`menu-item-has-children ${
+                state.activeMenu.includes(currentRoute) ? "active" : ""
+              }`}
             >
               <a href="/services" className="drop-down">
                 Services
               </a>
               <i
-                className={`bi bi-plus dropdown-icon ${state.activeMenu === "services" ? "active" : ""
-                  }`}
+                className={`bi bi-plus dropdown-icon ${
+                  state.activeMenu === "services" ? "active" : ""
+                }`}
                 onClick={() => toggleMenu("services")}
               />
               <ul
-                className={`sub-menu ${state.activeMenu === "services" ? "d-block" : ""
-                  }`}
+                className={`sub-menu ${
+                  state.activeMenu === "services" ? "d-block" : ""
+                }`}
               >
                 <li>
                   <Link legacyBehavior href="/service/web-development">
@@ -219,18 +265,24 @@ function Header() {
                   </Link>
 
                   <i
-                    className={`bi bi-plus dropdown-icon ${state.activeSubMenu === "team" ? "active" : ""
-                      }`}
+                    className={`bi bi-plus dropdown-icon ${
+                      state.activeSubMenu === "team" ? "active" : ""
+                    }`}
                     onClick={() => toggleSubMenu("team")}
                   />
                   <ul
-                    className={`sub-menu ${state.activeSubMenu === "team" ? "d-block" : ""
-                      }`}
+                    className={`sub-menu ${
+                      state.activeSubMenu === "team" ? "d-block" : ""
+                    }`}
                   >
                     <li>
                       <Link legacyBehavior href="/service/website-development">
                         <a
-                          className={currentRoute === "/service/website-development" ? "active" : ""}
+                          className={
+                            currentRoute === "/service/website-development"
+                              ? "active"
+                              : ""
+                          }
                         >
                           Website Development
                         </a>
@@ -239,34 +291,59 @@ function Header() {
                     <li>
                       <Link legacyBehavior href="/service/web-app-development">
                         <a
-                          className={currentRoute === "/service/web-app-development" ? "active" : ""}
+                          className={
+                            currentRoute === "/service/web-app-development"
+                              ? "active"
+                              : ""
+                          }
                         >
                           Web App Development
                         </a>
                       </Link>
                     </li>
                     <li>
-                      <Link legacyBehavior href="/service/custom-web-development">
+                      <Link
+                        legacyBehavior
+                        href="/service/custom-web-development"
+                      >
                         <a
-                          className={currentRoute === "/service/custom-web-development" ? "active" : ""}
+                          className={
+                            currentRoute === "/service/custom-web-development"
+                              ? "active"
+                              : ""
+                          }
                         >
                           Custom Web Development
                         </a>
                       </Link>
                     </li>
                     <li>
-                      <Link legacyBehavior href="/service/e-commerce-development">
+                      <Link
+                        legacyBehavior
+                        href="/service/e-commerce-development"
+                      >
                         <a
-                          className={currentRoute === "/service/e-commerce-development" ? "active" : ""}
+                          className={
+                            currentRoute === "/service/e-commerce-development"
+                              ? "active"
+                              : ""
+                          }
                         >
                           E-Commerce Development
                         </a>
                       </Link>
                     </li>
                     <li>
-                      <Link legacyBehavior href="/service/full-stack-development">
+                      <Link
+                        legacyBehavior
+                        href="/service/full-stack-development"
+                      >
                         <a
-                          className={currentRoute === "/service/full-stack-development" ? "active" : ""}
+                          className={
+                            currentRoute === "/service/full-stack-development"
+                              ? "active"
+                              : ""
+                          }
                         >
                           Full Stack Development
                         </a>
@@ -279,19 +356,26 @@ function Header() {
                     <a>Mobile App Development</a>
                   </Link>
                   <i
-                    className={`bi bi-plus dropdown-icon ${state.activeSubMenu === "price" ? "active" : ""
-                      }`}
+                    className={`bi bi-plus dropdown-icon ${
+                      state.activeSubMenu === "price" ? "active" : ""
+                    }`}
                     onClick={() => toggleSubMenu("price")}
                   />
                   <ul
-                    className={`sub-menu ${state.activeSubMenu === "price" ? "d-block" : ""
-                      }`}
+                    className={`sub-menu ${
+                      state.activeSubMenu === "price" ? "d-block" : ""
+                    }`}
                   >
                     <li>
-                      <Link legacyBehavior href="/service/android-app-development">
+                      <Link
+                        legacyBehavior
+                        href="/service/android-app-development"
+                      >
                         <a
                           className={
-                            currentRoute === "/service/android-app-development" ? "active" : ""
+                            currentRoute === "/service/android-app-development"
+                              ? "active"
+                              : ""
                           }
                         >
                           Android App Development
@@ -302,7 +386,9 @@ function Header() {
                       <Link legacyBehavior href="/service/ios-app-development">
                         <a
                           className={
-                            currentRoute === "/service/ios-app-development" ? "active" : ""
+                            currentRoute === "/service/ios-app-development"
+                              ? "active"
+                              : ""
                           }
                         >
                           IOS App Development
@@ -310,10 +396,15 @@ function Header() {
                       </Link>
                     </li>
                     <li>
-                      <Link legacyBehavior href="/service/hybrid-app-development">
+                      <Link
+                        legacyBehavior
+                        href="/service/hybrid-app-development"
+                      >
                         <a
                           className={
-                            currentRoute === "/service/hybrid-app-development" ? "active" : ""
+                            currentRoute === "/service/hybrid-app-development"
+                              ? "active"
+                              : ""
                           }
                         >
                           Hybrid App Development
@@ -321,10 +412,16 @@ function Header() {
                       </Link>
                     </li>
                     <li>
-                      <Link legacyBehavior href="/service/progressive-web-app-development">
+                      <Link
+                        legacyBehavior
+                        href="/service/progressive-web-app-development"
+                      >
                         <a
                           className={
-                            currentRoute === "/service/progressive-web-app-development" ? "active" : ""
+                            currentRoute ===
+                            "/service/progressive-web-app-development"
+                              ? "active"
+                              : ""
                           }
                         >
                           Progressive Web App Development
@@ -335,7 +432,9 @@ function Header() {
                       <Link legacyBehavior href="/service/product-development">
                         <a
                           className={
-                            currentRoute === "/service/product-development" ? "active" : ""
+                            currentRoute === "/service/product-development"
+                              ? "active"
+                              : ""
                           }
                         >
                           Product Development
@@ -349,19 +448,27 @@ function Header() {
                     <a>Software Development</a>
                   </Link>
                   <i
-                    className={`bi bi-plus dropdown-icon ${state.activeSubMenu === "price" ? "active" : ""
-                      }`}
+                    className={`bi bi-plus dropdown-icon ${
+                      state.activeSubMenu === "price" ? "active" : ""
+                    }`}
                     onClick={() => toggleSubMenu("price")}
                   />
                   <ul
-                    className={`sub-menu ${state.activeSubMenu === "price" ? "d-block" : ""
-                      }`}
+                    className={`sub-menu ${
+                      state.activeSubMenu === "price" ? "d-block" : ""
+                    }`}
                   >
                     <li>
-                      <Link legacyBehavior href="/service/product-ideation-and-conceptual">
+                      <Link
+                        legacyBehavior
+                        href="/service/product-ideation-and-conceptual"
+                      >
                         <a
                           className={
-                            currentRoute === "/service/product-ideation-and-conceptual" ? "active" : ""
+                            currentRoute ===
+                            "/service/product-ideation-and-conceptual"
+                              ? "active"
+                              : ""
                           }
                         >
                           Product Ideation & Conceptualization
@@ -369,10 +476,16 @@ function Header() {
                       </Link>
                     </li>
                     <li>
-                      <Link legacyBehavior href="/service/product-launch-and-support">
+                      <Link
+                        legacyBehavior
+                        href="/service/product-launch-and-support"
+                      >
                         <a
                           className={
-                            currentRoute === "/service/product-launch-and-support" ? "active" : ""
+                            currentRoute ===
+                            "/service/product-launch-and-support"
+                              ? "active"
+                              : ""
                           }
                         >
                           Product Launch & Support
@@ -380,10 +493,16 @@ function Header() {
                       </Link>
                     </li>
                     <li>
-                      <Link legacyBehavior href="/service/quality-assurance-and-testing">
+                      <Link
+                        legacyBehavior
+                        href="/service/quality-assurance-and-testing"
+                      >
                         <a
                           className={
-                            currentRoute === "/service/quality-assurance-and-testing" ? "active" : ""
+                            currentRoute ===
+                            "/service/quality-assurance-and-testing"
+                              ? "active"
+                              : ""
                           }
                         >
                           Quality Assurance & Testing
@@ -394,7 +513,9 @@ function Header() {
                       <Link legacyBehavior href="/service/software-integration">
                         <a
                           className={
-                            currentRoute === "/service/software-integration" ? "active" : ""
+                            currentRoute === "/service/software-integration"
+                              ? "active"
+                              : ""
                           }
                         >
                           Software Integration
@@ -408,19 +529,26 @@ function Header() {
                     <a>Digital Marketing</a>
                   </Link>
                   <i
-                    className={`bi bi-plus dropdown-icon ${state.activeSubMenu === "price" ? "active" : ""
-                      }`}
+                    className={`bi bi-plus dropdown-icon ${
+                      state.activeSubMenu === "price" ? "active" : ""
+                    }`}
                     onClick={() => toggleSubMenu("price")}
                   />
                   <ul
-                    className={`sub-menu ${state.activeSubMenu === "price" ? "d-block" : ""
-                      }`}
+                    className={`sub-menu ${
+                      state.activeSubMenu === "price" ? "d-block" : ""
+                    }`}
                   >
                     <li>
-                      <Link legacyBehavior href="/service/social-media-marketing">
+                      <Link
+                        legacyBehavior
+                        href="/service/social-media-marketing"
+                      >
                         <a
                           className={
-                            currentRoute === "/service/social-media-marketing" ? "active" : ""
+                            currentRoute === "/service/social-media-marketing"
+                              ? "active"
+                              : ""
                           }
                         >
                           Social Media Marketing
@@ -442,7 +570,9 @@ function Header() {
                       <Link legacyBehavior href="/service/content-writing">
                         <a
                           className={
-                            currentRoute === "/service/content-writing" ? "active" : ""
+                            currentRoute === "/service/content-writing"
+                              ? "active"
+                              : ""
                           }
                         >
                           Content Writing
@@ -450,10 +580,16 @@ function Header() {
                       </Link>
                     </li>
                     <li>
-                      <Link legacyBehavior href="/service/social-media-video-marketing">
+                      <Link
+                        legacyBehavior
+                        href="/service/social-media-video-marketing"
+                      >
                         <a
                           className={
-                            currentRoute === "/service/social-media-video-marketing" ? "active" : ""
+                            currentRoute ===
+                            "/service/social-media-video-marketing"
+                              ? "active"
+                              : ""
                           }
                         >
                           Social Media Video Marketing
@@ -464,7 +600,9 @@ function Header() {
                       <Link legacyBehavior href="/service/graphic-designing">
                         <a
                           className={
-                            currentRoute === "/service/graphic-designing" ? "active" : ""
+                            currentRoute === "/service/graphic-designing"
+                              ? "active"
+                              : ""
                           }
                         >
                           Graphic Designing
@@ -475,7 +613,9 @@ function Header() {
                       <Link legacyBehavior href="/service/website-audit">
                         <a
                           className={
-                            currentRoute === "/service/website-audit" ? "active" : ""
+                            currentRoute === "/service/website-audit"
+                              ? "active"
+                              : ""
                           }
                         >
                           Website Audit
@@ -483,10 +623,16 @@ function Header() {
                       </Link>
                     </li>
                     <li>
-                      <Link legacyBehavior href="/service/bulk-sms-and-email-marketing">
+                      <Link
+                        legacyBehavior
+                        href="/service/bulk-sms-and-email-marketing"
+                      >
                         <a
                           className={
-                            currentRoute === "/service/bulk-sms-and-email-marketing" ? "active" : ""
+                            currentRoute ===
+                            "/service/bulk-sms-and-email-marketing"
+                              ? "active"
+                              : ""
                           }
                         >
                           Bulk SMS & Email Marketing
@@ -500,19 +646,27 @@ function Header() {
                     <a>UI/UX Designing</a>
                   </Link>
                   <i
-                    className={`bi bi-plus dropdown-icon ${state.activeSubMenu === "price" ? "active" : ""
-                      }`}
+                    className={`bi bi-plus dropdown-icon ${
+                      state.activeSubMenu === "price" ? "active" : ""
+                    }`}
                     onClick={() => toggleSubMenu("price")}
                   />
                   <ul
-                    className={`sub-menu ${state.activeSubMenu === "price" ? "d-block" : ""
-                      }`}
+                    className={`sub-menu ${
+                      state.activeSubMenu === "price" ? "d-block" : ""
+                    }`}
                   >
                     <li>
-                      <Link legacyBehavior href="/service/web-and-mobile-app-design">
+                      <Link
+                        legacyBehavior
+                        href="/service/web-and-mobile-app-design"
+                      >
                         <a
                           className={
-                            currentRoute === "/service/web-and-mobile-app-design" ? "active" : ""
+                            currentRoute ===
+                            "/service/web-and-mobile-app-design"
+                              ? "active"
+                              : ""
                           }
                         >
                           Web & Mobile App Designing
@@ -523,7 +677,9 @@ function Header() {
                       <Link legacyBehavior href="/service/logo-designing">
                         <a
                           className={
-                            currentRoute === "/service/logo-designing" ? "active" : ""
+                            currentRoute === "/service/logo-designing"
+                              ? "active"
+                              : ""
                           }
                         >
                           Logo Designing
@@ -531,10 +687,16 @@ function Header() {
                       </Link>
                     </li>
                     <li>
-                      <Link legacyBehavior href="/service/redesign-and-modernizing-services">
+                      <Link
+                        legacyBehavior
+                        href="/service/redesign-and-modernizing-services"
+                      >
                         <a
                           className={
-                            currentRoute === "/service/redesign-and-modernizing-services" ? "active" : ""
+                            currentRoute ===
+                            "/service/redesign-and-modernizing-services"
+                              ? "active"
+                              : ""
                           }
                         >
                           Redesign & Modernizing Services
@@ -548,13 +710,15 @@ function Header() {
                     <a>ERP/CRM</a>
                   </Link>
                   <i
-                    className={`bi bi-plus dropdown-icon ${state.activeSubMenu === "price" ? "active" : ""
-                      }`}
+                    className={`bi bi-plus dropdown-icon ${
+                      state.activeSubMenu === "price" ? "active" : ""
+                    }`}
                     onClick={() => toggleSubMenu("price")}
                   />
                   <ul
-                    className={`sub-menu ${state.activeSubMenu === "price" ? "d-block" : ""
-                      }`}
+                    className={`sub-menu ${
+                      state.activeSubMenu === "price" ? "d-block" : ""
+                    }`}
                   >
                     <li>
                       <Link legacyBehavior href="/service/erp">
@@ -585,19 +749,27 @@ function Header() {
                     <a>Saas Development</a>
                   </Link>
                   <i
-                    className={`bi bi-plus dropdown-icon ${state.activeSubMenu === "price" ? "active" : ""
-                      }`}
+                    className={`bi bi-plus dropdown-icon ${
+                      state.activeSubMenu === "price" ? "active" : ""
+                    }`}
                     onClick={() => toggleSubMenu("price")}
                   />
                   <ul
-                    className={`sub-menu ${state.activeSubMenu === "price" ? "d-block" : ""
-                      }`}
+                    className={`sub-menu ${
+                      state.activeSubMenu === "price" ? "d-block" : ""
+                    }`}
                   >
                     <li>
-                      <Link legacyBehavior href="/service/optimizing-saas-application">
+                      <Link
+                        legacyBehavior
+                        href="/service/optimizing-saas-application"
+                      >
                         <a
                           className={
-                            currentRoute === "/service/optimizing-saas-application" ? "active" : ""
+                            currentRoute ===
+                            "/service/optimizing-saas-application"
+                              ? "active"
+                              : ""
                           }
                         >
                           Optimizing Saas Application
@@ -605,10 +777,16 @@ function Header() {
                       </Link>
                     </li>
                     <li>
-                      <Link legacyBehavior href="/service/integration-with-third-party-api">
+                      <Link
+                        legacyBehavior
+                        href="/service/integration-with-third-party-api"
+                      >
                         <a
                           className={
-                            currentRoute === "/service/integration-with-third-party-api" ? "active" : ""
+                            currentRoute ===
+                            "/service/integration-with-third-party-api"
+                              ? "active"
+                              : ""
                           }
                         >
                           Integration With third Party APIs
@@ -633,19 +811,23 @@ function Header() {
                     <a>Staff Augmentation</a>
                   </Link>
                   <i
-                    className={`bi bi-plus dropdown-icon ${state.activeSubMenu === "price" ? "active" : ""
-                      }`}
+                    className={`bi bi-plus dropdown-icon ${
+                      state.activeSubMenu === "price" ? "active" : ""
+                    }`}
                     onClick={() => toggleSubMenu("price")}
                   />
                   <ul
-                    className={`sub-menu ${state.activeSubMenu === "price" ? "d-block" : ""
-                      }`}
+                    className={`sub-menu ${
+                      state.activeSubMenu === "price" ? "d-block" : ""
+                    }`}
                   >
                     <li>
                       <Link legacyBehavior href="/service/remote-staffing">
                         <a
                           className={
-                            currentRoute === "/service/remote-staffing" ? "active" : ""
+                            currentRoute === "/service/remote-staffing"
+                              ? "active"
+                              : ""
                           }
                         >
                           Remote Staffing
@@ -656,7 +838,9 @@ function Header() {
                       <Link legacyBehavior href="/service/outsourcing">
                         <a
                           className={
-                            currentRoute === "/service/outsourcing" ? "active" : ""
+                            currentRoute === "/service/outsourcing"
+                              ? "active"
+                              : ""
                           }
                         >
                           Outsourcing
@@ -667,7 +851,9 @@ function Header() {
                       <Link legacyBehavior href="/service/contract-staffing">
                         <a
                           className={
-                            currentRoute === "/service/contract-staffing" ? "active" : ""
+                            currentRoute === "/service/contract-staffing"
+                              ? "active"
+                              : ""
                           }
                         >
                           Contract Staffing
@@ -675,10 +861,15 @@ function Header() {
                       </Link>
                     </li>
                     <li>
-                      <Link legacyBehavior href="/service/project-based-staffing">
+                      <Link
+                        legacyBehavior
+                        href="/service/project-based-staffing"
+                      >
                         <a
                           className={
-                            currentRoute === "/service/project-based-staffing" ? "active" : ""
+                            currentRoute === "/service/project-based-staffing"
+                              ? "active"
+                              : ""
                           }
                         >
                           Project Based Staffing
@@ -692,19 +883,26 @@ function Header() {
                     <a>AI/ML</a>
                   </Link>
                   <i
-                    className={`bi bi-plus dropdown-icon ${state.activeSubMenu === "price" ? "active" : ""
-                      }`}
+                    className={`bi bi-plus dropdown-icon ${
+                      state.activeSubMenu === "price" ? "active" : ""
+                    }`}
                     onClick={() => toggleSubMenu("price")}
                   />
                   <ul
-                    className={`sub-menu ${state.activeSubMenu === "price" ? "d-block" : ""
-                      }`}
+                    className={`sub-menu ${
+                      state.activeSubMenu === "price" ? "d-block" : ""
+                    }`}
                   >
                     <li>
-                      <Link legacyBehavior href="/service/artificial-intelligence">
+                      <Link
+                        legacyBehavior
+                        href="/service/artificial-intelligence"
+                      >
                         <a
                           className={
-                            currentRoute === "/service/artificial-intelligence" ? "active" : ""
+                            currentRoute === "/service/artificial-intelligence"
+                              ? "active"
+                              : ""
                           }
                         >
                           Artificial Intelligence
@@ -715,7 +913,9 @@ function Header() {
                       <Link legacyBehavior href="/service/machine-learning">
                         <a
                           className={
-                            currentRoute === "/service/machine-learning" ? "active" : ""
+                            currentRoute === "/service/machine-learning"
+                              ? "active"
+                              : ""
                           }
                         >
                           Machine Learning
@@ -726,7 +926,9 @@ function Header() {
                       <Link legacyBehavior href="/service/data-science">
                         <a
                           className={
-                            currentRoute === "/service/data-science" ? "active" : ""
+                            currentRoute === "/service/data-science"
+                              ? "active"
+                              : ""
                           }
                         >
                           Data Science
@@ -738,43 +940,51 @@ function Header() {
               </ul>
             </li>
             <li
-              className={` ${["/projects", "/project-masonary", "/project-details"].includes(
-                currentRoute
-              )
-                ? "active"
-                : ""
-                }`}
+              className={` ${
+                ["/projects", "/project-masonary", "/project-details"].includes(
+                  currentRoute
+                )
+                  ? "active"
+                  : ""
+              }`}
             >
               <a href="/projects" className="d">
                 Projects
               </a>
-
             </li>
             <li
-              className={`menu-item-has-children ${[
-                "/evd-academy",
-                "/evd-erp",
-                "/evd-smartbook",
-              ].includes(currentRoute)
-                ? "active"
-                : ""
-                }`}
+              className={`menu-item-has-children ${
+                [
+                  "/evd-academy",
+                  "/evd-erp",
+                  "/evd-smartbook",
+                  "/evd-transport",
+                ].includes(currentRoute)
+                  ? "active"
+                  : ""
+              }`}
             >
               <a href="" className="drop-down">
                 Products
               </a>
               <i
-                className={`bi bi-plus dropdown-icon ${state.activeMenu === "Products" ? "active" : ""
-                  }`}
+                className={`bi bi-plus dropdown-icon ${
+                  state.activeMenu === "Products" ? "active" : ""
+                }`}
                 onClick={() => toggleMenu("Products")}
               />
               <ul
-                className={`sub-menu ${state.activeMenu === "Products" ? "d-block" : ""
-                  }`}
+                className={`sub-menu ${
+                  state.activeMenu === "Products" ? "d-block" : ""
+                }`}
               >
                 <li>
                   <Link legacyBehavior href="/evd-academy">
-                    <a className={currentRoute === "/evd-academy" ? "active" : ""}>
+                    <a
+                      className={
+                        currentRoute === "/evd-academy" ? "active" : ""
+                      }
+                    >
                       EVD Academy
                     </a>
                   </Link>
@@ -788,42 +998,52 @@ function Header() {
                 </li>
                 <li>
                   <Link legacyBehavior href="/evd-smartbook">
-                    <a className={currentRoute === "/evd-smartbook" ? "active" : ""}>
+                    <a
+                      className={
+                        currentRoute === "/evd-smartbook" ? "active" : ""
+                      }
+                    >
                       EVD Smartbook
+                    </a>
+                  </Link>
+                </li>
+                <li>
+                  <Link legacyBehavior href="/evd-transport">
+                    <a
+                      className={
+                        currentRoute === "/evd-transport" ? "active" : ""
+                      }
+                    >
+                      EVD Transport
                     </a>
                   </Link>
                 </li>
               </ul>
             </li>
             <li
-              className={` ${[
-                "/case-study"
-              ].includes(currentRoute)
-                ? "active"
-                : ""
-                }`}
+              className={` ${
+                ["/case-study"].includes(currentRoute) ? "active" : ""
+              }`}
             >
               <a
                 href="/case-study"
-                className={`drop-down ${state.activeMenu === "case" ? "active" : ""
-                  }`}
+                className={`drop-down ${
+                  state.activeMenu === "case" ? "active" : ""
+                }`}
               >
                 Case Study
               </a>
             </li>
             <li
-              className={` ${[
-
-                "/blogs",
-              ].includes(currentRoute)
-                ? "active"
-                : ""
-                }`}
+              className={` ${
+                ["/blogs"].includes(currentRoute) ? "active" : ""
+              }`}
             >
               <a
                 href="/blogs"
-                className={`drop-down ${state.activeMenu === "blog" ? "active" : ""
-                  }`}
+                className={`drop-down ${
+                  state.activeMenu === "blog" ? "active" : ""
+                }`}
                 onClick={() => toggleMenu("blog")}
               >
                 Blogs
@@ -833,9 +1053,12 @@ function Header() {
           <div className="d-lg-none d-block">
             <form className="mobile-menu-form">
               <div className="hotline pt-30">
-                <div className="hotline-icon"  style={{
-                    marginBottom: "50px"
-                  }}>
+                <div
+                  className="hotline-icon"
+                  style={{
+                    marginBottom: "50px",
+                  }}
+                >
                   <svg
                     width={26}
                     height={26}
@@ -847,26 +1070,34 @@ function Header() {
                     <path d="M25.9707 11.4691C25.4823 8.60468 24.1324 5.99813 22.0581 3.92387C19.9838 1.8496 17.3773 0.49968 14.5128 0.011294C14.1122 -0.0600432 13.7336 0.214331 13.6623 0.614917C13.5964 1.02099 13.8653 1.39963 14.2714 1.47096C16.8285 1.90447 19.1607 3.11721 21.0155 4.96649C22.8702 6.82125 24.0775 9.15343 24.511 11.7106C24.5714 12.0728 24.8841 12.3252 25.2408 12.3252C25.2847 12.3252 25.3231 12.3197 25.367 12.3142C25.7676 12.2539 26.042 11.8697 25.9707 11.4691Z"></path>
                   </svg>
                 </div>
-               <div    style={{display:"flex",flexDirection:"column" , justifyContent:"start" , alignItems:"left"}}>
-               <div className="hotline-info">
-                  <span>Call Us Now</span>
-                  <h6>
-                    <a href="tel:+91-7829401605">+91-7829401605</a>
-                  </h6>
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "start",
+                    alignItems: "left",
+                  }}
+                >
+                  <div className="hotline-info">
+                    <span>Call Us Now</span>
+                    <h6>
+                      <a href="tel:+91-7829401605">+91-7829401605</a>
+                    </h6>
+                  </div>
+                  <div className="hotline-info">
+                    <h6>
+                      <a href="tel:+91-6261743903">+91-6261743903</a>
+                    </h6>
+                  </div>
                 </div>
-                <div className="hotline-info">
-                  <h6>
-                    <a href="tel:+91-6261743903">+91-6261743903</a>
-                  </h6>
-                </div>
-               </div>
               </div>
               <div className="email pt-20 d-flex align-items-center">
-                <div className="email-icon" 
+                <div
+                  className="email-icon"
                   style={{
-                    marginBottom: "50px"
+                    marginBottom: "50px",
                   }}
-                   >
+                >
                   <svg
                     width={26}
                     height={26}
@@ -878,21 +1109,31 @@ function Header() {
                     </g>
                   </svg>
                 </div>
-                <div               style={{display:"flex",flexDirection:"column" , justifyContent:"start" , alignItems:"left"}}>
-                <div className="email-info">
-                  <span>Email Now</span>
-                  <h6>
-                    <a href="mailto:sales@evdtechnology.com">sales@evdtechnology.com</a>
-                  </h6>
-                </div>
-                <div className="email-info">
-                  <h6>
-                    <a href="mailto:anshu@evdtechnology.com">anshu@evdtechnology.com</a>
-                  </h6>
-                </div>
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "start",
+                    alignItems: "left",
+                  }}
+                >
+                  <div className="email-info">
+                    <span>Email Now</span>
+                    <h6>
+                      <a href="mailto:sales@evdtechnology.com">
+                        sales@evdtechnology.com
+                      </a>
+                    </h6>
+                  </div>
+                  <div className="email-info">
+                    <h6>
+                      <a href="mailto:anshu@evdtechnology.com">
+                        anshu@evdtechnology.com
+                      </a>
+                    </h6>
+                  </div>
                 </div>
               </div>
-              
             </form>
             <div className="header-btn5">
               <Link legacyBehavior href="/contact">
@@ -911,8 +1152,9 @@ function Header() {
             </Link>
           </div>
           <div
-            className={`sidebar-button mobile-menu-btn ${state.isSidebarOpen ? "active" : ""
-              }`}
+            className={`sidebar-button mobile-menu-btn ${
+              state.isSidebarOpen ? "active" : ""
+            }`}
             onClick={toggleSidebar}
           >
             <span />

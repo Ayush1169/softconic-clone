@@ -104,6 +104,7 @@ h6 {
   font-family: var(--font-saira);
   font-weight: 700;
   margin-bottom: 15px;
+  text-align: center;
 }
 
 img {
@@ -6111,6 +6112,7 @@ video {
 
 .home3-success-stories-area .success-storie-card .success-img {
   border-radius: 5px;
+
 }
 
 .home3-success-stories-area .success-storie-card .success-img img {
@@ -7040,6 +7042,7 @@ video {
   font-weight: 400;
   font-size: 16px;
   color: #b5b5b5;
+  margin-left: 55px;
 }
 
 .home3-team-area .experts-card:hover .experts-img .expert-social {
@@ -8298,6 +8301,7 @@ video {
   transform-origin: bottom;
   width: 150px;
   height: 100px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 767px) {
@@ -11524,16 +11528,18 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   align-items: center;
   justify-content: center;
   margin-bottom: 23px;
+  margin-left: 70px;
 }
 
 .service-details .how-we-work-section .work-item .single-work .work-content h3 {
   font-family: var(--font-saira);
   font-weight: 600;
   font-size: 24px;
-  line-height: 1.4;
+  line-height: 1.2;
   text-transform: capitalize;
   color: #FFFFFF;
   margin-bottom: 8px;
+  margin-right: 15px;
 }
 
 @media (max-width: 991px) {
@@ -11555,6 +11561,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   line-height: 28px;
   letter-spacing: 0.03em;
   color: #B5B5B5;
+  text-align: center;
 }
 
 .service-details .service-sort-driscription-area .driscription-img {
@@ -13975,6 +13982,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   margin-bottom: 10px;
   line-height: 1.5;
   color: #cccccc;
+  text-align: center;
 }
 
 .Custom-Design-one-info h4 {
@@ -14130,7 +14138,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   text-align: center;
   padding: 15px;
   border: 1.5px solid rgba(233, 238, 242, 1);
-  border-radius: 40px;
+  border-radius: 10px;
 
   transition: 0.65s ease-in-out;
 }
@@ -14198,7 +14206,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   background-color: #3c3c3c; 
   border: 1.5px solid rgba(233, 238, 242, 0.3); 
   transition: 0.65s ease-in-out;
-  border-radius: 30px;
+  border-radius: 10px;
 }
 
 .Benefitteacher-section .Benefitteacher-one:hover {
@@ -14249,7 +14257,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   padding: 15px;
   background-color: #3c3c3c;
   border: 1.5px solid rgba(233, 238, 242, 1);
-  border-radius: 5px;
+  border-radius: 10px;
   height: 200px;
   transition: 0.65s ease-in-out;
 }

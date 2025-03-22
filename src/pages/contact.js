@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
+import * as Yup from "yup";
+import { useFormik } from "formik";
 import { ToastContainer, toast } from "react-toastify";
 import Breadcrumb from "../components/common/Breadcrumb";
 import Layout from "../components/layout/Layout";
@@ -8,83 +10,57 @@ import Aero from "../../public/assets/img/aero.svg"
 import Image from "next/image";
 import Head from "next/head";
 
+const validationSchema = Yup.object({
+  name: Yup.string().required("Name is Required!"),
+  lastName: Yup.string().required("Last Name is Required!"),
+  email: Yup.string().email("Invalid email").required("Email is Required!"),
+  phone: Yup.string().required("Phone is Required!"),
+  message: Yup.string().required("Message is Required!"),
+  company: Yup.string().required("Company/Organization is Required!")
+})
+
 function Contactpage() {
-  const [formValues, setFormValues] = useState({
-    name: "",
-    lastName: "",
-    company: "",
-    email: "",
-    phone: "",
-    message: "",
-  });
-
-  const [errors, setErrors] = useState({});
-
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormValues({ ...formValues, [name]: value });
-  };
-
-
-  const validateForm = () => {
-    const newErrors = {};
-    if (!formValues.name) newErrors.name = "First Name is required";
-    if (!formValues.lastName) newErrors.lastName = "Last Name is required";
-    if (!formValues.company) newErrors.company = "Company/Organization is required";
-    if (!formValues.email) newErrors.email = "Email is required";
-    else if (!/\S+@\S+\.\S+/.test(formValues.email)) newErrors.email = "Invalid email address";
-    if (!formValues.phone) newErrors.phone = "Phone is required";
-    if (!formValues.message) newErrors.message = "Message is required";
-
-    setErrors(newErrors);
-    return Object.keys(newErrors).length === 0;
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-
-    if (!validateForm()) {
-
-      alert("Please fill all required fields correctly.");
-      return;
-    }
-
-    const templateParams = {
-      name: formValues.name,
-      lastName: formValues.lastName,
-      company: formValues.company,
-      email: formValues.email,
-      phone: formValues.phone,
-      message: formValues.message,
-    };
-
-
-    emailjs
-      .send(
-        "service_tjkquvz",
-        "template_fb5jmgr",
-        templateParams,
-        "UjXT7K73yIRw42mCc"
-      )
-      .then((response) => {
-
-        toast.success("Message sent successfully");
-      })
-      .catch((error) => {
-
-        toast.error("Email sending failed");
-      });
-
-    setFormValues({
+  const formik = useFormik({
+    initialValues: {
       name: "",
       lastName: "",
       company: "",
       email: "",
       phone: "",
       message: "",
-    });
-  };
+
+    },
+    validationSchema: validationSchema,
+    onSubmit: (values) => {
+      const templateParams = {
+        name: values.name,
+        lastName: values.lastName,
+        company: values.company,
+        email: values.email,
+        phone: values.phone,
+        message: values.message,
+
+      };
+
+      emailjs
+        .send(
+          "service_tjkquvz",
+          "template_fb5jmgr",
+          templateParams,
+          "UjXT7K73yIRw42mCc"
+        )
+        .then((response) => {
+
+          toast.success("Message sent successfully");
+        })
+        .catch((error) => {
+
+          toast.error("Email sending failed");
+        });
+      formik.resetForm();
+    },
+  });
+
 
   return (
     <>
@@ -194,7 +170,7 @@ function Contactpage() {
                     <h5>Make a Free Consulting</h5>
                   </div>
                   <div className="contact-form">
-                    <form onSubmit={handleSubmit}>
+                    <form onSubmit={formik.handleSubmit}>
                       <div className="row">
                         <div className="col-md-6 mb-20">
                           <div className="form-inner">
@@ -202,11 +178,21 @@ function Contactpage() {
                             <input
                               type="text"
                               name="name"
-                              value={formValues.name}
-                              onChange={handleChange}
+                              placeholder="Name*"
+                              {...formik.getFieldProps("name")}
                             />
-                            {errors.name && <span>{errors.name}</span>}
                           </div>
+                          {formik.touched.name && formik.errors.name ? (
+                            <div
+                              style={{
+                                color: "red",
+                                marginTop: "3px",
+                                fontSize: "12px"
+                              }}
+                            >
+                              {formik.errors.name}
+                            </div>
+                          ) : null}
                         </div>
 
                         <div className="col-md-6 mb-20">
@@ -215,11 +201,21 @@ function Contactpage() {
                             <input
                               type="text"
                               name="lastName"
-                              value={formValues.lastName}
-                              onChange={handleChange}
+                              placeholder="lastName*"
+                              {...formik.getFieldProps("lastName")}
                             />
-                            {errors.lastName && <span>{errors.lastName}</span>}
                           </div>
+                          {formik.touched.lastName && formik.errors.lastName ? (
+                            <div
+                              style={{
+                                color: "red",
+                                marginTop: "3px",
+                                fontSize: "12px"
+                              }}
+                            >
+                              {formik.errors.lastName}
+                            </div>
+                          ) : null}
                         </div>
 
                         <div className="col-lg-12 mb-20">
@@ -228,11 +224,15 @@ function Contactpage() {
                             <input
                               type="text"
                               name="company"
-                              value={formValues.company}
-                              onChange={handleChange}
+                              placeholder="company*"
+                              {...formik.getFieldProps("company")}
                             />
-                            {errors.company && <span>{errors.company}</span>}
                           </div>
+                          {formik.touched.company && formik.errors.company ? (
+                            <div style={{ color: "red", marginTop: "3px", fontSize: "12px" }}>
+                              {formik.errors.company}
+                            </div>
+                          ) : null}
                         </div>
 
                         <div className="col-lg-12 mb-20">
@@ -241,11 +241,15 @@ function Contactpage() {
                             <input
                               type="email"
                               name="email"
-                              value={formValues.email}
-                              onChange={handleChange}
+                              placeholder="email*"
+                              {...formik.getFieldProps("email")}
                             />
-                            {errors.email && <span>{errors.email}</span>}
                           </div>
+                          {formik.touched.email && formik.errors.email ? (
+                            <div style={{ color: "red", marginTop: "3px", fontSize: "12px" }}>
+                              {formik.errors.email}
+                            </div>
+                          ) : null}
                         </div>
 
                         <div className="col-lg-12 mb-20">
@@ -254,11 +258,15 @@ function Contactpage() {
                             <input
                               type="text"
                               name="phone"
-                              value={formValues.phone}
-                              onChange={handleChange}
+                              placeholder="phone*"
+                              {...formik.getFieldProps("phone")}
                             />
-                            {errors.phone && <span>{errors.phone}</span>}
                           </div>
+                          {formik.touched.phone && formik.errors.phone ? (
+                            <div style={{ color: "red", marginTop: "3px", fontSize: "12px" }}>
+                              {formik.errors.phone}
+                            </div>
+                          ) : null}
                         </div>
 
                         <div className="col-lg-12 mb-20">
@@ -266,11 +274,15 @@ function Contactpage() {
                             <label>Message</label>
                             <textarea
                               name="message"
-                              value={formValues.message}
-                              onChange={handleChange}
+                              placeholder="message*"
+                              {...formik.getFieldProps("message")}
                             />
-                            {errors.message && <span>{errors.message}</span>}
                           </div>
+                          {formik.touched.message && formik.errors.message ? (
+                            <div style={{ color: "red", marginTop: "1px", fontSize: "12px" }}>
+                              {formik.errors.message}
+                            </div>
+                          ) : null}
                         </div>
 
                         <div className="col-lg-12">
