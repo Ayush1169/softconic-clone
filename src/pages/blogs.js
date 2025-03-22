@@ -148,7 +148,7 @@ function BlogSidebarPage() {
                           <ul className="blog-meta">
                             <li>
                               <Link legacyBehavior href="/blog">
-                                <a>{new Date(post.date).toLocaleDateString()}</a>
+                                <a>{new Date(post.date).toISOString().split("T")[0]}</a>
                               </Link>
                             </li>
                             <li>
@@ -165,9 +165,9 @@ function BlogSidebarPage() {
                             textOverflow: 'ellipsis',
                           }}>
                             <Link legacyBehavior href={`/blog-details/${post.id}`}>
-                              <a 
-                              href={post.link}
-                              target="_blank"
+                              <a
+                                href={post.link}
+                                target="_blank"
                               >
                                 {post.title.rendered}</a>
                             </Link>
