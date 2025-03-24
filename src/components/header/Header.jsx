@@ -234,6 +234,7 @@ function Header() {
               <Link legacyBehavior href="/">
                 <a>home</a>
               </Link>
+              
             </li>
             <li className={`${currentRoute === "/about" ? "active" : ""}`}>
               <Link legacyBehavior href="/about">
@@ -1091,6 +1092,8 @@ function Header() {
                   </div>
                 </div>
               </div>
+             
+         
               <div className="email pt-20 d-flex align-items-center">
                 <div
                   className="email-icon"
@@ -1132,6 +1135,29 @@ function Header() {
                       </a>
                     </h6>
                   </div>
+                  <div style={{ display: "flex", gap: "30px", alignItems: "center" }}>
+      <ul style={{ listStyle: "none", marginLeft:36, padding: 0 }}>
+        <li>
+          <a href="https://www.facebook.com/evdtechnologyofficial/" target="_blank">
+            <i className="bx bxl-facebook"></i>
+          </a>
+        </li>
+      </ul>
+      <ul style={{ listStyle: "none", margin: 0, padding: 0 }}>
+        <li>
+          <a href="https://instagram.com/evdtechnology" target="_blank">
+            <i className="bx bxl-instagram"></i>
+          </a>
+        </li>
+      </ul>
+      <ul style={{ listStyle: "none", margin: 0, padding: 0 }}>
+        <li>
+          <a href="https://linkedin.com/company/evdtechnologyllp/" target="_blank">
+            <i className="bx bxl-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
                 </div>
               </div>
             </form>
@@ -1151,6 +1177,7 @@ function Header() {
               <a className="primary-btn3">Get A Quote</a>
             </Link>
           </div>
+         
           <div
             className={`sidebar-button mobile-menu-btn ${
               state.isSidebarOpen ? "active" : ""
@@ -1160,6 +1187,8 @@ function Header() {
             <span />
           </div>
         </div>
+        
+        
       </header>
     </>
   );
