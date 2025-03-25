@@ -1217,9 +1217,33 @@ export const servicesData = {
         image: "/assets/img/services/erp-crm/image-14.png",
         questions: [
           {
-            question: "",
-            answer: ""
-          }
+            question: " Can ERP and CRM be used together in a business?",
+            answer: " Yes, integrating ERP and CRM provides a seamless flow of information between departments, improving customer satisfaction and operational efficiency."
+          },
+          {
+            question: "What is the main benefit of using a CRM system?",
+            answer: "   CRM helps businesses improve customer relationships by tracking interactions, automating communication, and increasing sales conversions."
+          },
+          {
+            question: "   How long does it take to implement an ERP system? ",
+            answer: "ERP implementation typically takes 3 to 12 months, depending on the organization’s size and complexity. "
+          },
+          
+          {
+            question: "   Can ERP and CRM systems be customized for specific business needs?",
+            answer: "Yes, both systems can be customized with additional modules and features to meet unique business requirements."
+ 
+          },
+          
+          {
+            question: "  Are ERP and CRM systems secure?",
+            answer: " Modern ERP and CRM systems use encryption, role-based access, and regular backups to ensure data security and compliance. "
+
+
+
+ 
+          },
+          
         ]
 
       }
