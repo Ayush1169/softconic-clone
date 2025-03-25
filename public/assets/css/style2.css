@@ -6977,15 +6977,26 @@ video {
   transition: 0.5s;
 }
 
+/* Changin shadow i circule */
 .home3-team-area .experts-card .experts-img {
   position: relative;
   transition: 0.5s;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 .home3-team-area .experts-card .experts-img img {
-  border-radius: 5px 5px 0px 0px;
+  border-radius: 50%;
   width: 100%;
+  transition: 0.5s ease-in-out;
 }
+
+.home3-team-area .experts-card .experts-img:hover {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+  transition: 0.5s ease-in-out;
+}
+
+/* end circule code Hari */
 
 .home3-team-area .experts-card .experts-img .expert-social {
   position: absolute;
@@ -7002,8 +7013,14 @@ video {
   transform-origin: bottom;
   transition: 0.5s;
   opacity: 0;
+  border-radius: 50%;
+  /* Social area bhi circular hoga */
 }
 
+.home3-team-area .experts-card .experts-img:hover .expert-social {
+  transform: scaleY(1);
+  opacity: 1;
+}
 .home3-team-area .experts-card .experts-img .expert-social ul {
   margin: 0;
   padding: 0;
@@ -7018,10 +7035,12 @@ video {
   font-size: 20px;
   color: var(--white-color);
   transition: 0.5s;
+  border-radius: 50%;
 }
 
 .home3-team-area .experts-card .experts-img .expert-social ul li a:hover {
   color: var(--theme-color);
+  border-radius: 50%;
 }
 
 .home3-team-area .experts-card .experts-content {
@@ -11027,6 +11046,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
 
 .portfolio-masonary-page .single-work .work-img {
   border-radius: 5px;
+  
 }
 
 .portfolio-masonary-page .single-work .work-img img {
