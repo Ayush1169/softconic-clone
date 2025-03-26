@@ -190,7 +190,7 @@ const CaseStudyDetailsPage = () => {
                     </div>
                   </div>
                 </div>
-                <div className="row mb-120">
+                <div className="Testimonials">
                   <div className="col-lg-12">
                     <div className="case-content">
                       <h2 style={{ color: "#06D889" }}>Testimonials</h2>
