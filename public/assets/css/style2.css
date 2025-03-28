@@ -11829,6 +11829,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   text-transform: capitalize;
   color: #FFFFFF;
   margin-bottom: 20px;
+  margin-top: 22px;
 }
 
 @media (max-width: 767px) {
