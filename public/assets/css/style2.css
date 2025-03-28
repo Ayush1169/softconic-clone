@@ -208,7 +208,9 @@ video {
     padding-top: 90px;
   }
 }
-
+.Testimonials{
+  margin-bottom: -120px !important;
+}
 .mb-120 {
   margin-bottom: 120px;
 }
@@ -8909,7 +8911,11 @@ footer .footer-widget .widget-title h4 {
   font-weight: 600;
   font-size: 25px;
   letter-spacing: 0.03em;
+  text-align: left;
   color: var(--white-color);
+  
+  
+ 
   margin-bottom: 0;
 }
 

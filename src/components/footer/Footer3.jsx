@@ -210,7 +210,7 @@ function Footer3() {
             <div className="col-lg-12">
               <div className="footer-btn-content">
                 <div className="copyright-area">
-                  <p>©Copyright 2023 <a href="#">EVD Technologies</a></p>
+                  <p>©Copyright 2023 <a href="#">EVD Technology</a></p>
                 </div>
                 <div className="footer-social">
                   <ul>
