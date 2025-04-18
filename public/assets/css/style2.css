@@ -4517,6 +4517,7 @@ video {
 
 .home4-feature-area .section-title-4 h2 {
   padding-top: 0px;
+  line-height: 5.2;
 }
 
 .home4-feature-area .ml-5 {
@@ -8336,6 +8337,7 @@ video {
 .home5-award-area .award-wrapper table tbody tr td img {
   position: absolute;
   right: 0;
+  top: 8px;
   bottom: 0;
   opacity: 0;
   transform: scaleY(0);
@@ -8343,13 +8345,34 @@ video {
   transform-origin: bottom;
   width: 150px;
   height: 100px;
-  margin-bottom: 20px;
+  margin-bottom: 1px;
 }
 
 @media (max-width: 767px) {
   .home5-award-area .award-wrapper table tbody tr td img {
     display: none;
     visibility: hidden;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .home5-award-area .award-wrapper table tbody tr td {
+    position: relative; 
+  }
+
+  .home5-award-area .award-wrapper table tbody tr td img {
+    display: block;
+    visibility: visible;
+    position: absolute;
+    left: 60%;
+    bottom: 0;
+    transform: translateX(-50%) scaleY(0); 
+    transform-origin: bottom;
+    transition: 0.5s;
+    width: 150px;
+    height: 100px;
+    margin-bottom: 1px;
   }
 }
 
