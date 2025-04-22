@@ -51,7 +51,7 @@ function Service5() {
                 <h4><Link legacyBehavior href="/service-details"><a>{HomePage.solutions[0].title}</a></Link></h4>
                 <p>{HomePage.solutions[0].description}</p>
                 <div className="learn-btn">
-                  <Link legacyBehavior href="/service-details">
+                  <Link legacyBehavior href="/service/web-development">
                     <a className="primary-btn8">
                       Learn More
                       <svg width={12} height={12} viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -80,7 +80,7 @@ function Service5() {
                 <h4><Link legacyBehavior href="/service-details"><a>{HomePage.solutions[1].title}</a></Link></h4>
                 <p>{HomePage.solutions[1].description}</p>
                 <div className="learn-btn">
-                  <Link legacyBehavior href="/service-details">
+                  <Link legacyBehavior href="/service/mobile-app-development">
                     <a className="primary-btn8">
                       Learn More
                       <svg width={12} height={12} viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -109,7 +109,7 @@ function Service5() {
                 <h4><Link legacyBehavior href="/service-details"><a>{HomePage.solutions[2].title}</a></Link></h4>
                 <p>{HomePage.solutions[2].description}</p>
                 <div className="learn-btn">
-                  <Link legacyBehavior href="/service-details">
+                  <Link legacyBehavior href="/service/software-development">
                     <a className="primary-btn8">
                       Learn More
                       <svg width={12} height={12} viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -138,7 +138,7 @@ function Service5() {
                 <h4><Link legacyBehavior href="/service-details"><a>{HomePage.solutions[3].title}</a></Link></h4>
                 <p>{HomePage.solutions[3].description}</p>
                 <div className="learn-btn">
-                  <Link legacyBehavior href="/service-details">
+                  <Link legacyBehavior href="/service/digital-marketing">
                     <a className="primary-btn8">
                       Learn More
                       <svg width={12} height={12} viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -167,7 +167,7 @@ function Service5() {
                 <h4><Link legacyBehavior href="/service-details"><a>{HomePage.solutions[4].title}</a></Link></h4>
                 <p>{HomePage.solutions[4].description}</p>
                 <div className="learn-btn">
-                  <Link legacyBehavior href="/service-details">
+                  <Link legacyBehavior href="/service/ui-ux-designing">
                     <a className="primary-btn8">
                       Learn More
                       <svg width={12} height={12} viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -196,7 +196,7 @@ function Service5() {
                 <h4><Link legacyBehavior href="/service-details"><a>{HomePage.solutions[5].title}</a></Link></h4>
                 <p>{HomePage.solutions[5].description}</p>
                 <div className="learn-btn">
-                  <Link legacyBehavior href="/service-details">
+                  <Link legacyBehavior href="/service/erp-crm">
                     <a className="primary-btn8">
                       Learn More
                       <svg width={12} height={12} viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -225,7 +225,7 @@ function Service5() {
                 <h4><Link legacyBehavior href="/service-details"><a>{HomePage.solutions[6].title}</a></Link></h4>
                 <p>{HomePage.solutions[6].description}</p>
                 <div className="learn-btn">
-                  <Link legacyBehavior href="/service-details">
+                  <Link legacyBehavior href="/service/saas-development">
                     <a className="primary-btn8">
                       Learn More
                       <svg width={12} height={12} viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -254,7 +254,7 @@ function Service5() {
                 <h4><Link legacyBehavior href="/service-details"><a>{HomePage.solutions[7].title}</a></Link></h4>
                 <p>{HomePage.solutions[7].description}</p>
                 <div className="learn-btn">
-                  <Link legacyBehavior href="/service-details">
+                  <Link legacyBehavior href="/service/staff-augmentation">
                     <a className="primary-btn8">
                       Learn More
                       <svg width={12} height={12} viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -283,7 +283,7 @@ function Service5() {
                 <h4><Link legacyBehavior href="/service-details"><a>{HomePage.solutions[8].title}</a></Link></h4>
                 <p>{HomePage.solutions[8].description}</p>
                 <div className="learn-btn">
-                  <Link legacyBehavior href="/service-details">
+                  <Link legacyBehavior href="/service/ai-ml">
                     <a className="primary-btn8">
                       Learn More
                       <svg width={12} height={12} viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
