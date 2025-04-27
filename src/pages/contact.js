@@ -11,10 +11,14 @@ import Image from "next/image";
 import Head from "next/head";
 
 const validationSchema = Yup.object({
-  name: Yup.string().required("Name is Required!"),
+  name: Yup.string().required("First Name is Required!"),
   lastName: Yup.string().required("Last Name is Required!"),
   email: Yup.string().email("Invalid email").required("Email is Required!"),
-  phone: Yup.string().required("Phone is Required!"),
+  phone: Yup.string()
+  .matches(/^\d+$/, "Phone number must contain only digits")
+  .min(10, "Phone number must be at least 10 digits")
+  .max(15, "Phone number can't be more than 15 digits")
+  .required("Phone is Required!"),
   message: Yup.string().required("Message is Required!"),
   company: Yup.string().required("Company/Organization is Required!")
 })
@@ -86,7 +90,7 @@ function Contactpage() {
                   <span>CONTACT WITH US</span>
                   <h2>LET’S WORK TOGETHER?</h2>
                   <p>
-                    I have world-class, flexible support via live chat, email, and
+                    We have world-class, flexible support via live chat, email, and
                     phone. I guarantee that you’ll be able to have any issue
                     resolved within 24 hours.
                   </p>
@@ -116,7 +120,7 @@ function Contactpage() {
                     </div>
                     <div className="single-info">
                       <div className="icon">
-                        <i className="fas fa-phone-alt" />
+                        <i className="fas fa-phone-alt"/>
                       </div>
                       <div className="info">
                         <a href="tel:+91-7829401605">+91-7829401605</a>
@@ -178,7 +182,7 @@ function Contactpage() {
                             <input
                               type="text"
                               name="name"
-                              placeholder="Name*"
+                              placeholder="First Name*"
                               {...formik.getFieldProps("name")}
                             />
                           </div>
@@ -201,7 +205,7 @@ function Contactpage() {
                             <input
                               type="text"
                               name="lastName"
-                              placeholder="lastName*"
+                              placeholder="Last Name*"
                               {...formik.getFieldProps("lastName")}
                             />
                           </div>
@@ -224,7 +228,7 @@ function Contactpage() {
                             <input
                               type="text"
                               name="company"
-                              placeholder="company*"
+                              placeholder="Company/Organization*"
                               {...formik.getFieldProps("company")}
                             />
                           </div>
@@ -241,7 +245,7 @@ function Contactpage() {
                             <input
                               type="email"
                               name="email"
-                              placeholder="email*"
+                              placeholder="Email*"
                               {...formik.getFieldProps("email")}
                             />
                           </div>
@@ -258,7 +262,9 @@ function Contactpage() {
                             <input
                               type="text"
                               name="phone"
-                              placeholder="phone*"
+                              placeholder="Phone*"
+                              inputMode="numeric"
+                              pattern="[0-9]*"
                               {...formik.getFieldProps("phone")}
                             />
                           </div>
@@ -274,7 +280,7 @@ function Contactpage() {
                             <label>Message</label>
                             <textarea
                               name="message"
-                              placeholder="message*"
+                              placeholder="Message*"
                               {...formik.getFieldProps("message")}
                             />
                           </div>

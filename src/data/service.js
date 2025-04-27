@@ -2548,7 +2548,7 @@ export const servicesData = {
       {
         "title": "Front-End Frameworks",
         "layout": true,
-        "image": "/assets/img/inner-pages/front-end-frameworks.png",
+        "image": "/assets/img/services/web-development/image1.png",
         "questions": [
           {
             "question": "What are popular front-end frameworks for e-commerce?",
@@ -2559,7 +2559,7 @@ export const servicesData = {
       {
         "title": "Back-End Technologies",
         "layout": true,
-        "image": "/assets/img/inner-pages/back-end-technologies.png",
+        "image": "/assets/img/services/web-development/b1.png",
         "questions": [
           {
             "question": "Which back-end technologies are commonly used?",
@@ -2570,7 +2570,7 @@ export const servicesData = {
       {
         "title": "Payment Processing Solutions",
         "layout": true,
-        "image": "/assets/img/inner-pages/payment-processing.png",
+        "image": "/assets/img/services/web-development/e1.png",
         "questions": [
           {
             "question": "What payment processing solutions should I consider?",
