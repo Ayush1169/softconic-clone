@@ -34,7 +34,7 @@ export const howWeWork = [
 export const servicesData = {
   "web-development": {
     title: "Web Development",
-    image: "/assets/img/services/web-development/11.png",
+    image: "/assets/videos/3D WEB DEV (4).mp4",
     description: "Web development is the process of creating websites and applications for the internet or a private network (intranet). It encompasses several aspects, including web design, web content development, client-side/server-side scripting, and network security configuration. As the digital landscape evolves, web development continues to grow in importance, enabling businesses to create engaging, functional, and accessible digital experiences for users.",
     faqSections: [
       {
@@ -203,11 +203,9 @@ export const servicesData = {
         {
           title: "Applications of Web Development",
           image: "/assets/img/inner-pages/about-service-img.png",
-          image: "/assets/img/inner-pages/about-service-img.png",
           guides: [
             {
               title: "E-commerce Websites",
-              image: "/assets/img/services/web-development/e1.png",
               image: "/assets/img/services/web-development/e1.png",
               steps: [
                 "Web development enables businesses to create robust e-commerce platforms that offer seamless shopping experiences, secure payment processing, and effective inventory management."
@@ -216,14 +214,12 @@ export const servicesData = {
             {
               title: "Content Management Systems (CMS)",
               image: "/assets/img/services/web-development/e2.png",
-              image: "/assets/img/services/web-development/e2.png",
               steps: [
                 "A CMS allows users to create, manage, and modify content on a website without the need for specialized technical knowledge. Popular CMS platforms include WordPress, Joomla, and Drupal."
               ]
             },
             {
               title: "Web Applications",
-              image: "/assets/img/services/web-development/e3.png",
               image: "/assets/img/services/web-development/e3.png",
               steps: [
                 "Web applications are software programs that run on a web server and are accessed through a web browser. They offer functionality similar to desktop applications but with the advantages of accessibility and platform independence."
@@ -232,14 +228,12 @@ export const servicesData = {
             {
               title: "Social Networking Sites",
               image: "/assets/img/services/web-development/e4.png",
-              image: "/assets/img/services/web-development/e4.png",
               steps: [
                 "Web development plays a key role in the creation of social networking sites like Facebook, Twitter, and LinkedIn, providing users with platforms to connect, share, and interact online."
               ]
             },
             {
               title: "Educational Platforms",
-              image: "/assets/img/services/web-development/e4.png",
               image: "/assets/img/services/web-development/e4.png",
               steps: [
                 "Online learning platforms leverage web development to deliver educational content, courses, and training programs to users worldwide, facilitating remote learning and skill development."
@@ -373,7 +367,7 @@ export const servicesData = {
   },
   "mobile-app-development": {
     title: "Mobile App Development",
-    image: "/assets/img/services/mobile-app-development/image.png",
+    image: "/assets/videos/3D MOBILE APP (1).mp4",
     description: "The landscape of mobile app development has evolved dramatically over the past decade. With billions of smartphones in use worldwide, businesses are increasingly turning to mobile apps to engage customers, streamline operations, and offer innovative services. In this, we will explore the key aspects of mobile app development, from ideation to deployment, and the critical factors that contribute to creating a successful application.",
     faqSections: [
       {
@@ -401,6 +395,7 @@ export const servicesData = {
             {
               title: "",
               image: "/assets/img/services/mobile-app-development/image-1.png",
+              layout: "side-by-side",
               steps: [
                 "In a world where mobile devices dominate our daily lives, mobile apps have become an essential tool for businesses and consumers alike. Mobile apps provide convenience, instant access to services, and a personalized user experience. Companies leverage apps to enhance customer engagement, increase brand loyalty, and generate new revenue streams. The proliferation of mobile apps also underscores the competitive advantage they offer in reaching a global audience."
               ]
@@ -514,7 +509,7 @@ export const servicesData = {
   },
   "digital-marketing": {
     title: "Digital Marketing ",
-    image: "/assets/img/services/digital-marketing/image-1 (2).png",
+    image: "/assets/videos/3D SOFTWARE DEV (2).mp4",
     description: "In today's business world, digital marketing has become a critical component of any successful strategy. With the rise of the internet and mobile technology, traditional marketing methods are no longer sufficient. Enter the digital marketing agency—an organization specializing in creating and executing online marketing strategies tailored to a business's unique needs. These agencies help businesses of all sizes harness the power of digital platforms to reach their target audience, enhance brand awareness, and drive sales.",
     faqSections: [
       {
@@ -572,6 +567,7 @@ export const servicesData = {
             {
               title: "",
               image: "/assets/img/services/digital-marketing/image-2 (2).png",
+              layout: "side-by-side",
               steps: [
                 "A digital marketing agency is a company that offers a range of online marketing services to help businesses grow and succeed in the digital landscape. Unlike traditional marketing firms, digital agencies focus on leveraging internet-based platforms and technologies. Their core functions include optimizing websites for search engines, managing social media accounts, running paid ad campaigns, creating engaging content, and much more."
               ]
@@ -839,7 +835,7 @@ export const servicesData = {
   },
   "software-development": {
     title: "Software Development",
-    image: "/assets/img/services/software-development/image.png",
+    image: "/assets/videos/3D SOFTWARE DEV (2).mp4",
     description: "Introduction to Software Development Software development is a pivotal force in the technological evolution that defines our contemporary world. Whether it's the applications on our smartphones or the sophisticated systems powering industrial operations, software is a cornerstone of modern existence. But what precisely is software development? At its essence, it encompasses the creation, design, deployment, and ongoing maintenance of software. This comprehensive process is indispensable for crafting the digital solutions and platforms that are integral to our everyday lives.",
     faqSections: [
       {
@@ -991,6 +987,7 @@ export const servicesData = {
             {
               title: "",
               image: "/assets/img/services/software-development/image-12.png",
+               layout: "side-by-side",
               steps: [
                 ""
               ]
@@ -1115,7 +1112,7 @@ export const servicesData = {
   },
   "ui-ux-designing": {
     title: "UI/UX Designing",
-    image: "/assets/img/services/uiux-designing/image.png",
+    image: "/assets/videos/3D UI UX (1).mp4",
     description: "Understanding UI/UX Design UI/UX design is pivotal in creating engaging and functional digital experiences. UI stands for User Interface, while UX means User Experience. Both are crucial in ensuring that users have a smooth and enjoyable interaction with your product. Let's explore how these components work together to enhance user satisfaction.",
     faqSections: [
       {
@@ -1208,7 +1205,7 @@ export const servicesData = {
   },
   "erp-crm": {
     title: "ERP and CRM ",
-    image: "/assets/img/services/erp-crm/image.png",
+    image: "/assets/videos/3D ERP CRM (1).mp4",
     description: "Enterprise Resource Planning (ERP) is a software solution that integrates various business processes into one unified system. ERP systems manage everything from inventory to human resources, providing a central hub for data and operations. They streamline workflows and enhance efficiency across departments.",
     faqSections: [
       {
@@ -1299,8 +1296,9 @@ export const servicesData = {
           image: "/assets/img/inner-pages/about-service-img.png",
           guides: [
             {
-              title: "",
+              title: "CRM Overview",
               image: "/assets/img/services/erp-crm/image-4 (2).png",
+               layout: "side-by-side",
               steps: [
                 "Customer Relationship Management (CRM) focuses on managing interactions with current and potential customers. CRM systems track customer information, sales, and service requests. They help businesses understand customer needs and improve engagement."
               ]
@@ -1398,7 +1396,7 @@ export const servicesData = {
   },
   "saas-development": {
     title: "SaaS Development",
-    image: "/assets/img/services/saas-development/tt1.png",
+    image: "/assets/videos/3D SAAS (1).mp4",
     description: "Software as a Service (SaaS) has become an essential model in today’s digital economy, offering a wide array of applications accessible through the cloud. With its numerous benefits, businesses are increasingly adopting SaaS solutions to enhance efficiency and scalability. This article explores the essential strategies and best practices for successful SaaS development.",
     faqSections: [
       {
@@ -1439,6 +1437,7 @@ export const servicesData = {
             {
               title: "",
               image: "/assets/img/services/saas-development/tt2.png",
+              layout: "side-by-side",
               steps: [
                 "SaaS development involves creating software applications that are hosted on remote servers and delivered to users over the internet. Unlike traditional software, SaaS solutions are subscription-based, providing continuous updates and support. This model eliminates the need for users to install and maintain software on their local devices, reducing IT overhead and facilitating seamless access."
               ]
@@ -1581,7 +1580,7 @@ export const servicesData = {
   },
   "staff-augmentation": {
     title: "Staff Augmentation",
-    image: "/assets/img/services/staff-augmentation/h1.png",
+    image: "/assets/videos/3D STAFF AUG (1).mp4",
     description: "In today's fast-paced business environment, companies are constantly seeking ways to adapt and stay competitive. One such strategy is staff augmentation, a flexible hiring model that allows businesses to meet their evolving needs without the commitment of full-time employment. This article provides a detailed exploration of staff augmentation, its benefits, challenges, and best practices.",
     faqSections: [
       {
@@ -1791,7 +1790,7 @@ export const servicesData = {
   },
   "ai-ml": {
     title: "AI and ML",
-    image: "/assets/img/services/ai-ml/h1.png",
+    image: "/assets/videos/3D AI ML (1).mp4",
     description: "Artificial Intelligence (AI) and Machine Learning (ML) are at the forefront of technological innovation, transforming industries and shaping the future of human interaction with technology. These technologies enable computers to perform tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation. This article explores the vast landscape of AI and ML, their applications, benefits, challenges, and future prospects.",
     faqSections: [
       {

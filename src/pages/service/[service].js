@@ -30,7 +30,7 @@ function ServiceDetailsPage() {
     );
   }
 
-  const { title, description, technologies, hero1, hero2,image } = serviceContent;
+  const { title, description, technologies, hero1, hero2, image, video } = serviceContent;
 
   return (
     <Layout>
@@ -39,7 +39,7 @@ function ServiceDetailsPage() {
          image2={hero2}
       />
       <div className="service-details sec-mar" style={{marginBottom:"-115x"}}>
-        {title && description && <AboutServices title={title} description={description} image={image} />}
+        {title && description && <AboutServices title={title} description={description} image={image} video={video} />}
         {howWeWork && howWeWork.length > 0 && <HowWeWorkSection />}
        
         {technologies && technologies.comparisonSections && <TechnologiesSection technologies={technologies} />}
@@ -53,8 +53,9 @@ function ServiceDetailsPage() {
     </Layout>
   );
 }
+function AboutServices({ title, description, image }) {
+  const isVideo = image.endsWith(".mp4");
 
-function AboutServices({ title, description ,image}) {
   return (
     <div className="about-services"
       style={{
@@ -75,7 +76,24 @@ function AboutServices({ title, description ,image}) {
           </div>
           <div className="col-lg-6 wow animate fadeInRight" data-wow-delay="300ms" data-wow-duration="1500ms">
             <div className="service-img magnetic-item">
-              <img className="img-fluid" src={image} alt="" style={{width:"100%"}} />
+              {isVideo ? (
+                <video
+                  src={image}
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  className="img-fluid"
+                  style={{ width: "100%", borderRadius: "10px" }}
+                />
+              ) : (
+                <img
+                  className="img-fluid"
+                  src={image}
+                  alt=""
+                  style={{ width: "100%" }}
+                />
+              )}
             </div>
           </div>
         </div>
@@ -83,6 +101,7 @@ function AboutServices({ title, description ,image}) {
     </div>
   );
 }
+
 
 function HowWeWorkSection() {
   return (
@@ -329,24 +348,107 @@ function UserGuidesSection({ dataSets }) {
           <div key={setIndex} className="user-guide-set">
             <h2>{guideSet.title}</h2>
             <p>{guideSet.description}</p>
-            <div className={`user-guides-container ${guideSet.guides.length >= 4 ? 'two-column-layout' : ''}`}>
-              {guideSet.guides.map((guide, guideIndex) => (
-                <div key={guideIndex} className="user-guide">
-                  <img
-                    src={guide.image}
-                    alt={guide.title}
-                    className="section-image"
-                  />
-                  <h3>{guide.title}</h3>
-                  <ul>
-                    {guide.steps.map((step, stepIndex) => (
-                      <li key={stepIndex}>
-                        {formatStep(step)}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
+
+            {/* Top 3 cards */}
+            <div className="row justify-content-center mb-4">
+              {guideSet.guides.slice(0, 3).map((guide, index) => {
+                if (guide.layout === "side-by-side") {
+                  return (
+                    <div
+                      key={index}
+                      className="row align-items-center mb-5 guide-side-by-side"
+                    >
+                      <div className="col-md-6">
+                        <img
+                          src={guide.image}
+                          alt={guide.title}
+                          className="img-fluid"
+                        />
+                      </div>
+                      <div className="col-md-6">
+                        <h3>{guide.title}</h3>
+                        <ul className="list-unstyled guide-custom-font">
+                          {guide.steps.map((step, i) => (
+                            <li key={i}>{formatStep(step)}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    </div>
+                  );
+                } else {
+                  return (
+                    <div
+                      key={index}
+                      className="col-md-4 d-flex justify-content-center"
+                    >
+                      <div className="user-guide text-center p-3">
+                        <img
+                          src={guide.image}
+                          alt={guide.title}
+                          className="section-image img-fluid mb-3"
+                        />
+                        <h3>{guide.title}</h3>
+                        <ul className="list-unstyled guide-custom-font">
+                          {guide.steps.map((step, i) => (
+                            <li key={i}>{formatStep(step)}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    </div>
+                  );
+                }
+              })}
+            </div>
+
+            {/* Bottom 2 cards */}
+            <div className="row justify-content-center">
+              {guideSet.guides.slice(3, 5).map((guide, index) => {
+                if (guide.layout === "side-by-side") {
+                  return (
+                    <div
+                      key={index}
+                      className="row align-items-center mb-5 guide-side-by-side"
+                    >
+                      <div className="col-md-6">
+                        <img
+                          src={guide.image}
+                          alt={guide.title}
+                          className="img-fluid"
+                        />
+                      </div>
+                      <div className="col-md-6">
+                        <h3>{guide.title}</h3>
+                        <ul className="list-unstyled guide-custom-font">
+                          {guide.steps.map((step, i) => (
+                            <li key={i}>{formatStep(step)}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    </div>
+                  );
+                } else {
+                  return (
+                    <div
+                      key={index}
+                      className="col-md-5 d-flex justify-content-center"
+                    >
+                      <div className="user-guide text-center p-3">
+                        <img
+                          src={guide.image}
+                          alt={guide.title}
+                          className="section-image img-fluid mb-3"
+                        />
+                        <h3>{guide.title}</h3>
+                        <ul className="list-unstyled guide-custom-font">
+                          {guide.steps.map((step, i) => (
+                            <li key={i}>{formatStep(step)}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    </div>
+                  );
+                }
+              })}
             </div>
           </div>
         ))}
@@ -356,13 +458,11 @@ function UserGuidesSection({ dataSets }) {
 }
 
 
-
 function ConclusionSection({ conclusion }) {
   if (!conclusion) return null;
 
   return (
-    <div className="conclusion-section"
-    >
+    <div className="conclusion-section">
       <div className="container">
         <h2>{conclusion.title}</h2>
         <p>{conclusion.content}</p>
@@ -371,28 +471,4 @@ function ConclusionSection({ conclusion }) {
   );
 }
 
-function ContactSection() {
-  return (
-    <div className="home4-contact-area">
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-12">
-            <div className="contact-wrapper text-center magnetic-item">
-              <h2 className="title">Work With Us</h2>
-              <h2 className="content">Let's Talk</h2>
-              <div className="contact-btn">
-                <Link href="/contact" className="magnetic-item">
-                  Contact With Us.
-                  <svg width={32} height={32} viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0 1H12M12 1V13M12 1L0.5 12" />
-                  </svg>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
 export default ServiceDetailsPage;

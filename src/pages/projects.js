@@ -7,8 +7,8 @@ import Head from "next/head";
 
 function ProjectMasonaryPage() {
   const [selectedCategory, setSelectedCategory] = useState("All");
-  const [page, setPage] = useState(1);
-  const itemsPerPage = 6;
+  //const [page, setPage] = useState(1);
+  //const itemsPerPage = 6;
 
   const handleCategoryFilter = (category) => {
     setSelectedCategory(category === "All" ? "All" : category);
@@ -20,17 +20,8 @@ function ProjectMasonaryPage() {
       ? data
       : data.filter((project) => project.category === selectedCategory);
 
-  const displayedData = filteredData.slice(0, page * itemsPerPage);
-
-  const getColumnClass = (index) => {
-    switch (index) {
-      case 0: return "col-lg-4 col-sm-6";
-      case 1: return "col-lg-6 col-sm-6";
-      case 2:
-      case 3: return "col-lg-4 col-sm-6";
-      default: return "col-lg-4 col-sm-6";
-    }
-  };
+  const displayedData = filteredData;
+    const getColumnClass = () => "col-lg-4 col-md-6 col-sm-12";
 
   return (
     <>
@@ -98,12 +89,7 @@ function ProjectMasonaryPage() {
               <div className="col-lg-12 d-flex justify-content-center">
                 {displayedData.length < filteredData.length && (
                   <div className="load-more-btn">
-                    <button
-                      className="primary-btn3"
-                      onClick={() => setPage((prevPage) => prevPage + 1)}
-                    >
-                      Load More
-                    </button>
+                   
                   </div>
                 )}
               </div>

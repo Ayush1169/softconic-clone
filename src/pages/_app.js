@@ -12,6 +12,8 @@ import "../../public/assets/css/swiper-bundle.min.css";
 import "../../public/assets/css/preloader.css";
 import "../../public/assets/css/animate.min.css";
 import "../../public/assets/css/style2.css";
+
+
 import Preloader from "../components/common/Preloader";
 
 export default function App({ Component, pageProps }) {

@@ -22,12 +22,12 @@ function Home3Team({ showAll }) {
             </div>
           </div>
         </div>
-        <div className="row"
+        <div className="row justify-content-center"
         >
           {membersToDisplay.map((member, index) => (
             <div
               key={index}
-              className={`col-lg-3 col-sm-6 experts wow animate fadeInUp`}
+              className={`col-lg-4 col-md-6 col-sm-12 experts wow animate fadeInUp`}
               data-wow-delay={`${200 + index * 100}ms`}
               data-wow-duration="1500ms"
             >
@@ -35,6 +35,7 @@ function Home3Team({ showAll }) {
                 <div className="experts-img">
                   <img
                     className="img-fluid"
+                   
                     src={member.src}
                     alt={member.name}
                   />

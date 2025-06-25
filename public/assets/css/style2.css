@@ -15576,3 +15576,19 @@ color: #cccccc;
   color: #3700b3; /* Link hover color */
 }
 
+ul.guide-custom-font {
+  color: #A8B2D1 !important;
+}
+
+.user-guide-set h3 {
+  color: #ffffff !important;
+}
+
+.user-guide {
+ padding: 0 10px;
+}
+
+
+.guide-side-by-side {
+  margin-bottom: 2rem;
+}

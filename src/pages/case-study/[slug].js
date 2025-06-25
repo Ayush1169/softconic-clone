@@ -173,11 +173,12 @@ const CaseStudyDetailsPage = () => {
                     </div>
                   </div>
                 </div>
-                <div className="row">
+
+                <div className="row mb-120">
                   <div className="col-lg-12">
                     <div className="row g-4 justify-content-center">
-                      {caseStudy.additionalImages.map((image, index) => (
-                        <div className="col-md-6" key={index}>
+                      {caseStudy.additionalImages.slice(0, 3).map((image, index) => (
+                        <div className="col-md-4" key={index}>
                           <div className="case-img magnetic-item">
                             <img
                               className="img-fluid"
@@ -188,8 +189,18 @@ const CaseStudyDetailsPage = () => {
                         </div>
                       ))}
                     </div>
+                    <div className="row g-4 justify-content-center mt-4">
+                      {caseStudy.additionalImages.slice(3,5).map((image, index) => (
+                        <div className="col-md-5" key={index}>
+                          <div className="case-img magnetic-item">
+                            <img className="img-fluid" src={image} alt={`Image ${index + 4}`} />
+                          </div>
+                        </div>
+                      ))}
+                    </div>
                   </div>
                 </div>
+                
                 <div className="Testimonials">
                   <div className="col-lg-12">
                     <div className="case-content">

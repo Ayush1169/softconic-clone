@@ -30,7 +30,7 @@ function Testimonial5() {
             <span>CLIENT REVIEW</span>
             <h2>Happy Client</h2>
             <div className="testimolial-left">
-              <p>Integer purus odio, placerat nec rhoncus in, ullamcorperon nec doloroei. aptent taciti sociosqu ad litora
+              <p className="happy-client-description">Integer purus odio, placerat nec rhoncus in, ullamcorperon nec doloroei. aptent taciti sociosqu ad litora
                 torquent pero conubia nostra persento.</p>
               <div className="customar-review">
                 <h6>Review On</h6>
