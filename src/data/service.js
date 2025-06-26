@@ -509,7 +509,7 @@ export const servicesData = {
   },
   "digital-marketing": {
     title: "Digital Marketing ",
-    image: "/assets/videos/3D SOFTWARE DEV (2).mp4",
+    image: "/assets/videos/3D DM (2).mp4",
     description: "In today's business world, digital marketing has become a critical component of any successful strategy. With the rise of the internet and mobile technology, traditional marketing methods are no longer sufficient. Enter the digital marketing agency—an organization specializing in creating and executing online marketing strategies tailored to a business's unique needs. These agencies help businesses of all sizes harness the power of digital platforms to reach their target audience, enhance brand awareness, and drive sales.",
     faqSections: [
       {
