@@ -48,7 +48,7 @@ function Service5() {
                 </video>
               </div>
               <div className="solution-content">
-                <h4><Link legacyBehavior href="/service-details"><a>{HomePage.solutions[0].title}</a></Link></h4>
+                <h4><Link legacyBehavior href={HomePage.solutions[0].link}><a>{HomePage.solutions[0].title}</a></Link></h4>
                 <p>{HomePage.solutions[0].description}</p>
                 <div className="learn-btn">
                   <Link legacyBehavior href="/service/web-development">
@@ -77,7 +77,7 @@ function Service5() {
                 </video>
               </div>
               <div className="solution-content">
-                <h4><Link legacyBehavior href="/service-details"><a>{HomePage.solutions[1].title}</a></Link></h4>
+                <h4><Link legacyBehavior href={HomePage.solutions[1].link}><a>{HomePage.solutions[1].title}</a></Link></h4>
                 <p>{HomePage.solutions[1].description}</p>
                 <div className="learn-btn">
                   <Link legacyBehavior href="/service/mobile-app-development">
@@ -106,7 +106,7 @@ function Service5() {
                 </video>
               </div>
               <div className="solution-content">
-                <h4><Link legacyBehavior href="/service-details"><a>{HomePage.solutions[2].title}</a></Link></h4>
+                <h4><Link legacyBehavior href={HomePage.solutions[2].link}><a>{HomePage.solutions[2].title}</a></Link></h4>
                 <p>{HomePage.solutions[2].description}</p>
                 <div className="learn-btn">
                   <Link legacyBehavior href="/service/software-development">
@@ -135,7 +135,7 @@ function Service5() {
                 </video>
               </div>
               <div className="solution-content">
-                <h4><Link legacyBehavior href="/service-details"><a>{HomePage.solutions[3].title}</a></Link></h4>
+                <h4><Link legacyBehavior href={HomePage.solutions[3].link}><a>{HomePage.solutions[3].title}</a></Link></h4>
                 <p>{HomePage.solutions[3].description}</p>
                 <div className="learn-btn">
                   <Link legacyBehavior href="/service/digital-marketing">
@@ -164,7 +164,7 @@ function Service5() {
                 </video>
               </div>
               <div className="solution-content">
-                <h4><Link legacyBehavior href="/service-details"><a>{HomePage.solutions[4].title}</a></Link></h4>
+                <h4><Link legacyBehavior href={HomePage.solutions[4].link}><a>{HomePage.solutions[4].title}</a></Link></h4>
                 <p>{HomePage.solutions[4].description}</p>
                 <div className="learn-btn">
                   <Link legacyBehavior href="/service/ui-ux-designing">
@@ -193,7 +193,7 @@ function Service5() {
                 </video>
               </div>
               <div className="solution-content">
-                <h4><Link legacyBehavior href="/service-details"><a>{HomePage.solutions[5].title}</a></Link></h4>
+                <h4><Link legacyBehavior href={HomePage.solutions[5].link}><a>{HomePage.solutions[5].title}</a></Link></h4>
                 <p>{HomePage.solutions[5].description}</p>
                 <div className="learn-btn">
                   <Link legacyBehavior href="/service/erp-crm">
@@ -222,7 +222,7 @@ function Service5() {
                 </video>
               </div>
               <div className="solution-content">
-                <h4><Link legacyBehavior href="/service-details"><a>{HomePage.solutions[6].title}</a></Link></h4>
+                <h4><Link legacyBehavior href={HomePage.solutions[6].link}><a>{HomePage.solutions[6].title}</a></Link></h4>
                 <p>{HomePage.solutions[6].description}</p>
                 <div className="learn-btn">
                   <Link legacyBehavior href="/service/saas-development">
@@ -251,7 +251,7 @@ function Service5() {
                 </video>
               </div>
               <div className="solution-content">
-                <h4><Link legacyBehavior href="/service-details"><a>{HomePage.solutions[7].title}</a></Link></h4>
+                <h4><Link legacyBehavior href={HomePage.solutions[7].link}><a>{HomePage.solutions[7].title}</a></Link></h4>
                 <p>{HomePage.solutions[7].description}</p>
                 <div className="learn-btn">
                   <Link legacyBehavior href="/service/staff-augmentation">
@@ -280,7 +280,7 @@ function Service5() {
                 </video>
               </div>
               <div className="solution-content">
-                <h4><Link legacyBehavior href="/service-details"><a>{HomePage.solutions[8].title}</a></Link></h4>
+                <h4><Link legacyBehavior href={HomePage.solutions[8].link}><a>{HomePage.solutions[8].title}</a></Link></h4>
                 <p>{HomePage.solutions[8].description}</p>
                 <div className="learn-btn">
                   <Link legacyBehavior href="/service/ai-ml">

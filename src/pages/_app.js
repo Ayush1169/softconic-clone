@@ -12,9 +12,14 @@ import "../../public/assets/css/swiper-bundle.min.css";
 import "../../public/assets/css/preloader.css";
 import "../../public/assets/css/animate.min.css";
 import "../../public/assets/css/style2.css";
+import SplashLoader from '../components/SplashLoader';
+
 
 
 import Preloader from "../components/common/Preloader";
+
+import Chatbot from "../components/chatbot";  // ✅ Add here
+
 
 export default function App({ Component, pageProps }) {
   const [loading, setLoading] = useState(false);
@@ -40,6 +45,7 @@ export default function App({ Component, pageProps }) {
         <>
           <Component {...pageProps} />
           <ToastContainer />
+          <Chatbot />
           {/* Load WOW.js and initialize it */}
           <Script
             id="wow"

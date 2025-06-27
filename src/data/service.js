@@ -234,7 +234,7 @@ export const servicesData = {
             },
             {
               title: "Educational Platforms",
-              image: "/assets/img/services/web-development/e4.png",
+              image: "/assets/img/services/web-development/OIP.webp",
               steps: [
                 "Online learning platforms leverage web development to deliver educational content, courses, and training programs to users worldwide, facilitating remote learning and skill development."
               ]
@@ -371,17 +371,36 @@ export const servicesData = {
     description: "The landscape of mobile app development has evolved dramatically over the past decade. With billions of smartphones in use worldwide, businesses are increasingly turning to mobile apps to engage customers, streamline operations, and offer innovative services. In this, we will explore the key aspects of mobile app development, from ideation to deployment, and the critical factors that contribute to creating a successful application.",
     faqSections: [
       {
-        title: "FAQ",
-        image: "/assets/img/inner-pages/about-service-img.png",
-        layout: true,
-        image: "/assets/img/services/mobile-app-development/image-14.png",
-        questions: [
-          {
-            question: "",
-            answer: "yes"
-          }
-        ]
-      }
+      title: "FAQs About Mobile App Development",
+      image: "/assets/img/services/mobile-app-development/image-14.png",
+      layout: true,
+      questions: [
+        {
+          question: "What is mobile app development?",
+          answer: "It's the process of creating software applications for smartphones and tablets."
+        },
+        {
+          question: "Which platforms are commonly targeted?",
+          answer: "Android and iOS are the two most popular platforms."
+        },
+        {
+          question: "What technologies are used in app development?",
+          answer: "Flutter, React Native, Swift, and Kotlin are widely used."
+        },
+        {
+          question: "How long does it take to develop a mobile app?",
+          answer: "Depending on complexity, it takes from a few weeks to several months."
+        },
+        {
+          question: "What's the difference between native and hybrid apps?",
+          answer: "Native apps are platform-specific; hybrid apps work on multiple platforms."
+        },
+        {
+          question: "How do mobile apps generate revenue?",
+          answer: "Through ads, in-app purchases, subscriptions, or paid downloads."
+        }
+      ]
+    }
     ],
     "technologies": {
       title: "Mobile App Development",
@@ -513,7 +532,7 @@ export const servicesData = {
     description: "In today's business world, digital marketing has become a critical component of any successful strategy. With the rise of the internet and mobile technology, traditional marketing methods are no longer sufficient. Enter the digital marketing agency—an organization specializing in creating and executing online marketing strategies tailored to a business's unique needs. These agencies help businesses of all sizes harness the power of digital platforms to reach their target audience, enhance brand awareness, and drive sales.",
     faqSections: [
       {
-        title: "",
+        title: "FAQs about digital-marketing",
         layout: true,
         image: "/assets/img/services/digital-marketing/image-32.png",
         questions: [
@@ -565,7 +584,7 @@ export const servicesData = {
           description: "",
           guides: [
             {
-              title: "",
+              title: "What Is a Digital Marketing Agency?",
               image: "/assets/img/services/digital-marketing/image-2 (2).png",
               layout: "side-by-side",
               steps: [
@@ -839,7 +858,7 @@ export const servicesData = {
     description: "Introduction to Software Development Software development is a pivotal force in the technological evolution that defines our contemporary world. Whether it's the applications on our smartphones or the sophisticated systems powering industrial operations, software is a cornerstone of modern existence. But what precisely is software development? At its essence, it encompasses the creation, design, deployment, and ongoing maintenance of software. This comprehensive process is indispensable for crafting the digital solutions and platforms that are integral to our everyday lives.",
     faqSections: [
       {
-        title: "",
+        title: "FAQs About software-development",
         layout: true,
         image: "/assets/img/services/software-development/image-26.png",
         questions: [
@@ -983,16 +1002,17 @@ export const servicesData = {
         {
           title: "Essential Tools and Technologies in Software Development",
           image: "/assets/img/inner-pages/about-service-img.png",
-          guides: [
-            {
-              title: "",
-              image: "/assets/img/services/software-development/image-12.png",
-               layout: "side-by-side",
-              steps: [
-                ""
-              ]
-            }
-          ]
+         guides: [
+  {
+    title: "Modern Development Stack",
+    image: "/assets/img/services/software-development/image-12.png",
+    layout: "side-by-side",
+    steps: [
+     "In today’s fast-paced digital ecosystem, software development relies on a rich stack of tools and technologies that streamline workflows, enhance collaboration, and ensure code quality. From powerful IDEs and version control systems to automation tools, cloud platforms, and modern frameworks, every element plays a crucial role in accelerating development cycles and delivering scalable, maintainable, and high-performing software solutions. Embracing the right combination of these tools is essential for staying competitive and achieving project success in the ever-evolving tech landscape."
+    ]
+  }
+]
+
         },
         {
           title: "",
@@ -1209,7 +1229,7 @@ export const servicesData = {
     description: "Enterprise Resource Planning (ERP) is a software solution that integrates various business processes into one unified system. ERP systems manage everything from inventory to human resources, providing a central hub for data and operations. They streamline workflows and enhance efficiency across departments.",
     faqSections: [
       {
-        title: "",
+        title: "Maximizing Efficiency with ERP and CRM Systems",
         layout: true,
         image: "/assets/img/services/erp-crm/image-14.png",
         questions: [
@@ -1399,18 +1419,38 @@ export const servicesData = {
     image: "/assets/videos/3D SAAS (1).mp4",
     description: "Software as a Service (SaaS) has become an essential model in today’s digital economy, offering a wide array of applications accessible through the cloud. With its numerous benefits, businesses are increasingly adopting SaaS solutions to enhance efficiency and scalability. This article explores the essential strategies and best practices for successful SaaS development.",
     faqSections: [
-      {
-        title: "",
-        layout: true,
-        image: "/assets/img/services/saas-development/tt17.png",
-        questions: [
-          {
-            question: "",
-            answer: ""
-          }
-        ]
+    {
+  title: "Top Questions on SaaS Development – Answered!",
+  layout: true,
+  image: "/assets/img/services/saas-development/tt17.png",
+  questions: [
+    {
+      question: "What is SaaS development?",
+      answer: "SaaS (Software as a Service) development involves building cloud-based applications that are hosted centrally and accessed via the internet, typically on a subscription basis."
+    },
+    {
+      question: "What are the key benefits of SaaS applications?",
+      answer: "SaaS apps offer scalability, automatic updates, cost-effectiveness, and accessibility from anywhere with an internet connection."
+    },
+    {
+      question: "Which technologies are used in SaaS development?",
+      answer: "Popular tech stacks include React, Node.js, Python (Django), AWS, Docker, and microservices architecture for scalable and efficient solutions."
+    },
+    {
+      question: "How long does it take to develop a SaaS product?",
+      answer: "Depending on complexity, a basic SaaS MVP can take 2-6 months, while full-feature products may require 6-12 months or more."
+    },
+    {
+      question: "Is SaaS secure for handling sensitive data?",
+      answer: "Yes, if best practices like data encryption, secure authentication, regular audits, and compliance with standards (e.g., GDPR, SOC2) are followed."
+    },
+    {
+      question: "Can SaaS applications be customized for different users?",
+      answer: "Yes, multi-tenancy architecture and modular features allow SaaS apps to be personalized for various clients or use-cases efficiently."
+    }
+  ]
+}
 
-      }
 
     ],
     "technologies": {

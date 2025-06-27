@@ -59,7 +59,7 @@ const data = [
     category: "EdTech",
     class: "Educational",
     title: "Veda Academy - Online Learning Platform",
-    image: "/assets/img/projects/Group 24.png", // Assuming you will have an image here
+    image: "/assets/img/projects/WhatsApp Image 2025-06-27 at 15.37.40_9862e6ae.jpg", // Assuming you will have an image here
     images: [
       "/assets/img/EVD-Website 3/Veda Academy-1.png",
       "/assets/img/EVD-Website 3/Veda Academy-2.png",
@@ -222,7 +222,7 @@ const data = [
     category: "Health Resource",
     class: "Website Development",
     title: "Dovemed - Online Medical Resource",
-    image: "/assets/img/projects/Group 1686552508.png", // Assuming you will have an image here
+    image: "/assets/img/projects/Group 1686552508 (2).png", // Assuming you will have an image here
     images: [
       "/assets/img/EVD-Website 3/Dovemed-1.png",
       "/assets/img/EVD-Website 3/Dovemed-2.png",
@@ -384,7 +384,7 @@ const data = [
     category: "Agriculture",
     class: "Benefits Management System",
     title: "AHBMS - Animal Husbandry Benefits Management System",
-    image: "/assets/img/projects/Group 1686556763 1.png", // Assuming you will have an image here
+    image: "/assets/img/projects/Group 1686556763 1 (2).png", // Assuming you will have an image here
     images: [
       "/assets/img/EVD-Website 3/Animal-1 (2).png",
       "/assets/img/EVD-Website 3/Animal-2.png",
@@ -439,7 +439,7 @@ const data = [
     category: "Healthcare",
     class: "Mobile App",
     title: "V4Health - Health Consultancy and Appointment App",
-    image: "/assets/img/projects/Group 1686556762 1.png", 
+    image: "/assets/img/projects/Group 1686556762 1 (1).png", 
     images: [
       "/assets/img/EVD-Website 3/Health-1.png",
       "/assets/img/EVD-Website 3/Health-2.png",
