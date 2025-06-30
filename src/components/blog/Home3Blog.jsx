@@ -82,7 +82,7 @@ function Home3Blog() {
                   <div className="blog-footer" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                     <div className="read-btn">
                       <Link legacyBehavior href="/blog-details">
-                        <a>
+                        <a href={blog.link} target="_blank" rel="noopener noreferrer">
                           Read More
                           <svg width={12} height={12} viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0 1H12M12 1V13M12 1L0.5 12" />

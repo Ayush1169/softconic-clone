@@ -89,7 +89,7 @@ const HomePage = {
     },
     {
       title: "Staff Augmentation",
-      description: "Supplying top-tier talent to enhance your team’s capabilities and meet project goals efficiently.",
+      description: "Supplying top-tier talent to enhance your team's capabilities and meet project goals efficiently.",
       link: "/service/staff-augmentation",
       delay: "1000ms",
     },
@@ -211,7 +211,7 @@ export const AboutUs = {
   ],
   overview: {
     experience: {
-      value: "9+",
+      value: "10+",
       description: "Industrial Experience"
     },
     clients: {

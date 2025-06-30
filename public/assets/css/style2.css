@@ -255,12 +255,12 @@ video {
 }
 
 .section-title-3 p {
-  font-family: var(--font-saira);
+  font-family: 'Poppins', sans-serif;
   font-weight: 300;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 32px;
   letter-spacing: 0.03em;
-  color: #B5B5B5;
+  color: #cccccc;
   margin-bottom: 0;
 }
 
@@ -5754,12 +5754,12 @@ video {
 }
 
 .home3-solution-section .solution-card .solution-content p {
-  font-family: var(--font-saira);
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 30px;
-  letter-spacing: 0.03em;
-  color: #E4E4E4;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  letter-spacing: 0.01em;
+  color: #f0f0f0;
 }
 
 .home3-solution-section .solution-card .solution-content .solution-feature {
@@ -7372,13 +7372,13 @@ video {
 }
 
 .home5-about-area .about-content p {
-  font-family: "Saira";
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 32px;
   letter-spacing: 0.03em;
-  color: #B5B5B5;
+  color: #cccccc;
   margin-bottom: 0;
 }
 
@@ -7624,12 +7624,12 @@ video {
 }
 
 .home5-services-section .solution-card .solution-content p {
-  font-family: var(--font-saira);
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
-  color: #B5B5B5;
+  color: #cccccc;
   margin-bottom: 10px;
 }
 
@@ -7718,12 +7718,12 @@ video {
 }
 
 .home5-process-area .single-process .content p {
-  font-family: var(--font-saira);
+  font-family: 'Poppins', sans-serif;
   font-weight: 300;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
-  color: #B5B5B5;
+  color: #cccccc;
 }
 
 .home5-process-area .single-process:hover .sl h2 {
@@ -9621,14 +9621,15 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
 }
 
 .home6-choose-section .choose-btm .choose-left-content p {
-  font-family: var(--font-saira);
-  font-weight: 300;
-  font-size: 15px;
-  line-height: 32px;
-  letter-spacing: 0.03em;
-  color: #B5B5B5;
+  font-family: 'Poppins', sans-serif;   /* Modern & readable */
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #e0e0e0;                        /* Softer & brighter than #B5B5B5 */
   padding-left: 60px;
 }
+
 
 @media (max-width: 1199px) {
   .home6-choose-section .choose-btm .choose-left-content p {
@@ -9768,12 +9769,12 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
 }
 
 .home6-choose-section .choose-btm .choose-feature ul li .single-feature .content p {
-  font-family: var(--font-saira);
+  font-family: 'Poppins', sans-serif;
   font-weight: 300;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 25px;
   letter-spacing: 0.03em;
-  color: #B5B5B5;
+  color: #cccccc;
 }
 
 .home6-case-study-section .border-rights {
@@ -11495,12 +11496,12 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
 }
 
 .service-details .about-content p {
-  font-family: var(--font-saira);
+  font-family: 'Poppins', sans-serif;
   font-weight: 300;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 32px;
   letter-spacing: 0.03em;
-  color: #B5B5B5;
+  color: #cccccc;
   margin-bottom: 0;
 }
 
@@ -15592,3 +15593,4 @@ ul.guide-custom-font {
 .guide-side-by-side {
   margin-bottom: 2rem;
 }
+
