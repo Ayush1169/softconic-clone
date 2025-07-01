@@ -7,7 +7,7 @@ import icon4 from "../../../public/assets/img/Benefitteacher/icon4.svg";
 import icon5 from "../../../public/assets/img/Benefitteacher/image 5.svg";
 import icon6 from "../../../public/assets/img/Benefitteacher/icon6.svg";
 import icon7 from "../../../public/assets/img/Benefitteacher/icon7.svg";
-import icon8 from "../../../public/assets/img/Benefitteacher/icon8.svg";
+import icon8 from "../../../public/assets/img/Benefitteacher/8882657.png";
 
 const Benefitforteacher = () => {
   return (

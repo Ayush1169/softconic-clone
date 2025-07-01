@@ -11598,8 +11598,7 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 23px;
-  margin-left: 70px;
+  margin: 0 auto 23px auto;
 }
 
 .service-details .how-we-work-section .work-item .single-work .work-content h3 {
@@ -12950,11 +12949,11 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
 
 .contact-page-wrap .contact-content p {
   font-family: var(--font-saira);
-  font-weight: 300;
-  font-size: 15px;
+  font-weight: 400;
+  font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
-  color: #B5B5B5;
+  color: #cccccc;
   margin-bottom: 0;
 }
 
@@ -14007,13 +14006,13 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
 }
 
 
-@media (max-width: 1441px) {
+
   .section-title-customdesign h1 {
     font-size: 40px;
     font-weight: 800;
-    color: #B5B5B5;
+   color: #cccccc;
   }
-}
+
 
 @media (max-width: 1025px) {
   .section-title-customdesign h1 {
@@ -14301,6 +14300,16 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   align-items: center;
   justify-content: center;
 }
+
+.Benefitteacher-one-icon img,
+.Benefitadmin-one-icon img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 15px auto;
+}
+
 
 .Benefitteacher-section .Benefitteacher-one-icon {
   width: 60px;

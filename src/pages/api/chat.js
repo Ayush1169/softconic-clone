@@ -9,15 +9,15 @@ export default function handler(req, res) {
   const normalized = message.trim().toLowerCase();
 
   const faq = {
-    "hello": "Hello! 👋 How can I assist you regarding Softconic?",
-    "hi": "Hi there! Ask me anything about Softconic.",
+    "hello": "Hello! 👋 How can I assist you regarding EVD Technology?",
+    "hi": "Hi there! Ask me anything about EVD Technology.",
     "hey": "Hey! Feel free to ask any question about our company.",
 
-    "what is softconic": "Softconic is a technology company offering web development, mobile app development, AI/ML services, SaaS platforms, and digital transformation solutions.",
-    "who are you": "I'm Softconic's virtual assistant 🤖. Ask me about our services, pricing, or anything related to our company!",
-    "tell me about softconic": "Softconic is a digital agency based in Raipur. We provide modern, scalable solutions for businesses — from web and mobile apps to enterprise-grade platforms.",
+    "what is EVD Technology": "EVD Technology is a technology company offering web development, mobile app development, AI/ML services, SaaS platforms, and digital transformation solutions.",
+    "who are you": "I'm EVD Technology's virtual assistant 🤖. Ask me about our services, pricing, or anything related to our company!",
+    "tell me about EVD Technology": "EVD Technology is a digital agency based in Raipur. We provide modern, scalable solutions for businesses — from web and mobile apps to enterprise-grade platforms.",
     
-    "what services do you offer": "We offer Web Development, Mobile App Development, ERP/CRM Solutions, Digital Marketing, UI/UX Design, SaaS Development, and AI/ML services.",
+    "services you offer": "We offer Web Development, Mobile App Development, ERP/CRM Solutions, Digital Marketing, UI/UX Design, SaaS Development, and AI/ML services.",
     "where are you located": "Our office is located in Raipur, India.",
     "how to contact": "You can use the 'Get A Quote' button on our site or visit the Contact page to connect with us.",
     "how to get a quote": "Click the 'Get A Quote' button at the top right or fill in your details on the Contact page.",
@@ -28,7 +28,7 @@ export default function handler(req, res) {
 
   // Find match or default
   const answer = faq[normalized] || 
-    "Sorry, I didn’t get that. Try asking things like 'what is Softconic', 'services you offer', or 'how to contact you'.";
+    "Sorry, I didn't get that. Try asking things like 'what is EVD Technology', 'services you offer', 'how to contact', 'tell me about EVD Technology'. or 'where are you located'";
 
   return res.status(200).json({ answer });
 }
