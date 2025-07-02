@@ -4,34 +4,40 @@ import HomePage from "../../data/content";
 
 function Choose6() {
   return (
-    <div className="home6-choose-section sec-mar"
-    style={{ 
-      backgroundImage: "url('/assets/img/Ellipse.png')",
-      backgroundSize: "cover", 
-      backgroundPosition: "center",
-      backgroundRepeat: "no-repeat"
-    }}>
+    <div
+      className="home6-choose-section sec-mar"
+      style={{
+        backgroundImage: "url('/assets/img/Ellipse.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
       <div className="container">
         <div className="row">
           <div className="choose-top">
-            <div className="row"
-            style={{ 
-              backgroundImage: "url('/assets/img/Ellipse.png')",
-              backgroundSize: "cover", 
-              backgroundPosition: "center",
-              backgroundRepeat: "no-repeat"
-            }}>
+            <div
+              className="row"
+              style={{
+                backgroundImage: "url('/assets/img/Ellipse.png')",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+              }}
+            >
               <div
-                className="col-lg-6 wow animate fadeInUp"
-                data-wow-delay="200ms"
-                data-wow-duration="1500ms"
+                className="col-lg-6 wow animate__animated animate__fadeInLeft"
+                data-wow-delay="0.2s"
               >
                 <div className="choose-title">
                   <span>{HomePage.whyChooseUs.title}</span>
                   <h2>{HomePage.whyChooseUs.subTitle}</h2>
                 </div>
               </div>
-              <div className="col-lg-6">
+              <div
+                className="col-lg-6 wow animate__animated animate__zoomIn"
+                data-wow-delay="0.4s"
+              >
                 <div className="choose-right-img magnetic-item">
                   <img
                     className="img-fluid"
@@ -42,9 +48,13 @@ function Choose6() {
               </div>
             </div>
           </div>
+
           <div className="choose-btm">
-            <div className="row  g-lg-4 gy-5">
-              <div className="col-lg-7">
+            <div className="row g-lg-4 gy-5">
+              <div
+                className="col-lg-7 wow animate__animated animate__fadeInUp"
+                data-wow-delay="0.6s"
+              >
                 <div className="choose-left-content">
                   <div className="vectors">
                     <img
@@ -62,12 +72,10 @@ function Choose6() {
                     <img src="assets/img/EVDT-LOGO.png" alt="" />
                   </div>
                   <h4>
-                  Leading Creative IT Agency and Solutions Provider <br />
+                    Leading Creative IT Agency and Solutions Provider <br />
                     <span>Since 2015.</span>
                   </h4>
-                  <p>
-                    {HomePage.whyChooseUs.description}
-                  </p>
+                  <p>{HomePage.whyChooseUs.description}</p>
                   <div className="sl">
                     <h2>#1</h2>
                   </div>
@@ -89,57 +97,33 @@ function Choose6() {
                   </div>
                 </div>
               </div>
+
               <div className="col-lg-5">
                 <div className="choose-feature">
                   <ul>
-                    <li>
-                      <div className="single-feature">
-                        <div className="progress">
-                          <h3>
-                            <span className="counter">{HomePage.stats[0].percentage}</span>%
-                          </h3>
+                    {HomePage.stats.map((item, index) => (
+                      <li key={index}>
+                        <div
+                          className={`single-feature wow animate__animated animate__fadeInUp`}
+                          data-wow-delay={`${0.8 + index * 0.2}s`}
+                          data-wow-duration="1.2s"
+                        >
+                          <div className="progress">
+                            <h3>
+                              <span className="counter">{item.percentage}</span>%
+                            </h3>
+                          </div>
+                          <div className="content">
+                            <h4>{item.label}</h4>
+                            <p>{item.description}</p>
+                          </div>
                         </div>
-                        <div className="content">
-                          <h4>{HomePage.stats[0].label}</h4>
-                          <p>
-                          {HomePage.stats[0].description}
-                          </p>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div className="single-feature">
-                        <div className="progress">
-                          <h3>
-                            <span className="counter">{HomePage.stats[1].percentage}</span>%
-                          </h3>
-                        </div>
-                        <div className="content">
-                          <h4>{HomePage.stats[1].label}</h4>
-                          <p>
-                          {HomePage.stats[1].description}
-                          </p>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div className="single-feature">
-                        <div className="progress">
-                          <h3>
-                            <span className="counter">{HomePage.stats[2].percentage}</span>%
-                          </h3>
-                        </div>
-                        <div className="content">
-                          <h4>{HomePage.stats[2].label}</h4>
-                          <p>
-                          {HomePage.stats[2].description}
-                          </p>
-                        </div>
-                      </div>
-                    </li>
+                      </li>
+                    ))}
                   </ul>
                 </div>
               </div>
+
             </div>
           </div>
         </div>

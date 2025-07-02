@@ -53,7 +53,7 @@ export default function App({ Component, pageProps }) {
             onLoad={() => {
               // Initialize WOW after it has loaded
               if (typeof WOW !== "undefined") {
-                new WOW().init();
+                new WOW({ once: true }).init();
               } else {
                 console.error("WOW.js is not defined.");
               }

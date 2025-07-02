@@ -9520,6 +9520,14 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   background-color: var(--theme-color);
 }
 
+.home6-choose-section .choose-left-content p {
+  font-family: "YourFontName", sans-serif;
+  font-size: 16px;          /* or your preferred size */
+  color: #EEE;              /* pick a light color for contrast */
+  line-height: 1.6;
+}
+
+
 .home6-choose-section .choose-top .choose-title h2 {
   font-family: var(--font-saira);
   font-weight: 700;
