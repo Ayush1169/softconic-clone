@@ -20,6 +20,7 @@ import Chatbot from "../components/chatbot";  // ✅ Add here
 
 
 import ParticlesBackground from "../components/ParticlesBackground";
+import WhatsAppButton from "../components/WhatsAppButton";
 
 
 export default function App({ Component, pageProps }) {
@@ -47,6 +48,7 @@ export default function App({ Component, pageProps }) {
           <Component {...pageProps} />
           <ToastContainer />
           <Chatbot />
+          <WhatsAppButton /> 
           {/* Load WOW.js and initialize it */}
           <Script
             id="wow"

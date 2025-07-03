@@ -3,7 +3,7 @@
 import Link from "next/link";
 import React from "react";
 import HomePage from "../../data/content";
-import { motion } from "framer-motion";
+import { motion } from "framer-motion"; // ✅ Framer Motion import added
 
 function Choose6() {
   return (
@@ -18,6 +18,7 @@ function Choose6() {
     >
       <div className="container">
         <div className="row">
+          {/* ✅ Replaced WOW animation with Framer Motion */}
           <motion.div
             className="choose-top"
             initial={{ opacity: 0, y: -50 }}
