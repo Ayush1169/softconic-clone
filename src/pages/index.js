@@ -14,6 +14,7 @@ import Testimonial3 from "../components/testimonial/Testimonial3";
 import useBodyClass from "../hooks/useBodyClass";
 import Head from "next/head";
 import Technology from "../components/partner/Technology"
+import Hero from "../components/evd-academy/Hero";
 
 export default function Home() {
   useBodyClass("home-dark2");

@@ -1,9 +1,9 @@
-// 📁 File: src/components/Choose6.js
+// 📁 src/components/Choose/Choose6.jsx
 
 import Link from "next/link";
 import React from "react";
 import HomePage from "../../data/content";
-import { motion } from "framer-motion"; // ✅ Framer Motion import added
+import { motion } from "framer-motion";
 
 function Choose6() {
   return (
@@ -18,7 +18,8 @@ function Choose6() {
     >
       <div className="container">
         <div className="row">
-          {/* ✅ Replaced WOW animation with Framer Motion */}
+
+          {/* ✅ Title Section */}
           <motion.div
             className="choose-top"
             initial={{ opacity: 0, y: -50 }}
@@ -29,19 +30,22 @@ function Choose6() {
               <motion.div
                 className="col-lg-6"
                 initial={{ opacity: 0, x: -50 }}
-                animate={{ opacity: 1, x: 0 }}
+                whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
+                viewport={{ once: true, amount: 0.2 }}
               >
                 <div className="choose-title">
                   <span>{HomePage.whyChooseUs.title}</span>
                   <h2>{HomePage.whyChooseUs.subTitle}</h2>
                 </div>
               </motion.div>
+
               <motion.div
                 className="col-lg-6"
                 initial={{ opacity: 0, x: 50 }}
-                animate={{ opacity: 1, x: 0 }}
+                whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8, delay: 0.3 }}
+                viewport={{ once: true, amount: 0.2 }}
               >
                 <div className="choose-right-img magnetic-item">
                   <img
@@ -54,14 +58,15 @@ function Choose6() {
             </div>
           </motion.div>
 
+          {/* ✅ Stats Section */}
           <div className="choose-btm">
-            <div className="row  g-lg-4 gy-5">
+            <div className="row g-lg-4 gy-5">
               <motion.div
                 className="col-lg-7"
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.4 }}
-                viewport={{ once: true }}
+                viewport={{ once: true, amount: 0.2 }}
               >
                 <div className="choose-left-content">
                   <div className="vectors">
@@ -111,7 +116,7 @@ function Choose6() {
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.6 }}
-                viewport={{ once: true }}
+                viewport={{ once: true, amount: 0.2 }}
               >
                 <div className="choose-feature">
                   <ul>
@@ -121,7 +126,7 @@ function Choose6() {
                         initial={{ opacity: 0, y: 40 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6, delay: 0.3 * index }}
-                        viewport={{ once: true }}
+                        viewport={{ once: true, amount: 0.2 }}
                       >
                         <div className="single-feature">
                           <div className="progress">

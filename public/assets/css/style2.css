@@ -15622,3 +15622,25 @@ ul.guide-custom-font {
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
+
+.hero-section {
+  position: relative;
+  overflow: hidden;
+  background: #0a101f; /* adjust color as needed */
+  padding: 120px 0;
+}
+
+#tsparticles {
+  position: absolute !important;
+  top: 0; left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: 0;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: #fff;
+}
