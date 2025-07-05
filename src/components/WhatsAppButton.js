@@ -14,7 +14,7 @@ const WhatsAppButton = () => {
       }}
     >
       <img
-        src="/assets/img/download (3).png" 
+        src="/assets/img/img.icons8.png" 
         alt="WhatsApp"
         style={{
           width: "55px",

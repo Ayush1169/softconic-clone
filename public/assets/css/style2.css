@@ -13766,6 +13766,9 @@ footer .footer-btm .footer-btn-content .footer-social ul li a:hover {
   /* height: 100vh; */
   padding: 40px 0px;
   background-color: #1D1D1D;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
 }
 .hero button {
 
@@ -15643,4 +15646,11 @@ ul.guide-custom-font {
   z-index: 1;
   text-align: center;
   color: #fff;
+}
+
+.hero-section {
+  background-color: transparent;
+  position: relative;
+  min-height: 100vh;
+  overflow: visible;
 }
